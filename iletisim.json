@@ -1,0 +1,101 @@
+{
+  "name": "İletişim",
+  "path": "iletisim",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "İngiltere Ofis",
+        "en": "UK Office"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ingiltere-ofis",
+      "url": "",
+      "path": "ingiltere-ofis",
+      "index": 0,
+      "description": {
+        "tr": ""
+      },
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      }
+    },
+    {
+      "name": {
+        "tr": "Türkiye Ofis",
+        "en": "Turkey Office"
+      },
+      "status": "play",
+      "category": "",
+      "id": "turkiye-ofis",
+      "url": "",
+      "path": "turkiye-ofis",
+      "index": 1,
+      "icon": "home",
+      "description": {
+        "tr": ""
+      },
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      }
+    },
+    {
+      "name": {
+        "tr": "Online Teklif Formu",
+        "en": "Online Quote Form"
+      },
+      "status": "play",
+      "category": "",
+      "id": "online-teklif",
+      "url": "",
+      "path": "online-teklif-formu",
+      "index": 2,
+      "icon": "home",
+      "description": {
+        "tr": ""
+      },
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      }
+    },
+    {
+      "name": {
+        "tr": "Müşteri Hizmetleri",
+        "en": "Customer Service"
+      },
+      "status": "play",
+      "category": "",
+      "id": "musteri-hizmetleri",
+      "url": "",
+      "path": "musteri-hizmetleri",
+      "index": 3,
+      "icon": "home",
+      "description": {
+        "tr": ""
+      },
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      }
+    }
+  ],
+  "index": 6,
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "img": true,
+    "bgimg": true,
+    "detail": true
+  }
+}

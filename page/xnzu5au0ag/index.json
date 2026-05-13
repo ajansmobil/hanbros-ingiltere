@@ -1,0 +1,35 @@
+{
+  "name": {
+    "tr": "İletişim",
+    "en": "Contact"
+  },
+  "status": "play",
+  "category": "",
+  "id": "xnzu5au0ag",
+  "url": "",
+  "path": "iletisim",
+  "index": 6,
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Hanbros İngiltere iletişim kanallarıyla uluslararası taşımacılık talepleriniz için 7/24 destek ve ücretsiz fiyat teklifi alın.",
+    "en": "Reach Hanbros UK for international logistics requests, 24/7 customer support and fast free moving or shipping quotes."
+  },
+  "desc": {},
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "update": "2026-05-08T05:40:46.510Z",
+  "date": "2026-05-04T19:01:36.370Z",
+  "title": {
+    "tr": "İletişim",
+    "en": "Contact"
+  },
+  "img": "icon.png"
+}

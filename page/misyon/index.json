@@ -1,0 +1,38 @@
+{
+  "name": {
+    "tr": "Misyon",
+    "en": ""
+  },
+  "status": "play",
+  "id": "misyon",
+  "path": "misyon",
+  "category": "",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 1,
+  "icon": "home",
+  "description": {
+    "tr": "",
+    "en": ""
+  },
+  "img": "logo.png",
+  "url": "",
+  "pathnext": "vizyon",
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "text": {
+    "tr": "",
+    "en": ""
+  },
+  "update": "2026-05-08T05:40:46.560Z",
+  "date": "2026-05-08T05:40:45.232Z",
+  "title": {
+    "tr": "Misyon",
+    "en": ""
+  }
+}

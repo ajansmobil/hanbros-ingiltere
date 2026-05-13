@@ -1,0 +1,39 @@
+{
+  "name": {
+    "tr": "İngiltere'den Türkiye'ye Araç Gönderimi Nasıl Yapılır?",
+    "en": "How to Ship a Vehicle from UK to Turkey?"
+  },
+  "status": "play",
+  "category": "Araç Taşıma",
+  "id": "ingiltere-turkiye-arac-gonderimi",
+  "url": "",
+  "path": "ingiltereden-turkiyeye-arac-gonderimi-nasil-yapilir",
+  "index": 1,
+  "img": "uk-car-guide.webp",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "İngiltere'den Türkiye'ye araç gönderimi rehberi. Brexit sonrası gümrük işlemleri, araç belgeleri (V5C, faktür), sigorta, deniz ve kara yolu taşıma seçenekleri, Türkiye'de araç tescil prosedürleri.",
+    "en": "Vehicle shipping from UK to Turkey guide. Post-Brexit customs, vehicle documents (V5C, invoice), insurance, sea and road transport options, vehicle registration procedures in Turkey."
+  },
+  "icon": "home",
+  "keyword": {
+    "tr": "İngiltere'den Türkiye'ye araç gönderimi, araç gümrük, V5C belgesi, İngiltere araç taşıma, İngiltere Türkiye araç nakliye",
+    "en": "UK to Turkey vehicle shipping, vehicle customs, V5C document, UK car shipping, UK Turkey car transport"
+  },
+  "update": "2026-05-08T05:40:46.660Z",
+  "date": "2026-05-02T09:00:00.000Z",
+  "title": {
+    "tr": "İngiltere'den Türkiye'ye Araç Gönderimi Nasıl Yapılır?",
+    "en": "How to Ship a Vehicle from UK to Turkey?"
+  },
+  "slider": [],
+  "text": {
+    "tr": "",
+    "en": ""
+  }
+}

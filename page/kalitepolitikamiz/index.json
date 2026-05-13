@@ -1,0 +1,38 @@
+{
+  "name": {
+    "tr": "Kalite Politikamız",
+    "en": ""
+  },
+  "status": "play",
+  "id": "kalitepolitikamiz",
+  "path": "kalite-politikamiz",
+  "category": "",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 3,
+  "icon": "home",
+  "description": {
+    "tr": "",
+    "en": ""
+  },
+  "img": "logo.png",
+  "url": "",
+  "pathnext": "gizlilikpolitikasi",
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "text": {
+    "tr": "",
+    "en": ""
+  },
+  "update": "2026-05-08T05:40:46.570Z",
+  "date": "2026-05-08T05:40:45.244Z",
+  "title": {
+    "tr": "Kalite Politikamız",
+    "en": ""
+  }
+}

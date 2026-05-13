@@ -1,0 +1,34 @@
+{
+  "name": {
+    "tr": "Gönderi Takip",
+    "en": "Shipment Tracking"
+  },
+  "status": "play",
+  "category": "",
+  "id": "gonderi-takip",
+  "path": "gonderi-takip",
+  "index": 4,
+  "description": {
+    "tr": "Hanbros İngiltere canlı gönderi takip hizmeti. Kargonuzun nerede olduğunu, tahmini varış süresini ve gümrük durumunu 7/24 anlık takip edin.",
+    "en": "Hanbros UK live shipment tracking service. Track your cargo's location, estimated arrival time, and customs status 24/7 instantly."
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "",
+  "img": "tracking.png",
+  "desc": {},
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "update": "2026-05-08T05:40:46.499Z",
+  "date": "2026-05-08T05:18:35.588Z",
+  "title": {
+    "tr": "Gönderi Takip",
+    "en": "Shipment Tracking"
+  },
+  "icon": "home"
+}

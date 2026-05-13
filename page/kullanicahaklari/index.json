@@ -1,0 +1,36 @@
+{
+  "name": {
+    "tr": "Kullanıcı Hakları",
+    "en": ""
+  },
+  "status": "play",
+  "id": "kullanicahaklari",
+  "path": "kullanici-haklari",
+  "category": "",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 6,
+  "icon": "home",
+  "description": {
+    "tr": "",
+    "en": ""
+  },
+  "pathnext": "",
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "text": {
+    "tr": "",
+    "en": ""
+  },
+  "update": "2026-05-08T05:40:46.588Z",
+  "date": "2026-05-08T05:40:45.262Z",
+  "title": {
+    "tr": "Kullanıcı Hakları",
+    "en": ""
+  }
+}

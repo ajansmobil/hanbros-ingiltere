@@ -1,0 +1,35 @@
+{
+  "name": {
+    "tr": "Kurumsal",
+    "en": "Corporate"
+  },
+  "status": "play",
+  "category": "",
+  "id": "yvi9dlb59o",
+  "url": "",
+  "path": "kurumsal",
+  "index": 0,
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "hakkimizda",
+  "description": {
+    "tr": "Hanbros İngiltere kurumsal sayfası; şirket değerlerini, organizasyon yapısını, misyon-vizyon çerçevesini ve sürdürülen kalite standartlarını tek noktada sunar.",
+    "en": "Hanbros UK corporate page presents our values, organisational structure, mission-vision framework and the quality standards guiding logistics projects."
+  },
+  "desc": {},
+  "icon": "home",
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "update": "2026-05-08T05:40:46.476Z",
+  "date": "2026-05-04T19:01:36.357Z",
+  "title": {
+    "tr": "Kurumsal",
+    "en": "Corporate"
+  },
+  "img": "logo.png"
+}

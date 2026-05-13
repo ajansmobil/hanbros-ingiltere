@@ -1,0 +1,40 @@
+{
+  "name": {
+    "tr": "Hakkımızda",
+    "en": ""
+  },
+  "status": "play",
+  "id": "hakkimizda",
+  "path": "hakkimizda",
+  "category": "",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 0,
+  "icon": "home",
+  "description": {
+    "tr": "",
+    "en": ""
+  },
+  "img": "logo.png",
+  "url": "",
+  "pathnext": "misyon",
+  "slider": [],
+  "title": {
+    "tr": "Hakkımızda",
+    "en": ""
+  },
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "text": {
+    "tr": "",
+    "en": ""
+  },
+  "textmodul": false,
+  "update": "2026-05-08T05:40:46.555Z",
+  "date": "2026-05-08T05:40:41.663Z"
+}

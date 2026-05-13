@@ -1,0 +1,36 @@
+{
+  "name": {
+    "tr": "Kişisel Veriler",
+    "en": ""
+  },
+  "status": "play",
+  "id": "kisiselveriler",
+  "path": "kisisel-veriler",
+  "category": "",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 5,
+  "icon": "home",
+  "description": {
+    "tr": "",
+    "en": ""
+  },
+  "pathnext": "",
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "text": {
+    "tr": "",
+    "en": ""
+  },
+  "update": "2026-05-08T05:40:46.582Z",
+  "date": "2026-05-08T05:40:45.256Z",
+  "title": {
+    "tr": "Kişisel Veriler",
+    "en": ""
+  }
+}

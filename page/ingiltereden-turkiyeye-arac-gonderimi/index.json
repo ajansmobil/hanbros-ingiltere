@@ -1,0 +1,39 @@
+{
+  "name": {
+    "tr": "İngiltere'den Türkiye'ye Araç Gönderimi",
+    "en": "UK to Turkey Vehicle Shipping"
+  },
+  "status": "play",
+  "category": "",
+  "id": "ingiltereden-turkiyeye-arac-gonderimi",
+  "url": "",
+  "path": "ingiltereden-turkiyeye-arac-gonderimi",
+  "index": 1,
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "",
+  "icon": "home",
+  "img": "uk-car-ship.webp",
+  "description": {
+    "tr": "Hanbros İngiltere ile İngiltere'den Türkiye'ye araç gönderimi. Otomobil, SUV, motosiklet ve ticari araç taşımacılığı. Brexit sonrası gümrük işlemleri, sigorta ve güvenli teslimat. Kapalı ve açık araç taşıma seçenekleri.",
+    "en": "Vehicle shipping from UK to Turkey with Hanbros UK. Car, SUV, motorcycle and commercial vehicle transport. Post-Brexit customs procedures, insurance and safe delivery. Enclosed and open vehicle transport options."
+  },
+  "desc": {},
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "text": {
+    "tr": "",
+    "en": ""
+  },
+  "update": "2026-05-08T05:40:46.520Z",
+  "date": "2026-05-08T05:18:35.624Z",
+  "title": {
+    "tr": "İngiltere'den Türkiye'ye Araç Gönderimi",
+    "en": "UK to Turkey Vehicle Shipping"
+  }
+}

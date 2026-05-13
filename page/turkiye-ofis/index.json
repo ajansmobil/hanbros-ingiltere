@@ -1,0 +1,37 @@
+{
+  "name": {
+    "tr": "Türkiye Ofis",
+    "en": "Turkey Office"
+  },
+  "status": "play",
+  "category": "",
+  "id": "turkiye-ofis",
+  "url": "",
+  "path": "turkiye-ofis",
+  "index": 1,
+  "icon": "home",
+  "desc": {},
+  "description": {
+    "tr": "",
+    "en": ""
+  },
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "text": {
+    "tr": "",
+    "en": ""
+  },
+  "update": "2026-05-08T05:40:46.603Z",
+  "date": "2026-05-08T05:18:35.704Z",
+  "title": {
+    "tr": "Türkiye Ofis",
+    "en": "Turkey Office"
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  }
+}

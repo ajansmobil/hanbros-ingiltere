@@ -1,0 +1,34 @@
+{
+  "name": {
+    "tr": "Teklif Al",
+    "en": "Get a Quote"
+  },
+  "status": "play",
+  "category": "",
+  "id": "teklif-al",
+  "path": "teklif-al",
+  "index": 5,
+  "description": {
+    "tr": "Hanbros İngiltere teklif formu ile uluslararası kargo, ev eşyası, araç ve ticari yükleriniz için kişiselleştirilmiş lojistik planı isteyin.",
+    "en": "Use the Hanbros UK quote form to request a tailored logistics plan for international cargo, household moves, vehicles and commercial freight."
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "",
+  "img": "logo.png",
+  "desc": {},
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "update": "2026-05-08T05:40:46.505Z",
+  "date": "2026-05-08T05:18:35.593Z",
+  "title": {
+    "tr": "Teklif Al",
+    "en": "Get a Quote"
+  },
+  "icon": "home"
+}

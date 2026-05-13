@@ -1,0 +1,39 @@
+{
+  "name": {
+    "tr": "Türkiye",
+    "en": "Turkey"
+  },
+  "status": "play",
+  "category": "Hizmet Bölgeleri",
+  "id": "turkiye",
+  "url": "",
+  "path": "turkiye",
+  "index": 1,
+  "img": "tr-flag.webp",
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Hanbros Türkiye ile İngiltere'den Türkiye'ye güvenli teslimat. İstanbul, Ankara, İzmir, Gaziantep ve tüm şehirlere kapıdan kapıya teslimat. Yerel operasyon desteği.",
+    "en": "Hanbros Turkey with safe delivery from UK to Turkey. Door-to-door delivery to Istanbul, Ankara, Izmir, Gaziantep and all cities. Local operation support."
+  },
+  "desc": {},
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "text": {
+    "tr": "",
+    "en": ""
+  },
+  "update": "2026-05-08T05:40:46.624Z",
+  "date": "2026-05-08T05:18:35.725Z",
+  "title": {
+    "tr": "Türkiye",
+    "en": "Turkey"
+  }
+}

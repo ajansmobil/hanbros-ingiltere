@@ -1,0 +1,37 @@
+{
+  "name": {
+    "tr": "Müşteri Hizmetleri",
+    "en": "Customer Service"
+  },
+  "status": "play",
+  "category": "",
+  "id": "musteri-hizmetleri",
+  "url": "",
+  "path": "musteri-hizmetleri",
+  "index": 3,
+  "icon": "home",
+  "desc": {},
+  "description": {
+    "tr": "",
+    "en": ""
+  },
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "text": {
+    "tr": "",
+    "en": ""
+  },
+  "update": "2026-05-08T05:40:46.614Z",
+  "date": "2026-05-08T05:18:35.714Z",
+  "title": {
+    "tr": "Müşteri Hizmetleri",
+    "en": "Customer Service"
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  }
+}

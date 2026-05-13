@@ -1,0 +1,211 @@
+{
+  "name": "Hizmetlerimiz",
+  "path": "hizmetler",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "İngiltere'den Türkiye'ye Ev Eşyası Taşımacılığı",
+        "en": "UK to Turkey Household Goods Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ingiltereden-turkiyeye-ev-esyasi",
+      "url": "",
+      "path": "ingiltereden-turkiyeye-ev-esyasi-tasimaciligi",
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Hanbros İngiltere ile İngiltere'den Türkiye'ye ev eşyası taşımacılığı. Brexit sonrası gümrük işlemleri, profesyonel paketleme, sigortalı nakliye ve kapıdan kapıya teslimat. Londra, Manchester, Birmingham ve tüm şehirlere hizmet.",
+        "en": "Household goods shipping from UK to Turkey with Hanbros UK. Post-Brexit customs procedures, professional packing, insured shipping and door-to-door delivery. Service from London, Manchester, Birmingham and all cities."
+      },
+      "img": "uk-home-moves.webp",
+      "icon": "home"
+    },
+    {
+      "name": {
+        "tr": "İngiltere'den Türkiye'ye Araç Gönderimi",
+        "en": "UK to Turkey Vehicle Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ingiltereden-turkiyeye-arac-gonderimi",
+      "url": "",
+      "path": "ingiltereden-turkiyeye-arac-gonderimi",
+      "index": 1,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "icon": "home",
+      "img": "uk-car-ship.webp",
+      "description": {
+        "tr": "Hanbros İngiltere ile İngiltere'den Türkiye'ye araç gönderimi. Otomobil, SUV, motosiklet ve ticari araç taşımacılığı. Brexit sonrası gümrük işlemleri, sigorta ve güvenli teslimat. Kapalı ve açık araç taşıma seçenekleri.",
+        "en": "Vehicle shipping from UK to Turkey with Hanbros UK. Car, SUV, motorcycle and commercial vehicle transport. Post-Brexit customs procedures, insurance and safe delivery. Enclosed and open vehicle transport options."
+      }
+    },
+    {
+      "name": {
+        "tr": "İngiltere'den Türkiye'ye Ticari Eşya Taşımacılığı",
+        "en": "UK to Turkey Commercial Goods Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ingiltereden-turkiyeye-ticari-esya",
+      "url": "",
+      "path": "ingiltereden-turkiyeye-ticari-esya-tasimaciligi",
+      "index": 2,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "uk-commercial.webp",
+      "description": {
+        "tr": "Hanbros İngiltere ile İngiltere'den Türkiye'ye ticari eşya taşımacılığı. İşletmeler arası uluslararası lojistik, toplu sevkiyat, gümrük danışmanlığı ve fatura entegrasyonu. B2B özel fiyatlandırma.",
+        "en": "Commercial goods shipping from UK to Turkey with Hanbros UK. B2B international logistics, bulk shipping, customs consultancy and invoice integration. Special B2B pricing."
+      }
+    },
+    {
+      "name": {
+        "tr": "İngiltere'den Türkiye'ye Kargo Gönderimi",
+        "en": "UK to Turkey Cargo Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ingiltereden-turkiyeye-kargo",
+      "url": "",
+      "path": "ingiltereden-turkiyeye-kargo-gonderimi",
+      "index": 3,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "uk-cargo.webp",
+      "description": {
+        "tr": "Hanbros İngiltere ile İngiltere'den Türkiye'ye kargo gönderimi. Parsiyel ve tam yük kargo, ekspres teslimat, gümrük işlemleri ve 7/24 takip. Paket ve koli gönderimi. Güvenli ve hızlı lojistik çözümler.",
+        "en": "Cargo shipping from UK to Turkey with Hanbros UK. Partial and full load cargo, express delivery, customs procedures and 24/7 tracking. Parcel and package shipping. Safe and fast logistics solutions."
+      }
+    },
+    {
+      "name": {
+        "tr": "İngiltere'den Türkiye'ye Depolama Hizmeti",
+        "en": "UK to Turkey Storage Service"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ingiltereden-turkiyeye-depolama",
+      "url": "",
+      "path": "ingiltereden-turkiyeye-depolama-hizmeti",
+      "index": 4,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "uk-storage.webp",
+      "description": {
+        "tr": "Hanbros İngiltere ile İngiltere'den Türkiye'ye depolama hizmeti. Güvenli depolama tesisleri, esnek depolama süreleri, stok yönetimi ve sipariş işleme. Kısa ve uzun vadeli depolama çözümleri.",
+        "en": "Storage service from UK to Turkey with Hanbros UK. Secure storage facilities, flexible storage periods, inventory management and order processing. Short and long term storage solutions."
+      }
+    },
+    {
+      "name": {
+        "tr": "İngiltere'den Türkiye'ye Gümrük Danışmanlığı",
+        "en": "UK to Turkey Customs Consultancy"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ingiltereden-turkiyeye-gumruk",
+      "url": "",
+      "path": "ingiltereden-turkiyeye-gumruk-danismanligi",
+      "index": 5,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "uk-customs.webp",
+      "description": {
+        "tr": "Hanbros İngiltere ile İngiltere'den Türkiye'ye gümrük danışmanlığı. Brexit sonrası gümrük işlemleri, belge hazırlama, vergi hesaplamaları, muafiyet başvuruları ve sorunsuz süreç yönetimi.",
+        "en": "Customs consultancy from UK to Turkey with Hanbros UK. Post-Brexit customs procedures, document preparation, tax calculations, exemption applications and smooth process management."
+      }
+    },
+    {
+      "name": {
+        "tr": "İngiltere'den Türkiye'ye Yeni Mobilya Taşımacılığı",
+        "en": "UK to Turkey New Furniture Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ingiltereden-turkiyeye-yeni-mobilya",
+      "url": "",
+      "path": "ingiltereden-turkiyeye-yeni-mobilya-tasimaciligi",
+      "index": 6,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "uk-furniture.webp",
+      "description": {
+        "tr": "Hanbros İngiltere ile İngiltere'den Türkiye'ye yeni mobilya taşımacılığı. Profesyonel paketleme, güvenli taşıma ve teslimat. Mobilya montaj hizmeti. Özel ölçü ve ağırlık çözümleri.",
+        "en": "New furniture shipping from UK to Turkey with Hanbros UK. Professional packing, safe transport and delivery. Furniture assembly service. Special size and weight solutions."
+      }
+    },
+    {
+      "name": {
+        "tr": "İngiltere'den Türkiye'ye Ekspres Kargo",
+        "en": "UK to Turkey Express Cargo"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ingiltereden-turkiyeye-ekspres-kargo",
+      "url": "",
+      "path": "ingiltereden-turkiyeye-ekspres-kargo",
+      "index": 7,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "uk-express.webp",
+      "description": {
+        "tr": "Hanbros İngiltere ile İngiltere'den Türkiye'ye ekspres kargo. Acil gönderiler için 24-72 saat teslimat, öncelikli işleme, gümrük hızlı geçiş ve güvenli nakliyat. Hızlı ve güvenilir.",
+        "en": "Express cargo from UK to Turkey with Hanbros UK. 24-72 hour delivery for urgent shipments, priority processing, customs fast track and safe shipping. Fast and reliable."
+      }
+    }
+  ],
+  "index": 1,
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "img": true,
+    "bgimg": false,
+    "detail": true,
+    "spot": true
+  }
+}

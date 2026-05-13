@@ -1,0 +1,36 @@
+{
+  "name": {
+    "tr": "Yasal Uyarı",
+    "en": ""
+  },
+  "status": "play",
+  "id": "yasaluyari",
+  "path": "yasal-uyari",
+  "category": "",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 7,
+  "icon": "home",
+  "description": {
+    "tr": "",
+    "en": ""
+  },
+  "pathnext": "",
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "text": {
+    "tr": "",
+    "en": ""
+  },
+  "update": "2026-05-08T05:40:46.593Z",
+  "date": "2026-05-08T05:40:45.268Z",
+  "title": {
+    "tr": "Yasal Uyarı",
+    "en": ""
+  }
+}

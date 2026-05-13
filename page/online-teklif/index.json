@@ -1,0 +1,37 @@
+{
+  "name": {
+    "tr": "Online Teklif Formu",
+    "en": "Online Quote Form"
+  },
+  "status": "play",
+  "category": "",
+  "id": "online-teklif",
+  "url": "",
+  "path": "online-teklif-formu",
+  "index": 2,
+  "icon": "home",
+  "desc": {},
+  "description": {
+    "tr": "",
+    "en": ""
+  },
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "text": {
+    "tr": "",
+    "en": ""
+  },
+  "update": "2026-05-08T05:40:46.608Z",
+  "date": "2026-05-08T05:18:35.709Z",
+  "title": {
+    "tr": "Online Teklif Formu",
+    "en": "Online Quote Form"
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  }
+}

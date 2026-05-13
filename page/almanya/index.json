@@ -1,0 +1,39 @@
+{
+  "name": {
+    "tr": "Almanya",
+    "en": "Germany"
+  },
+  "status": "play",
+  "category": "Avrupa Ülkeleri",
+  "id": "almanya",
+  "url": "",
+  "path": "almanya",
+  "index": 2,
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "",
+  "img": "de-flag.webp",
+  "description": {
+    "tr": "Almanya'dan İngiltere'ye ve Türkiye'ye taşımacılık. Berlin, Hamburg, Münih ve tüm şehirlere özel teslimat programları.",
+    "en": "Shipping from Germany to UK and Turkey. Special delivery programs for Berlin, Hamburg, Munich and all cities."
+  },
+  "desc": {},
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "text": {
+    "tr": "",
+    "en": ""
+  },
+  "update": "2026-05-08T05:40:46.629Z",
+  "date": "2026-05-08T05:18:35.730Z",
+  "title": {
+    "tr": "Almanya",
+    "en": "Germany"
+  }
+}

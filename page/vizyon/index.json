@@ -1,0 +1,38 @@
+{
+  "name": {
+    "tr": "Vizyon",
+    "en": ""
+  },
+  "status": "play",
+  "id": "vizyon",
+  "path": "vizyon",
+  "category": "",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 2,
+  "icon": "home",
+  "description": {
+    "tr": "",
+    "en": ""
+  },
+  "img": "logo.png",
+  "url": "",
+  "pathnext": "kalitepolitikamiz",
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "text": {
+    "tr": "",
+    "en": ""
+  },
+  "update": "2026-05-08T05:40:46.565Z",
+  "date": "2026-05-08T05:40:45.238Z",
+  "title": {
+    "tr": "Vizyon",
+    "en": ""
+  }
+}

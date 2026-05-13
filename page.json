@@ -1,0 +1,187 @@
+{
+  "name": "Sayfalar",
+  "path": "page",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "Kurumsal",
+        "en": "Corporate"
+      },
+      "status": "play",
+      "category": "",
+      "id": "yvi9dlb59o",
+      "url": "",
+      "path": "kurumsal",
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "hakkimizda",
+      "description": {
+        "tr": "Hanbros İngiltere kurumsal sayfası; şirket değerlerini, organizasyon yapısını, misyon-vizyon çerçevesini ve sürdürülen kalite standartlarını tek noktada sunar.",
+        "en": "Hanbros UK corporate page presents our values, organisational structure, mission-vision framework and the quality standards guiding logistics projects."
+      },
+      "icon": "home",
+      "img": "logo.png"
+    },
+    {
+      "name": {
+        "tr": "Hizmetlerimiz",
+        "en": "Our Services"
+      },
+      "status": "play",
+      "id": "urunler",
+      "path": "hizmetlerimiz",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 1,
+      "icon": "home",
+      "description": {
+        "tr": "Hanbros İngiltere'nin uçtan uca lojistik çözümleri: güvenli ev taşıma, hızlı ticari kargo, otomobil nakliyesi, depolama ve gümrükleme. Tek noktadan tam hizmet.",
+        "en": "End-to-end logistics solutions from Hanbros UK: secure home moving, fast commercial cargo, car shipping, storage, and customs. Full service from a single point."
+      },
+      "img": "logo2.png",
+      "url": "",
+      "pathnext": ""
+    },
+    {
+      "name": {
+        "tr": "Ülkeler",
+        "en": "Countries"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ulkeler",
+      "path": "ulkeler",
+      "index": 2,
+      "description": {
+        "tr": "Hanbros İngiltere ülke sayfaları. Hangi ülkelere taşımacılık hizmeti veriyoruz. İngiltere-Türkiye taşımacılık. Ülke bazlı hizmetler.",
+        "en": "Hanbros UK country pages. Which countries we provide transportation services to. UK-Turkey transportation. Country-based services."
+      },
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "info.png",
+      "icon": "home"
+    },
+    {
+      "name": {
+        "tr": "Bilgi Bankası",
+        "en": "Knowledge Base"
+      },
+      "status": "play",
+      "category": "",
+      "id": "bilgi-bankasi",
+      "path": "bilgi-bankasi",
+      "index": 3,
+      "description": {
+        "tr": "Hanbros İngiltere bilgi bankası. Sık sorulan sorular ve cevapları. Taşımacılık hizmetleri hakkında detaylı bilgiler. FAQ sayfası.",
+        "en": "Hanbros UK knowledge base. Frequently asked questions and answers. Detailed information about our transportation services. FAQ page."
+      },
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "info.png",
+      "icon": "home"
+    },
+    {
+      "name": {
+        "tr": "Gönderi Takip",
+        "en": "Shipment Tracking"
+      },
+      "status": "play",
+      "category": "",
+      "id": "gonderi-takip",
+      "path": "gonderi-takip",
+      "index": 4,
+      "description": {
+        "tr": "Hanbros İngiltere canlı gönderi takip hizmeti. Kargonuzun nerede olduğunu, tahmini varış süresini ve gümrük durumunu 7/24 anlık takip edin.",
+        "en": "Hanbros UK live shipment tracking service. Track your cargo's location, estimated arrival time, and customs status 24/7 instantly."
+      },
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "tracking.png",
+      "icon": "home"
+    },
+    {
+      "name": {
+        "tr": "Teklif Al",
+        "en": "Get a Quote"
+      },
+      "status": "play",
+      "category": "",
+      "id": "teklif-al",
+      "path": "teklif-al",
+      "index": 5,
+      "description": {
+        "tr": "Hanbros İngiltere teklif formu ile uluslararası kargo, ev eşyası, araç ve ticari yükleriniz için kişiselleştirilmiş lojistik planı isteyin.",
+        "en": "Use the Hanbros UK quote form to request a tailored logistics plan for international cargo, household moves, vehicles and commercial freight."
+      },
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "logo.png",
+      "icon": "home"
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact"
+      },
+      "status": "play",
+      "category": "",
+      "id": "xnzu5au0ag",
+      "url": "",
+      "path": "iletisim",
+      "index": 6,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Hanbros İngiltere iletişim kanallarıyla uluslararası taşımacılık talepleriniz için 7/24 destek ve ücretsiz fiyat teklifi alın.",
+        "en": "Reach Hanbros UK for international logistics requests, 24/7 customer support and fast free moving or shipping quotes."
+      },
+      "img": "icon.png"
+    }
+  ],
+  "index": 0,
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "page": true,
+    "bgimg": false,
+    "detail": false,
+    "body": true,
+    "icon": false
+  },
+  "active": true,
+  "activeicon": "pause",
+  "activeclass": "buttonGreen"
+}

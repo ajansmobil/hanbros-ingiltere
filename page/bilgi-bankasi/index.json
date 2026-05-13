@@ -1,0 +1,34 @@
+{
+  "name": {
+    "tr": "Bilgi Bankası",
+    "en": "Knowledge Base"
+  },
+  "status": "play",
+  "category": "",
+  "id": "bilgi-bankasi",
+  "path": "bilgi-bankasi",
+  "index": 3,
+  "description": {
+    "tr": "Hanbros İngiltere bilgi bankası. Sık sorulan sorular ve cevapları. Taşımacılık hizmetleri hakkında detaylı bilgiler. FAQ sayfası.",
+    "en": "Hanbros UK knowledge base. Frequently asked questions and answers. Detailed information about our transportation services. FAQ page."
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "",
+  "img": "info.png",
+  "desc": {},
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "update": "2026-05-08T05:40:46.494Z",
+  "date": "2026-05-08T05:18:35.583Z",
+  "title": {
+    "tr": "Bilgi Bankası",
+    "en": "Knowledge Base"
+  },
+  "icon": "home"
+}

@@ -1,0 +1,39 @@
+{
+  "name": {
+    "tr": "İngiltere",
+    "en": "United Kingdom"
+  },
+  "status": "play",
+  "category": "Hizmet Bölgeleri",
+  "id": "ingiltere",
+  "url": "",
+  "path": "ingiltere",
+  "index": 0,
+  "img": "uk-flag.webp",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "",
+  "icon": "home",
+  "description": {
+    "tr": "Hanbros İngiltere ile İngiltere'den Türkiye'ye güvenli evden eve taşımacılık hizmeti. Londra, Manchester, Birmingham ve tüm şehirlere profesyonel nakliyat çözümleri. Sigortalı ve gümrüklü taşıma.",
+    "en": "Secure door-to-door transportation service from the United Kingdom to Turkey with Hanbros UK. Professional logistics solutions to London, Manchester, Birmingham and all cities. Insured and customs-cleared shipping."
+  },
+  "desc": {},
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "text": {
+    "tr": "",
+    "en": ""
+  },
+  "update": "2026-05-08T05:40:46.619Z",
+  "date": "2026-05-08T05:18:35.719Z",
+  "title": {
+    "tr": "İngiltere",
+    "en": "United Kingdom"
+  }
+}

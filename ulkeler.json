@@ -1,0 +1,138 @@
+{
+  "name": "Ülkeler",
+  "path": "ulkeler",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "İngiltere",
+        "en": "United Kingdom"
+      },
+      "status": "play",
+      "category": "Hizmet Bölgeleri",
+      "id": "ingiltere",
+      "url": "",
+      "path": "ingiltere",
+      "index": 0,
+      "img": "uk-flag.webp",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "icon": "home",
+      "description": {
+        "tr": "Hanbros İngiltere ile İngiltere'den Türkiye'ye güvenli evden eve taşımacılık hizmeti. Londra, Manchester, Birmingham ve tüm şehirlere profesyonel nakliyat çözümleri. Sigortalı ve gümrüklü taşıma.",
+        "en": "Secure door-to-door transportation service from the United Kingdom to Turkey with Hanbros UK. Professional logistics solutions to London, Manchester, Birmingham and all cities. Insured and customs-cleared shipping."
+      }
+    },
+    {
+      "name": {
+        "tr": "Türkiye",
+        "en": "Turkey"
+      },
+      "status": "play",
+      "category": "Hizmet Bölgeleri",
+      "id": "turkiye",
+      "url": "",
+      "path": "turkiye",
+      "index": 1,
+      "img": "tr-flag.webp",
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Hanbros Türkiye ile İngiltere'den Türkiye'ye güvenli teslimat. İstanbul, Ankara, İzmir, Gaziantep ve tüm şehirlere kapıdan kapıya teslimat. Yerel operasyon desteği.",
+        "en": "Hanbros Turkey with safe delivery from UK to Turkey. Door-to-door delivery to Istanbul, Ankara, Izmir, Gaziantep and all cities. Local operation support."
+      }
+    },
+    {
+      "name": {
+        "tr": "Almanya",
+        "en": "Germany"
+      },
+      "status": "play",
+      "category": "Avrupa Ülkeleri",
+      "id": "almanya",
+      "url": "",
+      "path": "almanya",
+      "index": 2,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "de-flag.webp",
+      "description": {
+        "tr": "Almanya'dan İngiltere'ye ve Türkiye'ye taşımacılık. Berlin, Hamburg, Münih ve tüm şehirlere özel teslimat programları.",
+        "en": "Shipping from Germany to UK and Turkey. Special delivery programs for Berlin, Hamburg, Munich and all cities."
+      }
+    },
+    {
+      "name": {
+        "tr": "Hollanda",
+        "en": "Netherlands"
+      },
+      "status": "play",
+      "category": "Avrupa Ülkeleri",
+      "id": "hollanda",
+      "url": "",
+      "path": "hollanda",
+      "index": 3,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "nl-flag.webp",
+      "description": {
+        "tr": "Hollanda'dan İngiltere'ye ve Türkiye'ye taşımacılık. Rotterdam ve Amsterdam liman kombinasyonu ile ekonomik deniz yolu seçenekleri.",
+        "en": "Shipping from Netherlands to UK and Turkey. Economical sea route options with Rotterdam and Amsterdam port combination."
+      }
+    },
+    {
+      "name": {
+        "tr": "Fransa",
+        "en": "France"
+      },
+      "status": "play",
+      "category": "Avrupa Ülkeleri",
+      "id": "fransa",
+      "url": "",
+      "path": "fransa",
+      "index": 4,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "fr-flag.webp",
+      "description": {
+        "tr": "Fransa'dan İngiltere'ye ve Türkiye'ye kapıdan kapıya taşımacılık hizmeti. Paris, Lyon, Marsilya ve tüm bölgelere güvenli nakliyat.",
+        "en": "Door-to-door shipping service from France to UK and Turkey. Secure logistics to Paris, Lyon, Marseille and all regions."
+      }
+    }
+  ],
+  "index": 3,
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "img": true,
+    "bgimg": false,
+    "detail": true
+  }
+}

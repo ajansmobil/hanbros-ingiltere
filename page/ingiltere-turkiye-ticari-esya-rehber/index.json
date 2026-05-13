@@ -1,0 +1,39 @@
+{
+  "name": {
+    "tr": "İngiltere'den Türkiye'ye Ticari Eşya Taşıma Rehberi",
+    "en": "UK to Turkey Commercial Goods Shipping Guide"
+  },
+  "status": "play",
+  "category": "Ticari",
+  "id": "ingiltere-turkiye-ticari-esya-rehber",
+  "url": "",
+  "path": "ingiltereden-turkiyeye-ticari-esya-tasima-rehberi",
+  "index": 5,
+  "img": "uk-commercial-guide.webp",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "İngiltere'den Türkiye'ye ticari eşya taşıma rehberi. B2B lojistik, toplu sevkiyat, gümrük danışmanlığı, fatura entegrasyonu, ihracat belgeleri ve özel fiyatlandırma.",
+    "en": "UK to Turkey commercial goods shipping guide. B2B logistics, bulk shipping, customs consultancy, invoice integration, export documents and special pricing."
+  },
+  "icon": "home",
+  "keyword": {
+    "tr": "İngiltere'den Türkiye'ye ticari eşya, B2B lojistik, ihracat, toplu sevkiyat, ticari nakliye",
+    "en": "UK to Turkey commercial goods, B2B logistics, export, bulk shipping, commercial shipping"
+  },
+  "update": "2026-05-08T05:40:46.692Z",
+  "date": "2026-05-02T09:00:00.000Z",
+  "title": {
+    "tr": "İngiltere'den Türkiye'ye Ticari Eşya Taşıma Rehberi",
+    "en": "UK to Turkey Commercial Goods Shipping Guide"
+  },
+  "slider": [],
+  "text": {
+    "tr": "",
+    "en": ""
+  }
+}

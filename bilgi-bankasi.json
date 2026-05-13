@@ -1,0 +1,162 @@
+{
+  "name": "Bilgi Bankası",
+  "path": "bilgi-bankasi",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "İngiltere'den Türkiye'ye Ev Eşyası Taşıma Rehberi",
+        "en": "UK to Turkey Household Goods Moving Guide"
+      },
+      "status": "play",
+      "category": "Taşıma Rehberleri",
+      "id": "ingiltere-turkiye-ev-esyasi-rehber",
+      "url": "",
+      "path": "ingiltereden-turkiyeye-ev-esyasi-tasima-rehberi",
+      "index": 0,
+      "img": "uk-turkey-guide.webp",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere'den Türkiye'ye ev eşyası taşıma rehberi. Brexit sonrası gümrük işlemleri, gerekli belgeler (ToR1, ev eşyası envanteri), paketleme, sigorta ve teslimat süreçleri hakkında kapsamlı bilgi.",
+        "en": "UK to Turkey household goods moving guide. Post-Brexit customs procedures, required documents (ToR1, household inventory), packing, insurance and delivery processes."
+      },
+      "icon": "home"
+    },
+    {
+      "name": {
+        "tr": "İngiltere'den Türkiye'ye Araç Gönderimi Nasıl Yapılır?",
+        "en": "How to Ship a Vehicle from UK to Turkey?"
+      },
+      "status": "play",
+      "category": "Araç Taşıma",
+      "id": "ingiltere-turkiye-arac-gonderimi",
+      "url": "",
+      "path": "ingiltereden-turkiyeye-arac-gonderimi-nasil-yapilir",
+      "index": 1,
+      "img": "uk-car-guide.webp",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere'den Türkiye'ye araç gönderimi rehberi. Brexit sonrası gümrük işlemleri, araç belgeleri (V5C, faktür), sigorta, deniz ve kara yolu taşıma seçenekleri, Türkiye'de araç tescil prosedürleri.",
+        "en": "Vehicle shipping from UK to Turkey guide. Post-Brexit customs, vehicle documents (V5C, invoice), insurance, sea and road transport options, vehicle registration procedures in Turkey."
+      },
+      "icon": "home"
+    },
+    {
+      "name": {
+        "tr": "Brexit Sonrası İngiltere-Türkiye Gümrük İşlemleri",
+        "en": "Post-Brexit UK-Turkey Customs Procedures"
+      },
+      "status": "play",
+      "category": "Gümrük",
+      "id": "brexit-gumruk-islemleri",
+      "url": "",
+      "path": "brexit-sonrasi-ingiltere-turkiye-gumruk-islemleri",
+      "index": 2,
+      "img": "brexit-customs.webp",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Brexit sonrası İngiltere'den Türkiye'ye gümrük işlemleri. Gümrük beyannamesi, vergi hesaplamaları, muafiyet başvuruları, EUR.1 sertifikası, gümrük müşaviri seçimi ve sürecin adımları.",
+        "en": "Post-Brexit UK to Turkey customs procedures. Customs declaration, tax calculations, exemption applications, EUR.1 certificate, customs broker selection and process steps."
+      },
+      "icon": "home"
+    },
+    {
+      "name": {
+        "tr": "İngiltere'den Türkiye'ye Kargo Gönderimi Rehberi",
+        "en": "UK to Turkey Cargo Shipping Guide"
+      },
+      "status": "play",
+      "category": "Kargo",
+      "id": "ingiltere-turkiye-kargo-rehberi",
+      "url": "",
+      "path": "ingiltereden-turkiyeye-kargo-gonderimi-rehberi",
+      "index": 3,
+      "img": "uk-cargo-guide.webp",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere'den Türkiye'ye kargo gönderimi rehberi. Parsiyel ve tam yük seçenekleri, ekspres teslimat, gümrük işlemleri, sigorta, takip sistemi ve maliyet karşılaştırması.",
+        "en": "UK to Turkey cargo shipping guide. Partial and full load options, express delivery, customs procedures, insurance, tracking system and cost comparison."
+      },
+      "icon": "home"
+    },
+    {
+      "name": {
+        "tr": "İngiltere'den Türkiye'ye Depolama Hizmetleri",
+        "en": "UK to Turkey Storage Services"
+      },
+      "status": "play",
+      "category": "Depolama",
+      "id": "ingiltere-depolama-hizmetleri",
+      "url": "",
+      "path": "ingiltereden-turkiyeye-depolama-hizmetleri",
+      "index": 4,
+      "img": "uk-storage-guide.webp",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere'den Türkiye'ye depolama hizmetleri. Güvenli depolama tesisleri, kısa ve uzun vadeli depolama, iklim kontrollü depolar, stok yönetimi ve sipariş işleme entegrasyonu.",
+        "en": "UK to Turkey storage services. Secure storage facilities, short and long term storage, climate controlled warehouses, inventory management and order processing integration."
+      },
+      "icon": "home"
+    },
+    {
+      "name": {
+        "tr": "İngiltere'den Türkiye'ye Ticari Eşya Taşıma Rehberi",
+        "en": "UK to Turkey Commercial Goods Shipping Guide"
+      },
+      "status": "play",
+      "category": "Ticari",
+      "id": "ingiltere-turkiye-ticari-esya-rehber",
+      "url": "",
+      "path": "ingiltereden-turkiyeye-ticari-esya-tasima-rehberi",
+      "index": 5,
+      "img": "uk-commercial-guide.webp",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere'den Türkiye'ye ticari eşya taşıma rehberi. B2B lojistik, toplu sevkiyat, gümrük danışmanlığı, fatura entegrasyonu, ihracat belgeleri ve özel fiyatlandırma.",
+        "en": "UK to Turkey commercial goods shipping guide. B2B logistics, bulk shipping, customs consultancy, invoice integration, export documents and special pricing."
+      },
+      "icon": "home"
+    }
+  ],
+  "index": 1,
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "img": true,
+    "bgimg": false,
+    "detail": true
+  }
+}

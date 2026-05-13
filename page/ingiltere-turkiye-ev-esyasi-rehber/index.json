@@ -1,0 +1,39 @@
+{
+  "name": {
+    "tr": "İngiltere'den Türkiye'ye Ev Eşyası Taşıma Rehberi",
+    "en": "UK to Turkey Household Goods Moving Guide"
+  },
+  "status": "play",
+  "category": "Taşıma Rehberleri",
+  "id": "ingiltere-turkiye-ev-esyasi-rehber",
+  "url": "",
+  "path": "ingiltereden-turkiyeye-ev-esyasi-tasima-rehberi",
+  "index": 0,
+  "img": "uk-turkey-guide.webp",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "İngiltere'den Türkiye'ye ev eşyası taşıma rehberi. Brexit sonrası gümrük işlemleri, gerekli belgeler (ToR1, ev eşyası envanteri), paketleme, sigorta ve teslimat süreçleri hakkında kapsamlı bilgi.",
+    "en": "UK to Turkey household goods moving guide. Post-Brexit customs procedures, required documents (ToR1, household inventory), packing, insurance and delivery processes."
+  },
+  "icon": "home",
+  "keyword": {
+    "tr": "İngiltere'den Türkiye'ye ev eşyası taşıma, Brexit gümrük, ToR1 belgesi, ev eşyası envanteri, İngiltere nakliye, İngiltere Türkiye taşımacılık",
+    "en": "UK to Turkey household goods moving, Brexit customs, ToR1 document, household inventory, UK shipping, UK Turkey shipping"
+  },
+  "update": "2026-05-08T05:40:46.652Z",
+  "date": "2026-05-02T09:00:00.000Z",
+  "title": {
+    "tr": "İngiltere'den Türkiye'ye Ev Eşyası Taşıma Rehberi",
+    "en": "UK to Turkey Household Goods Moving Guide"
+  },
+  "slider": [],
+  "text": {
+    "tr": "",
+    "en": ""
+  }
+}

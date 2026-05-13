@@ -1,0 +1,39 @@
+{
+  "name": {
+    "tr": "İngiltere'den Türkiye'ye Depolama Hizmetleri",
+    "en": "UK to Turkey Storage Services"
+  },
+  "status": "play",
+  "category": "Depolama",
+  "id": "ingiltere-depolama-hizmetleri",
+  "url": "",
+  "path": "ingiltereden-turkiyeye-depolama-hizmetleri",
+  "index": 4,
+  "img": "uk-storage-guide.webp",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "İngiltere'den Türkiye'ye depolama hizmetleri. Güvenli depolama tesisleri, kısa ve uzun vadeli depolama, iklim kontrollü depolar, stok yönetimi ve sipariş işleme entegrasyonu.",
+    "en": "UK to Turkey storage services. Secure storage facilities, short and long term storage, climate controlled warehouses, inventory management and order processing integration."
+  },
+  "icon": "home",
+  "keyword": {
+    "tr": "İngiltere depolama, İngiltere'den Türkiye'ye depolama, güvenli depo, iklim kontrollü depo, stok yönetimi",
+    "en": "UK storage, UK to Turkey storage, secure warehouse, climate controlled warehouse, inventory management"
+  },
+  "update": "2026-05-08T05:40:46.684Z",
+  "date": "2026-05-02T09:00:00.000Z",
+  "title": {
+    "tr": "İngiltere'den Türkiye'ye Depolama Hizmetleri",
+    "en": "UK to Turkey Storage Services"
+  },
+  "slider": [],
+  "text": {
+    "tr": "",
+    "en": ""
+  }
+}

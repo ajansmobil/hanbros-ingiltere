@@ -1,0 +1,39 @@
+{
+  "name": {
+    "tr": "Brexit Sonrası İngiltere-Türkiye Gümrük İşlemleri",
+    "en": "Post-Brexit UK-Turkey Customs Procedures"
+  },
+  "status": "play",
+  "category": "Gümrük",
+  "id": "brexit-gumruk-islemleri",
+  "url": "",
+  "path": "brexit-sonrasi-ingiltere-turkiye-gumruk-islemleri",
+  "index": 2,
+  "img": "brexit-customs.webp",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Brexit sonrası İngiltere'den Türkiye'ye gümrük işlemleri. Gümrük beyannamesi, vergi hesaplamaları, muafiyet başvuruları, EUR.1 sertifikası, gümrük müşaviri seçimi ve sürecin adımları.",
+    "en": "Post-Brexit UK to Turkey customs procedures. Customs declaration, tax calculations, exemption applications, EUR.1 certificate, customs broker selection and process steps."
+  },
+  "icon": "home",
+  "keyword": {
+    "tr": "Brexit gümrük, İngiltere Türkiye gümrük, gümrük beyannamesi, vergi muafiyeti, EUR.1 sertifikası, gümrük müşaviri",
+    "en": "Brexit customs, UK Turkey customs, customs declaration, tax exemption, EUR.1 certificate, customs broker"
+  },
+  "update": "2026-05-08T05:40:46.668Z",
+  "date": "2026-05-02T09:00:00.000Z",
+  "title": {
+    "tr": "Brexit Sonrası İngiltere-Türkiye Gümrük İşlemleri",
+    "en": "Post-Brexit UK-Turkey Customs Procedures"
+  },
+  "slider": [],
+  "text": {
+    "tr": "",
+    "en": ""
+  }
+}

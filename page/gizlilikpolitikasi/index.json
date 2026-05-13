@@ -1,0 +1,36 @@
+{
+  "name": {
+    "tr": "Gizlilik Politikası",
+    "en": ""
+  },
+  "status": "play",
+  "id": "gizlilikpolitikasi",
+  "path": "gizlilik-politikasi",
+  "category": "",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 4,
+  "icon": "home",
+  "description": {
+    "tr": "",
+    "en": ""
+  },
+  "pathnext": "",
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "text": {
+    "tr": "",
+    "en": ""
+  },
+  "update": "2026-05-08T05:40:46.575Z",
+  "date": "2026-05-08T05:40:45.250Z",
+  "title": {
+    "tr": "Gizlilik Politikası",
+    "en": ""
+  }
+}

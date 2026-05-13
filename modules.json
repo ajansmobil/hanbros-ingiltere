@@ -1,0 +1,277 @@
+{
+  "data": [
+    {
+      "index": 0,
+      "name": "Menu",
+      "path": "menu-2",
+      "local": "header",
+      "category": "menu",
+      "id": "vey1el",
+      "desing": {
+        "bgcolor": "#cedc00",
+        "color": "#006b65",
+        "activebgcolor": "#ffffff",
+        "activecolor": "#006b65"
+      },
+      "version": "1.0.0",
+      "icon": "menu"
+    },
+    {
+      "name": "Slider",
+      "path": "slider",
+      "local": "header",
+      "category": "slider",
+      "id": "k4t90c",
+      "data": [
+        {
+          "img": "uk-turkey-route.webp",
+          "title": {
+            "tr": "İngiltere'den Türkiye'ye Güvenilir Nakliye",
+            "en": "Reliable Shipping from UK to Turkey"
+          },
+          "description": {
+            "tr": "Londra'dan İstanbul'a profesyonel evden eve taşımacılık",
+            "en": "Professional door-to-door moving from London to Istanbul"
+          }
+        },
+        {
+          "img": "uk-car-ship.webp",
+          "title": {
+            "tr": "İngiltere'den Türkiye'ye Araç Gönderimi",
+            "en": "Vehicle Shipping from UK to Turkey"
+          },
+          "description": {
+            "tr": "Otomobil, SUV ve motosiklet taşımacılığı",
+            "en": "Car, SUV and motorcycle transport"
+          }
+        },
+        {
+          "img": "uk-commercial.webp",
+          "title": {
+            "tr": "İşletmeler İçin Lojistik Çözümler",
+            "en": "Logistics Solutions for Businesses"
+          },
+          "description": {
+            "tr": "B2B ticari eşya taşımacılığı ve gümrük danışmanlığı",
+            "en": "B2B commercial goods shipping and customs consultancy"
+          }
+        }
+      ],
+      "desing": {
+        "delay": 3000,
+        "margin": "0px 0 0 0"
+      },
+      "version": "1.0.0",
+      "icon": "view_carousel",
+      "index": 1
+    },
+    {
+      "name": "İletişim",
+      "path": "contact-3",
+      "local": "body",
+      "category": "contact",
+      "id": "fhxr98",
+      "desing": {
+        "color": "#1e3046",
+        "name": {
+          "tr": "Bize Ulaşın"
+        },
+        "margin": "30px 0px 30px 0px"
+      },
+      "data": [
+        {
+          "icon": "phone",
+          "text": "+44 20 7946 0958",
+          "url": "tel:+442079460958"
+        },
+        {
+          "icon": "phone",
+          "text": "+90 530 000 00 00",
+          "url": "tel:+905300000000"
+        },
+        {
+          "icon": "email",
+          "text": "info@hanbrosuk.com"
+        },
+        {
+          "icon": "email",
+          "text": "destek@hanbrosuk.com"
+        },
+        {
+          "icon": "map",
+          "text": "London Office: 123 Kingsway, London WC2B 6NH, UK"
+        },
+        {
+          "icon": "map",
+          "text": "Turkey Office: Şehitkamil / Gaziantep, Türkiye"
+        },
+        {
+          "icon": "clock",
+          "text": "Pazartesi-Cuma: 09:00-18:00 (GMT+0)"
+        },
+        {
+          "icon": "clock",
+          "text": "7/24 Online Destek"
+        }
+      ],
+      "version": "1.0.0",
+      "icon": "contact_mail",
+      "index": 2
+    },
+    {
+      "name": "Maps",
+      "path": "map",
+      "local": "body",
+      "category": "map",
+      "id": "bi4hta",
+      "desing": {
+        "height": "400",
+        "opacity": "0.5",
+        "backgroundcolor": "#000",
+        "color": "#1e3046",
+        "img": "map.png",
+        "externalUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3195.8!2d-0.1278!3d51.5074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDMwJzI2LjQiTiAwwrAwNyczMC4wIlc!5e0!3m2!1str!2suk!4v1234567890"
+      },
+      "version": "1.0.0",
+      "icon": "map",
+      "index": 3
+    },
+    {
+      "index": 4,
+      "name": "Page Desing",
+      "path": "page-desing-5",
+      "local": "body",
+      "category": "page",
+      "id": "tp5jo4",
+      "desing": {
+        "height": "200",
+        "opacity": "0.5",
+        "font-size": "32",
+        "backgroundcolor": "#000",
+        "menu-active": "#000",
+        "textcolor": "#fff"
+      },
+      "version": "1.0.0",
+      "icon": "web"
+    },
+    {
+      "index": 5,
+      "name": "Footer 1",
+      "path": "footer-1",
+      "local": "footer",
+      "category": "footer",
+      "id": "txt39m",
+      "desing": {
+        "bgcolor": "#006b65",
+        "color": "#fff",
+        "img": "",
+        "imgwidth": "250px"
+      },
+      "data": [
+        {
+          "title": {
+            "tr": "Hızlı Bağlantılar",
+            "en": "Quick Links"
+          },
+          "links": [
+            {
+              "text": {
+                "tr": "Hakkımızda",
+                "en": "About Us"
+              },
+              "url": "/hakkimizda"
+            },
+            {
+              "text": {
+                "tr": "Hizmetlerimiz",
+                "en": "Our Services"
+              },
+              "url": "/hizmetlerimiz"
+            },
+            {
+              "text": {
+                "tr": "Teklif Al",
+                "en": "Get a Quote"
+              },
+              "url": "/teklif-al"
+            },
+            {
+              "text": {
+                "tr": "İletişim",
+                "en": "Contact"
+              },
+              "url": "/iletisim"
+            }
+          ]
+        },
+        {
+          "title": {
+            "tr": "Hizmetlerimiz",
+            "en": "Services"
+          },
+          "links": [
+            {
+              "text": {
+                "tr": "Ev Eşyası Taşımacılığı",
+                "en": "Household Goods Shipping"
+              },
+              "url": "/hizmetlerimiz#ev-esyasi"
+            },
+            {
+              "text": {
+                "tr": "Araç Gönderimi",
+                "en": "Vehicle Shipping"
+              },
+              "url": "/hizmetlerimiz#arac"
+            },
+            {
+              "text": {
+                "tr": "Ticari Eşya Taşımacılığı",
+                "en": "Commercial Goods Shipping"
+              },
+              "url": "/hizmetlerimiz#ticari-esya"
+            },
+            {
+              "text": {
+                "tr": "Kargo Gönderimi",
+                "en": "Cargo Shipping"
+              },
+              "url": "/hizmetlerimiz#kargo"
+            }
+          ]
+        },
+        {
+          "title": {
+            "tr": "İletişim",
+            "en": "Contact"
+          },
+          "links": [
+            {
+              "text": {
+                "tr": "📞 +44 20 7946 0958",
+                "en": "📞 +44 20 7946 0958"
+              },
+              "url": "tel:+442079460958"
+            },
+            {
+              "text": {
+                "tr": "📞 +90 530 000 00 00",
+                "en": "📞 +90 530 000 00 00"
+              },
+              "url": "tel:+905300000000"
+            },
+            {
+              "text": {
+                "tr": "✉️ info@hanbrosuk.com",
+                "en": "✉️ info@hanbrosuk.com"
+              },
+              "url": "mailto:info@hanbrosuk.com"
+            }
+          ]
+        }
+      ],
+      "version": "1.0.0",
+      "icon": "web_asset"
+    }
+  ]
+}

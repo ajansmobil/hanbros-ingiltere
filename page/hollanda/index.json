@@ -1,0 +1,39 @@
+{
+  "name": {
+    "tr": "Hollanda",
+    "en": "Netherlands"
+  },
+  "status": "play",
+  "category": "Avrupa Ülkeleri",
+  "id": "hollanda",
+  "url": "",
+  "path": "hollanda",
+  "index": 3,
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "",
+  "img": "nl-flag.webp",
+  "description": {
+    "tr": "Hollanda'dan İngiltere'ye ve Türkiye'ye taşımacılık. Rotterdam ve Amsterdam liman kombinasyonu ile ekonomik deniz yolu seçenekleri.",
+    "en": "Shipping from Netherlands to UK and Turkey. Economical sea route options with Rotterdam and Amsterdam port combination."
+  },
+  "desc": {},
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "text": {
+    "tr": "",
+    "en": ""
+  },
+  "update": "2026-05-08T05:40:46.635Z",
+  "date": "2026-05-08T05:18:35.735Z",
+  "title": {
+    "tr": "Hollanda",
+    "en": "Netherlands"
+  }
+}

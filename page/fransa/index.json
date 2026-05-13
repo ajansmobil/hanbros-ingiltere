@@ -1,0 +1,39 @@
+{
+  "name": {
+    "tr": "Fransa",
+    "en": "France"
+  },
+  "status": "play",
+  "category": "Avrupa Ülkeleri",
+  "id": "fransa",
+  "url": "",
+  "path": "fransa",
+  "index": 4,
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "",
+  "img": "fr-flag.webp",
+  "description": {
+    "tr": "Fransa'dan İngiltere'ye ve Türkiye'ye kapıdan kapıya taşımacılık hizmeti. Paris, Lyon, Marsilya ve tüm bölgelere güvenli nakliyat.",
+    "en": "Door-to-door shipping service from France to UK and Turkey. Secure logistics to Paris, Lyon, Marseille and all regions."
+  },
+  "desc": {},
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "text": {
+    "tr": "",
+    "en": ""
+  },
+  "update": "2026-05-08T05:40:46.643Z",
+  "date": "2026-05-08T05:18:35.740Z",
+  "title": {
+    "tr": "Fransa",
+    "en": "France"
+  }
+}

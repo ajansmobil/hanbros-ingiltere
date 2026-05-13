@@ -1,0 +1,39 @@
+{
+  "name": {
+    "tr": "İngiltere'den Türkiye'ye Kargo Gönderimi",
+    "en": "UK to Turkey Cargo Shipping"
+  },
+  "status": "play",
+  "category": "",
+  "id": "ingiltereden-turkiyeye-kargo",
+  "url": "",
+  "path": "ingiltereden-turkiyeye-kargo-gonderimi",
+  "index": 3,
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "",
+  "img": "uk-cargo.webp",
+  "description": {
+    "tr": "Hanbros İngiltere ile İngiltere'den Türkiye'ye kargo gönderimi. Parsiyel ve tam yük kargo, ekspres teslimat, gümrük işlemleri ve 7/24 takip. Paket ve koli gönderimi. Güvenli ve hızlı lojistik çözümler.",
+    "en": "Cargo shipping from UK to Turkey with Hanbros UK. Partial and full load cargo, express delivery, customs procedures and 24/7 tracking. Parcel and package shipping. Safe and fast logistics solutions."
+  },
+  "desc": {},
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "text": {
+    "tr": "",
+    "en": ""
+  },
+  "update": "2026-05-08T05:40:46.530Z",
+  "date": "2026-05-08T05:18:35.635Z",
+  "title": {
+    "tr": "İngiltere'den Türkiye'ye Kargo Gönderimi",
+    "en": "UK to Turkey Cargo Shipping"
+  }
+}
