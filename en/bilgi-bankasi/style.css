@@ -1,7 +1,7 @@
 
  
 
-  .ta5qe {
+  .ri27q {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .ta5qetitle {
+  .ri27qtitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .ta5qetitle:has(.ta5qetitlebodylang:empty),
-  .ta5qetitle:has(.ta5qetitlebodylang ul:empty) {
+  .ri27qtitle:has(.ri27qtitlebodylang:empty),
+  .ri27qtitle:has(.ri27qtitlebodylang ul:empty) {
     display: none;
   }
 
-  .ta5qetitlebody {
+  .ri27qtitlebody {
     color: #006b65;
     width: var(--max);
     display: flex;
@@ -31,34 +31,34 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ta5qetitlebodytitle {
+  .ri27qtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ta5qetitlebodylang {
+  .ri27qtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ta5qetitlebodylang:empty,
-  .ta5qetitlebodylang ul:empty {
+  .ri27qtitlebodylang:empty,
+  .ri27qtitlebodylang ul:empty {
     display: none;
   }
 
-  .ta5qetitlebodylang ul {
+  .ri27qtitlebodylang ul {
     display: flex;
     gap: 8px;
   }
 
   
-  .ta5qetitlebodylang li {
+  .ri27qtitlebodylang li {
     list-style: none;
   }
 
-  .ta5qetitlebodylang li a {
+  .ri27qtitlebodylang li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -75,13 +75,13 @@
     cursor: pointer;
   }
 
-  .ta5qetitlebodylang li a:hover {
+  .ri27qtitlebodylang li a:hover {
     border-color: #006b65;
     background: #ffffff;
     color: #006b65 !important;
   }
 
-  .ta5qebody {
+  .ri27qbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
   }
 
   
-  .ta5qe-mobile-toggle {
+  .ri27q-mobile-toggle {
     display: none;
     background: #cedc00;
     color: #006b65;
@@ -105,18 +105,18 @@
     right: 0;
   }
 
-  .ta5qe-mobile-toggle span {
+  .ri27q-mobile-toggle span {
     font-size: 24px;
   }
 
-  .ta5qemenu {
+  .ri27qmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .ta5qemenulist {
+  .ri27qmenulist {
     width: calc(100% - 20px);
     background-color: #cedc00;
     padding: 10px;
@@ -125,7 +125,7 @@
     display: flex;
   }
 
-  .ta5qemenubody {
+  .ri27qmenubody {
     width: 100%;
     background-color: #cedc00;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .ta5qemenulist ul {
+  .ri27qmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -142,7 +142,7 @@
     padding: 0;
   }
 
-  .ta5qemenulist ul a {
+  .ri27qmenulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #006b65 !important;
@@ -155,40 +155,40 @@
     margin: 0 2px;
   }
 
-  .ta5qemenulist ul a:hover {
+  .ri27qmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .ta5qemenulist ul a.ta5qe-menu-list-active {
+  .ri27qmenulist ul a.ri27q-menu-list-active {
     color: #006b65 !important;
   }
 
-  .ta5qe-menu-list-active {
+  .ri27q-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .ta5qemenulistbody {
+  .ri27qmenulistbody {
     width: 100%;
   }
 
-  .ta5qelanguages-mobile {
+  .ri27qlanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .ta5qelanguages-mobile:empty,
-  .ta5qelanguages-mobile ul:empty {
+  .ri27qlanguages-mobile:empty,
+  .ri27qlanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .ta5qelanguages-mobile ul {
+  .ri27qlanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -198,7 +198,7 @@
   }
 
   
-  .ta5qelanguages-mobile li {
+  .ri27qlanguages-mobile li {
     list-style: none;
     border: 1px solid color-mix(in srgb, #006b65 35%, transparent);
     padding: 0;
@@ -212,7 +212,7 @@
     transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .ta5qelanguages-mobile li a {
+  .ri27qlanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,29 +227,29 @@
     cursor: pointer;
   }
 
-  .ta5qelanguages-mobile li:hover {
+  .ri27qlanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #006b65;
     box-shadow: 0 2px 8px color-mix(in srgb, #006b65 25%, transparent);
   }
 
-  .ta5qelanguages-mobile li:hover a {
+  .ri27qlanguages-mobile li:hover a {
     color: #006b65 !important;
   }
 
   
-  .ta5qe-menu-backdrop {
+  .ri27q-menu-backdrop {
     display: none;
   }
 
   @media screen and (min-width: 1024px) {
-    .ta5qebodylogo {
+    .ri27qbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .ta5qetitle {
+    .ri27qtitle {
     margin-bottom: -30px;
   }
 
@@ -257,30 +257,30 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .ta5qebody {
+    .ri27qbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .ta5qemenulist ul {
+    .ri27qmenulist ul {
       flex-direction: row;
     }
 
-    .ta5qebodylogo {
+    .ri27qbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .ta5qetitlebody {
+    .ri27qtitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .ta5qetitlebodytitle {
+    .ri27qtitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
@@ -288,28 +288,28 @@
 
     
   @media screen and (max-width: 768px) {
-    .ta5qetitlebodylang {
+    .ri27qtitlebodylang {
       display: none;
     }
 
-    .ta5qebody {
+    .ri27qbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .ta5qe-mobile-toggle {
+    .ri27q-mobile-toggle {
       display: inline-flex;
     }
 
-    .ta5qebodylogo {
+    .ri27qbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
     
-    .ta5qe-menu-backdrop {
+    .ri27q-menu-backdrop {
       display: block;
       position: fixed;
       inset: 0;
@@ -322,14 +322,14 @@
       cursor: pointer;
     }
 
-    .ta5qe.ta5qemenu-open .ta5qe-menu-backdrop {
+    .ri27q.ri27qmenu-open .ri27q-menu-backdrop {
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
     }
 
     
-    .ta5qemenubody {
+    .ri27qmenubody {
       position: fixed;
       top: 0;
       right: 0;
@@ -349,22 +349,22 @@
       overflow-y: auto;
     }
 
-    .ta5qe.ta5qemenu-open .ta5qemenubody {
+    .ri27q.ri27qmenu-open .ri27qmenubody {
       transform: translateX(0);
     }
 
-    .ta5qemenu {
+    .ri27qmenu {
       width: 100%;
       flex-direction: column;
       height: 100%;
     }
 
-    .ta5qemenulistbody {
+    .ri27qmenulistbody {
       flex: 1;
       overflow-y: auto;
     }
 
-    .ta5qemenulist {
+    .ri27qmenulist {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -374,12 +374,12 @@
       box-shadow: none;
     }
 
-    .ta5qe.ta5qemenu-open .ta5qemenulist {
+    .ri27q.ri27qmenu-open .ri27qmenulist {
       display: flex;
     }
 
     
-    .ta5qe.ta5qemenu-open .ta5qelanguages-mobile {
+    .ri27q.ri27qmenu-open .ri27qlanguages-mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -391,16 +391,16 @@
       flex-shrink: 0;
     }
 
-    .ta5qe.ta5qemenu-open .ta5qelanguages-mobile ul {
+    .ri27q.ri27qmenu-open .ri27qlanguages-mobile ul {
       justify-content: center;
     }
 
-    .ta5qemenulist ul {
+    .ri27qmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .ta5qemenulist ul a {
+    .ri27qmenulist ul a {
       font-size: 15px;
       width: 100%;
       padding: 14px 12px;
@@ -411,16 +411,16 @@
       box-sizing: border-box;
     }
 
-    .ta5qemenulist ul a:last-child {
+    .ri27qmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .ta5qemenulist ul a:hover {
+    .ri27qmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .ta5qetitlebodytitle {
+    .ri27qtitlebodytitle {
       font-size: 12px;
     }
   }

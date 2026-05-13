@@ -9,7 +9,7 @@
   "url": "",
   "path": "ingiltereden-turkiyeye-kargo-gonderimi-rehberi",
   "index": 3,
-  "img": "uk-cargo-guide.webp",
+  "img": "logo.png",
   "desing": {
     "header": [],
     "body": [],
@@ -17,13 +17,13 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "İngiltere'den Türkiye'ye kargo gönderimi rehberi. Parsiyel ve tam yük seçenekleri, ekspres teslimat, gümrük işlemleri, sigorta, takip sistemi ve maliyet karşılaştırması.",
-    "en": "UK to Turkey cargo shipping guide. Partial and full load options, express delivery, customs procedures, insurance, tracking system and cost comparison."
+    "tr": "Ağırlık/hacim, INCOTERMS ve gümrük masraflarının kargo fiyatına etkisi.",
+    "en": "How weight/volume, Incoterms and duties affect UK-TR cargo pricing."
   },
   "icon": "home",
   "keyword": {
-    "tr": "İngiltere'den Türkiye'ye kargo, uluslararası kargo, parsıyel kargo, ekspres kargo, İngiltere Türkiye kargo gönderimi",
-    "en": "UK to Turkey cargo, international cargo, partial cargo, express cargo, UK Turkey cargo shipping"
+    "tr": "kargo rehberi UK TR, parsiyel fiyat etkenleri",
+    "en": "cargo guide uk turkey ltl pricing factors"
   },
   "update": "2026-05-08T05:40:46.675Z",
   "date": "2026-05-02T09:00:00.000Z",
@@ -33,7 +33,7 @@
   },
   "slider": [],
   "text": {
-    "tr": "",
-    "en": ""
+    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>Tehlikeli madde sınıfları ve batarya etiketleri taşıyıcı kabulünü belirler. HS kodu ön sınıflandırması gümrük riskini azaltır.</p>",
+    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>DG classes and battery labels drive carrier acceptance. Preliminary HS coding reduces customs risk.</p>"
   }
 }

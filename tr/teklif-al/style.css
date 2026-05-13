@@ -1,7 +1,7 @@
 
  
 
-  .w3cjk {
+  .yxbd7 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .w3cjktitle {
+  .yxbd7title {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .w3cjktitle:has(.w3cjktitlebodylang:empty),
-  .w3cjktitle:has(.w3cjktitlebodylang ul:empty) {
+  .yxbd7title:has(.yxbd7titlebodylang:empty),
+  .yxbd7title:has(.yxbd7titlebodylang ul:empty) {
     display: none;
   }
 
-  .w3cjktitlebody {
+  .yxbd7titlebody {
     color: #006b65;
     width: var(--max);
     display: flex;
@@ -31,34 +31,34 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .w3cjktitlebodytitle {
+  .yxbd7titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .w3cjktitlebodylang {
+  .yxbd7titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .w3cjktitlebodylang:empty,
-  .w3cjktitlebodylang ul:empty {
+  .yxbd7titlebodylang:empty,
+  .yxbd7titlebodylang ul:empty {
     display: none;
   }
 
-  .w3cjktitlebodylang ul {
+  .yxbd7titlebodylang ul {
     display: flex;
     gap: 8px;
   }
 
   
-  .w3cjktitlebodylang li {
+  .yxbd7titlebodylang li {
     list-style: none;
   }
 
-  .w3cjktitlebodylang li a {
+  .yxbd7titlebodylang li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -75,13 +75,13 @@
     cursor: pointer;
   }
 
-  .w3cjktitlebodylang li a:hover {
+  .yxbd7titlebodylang li a:hover {
     border-color: #006b65;
     background: #ffffff;
     color: #006b65 !important;
   }
 
-  .w3cjkbody {
+  .yxbd7body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
   }
 
   
-  .w3cjk-mobile-toggle {
+  .yxbd7-mobile-toggle {
     display: none;
     background: #cedc00;
     color: #006b65;
@@ -105,18 +105,18 @@
     right: 0;
   }
 
-  .w3cjk-mobile-toggle span {
+  .yxbd7-mobile-toggle span {
     font-size: 24px;
   }
 
-  .w3cjkmenu {
+  .yxbd7menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .w3cjkmenulist {
+  .yxbd7menulist {
     width: calc(100% - 20px);
     background-color: #cedc00;
     padding: 10px;
@@ -125,7 +125,7 @@
     display: flex;
   }
 
-  .w3cjkmenubody {
+  .yxbd7menubody {
     width: 100%;
     background-color: #cedc00;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .w3cjkmenulist ul {
+  .yxbd7menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -142,7 +142,7 @@
     padding: 0;
   }
 
-  .w3cjkmenulist ul a {
+  .yxbd7menulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #006b65 !important;
@@ -155,40 +155,40 @@
     margin: 0 2px;
   }
 
-  .w3cjkmenulist ul a:hover {
+  .yxbd7menulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .w3cjkmenulist ul a.w3cjk-menu-list-active {
+  .yxbd7menulist ul a.yxbd7-menu-list-active {
     color: #006b65 !important;
   }
 
-  .w3cjk-menu-list-active {
+  .yxbd7-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .w3cjkmenulistbody {
+  .yxbd7menulistbody {
     width: 100%;
   }
 
-  .w3cjklanguages-mobile {
+  .yxbd7languages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .w3cjklanguages-mobile:empty,
-  .w3cjklanguages-mobile ul:empty {
+  .yxbd7languages-mobile:empty,
+  .yxbd7languages-mobile ul:empty {
     display: none !important;
   }
 
-  .w3cjklanguages-mobile ul {
+  .yxbd7languages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -198,7 +198,7 @@
   }
 
   
-  .w3cjklanguages-mobile li {
+  .yxbd7languages-mobile li {
     list-style: none;
     border: 1px solid color-mix(in srgb, #006b65 35%, transparent);
     padding: 0;
@@ -212,7 +212,7 @@
     transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .w3cjklanguages-mobile li a {
+  .yxbd7languages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,29 +227,29 @@
     cursor: pointer;
   }
 
-  .w3cjklanguages-mobile li:hover {
+  .yxbd7languages-mobile li:hover {
     background-color: #ffffff;
     border-color: #006b65;
     box-shadow: 0 2px 8px color-mix(in srgb, #006b65 25%, transparent);
   }
 
-  .w3cjklanguages-mobile li:hover a {
+  .yxbd7languages-mobile li:hover a {
     color: #006b65 !important;
   }
 
   
-  .w3cjk-menu-backdrop {
+  .yxbd7-menu-backdrop {
     display: none;
   }
 
   @media screen and (min-width: 1024px) {
-    .w3cjkbodylogo {
+    .yxbd7bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .w3cjktitle {
+    .yxbd7title {
     margin-bottom: -30px;
   }
 
@@ -257,30 +257,30 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .w3cjkbody {
+    .yxbd7body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .w3cjkmenulist ul {
+    .yxbd7menulist ul {
       flex-direction: row;
     }
 
-    .w3cjkbodylogo {
+    .yxbd7bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .w3cjktitlebody {
+    .yxbd7titlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .w3cjktitlebodytitle {
+    .yxbd7titlebodytitle {
       text-align: center;
       font-size: 14px;
     }
@@ -288,28 +288,28 @@
 
     
   @media screen and (max-width: 768px) {
-    .w3cjktitlebodylang {
+    .yxbd7titlebodylang {
       display: none;
     }
 
-    .w3cjkbody {
+    .yxbd7body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .w3cjk-mobile-toggle {
+    .yxbd7-mobile-toggle {
       display: inline-flex;
     }
 
-    .w3cjkbodylogo {
+    .yxbd7bodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
     
-    .w3cjk-menu-backdrop {
+    .yxbd7-menu-backdrop {
       display: block;
       position: fixed;
       inset: 0;
@@ -322,14 +322,14 @@
       cursor: pointer;
     }
 
-    .w3cjk.w3cjkmenu-open .w3cjk-menu-backdrop {
+    .yxbd7.yxbd7menu-open .yxbd7-menu-backdrop {
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
     }
 
     
-    .w3cjkmenubody {
+    .yxbd7menubody {
       position: fixed;
       top: 0;
       right: 0;
@@ -349,22 +349,22 @@
       overflow-y: auto;
     }
 
-    .w3cjk.w3cjkmenu-open .w3cjkmenubody {
+    .yxbd7.yxbd7menu-open .yxbd7menubody {
       transform: translateX(0);
     }
 
-    .w3cjkmenu {
+    .yxbd7menu {
       width: 100%;
       flex-direction: column;
       height: 100%;
     }
 
-    .w3cjkmenulistbody {
+    .yxbd7menulistbody {
       flex: 1;
       overflow-y: auto;
     }
 
-    .w3cjkmenulist {
+    .yxbd7menulist {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -374,12 +374,12 @@
       box-shadow: none;
     }
 
-    .w3cjk.w3cjkmenu-open .w3cjkmenulist {
+    .yxbd7.yxbd7menu-open .yxbd7menulist {
       display: flex;
     }
 
     
-    .w3cjk.w3cjkmenu-open .w3cjklanguages-mobile {
+    .yxbd7.yxbd7menu-open .yxbd7languages-mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -391,16 +391,16 @@
       flex-shrink: 0;
     }
 
-    .w3cjk.w3cjkmenu-open .w3cjklanguages-mobile ul {
+    .yxbd7.yxbd7menu-open .yxbd7languages-mobile ul {
       justify-content: center;
     }
 
-    .w3cjkmenulist ul {
+    .yxbd7menulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .w3cjkmenulist ul a {
+    .yxbd7menulist ul a {
       font-size: 15px;
       width: 100%;
       padding: 14px 12px;
@@ -411,16 +411,16 @@
       box-sizing: border-box;
     }
 
-    .w3cjkmenulist ul a:last-child {
+    .yxbd7menulist ul a:last-child {
       border-bottom: none;
     }
 
-    .w3cjkmenulist ul a:hover {
+    .yxbd7menulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .w3cjktitlebodytitle {
+    .yxbd7titlebodytitle {
       font-size: 12px;
     }
   }

@@ -1,7 +1,7 @@
 {
   "name": {
     "tr": "Gizlilik Politikası",
-    "en": ""
+    "en": "Privacy Policy"
   },
   "status": "play",
   "id": "gizlilikpolitikasi",
@@ -15,22 +15,23 @@
   "index": 4,
   "icon": "home",
   "description": {
-    "tr": "",
-    "en": ""
+    "tr": "Kişisel verilerin işlenmesi, saklanması ve haklarınızın kullanımı hakkında aydınlatma.",
+    "en": "How we process and retain personal data and how to exercise your rights."
   },
   "pathnext": "",
   "keyword": {
-    "tr": "",
-    "en": ""
+    "tr": "kvkk, gdpr, gizlilik hanbros, hanbroscargo.co.uk",
+    "en": "gdpr, privacy policy hanbros uk"
   },
   "text": {
-    "tr": "",
-    "en": ""
+    "tr": "<p>Bu metin bilgilendirme amaçlıdır; hukuki danışmanlık yerine geçmez. Veri sorumlusu iletişim: <strong>info@hanbroscargo.co.uk</strong>.</p><h2>İşleme amaçları</h2><p>Teklif, sözleşme, gümrük beyanı, teslimat ve müşteri destek süreçleri kapsamında kimlik ve iletişim verileri işlenebilir.</p>",
+    "en": "<p>Informational only; not legal advice. Contact: <strong>info@hanbroscargo.co.uk</strong>.</p><h2>Purposes</h2><p>Quotes, contracts, customs filings, delivery and support may require identity and contact data.</p>"
   },
   "update": "2026-05-08T05:40:46.575Z",
   "date": "2026-05-08T05:40:45.250Z",
   "title": {
-    "tr": "Gizlilik Politikası",
-    "en": ""
-  }
+    "tr": "Gizlilik Politikası | Hanbros İngiltere",
+    "en": "Privacy Policy | Hanbros UK"
+  },
+  "img": "logo.png"
 }

@@ -11,16 +11,16 @@
   "index": 0,
   "desc": {},
   "description": {
-    "tr": "",
-    "en": ""
+    "tr": "Birleşik Krallık operasyon ve müşteri iletişimi; yükleme planı ve evrak.",
+    "en": "UK operations and customer contact; loading schedules and paperwork."
   },
   "keyword": {
-    "tr": "",
-    "en": ""
+    "tr": "ingiltere ofis hanbros, london operations",
+    "en": "hanbros uk office london operations"
   },
   "text": {
-    "tr": "",
-    "en": ""
+    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>Telefon: +44 20 7946 0958 · E-posta: info@hanbroscargo.co.uk · Adres örneği: 123 Kingsway, London WC2B 6NH (örnek adres; güncel adres için teyit isteyin).</p>",
+    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Phone: +44 20 7946 0958 · Email: info@hanbroscargo.co.uk · Sample address: 123 Kingsway, London WC2B 6NH (confirm current address before visiting).</p>"
   },
   "update": "2026-05-08T05:40:46.598Z",
   "date": "2026-05-08T05:18:35.699Z",
@@ -32,5 +32,6 @@
     "header": [],
     "body": [],
     "footer": []
-  }
+  },
+  "img": "logo.png"
 }

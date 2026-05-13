@@ -5,7 +5,8 @@
   "data": [
     {
       "name": {
-        "tr": "Hakkımızda"
+        "tr": "Hakkımızda",
+        "en": "About Us"
       },
       "status": "play",
       "id": "hakkimizda",
@@ -19,7 +20,8 @@
       "index": 0,
       "icon": "home",
       "description": {
-        "tr": ""
+        "tr": "Hanbros İngiltere; Birleşik Krallık çıkışlı UK→Türkiye ev eşyası, kargo, araç ve ticari lojistikte uzmanlaşmış markadır. hanbroscargo.co.uk sitesi bu güzergâha özel içerik ve teklif kanallarını sunar (Türkiye çıkışlı operasyonlar Han Bros Cargo / hanbroscargo.com ile ayrışır).",
+        "en": "Hanbros UK specialises in UK-origin moves and freight to Turkey: household goods, cargo, vehicles and B2B logistics. This site (hanbroscargo.co.uk) is dedicated to the UK→Turkey lane and is distinct from Turkey-origin services marketed on hanbroscargo.com."
       },
       "img": "logo.png",
       "url": "",
@@ -27,7 +29,8 @@
     },
     {
       "name": {
-        "tr": "Misyon"
+        "tr": "Misyon",
+        "en": "Mission"
       },
       "status": "play",
       "id": "misyon",
@@ -41,7 +44,8 @@
       "index": 1,
       "icon": "home",
       "description": {
-        "tr": ""
+        "tr": "Şeffaf fiyatlandırma, doğru belge yönetimi ve zamanında teslimat ile İngiltere'den Türkiye'ye taşımayı güvenilir ve öngörülebilir kılmak.",
+        "en": "Make UK-to-Turkey shipping predictable through transparent pricing, correct documentation and on-time delivery."
       },
       "img": "logo.png",
       "url": "",
@@ -49,7 +53,8 @@
     },
     {
       "name": {
-        "tr": "Vizyon"
+        "tr": "Vizyon",
+        "en": "Vision"
       },
       "status": "play",
       "id": "vizyon",
@@ -63,7 +68,8 @@
       "index": 2,
       "icon": "home",
       "description": {
-        "tr": ""
+        "tr": "UK→Türkiye koridorunda müşteri deneyimini dijital takip, esnek depolama ve gümrük danışmanlığı ile bölgesel referans seviyesine taşımak.",
+        "en": "Lead the UK→Turkey corridor on customer experience with digital tracking, flexible storage and customs advisory at a regional reference standard."
       },
       "img": "logo.png",
       "url": "",
@@ -71,7 +77,8 @@
     },
     {
       "name": {
-        "tr": "Kalite Politikamız"
+        "tr": "Kalite Politikamız",
+        "en": "Quality Policy"
       },
       "status": "play",
       "id": "kalitepolitikamiz",
@@ -85,7 +92,8 @@
       "index": 3,
       "icon": "home",
       "description": {
-        "tr": ""
+        "tr": "Paketleme standartları, hasar önleme kontrolleri ve müşteri geri bildirim döngüsü ile sürekli iyileştirme; her gönderide ölçülebilir hizmet kalitesi.",
+        "en": "Continuous improvement through packing standards, damage-prevention checks and customer feedback loops; measurable service quality on every shipment."
       },
       "img": "logo.png",
       "url": "",
@@ -93,7 +101,8 @@
     },
     {
       "name": {
-        "tr": "Gizlilik Politikası"
+        "tr": "Gizlilik Politikası",
+        "en": "Privacy Policy"
       },
       "status": "play",
       "id": "gizlilikpolitikasi",
@@ -107,13 +116,15 @@
       "index": 4,
       "icon": "home",
       "description": {
-        "tr": ""
+        "tr": "Kişisel verilerin işlenme amaçları, saklama süreleri, çerezler ve üçüncü taraflarla paylaşım ilkeleri. UK GDPR ve Türkiye KVKK çerçevesinde aydınlatma metni detayları sayfada yer alır.",
+        "en": "Purposes of processing, retention, cookies and sharing principles. Detailed notices aligned with UK GDPR and Turkey KVKK are provided on the page."
       },
       "pathnext": ""
     },
     {
       "name": {
-        "tr": "Kişisel Veriler"
+        "tr": "Kişisel Veriler",
+        "en": "Personal Data"
       },
       "status": "play",
       "id": "kisiselveriler",
@@ -127,13 +138,15 @@
       "index": 5,
       "icon": "home",
       "description": {
-        "tr": ""
+        "tr": "Veri sorumlusu bilgileri, işlenen veri kategorileri ve başvuru kanalları. Taşımacılık sözleşmesi kapsamında zorunlu veri alanları açıklanır.",
+        "en": "Controller details, categories of data processed and complaint channels. Mandatory data fields for transport contracts are explained."
       },
       "pathnext": ""
     },
     {
       "name": {
-        "tr": "Kullanıcı Hakları"
+        "tr": "Kullanıcı Hakları",
+        "en": "User Rights"
       },
       "status": "play",
       "id": "kullanicahaklari",
@@ -147,13 +160,15 @@
       "index": 6,
       "icon": "home",
       "description": {
-        "tr": ""
+        "tr": "Erişim, düzeltme, silme, itiraz ve veri taşınabilirliği haklarının kullanımı. Başvuru yöntemleri ve yanıt süreleri.",
+        "en": "How to exercise access, rectification, erasure, objection and portability rights, including response timelines."
       },
       "pathnext": ""
     },
     {
       "name": {
-        "tr": "Yasal Uyarı"
+        "tr": "Yasal Uyarı",
+        "en": "Legal Notice"
       },
       "status": "play",
       "id": "yasaluyari",
@@ -167,7 +182,8 @@
       "index": 7,
       "icon": "home",
       "description": {
-        "tr": ""
+        "tr": "Site içeriğinin bilgilendirme amaçlı olduğu, gümrük ve vergi uygulamalarının resmi mevzuata tabi olduğu ve nihai kararların yetkili kurumlara ait olduğu hususlarında yasal sorumluluk sınırları.",
+        "en": "Disclaimer scope: informational web content, dependence on official customs/tax rules, and limits of liability regarding regulatory decisions."
       },
       "pathnext": ""
     }

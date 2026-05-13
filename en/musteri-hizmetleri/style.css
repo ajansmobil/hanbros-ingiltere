@@ -1,7 +1,7 @@
 
  
 
-  .tra5o {
+  .cz456 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .tra5otitle {
+  .cz456title {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .tra5otitle:has(.tra5otitlebodylang:empty),
-  .tra5otitle:has(.tra5otitlebodylang ul:empty) {
+  .cz456title:has(.cz456titlebodylang:empty),
+  .cz456title:has(.cz456titlebodylang ul:empty) {
     display: none;
   }
 
-  .tra5otitlebody {
+  .cz456titlebody {
     color: #006b65;
     width: var(--max);
     display: flex;
@@ -31,34 +31,34 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .tra5otitlebodytitle {
+  .cz456titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .tra5otitlebodylang {
+  .cz456titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .tra5otitlebodylang:empty,
-  .tra5otitlebodylang ul:empty {
+  .cz456titlebodylang:empty,
+  .cz456titlebodylang ul:empty {
     display: none;
   }
 
-  .tra5otitlebodylang ul {
+  .cz456titlebodylang ul {
     display: flex;
     gap: 8px;
   }
 
   
-  .tra5otitlebodylang li {
+  .cz456titlebodylang li {
     list-style: none;
   }
 
-  .tra5otitlebodylang li a {
+  .cz456titlebodylang li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -75,13 +75,13 @@
     cursor: pointer;
   }
 
-  .tra5otitlebodylang li a:hover {
+  .cz456titlebodylang li a:hover {
     border-color: #006b65;
     background: #ffffff;
     color: #006b65 !important;
   }
 
-  .tra5obody {
+  .cz456body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
   }
 
   
-  .tra5o-mobile-toggle {
+  .cz456-mobile-toggle {
     display: none;
     background: #cedc00;
     color: #006b65;
@@ -105,18 +105,18 @@
     right: 0;
   }
 
-  .tra5o-mobile-toggle span {
+  .cz456-mobile-toggle span {
     font-size: 24px;
   }
 
-  .tra5omenu {
+  .cz456menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .tra5omenulist {
+  .cz456menulist {
     width: calc(100% - 20px);
     background-color: #cedc00;
     padding: 10px;
@@ -125,7 +125,7 @@
     display: flex;
   }
 
-  .tra5omenubody {
+  .cz456menubody {
     width: 100%;
     background-color: #cedc00;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .tra5omenulist ul {
+  .cz456menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -142,7 +142,7 @@
     padding: 0;
   }
 
-  .tra5omenulist ul a {
+  .cz456menulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #006b65 !important;
@@ -155,40 +155,40 @@
     margin: 0 2px;
   }
 
-  .tra5omenulist ul a:hover {
+  .cz456menulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .tra5omenulist ul a.tra5o-menu-list-active {
+  .cz456menulist ul a.cz456-menu-list-active {
     color: #006b65 !important;
   }
 
-  .tra5o-menu-list-active {
+  .cz456-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .tra5omenulistbody {
+  .cz456menulistbody {
     width: 100%;
   }
 
-  .tra5olanguages-mobile {
+  .cz456languages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .tra5olanguages-mobile:empty,
-  .tra5olanguages-mobile ul:empty {
+  .cz456languages-mobile:empty,
+  .cz456languages-mobile ul:empty {
     display: none !important;
   }
 
-  .tra5olanguages-mobile ul {
+  .cz456languages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -198,7 +198,7 @@
   }
 
   
-  .tra5olanguages-mobile li {
+  .cz456languages-mobile li {
     list-style: none;
     border: 1px solid color-mix(in srgb, #006b65 35%, transparent);
     padding: 0;
@@ -212,7 +212,7 @@
     transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .tra5olanguages-mobile li a {
+  .cz456languages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,29 +227,29 @@
     cursor: pointer;
   }
 
-  .tra5olanguages-mobile li:hover {
+  .cz456languages-mobile li:hover {
     background-color: #ffffff;
     border-color: #006b65;
     box-shadow: 0 2px 8px color-mix(in srgb, #006b65 25%, transparent);
   }
 
-  .tra5olanguages-mobile li:hover a {
+  .cz456languages-mobile li:hover a {
     color: #006b65 !important;
   }
 
   
-  .tra5o-menu-backdrop {
+  .cz456-menu-backdrop {
     display: none;
   }
 
   @media screen and (min-width: 1024px) {
-    .tra5obodylogo {
+    .cz456bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .tra5otitle {
+    .cz456title {
     margin-bottom: -30px;
   }
 
@@ -257,30 +257,30 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .tra5obody {
+    .cz456body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .tra5omenulist ul {
+    .cz456menulist ul {
       flex-direction: row;
     }
 
-    .tra5obodylogo {
+    .cz456bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .tra5otitlebody {
+    .cz456titlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .tra5otitlebodytitle {
+    .cz456titlebodytitle {
       text-align: center;
       font-size: 14px;
     }
@@ -288,28 +288,28 @@
 
     
   @media screen and (max-width: 768px) {
-    .tra5otitlebodylang {
+    .cz456titlebodylang {
       display: none;
     }
 
-    .tra5obody {
+    .cz456body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .tra5o-mobile-toggle {
+    .cz456-mobile-toggle {
       display: inline-flex;
     }
 
-    .tra5obodylogo {
+    .cz456bodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
     
-    .tra5o-menu-backdrop {
+    .cz456-menu-backdrop {
       display: block;
       position: fixed;
       inset: 0;
@@ -322,14 +322,14 @@
       cursor: pointer;
     }
 
-    .tra5o.tra5omenu-open .tra5o-menu-backdrop {
+    .cz456.cz456menu-open .cz456-menu-backdrop {
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
     }
 
     
-    .tra5omenubody {
+    .cz456menubody {
       position: fixed;
       top: 0;
       right: 0;
@@ -349,22 +349,22 @@
       overflow-y: auto;
     }
 
-    .tra5o.tra5omenu-open .tra5omenubody {
+    .cz456.cz456menu-open .cz456menubody {
       transform: translateX(0);
     }
 
-    .tra5omenu {
+    .cz456menu {
       width: 100%;
       flex-direction: column;
       height: 100%;
     }
 
-    .tra5omenulistbody {
+    .cz456menulistbody {
       flex: 1;
       overflow-y: auto;
     }
 
-    .tra5omenulist {
+    .cz456menulist {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -374,12 +374,12 @@
       box-shadow: none;
     }
 
-    .tra5o.tra5omenu-open .tra5omenulist {
+    .cz456.cz456menu-open .cz456menulist {
       display: flex;
     }
 
     
-    .tra5o.tra5omenu-open .tra5olanguages-mobile {
+    .cz456.cz456menu-open .cz456languages-mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -391,16 +391,16 @@
       flex-shrink: 0;
     }
 
-    .tra5o.tra5omenu-open .tra5olanguages-mobile ul {
+    .cz456.cz456menu-open .cz456languages-mobile ul {
       justify-content: center;
     }
 
-    .tra5omenulist ul {
+    .cz456menulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .tra5omenulist ul a {
+    .cz456menulist ul a {
       font-size: 15px;
       width: 100%;
       padding: 14px 12px;
@@ -411,16 +411,16 @@
       box-sizing: border-box;
     }
 
-    .tra5omenulist ul a:last-child {
+    .cz456menulist ul a:last-child {
       border-bottom: none;
     }
 
-    .tra5omenulist ul a:hover {
+    .cz456menulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .tra5otitlebodytitle {
+    .cz456titlebodytitle {
       font-size: 12px;
     }
   }

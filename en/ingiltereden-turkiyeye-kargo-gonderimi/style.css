@@ -1,7 +1,7 @@
 
  
 
-  .qufaa {
+  .soicc {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .qufaatitle {
+  .soicctitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .qufaatitle:has(.qufaatitlebodylang:empty),
-  .qufaatitle:has(.qufaatitlebodylang ul:empty) {
+  .soicctitle:has(.soicctitlebodylang:empty),
+  .soicctitle:has(.soicctitlebodylang ul:empty) {
     display: none;
   }
 
-  .qufaatitlebody {
+  .soicctitlebody {
     color: #006b65;
     width: var(--max);
     display: flex;
@@ -31,34 +31,34 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .qufaatitlebodytitle {
+  .soicctitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .qufaatitlebodylang {
+  .soicctitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .qufaatitlebodylang:empty,
-  .qufaatitlebodylang ul:empty {
+  .soicctitlebodylang:empty,
+  .soicctitlebodylang ul:empty {
     display: none;
   }
 
-  .qufaatitlebodylang ul {
+  .soicctitlebodylang ul {
     display: flex;
     gap: 8px;
   }
 
   
-  .qufaatitlebodylang li {
+  .soicctitlebodylang li {
     list-style: none;
   }
 
-  .qufaatitlebodylang li a {
+  .soicctitlebodylang li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -75,13 +75,13 @@
     cursor: pointer;
   }
 
-  .qufaatitlebodylang li a:hover {
+  .soicctitlebodylang li a:hover {
     border-color: #006b65;
     background: #ffffff;
     color: #006b65 !important;
   }
 
-  .qufaabody {
+  .soiccbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
   }
 
   
-  .qufaa-mobile-toggle {
+  .soicc-mobile-toggle {
     display: none;
     background: #cedc00;
     color: #006b65;
@@ -105,18 +105,18 @@
     right: 0;
   }
 
-  .qufaa-mobile-toggle span {
+  .soicc-mobile-toggle span {
     font-size: 24px;
   }
 
-  .qufaamenu {
+  .soiccmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .qufaamenulist {
+  .soiccmenulist {
     width: calc(100% - 20px);
     background-color: #cedc00;
     padding: 10px;
@@ -125,7 +125,7 @@
     display: flex;
   }
 
-  .qufaamenubody {
+  .soiccmenubody {
     width: 100%;
     background-color: #cedc00;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .qufaamenulist ul {
+  .soiccmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -142,7 +142,7 @@
     padding: 0;
   }
 
-  .qufaamenulist ul a {
+  .soiccmenulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #006b65 !important;
@@ -155,40 +155,40 @@
     margin: 0 2px;
   }
 
-  .qufaamenulist ul a:hover {
+  .soiccmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .qufaamenulist ul a.qufaa-menu-list-active {
+  .soiccmenulist ul a.soicc-menu-list-active {
     color: #006b65 !important;
   }
 
-  .qufaa-menu-list-active {
+  .soicc-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .qufaamenulistbody {
+  .soiccmenulistbody {
     width: 100%;
   }
 
-  .qufaalanguages-mobile {
+  .soicclanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .qufaalanguages-mobile:empty,
-  .qufaalanguages-mobile ul:empty {
+  .soicclanguages-mobile:empty,
+  .soicclanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .qufaalanguages-mobile ul {
+  .soicclanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -198,7 +198,7 @@
   }
 
   
-  .qufaalanguages-mobile li {
+  .soicclanguages-mobile li {
     list-style: none;
     border: 1px solid color-mix(in srgb, #006b65 35%, transparent);
     padding: 0;
@@ -212,7 +212,7 @@
     transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .qufaalanguages-mobile li a {
+  .soicclanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,29 +227,29 @@
     cursor: pointer;
   }
 
-  .qufaalanguages-mobile li:hover {
+  .soicclanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #006b65;
     box-shadow: 0 2px 8px color-mix(in srgb, #006b65 25%, transparent);
   }
 
-  .qufaalanguages-mobile li:hover a {
+  .soicclanguages-mobile li:hover a {
     color: #006b65 !important;
   }
 
   
-  .qufaa-menu-backdrop {
+  .soicc-menu-backdrop {
     display: none;
   }
 
   @media screen and (min-width: 1024px) {
-    .qufaabodylogo {
+    .soiccbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .qufaatitle {
+    .soicctitle {
     margin-bottom: -30px;
   }
 
@@ -257,30 +257,30 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .qufaabody {
+    .soiccbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .qufaamenulist ul {
+    .soiccmenulist ul {
       flex-direction: row;
     }
 
-    .qufaabodylogo {
+    .soiccbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .qufaatitlebody {
+    .soicctitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .qufaatitlebodytitle {
+    .soicctitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
@@ -288,28 +288,28 @@
 
     
   @media screen and (max-width: 768px) {
-    .qufaatitlebodylang {
+    .soicctitlebodylang {
       display: none;
     }
 
-    .qufaabody {
+    .soiccbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .qufaa-mobile-toggle {
+    .soicc-mobile-toggle {
       display: inline-flex;
     }
 
-    .qufaabodylogo {
+    .soiccbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
     
-    .qufaa-menu-backdrop {
+    .soicc-menu-backdrop {
       display: block;
       position: fixed;
       inset: 0;
@@ -322,14 +322,14 @@
       cursor: pointer;
     }
 
-    .qufaa.qufaamenu-open .qufaa-menu-backdrop {
+    .soicc.soiccmenu-open .soicc-menu-backdrop {
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
     }
 
     
-    .qufaamenubody {
+    .soiccmenubody {
       position: fixed;
       top: 0;
       right: 0;
@@ -349,22 +349,22 @@
       overflow-y: auto;
     }
 
-    .qufaa.qufaamenu-open .qufaamenubody {
+    .soicc.soiccmenu-open .soiccmenubody {
       transform: translateX(0);
     }
 
-    .qufaamenu {
+    .soiccmenu {
       width: 100%;
       flex-direction: column;
       height: 100%;
     }
 
-    .qufaamenulistbody {
+    .soiccmenulistbody {
       flex: 1;
       overflow-y: auto;
     }
 
-    .qufaamenulist {
+    .soiccmenulist {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -374,12 +374,12 @@
       box-shadow: none;
     }
 
-    .qufaa.qufaamenu-open .qufaamenulist {
+    .soicc.soiccmenu-open .soiccmenulist {
       display: flex;
     }
 
     
-    .qufaa.qufaamenu-open .qufaalanguages-mobile {
+    .soicc.soiccmenu-open .soicclanguages-mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -391,16 +391,16 @@
       flex-shrink: 0;
     }
 
-    .qufaa.qufaamenu-open .qufaalanguages-mobile ul {
+    .soicc.soiccmenu-open .soicclanguages-mobile ul {
       justify-content: center;
     }
 
-    .qufaamenulist ul {
+    .soiccmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .qufaamenulist ul a {
+    .soiccmenulist ul a {
       font-size: 15px;
       width: 100%;
       padding: 14px 12px;
@@ -411,16 +411,16 @@
       box-sizing: border-box;
     }
 
-    .qufaamenulist ul a:last-child {
+    .soiccmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .qufaamenulist ul a:hover {
+    .soiccmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .qufaatitlebodytitle {
+    .soicctitlebodytitle {
       font-size: 12px;
     }
   }

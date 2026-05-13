@@ -1,7 +1,7 @@
 
  
 
-  .orsa9 {
+  .rxum9 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .orsa9title {
+  .rxum9title {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .orsa9title:has(.orsa9titlebodylang:empty),
-  .orsa9title:has(.orsa9titlebodylang ul:empty) {
+  .rxum9title:has(.rxum9titlebodylang:empty),
+  .rxum9title:has(.rxum9titlebodylang ul:empty) {
     display: none;
   }
 
-  .orsa9titlebody {
+  .rxum9titlebody {
     color: #006b65;
     width: var(--max);
     display: flex;
@@ -31,34 +31,34 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .orsa9titlebodytitle {
+  .rxum9titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .orsa9titlebodylang {
+  .rxum9titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .orsa9titlebodylang:empty,
-  .orsa9titlebodylang ul:empty {
+  .rxum9titlebodylang:empty,
+  .rxum9titlebodylang ul:empty {
     display: none;
   }
 
-  .orsa9titlebodylang ul {
+  .rxum9titlebodylang ul {
     display: flex;
     gap: 8px;
   }
 
   
-  .orsa9titlebodylang li {
+  .rxum9titlebodylang li {
     list-style: none;
   }
 
-  .orsa9titlebodylang li a {
+  .rxum9titlebodylang li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -75,13 +75,13 @@
     cursor: pointer;
   }
 
-  .orsa9titlebodylang li a:hover {
+  .rxum9titlebodylang li a:hover {
     border-color: #006b65;
     background: #ffffff;
     color: #006b65 !important;
   }
 
-  .orsa9body {
+  .rxum9body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
   }
 
   
-  .orsa9-mobile-toggle {
+  .rxum9-mobile-toggle {
     display: none;
     background: #cedc00;
     color: #006b65;
@@ -105,18 +105,18 @@
     right: 0;
   }
 
-  .orsa9-mobile-toggle span {
+  .rxum9-mobile-toggle span {
     font-size: 24px;
   }
 
-  .orsa9menu {
+  .rxum9menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .orsa9menulist {
+  .rxum9menulist {
     width: calc(100% - 20px);
     background-color: #cedc00;
     padding: 10px;
@@ -125,7 +125,7 @@
     display: flex;
   }
 
-  .orsa9menubody {
+  .rxum9menubody {
     width: 100%;
     background-color: #cedc00;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .orsa9menulist ul {
+  .rxum9menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -142,7 +142,7 @@
     padding: 0;
   }
 
-  .orsa9menulist ul a {
+  .rxum9menulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #006b65 !important;
@@ -155,40 +155,40 @@
     margin: 0 2px;
   }
 
-  .orsa9menulist ul a:hover {
+  .rxum9menulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .orsa9menulist ul a.orsa9-menu-list-active {
+  .rxum9menulist ul a.rxum9-menu-list-active {
     color: #006b65 !important;
   }
 
-  .orsa9-menu-list-active {
+  .rxum9-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .orsa9menulistbody {
+  .rxum9menulistbody {
     width: 100%;
   }
 
-  .orsa9languages-mobile {
+  .rxum9languages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .orsa9languages-mobile:empty,
-  .orsa9languages-mobile ul:empty {
+  .rxum9languages-mobile:empty,
+  .rxum9languages-mobile ul:empty {
     display: none !important;
   }
 
-  .orsa9languages-mobile ul {
+  .rxum9languages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -198,7 +198,7 @@
   }
 
   
-  .orsa9languages-mobile li {
+  .rxum9languages-mobile li {
     list-style: none;
     border: 1px solid color-mix(in srgb, #006b65 35%, transparent);
     padding: 0;
@@ -212,7 +212,7 @@
     transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .orsa9languages-mobile li a {
+  .rxum9languages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,29 +227,29 @@
     cursor: pointer;
   }
 
-  .orsa9languages-mobile li:hover {
+  .rxum9languages-mobile li:hover {
     background-color: #ffffff;
     border-color: #006b65;
     box-shadow: 0 2px 8px color-mix(in srgb, #006b65 25%, transparent);
   }
 
-  .orsa9languages-mobile li:hover a {
+  .rxum9languages-mobile li:hover a {
     color: #006b65 !important;
   }
 
   
-  .orsa9-menu-backdrop {
+  .rxum9-menu-backdrop {
     display: none;
   }
 
   @media screen and (min-width: 1024px) {
-    .orsa9bodylogo {
+    .rxum9bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .orsa9title {
+    .rxum9title {
     margin-bottom: -30px;
   }
 
@@ -257,30 +257,30 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .orsa9body {
+    .rxum9body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .orsa9menulist ul {
+    .rxum9menulist ul {
       flex-direction: row;
     }
 
-    .orsa9bodylogo {
+    .rxum9bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .orsa9titlebody {
+    .rxum9titlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .orsa9titlebodytitle {
+    .rxum9titlebodytitle {
       text-align: center;
       font-size: 14px;
     }
@@ -288,28 +288,28 @@
 
     
   @media screen and (max-width: 768px) {
-    .orsa9titlebodylang {
+    .rxum9titlebodylang {
       display: none;
     }
 
-    .orsa9body {
+    .rxum9body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .orsa9-mobile-toggle {
+    .rxum9-mobile-toggle {
       display: inline-flex;
     }
 
-    .orsa9bodylogo {
+    .rxum9bodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
     
-    .orsa9-menu-backdrop {
+    .rxum9-menu-backdrop {
       display: block;
       position: fixed;
       inset: 0;
@@ -322,14 +322,14 @@
       cursor: pointer;
     }
 
-    .orsa9.orsa9menu-open .orsa9-menu-backdrop {
+    .rxum9.rxum9menu-open .rxum9-menu-backdrop {
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
     }
 
     
-    .orsa9menubody {
+    .rxum9menubody {
       position: fixed;
       top: 0;
       right: 0;
@@ -349,22 +349,22 @@
       overflow-y: auto;
     }
 
-    .orsa9.orsa9menu-open .orsa9menubody {
+    .rxum9.rxum9menu-open .rxum9menubody {
       transform: translateX(0);
     }
 
-    .orsa9menu {
+    .rxum9menu {
       width: 100%;
       flex-direction: column;
       height: 100%;
     }
 
-    .orsa9menulistbody {
+    .rxum9menulistbody {
       flex: 1;
       overflow-y: auto;
     }
 
-    .orsa9menulist {
+    .rxum9menulist {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -374,12 +374,12 @@
       box-shadow: none;
     }
 
-    .orsa9.orsa9menu-open .orsa9menulist {
+    .rxum9.rxum9menu-open .rxum9menulist {
       display: flex;
     }
 
     
-    .orsa9.orsa9menu-open .orsa9languages-mobile {
+    .rxum9.rxum9menu-open .rxum9languages-mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -391,16 +391,16 @@
       flex-shrink: 0;
     }
 
-    .orsa9.orsa9menu-open .orsa9languages-mobile ul {
+    .rxum9.rxum9menu-open .rxum9languages-mobile ul {
       justify-content: center;
     }
 
-    .orsa9menulist ul {
+    .rxum9menulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .orsa9menulist ul a {
+    .rxum9menulist ul a {
       font-size: 15px;
       width: 100%;
       padding: 14px 12px;
@@ -411,16 +411,16 @@
       box-sizing: border-box;
     }
 
-    .orsa9menulist ul a:last-child {
+    .rxum9menulist ul a:last-child {
       border-bottom: none;
     }
 
-    .orsa9menulist ul a:hover {
+    .rxum9menulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .orsa9titlebodytitle {
+    .rxum9titlebodytitle {
       font-size: 12px;
     }
   }

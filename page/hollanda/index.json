@@ -16,19 +16,19 @@
     "footer": []
   },
   "pathnext": "",
-  "img": "nl-flag.webp",
+  "img": "logo.png",
   "description": {
-    "tr": "Hollanda'dan İngiltere'ye ve Türkiye'ye taşımacılık. Rotterdam ve Amsterdam liman kombinasyonu ile ekonomik deniz yolu seçenekleri.",
-    "en": "Shipping from Netherlands to UK and Turkey. Economical sea route options with Rotterdam and Amsterdam port combination."
+    "tr": "Rotterdam/Amsterdam çıkışlı deniz hatları ve UK aktarma senaryosu.",
+    "en": "Sea options from Rotterdam/Amsterdam with optional UK relay."
   },
   "desc": {},
   "keyword": {
-    "tr": "",
-    "en": ""
+    "tr": "hollanda liman UK aktarma turkiye",
+    "en": "netherlands port uk relay turkey"
   },
   "text": {
-    "tr": "",
-    "en": ""
+    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>LCL konsolidasyonlarında kesim tarihleri kapasiteyi belirler.</p>",
+    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>LCL cut-offs drive available capacity.</p>"
   },
   "update": "2026-05-08T05:40:46.635Z",
   "date": "2026-05-08T05:18:35.735Z",

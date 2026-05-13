@@ -15,13 +15,15 @@
       "path": "ingiltere-ofis",
       "index": 0,
       "description": {
-        "tr": ""
+        "tr": "Birleşik Krallık çıkışlı sevkiyatlarınız için operasyon ve müşteri iletişimi. UK adresinden yükleme planı, depo randevusu ve teslimat öncesi evrak kontrolü bu ofis üzerinden koordine edilir.",
+        "en": "Operations and customer contact for UK-origin shipments. UK pickup scheduling, warehouse appointments and pre-departure paperwork checks are coordinated from this office."
       },
       "desing": {
         "header": [],
         "body": [],
         "footer": []
-      }
+      },
+      "icon": "home"
     },
     {
       "name": {
@@ -36,7 +38,8 @@
       "index": 1,
       "icon": "home",
       "description": {
-        "tr": ""
+        "tr": "Türkiye teslim ayağında gümrük, adres doğrulama ve son mil dağıtım koordinasyonu. İstanbul, Ankara, İzmir, Gaziantep ve diğer şehirlerde yerel saha desteği.",
+        "en": "Turkey delivery leg: customs, address validation and last-mile coordination. Local field support across Istanbul, Ankara, Izmir, Gaziantep and other cities."
       },
       "desing": {
         "header": [],
@@ -57,7 +60,8 @@
       "index": 2,
       "icon": "home",
       "description": {
-        "tr": ""
+        "tr": "UK posta kodu, Türkiye teslim ili/ilçesi, eşya türü ve hacim bilgilerinizi iletin; İngiltere'den Türkiye'ye hat için ayrıntılı fiyat aralığı ve süre tahmini alın.",
+        "en": "Share your UK postcode, Turkey delivery city/district, commodity type and volume; receive a detailed price band and transit estimate for the UK-to-Turkey lane."
       },
       "desing": {
         "header": [],
@@ -78,7 +82,8 @@
       "index": 3,
       "icon": "home",
       "description": {
-        "tr": ""
+        "tr": "Gönderi durumu, belge listesi ve sigorta seçenekleri hakkında hızlı yanıt. Resmi kanallar: hanbroscargo.co.uk domaini ve info@hanbroscargo.co.uk e-posta adresi.",
+        "en": "Fast answers on shipment status, document packs and insurance options. Official channels: hanbroscargo.co.uk and info@hanbroscargo.co.uk."
       },
       "desing": {
         "header": [],

@@ -1,7 +1,7 @@
 
  
 
-  .wepac {
+  .ity57 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .wepactitle {
+  .ity57title {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .wepactitle:has(.wepactitlebodylang:empty),
-  .wepactitle:has(.wepactitlebodylang ul:empty) {
+  .ity57title:has(.ity57titlebodylang:empty),
+  .ity57title:has(.ity57titlebodylang ul:empty) {
     display: none;
   }
 
-  .wepactitlebody {
+  .ity57titlebody {
     color: #006b65;
     width: var(--max);
     display: flex;
@@ -31,34 +31,34 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .wepactitlebodytitle {
+  .ity57titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .wepactitlebodylang {
+  .ity57titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .wepactitlebodylang:empty,
-  .wepactitlebodylang ul:empty {
+  .ity57titlebodylang:empty,
+  .ity57titlebodylang ul:empty {
     display: none;
   }
 
-  .wepactitlebodylang ul {
+  .ity57titlebodylang ul {
     display: flex;
     gap: 8px;
   }
 
   
-  .wepactitlebodylang li {
+  .ity57titlebodylang li {
     list-style: none;
   }
 
-  .wepactitlebodylang li a {
+  .ity57titlebodylang li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -75,13 +75,13 @@
     cursor: pointer;
   }
 
-  .wepactitlebodylang li a:hover {
+  .ity57titlebodylang li a:hover {
     border-color: #006b65;
     background: #ffffff;
     color: #006b65 !important;
   }
 
-  .wepacbody {
+  .ity57body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
   }
 
   
-  .wepac-mobile-toggle {
+  .ity57-mobile-toggle {
     display: none;
     background: #cedc00;
     color: #006b65;
@@ -105,18 +105,18 @@
     right: 0;
   }
 
-  .wepac-mobile-toggle span {
+  .ity57-mobile-toggle span {
     font-size: 24px;
   }
 
-  .wepacmenu {
+  .ity57menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .wepacmenulist {
+  .ity57menulist {
     width: calc(100% - 20px);
     background-color: #cedc00;
     padding: 10px;
@@ -125,7 +125,7 @@
     display: flex;
   }
 
-  .wepacmenubody {
+  .ity57menubody {
     width: 100%;
     background-color: #cedc00;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .wepacmenulist ul {
+  .ity57menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -142,7 +142,7 @@
     padding: 0;
   }
 
-  .wepacmenulist ul a {
+  .ity57menulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #006b65 !important;
@@ -155,40 +155,40 @@
     margin: 0 2px;
   }
 
-  .wepacmenulist ul a:hover {
+  .ity57menulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .wepacmenulist ul a.wepac-menu-list-active {
+  .ity57menulist ul a.ity57-menu-list-active {
     color: #006b65 !important;
   }
 
-  .wepac-menu-list-active {
+  .ity57-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .wepacmenulistbody {
+  .ity57menulistbody {
     width: 100%;
   }
 
-  .wepaclanguages-mobile {
+  .ity57languages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .wepaclanguages-mobile:empty,
-  .wepaclanguages-mobile ul:empty {
+  .ity57languages-mobile:empty,
+  .ity57languages-mobile ul:empty {
     display: none !important;
   }
 
-  .wepaclanguages-mobile ul {
+  .ity57languages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -198,7 +198,7 @@
   }
 
   
-  .wepaclanguages-mobile li {
+  .ity57languages-mobile li {
     list-style: none;
     border: 1px solid color-mix(in srgb, #006b65 35%, transparent);
     padding: 0;
@@ -212,7 +212,7 @@
     transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .wepaclanguages-mobile li a {
+  .ity57languages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,29 +227,29 @@
     cursor: pointer;
   }
 
-  .wepaclanguages-mobile li:hover {
+  .ity57languages-mobile li:hover {
     background-color: #ffffff;
     border-color: #006b65;
     box-shadow: 0 2px 8px color-mix(in srgb, #006b65 25%, transparent);
   }
 
-  .wepaclanguages-mobile li:hover a {
+  .ity57languages-mobile li:hover a {
     color: #006b65 !important;
   }
 
   
-  .wepac-menu-backdrop {
+  .ity57-menu-backdrop {
     display: none;
   }
 
   @media screen and (min-width: 1024px) {
-    .wepacbodylogo {
+    .ity57bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .wepactitle {
+    .ity57title {
     margin-bottom: -30px;
   }
 
@@ -257,30 +257,30 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .wepacbody {
+    .ity57body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .wepacmenulist ul {
+    .ity57menulist ul {
       flex-direction: row;
     }
 
-    .wepacbodylogo {
+    .ity57bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .wepactitlebody {
+    .ity57titlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .wepactitlebodytitle {
+    .ity57titlebodytitle {
       text-align: center;
       font-size: 14px;
     }
@@ -288,28 +288,28 @@
 
     
   @media screen and (max-width: 768px) {
-    .wepactitlebodylang {
+    .ity57titlebodylang {
       display: none;
     }
 
-    .wepacbody {
+    .ity57body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .wepac-mobile-toggle {
+    .ity57-mobile-toggle {
       display: inline-flex;
     }
 
-    .wepacbodylogo {
+    .ity57bodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
     
-    .wepac-menu-backdrop {
+    .ity57-menu-backdrop {
       display: block;
       position: fixed;
       inset: 0;
@@ -322,14 +322,14 @@
       cursor: pointer;
     }
 
-    .wepac.wepacmenu-open .wepac-menu-backdrop {
+    .ity57.ity57menu-open .ity57-menu-backdrop {
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
     }
 
     
-    .wepacmenubody {
+    .ity57menubody {
       position: fixed;
       top: 0;
       right: 0;
@@ -349,22 +349,22 @@
       overflow-y: auto;
     }
 
-    .wepac.wepacmenu-open .wepacmenubody {
+    .ity57.ity57menu-open .ity57menubody {
       transform: translateX(0);
     }
 
-    .wepacmenu {
+    .ity57menu {
       width: 100%;
       flex-direction: column;
       height: 100%;
     }
 
-    .wepacmenulistbody {
+    .ity57menulistbody {
       flex: 1;
       overflow-y: auto;
     }
 
-    .wepacmenulist {
+    .ity57menulist {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -374,12 +374,12 @@
       box-shadow: none;
     }
 
-    .wepac.wepacmenu-open .wepacmenulist {
+    .ity57.ity57menu-open .ity57menulist {
       display: flex;
     }
 
     
-    .wepac.wepacmenu-open .wepaclanguages-mobile {
+    .ity57.ity57menu-open .ity57languages-mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -391,16 +391,16 @@
       flex-shrink: 0;
     }
 
-    .wepac.wepacmenu-open .wepaclanguages-mobile ul {
+    .ity57.ity57menu-open .ity57languages-mobile ul {
       justify-content: center;
     }
 
-    .wepacmenulist ul {
+    .ity57menulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .wepacmenulist ul a {
+    .ity57menulist ul a {
       font-size: 15px;
       width: 100%;
       padding: 14px 12px;
@@ -411,16 +411,16 @@
       box-sizing: border-box;
     }
 
-    .wepacmenulist ul a:last-child {
+    .ity57menulist ul a:last-child {
       border-bottom: none;
     }
 
-    .wepacmenulist ul a:hover {
+    .ity57menulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .wepactitlebodytitle {
+    .ity57titlebodytitle {
       font-size: 12px;
     }
   }

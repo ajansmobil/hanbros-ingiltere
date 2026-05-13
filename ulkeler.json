@@ -14,7 +14,7 @@
       "url": "",
       "path": "ingiltere",
       "index": 0,
-      "img": "uk-flag.webp",
+      "img": "logo.png",
       "desing": {
         "header": [],
         "body": [],
@@ -23,8 +23,8 @@
       "pathnext": "",
       "icon": "home",
       "description": {
-        "tr": "Hanbros İngiltere ile İngiltere'den Türkiye'ye güvenli evden eve taşımacılık hizmeti. Londra, Manchester, Birmingham ve tüm şehirlere profesyonel nakliyat çözümleri. Sigortalı ve gümrüklü taşıma.",
-        "en": "Secure door-to-door transportation service from the United Kingdom to Turkey with Hanbros UK. Professional logistics solutions to London, Manchester, Birmingham and all cities. Insured and customs-cleared shipping."
+        "tr": "Birleşik Krallık genelinde toplama: Londra, Manchester, Birmingham, Leeds, Glasgow ve tüm posta kodları. UK çıkışlı ev eşyası, kargo ve ticari yüklerin Türkiye teslim adresine güvenli sevkiyatı.",
+        "en": "UK-wide collections across London, Manchester, Birmingham, Leeds, Glasgow and all postal areas. Secure movement of household goods, parcels and commercial freight from the UK to your address in Turkey."
       }
     },
     {
@@ -38,7 +38,7 @@
       "url": "",
       "path": "turkiye",
       "index": 1,
-      "img": "tr-flag.webp",
+      "img": "logo.png",
       "icon": "home",
       "desing": {
         "header": [],
@@ -47,8 +47,8 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Hanbros Türkiye ile İngiltere'den Türkiye'ye güvenli teslimat. İstanbul, Ankara, İzmir, Gaziantep ve tüm şehirlere kapıdan kapıya teslimat. Yerel operasyon desteği.",
-        "en": "Hanbros Turkey with safe delivery from UK to Turkey. Door-to-door delivery to Istanbul, Ankara, Izmir, Gaziantep and all cities. Local operation support."
+        "tr": "Türkiye teslim noktaları: İstanbul, Ankara, İzmir, Gaziantep ve tüm illere kapıdan kapıya dağıtım. Gümrük muayenesi ve adres teyidi yerel ekip ile yürütülür.",
+        "en": "Delivery points across Turkey with door-to-door distribution. Customs inspection and address confirmation handled with local teams."
       }
     },
     {
@@ -69,10 +69,10 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "de-flag.webp",
+      "img": "logo.png",
       "description": {
-        "tr": "Almanya'dan İngiltere'ye ve Türkiye'ye taşımacılık. Berlin, Hamburg, Münih ve tüm şehirlere özel teslimat programları.",
-        "en": "Shipping from Germany to UK and Turkey. Special delivery programs for Berlin, Hamburg, Munich and all cities."
+        "tr": "Almanya çıkışlı yüklerinizde birincil plan: İngiltere hub'ına sevk veya doğrudan ro-ro/kara kombinasyonları ile Türkiye'ye bağlantı. UK→TR ana sözleşme ve fiyatlandırma bu site kapsamındadır.",
+        "en": "For Germany-origin loads, primary planning is consolidation via the UK hub or combined road/ro-ro links into Turkey. UK→TR contracting is in scope for this site."
       }
     },
     {
@@ -93,10 +93,10 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "nl-flag.webp",
+      "img": "logo.png",
       "description": {
-        "tr": "Hollanda'dan İngiltere'ye ve Türkiye'ye taşımacılık. Rotterdam ve Amsterdam liman kombinasyonu ile ekonomik deniz yolu seçenekleri.",
-        "en": "Shipping from Netherlands to UK and Turkey. Economical sea route options with Rotterdam and Amsterdam port combination."
+        "tr": "Rotterdam/Amsterdam çıkışlı parsiyellerde deniz + UK aktarma veya doğrudan hat seçenekleri. Gümrük ve sigorta senaryoları proje bazında netleştirilir.",
+        "en": "Parcel and LTL options from Rotterdam/Amsterdam with sea plus UK transfer or direct strings. Customs and insurance scenarios are clarified per project."
       }
     },
     {
@@ -117,10 +117,10 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "fr-flag.webp",
+      "img": "logo.png",
       "description": {
-        "tr": "Fransa'dan İngiltere'ye ve Türkiye'ye kapıdan kapıya taşımacılık hizmeti. Paris, Lyon, Marsilya ve tüm bölgelere güvenli nakliyat.",
-        "en": "Door-to-door shipping service from France to UK and Turkey. Secure logistics to Paris, Lyon, Marseille and all regions."
+        "tr": "Fransa çıkışlı yüklerde Calais/Dover hattı veya doğrudan Ro-Ro planları. UK→TR ana marka mesajı ile uyumlu şekilde güzergâh optimizasyonu.",
+        "en": "From France, Channel routing or direct Ro-Ro plans into Turkey, aligned with the UK→TR brand positioning of this property."
       }
     }
   ],

@@ -9,7 +9,7 @@
   "url": "",
   "path": "ingiltereden-turkiyeye-depolama-hizmetleri",
   "index": 4,
-  "img": "uk-storage-guide.webp",
+  "img": "logo.png",
   "desing": {
     "header": [],
     "body": [],
@@ -17,13 +17,13 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "İngiltere'den Türkiye'ye depolama hizmetleri. Güvenli depolama tesisleri, kısa ve uzun vadeli depolama, iklim kontrollü depolar, stok yönetimi ve sipariş işleme entegrasyonu.",
-    "en": "UK to Turkey storage services. Secure storage facilities, short and long term storage, climate controlled warehouses, inventory management and order processing integration."
+    "tr": "Çıkış öncesi veya varış öncesi depolama seçenekleri ve sigorta etkileri.",
+    "en": "Pre-export or pre-delivery storage options and insurance implications."
   },
   "icon": "home",
   "keyword": {
-    "tr": "İngiltere depolama, İngiltere'den Türkiye'ye depolama, güvenli depo, iklim kontrollü depo, stok yönetimi",
-    "en": "UK storage, UK to Turkey storage, secure warehouse, climate controlled warehouse, inventory management"
+    "tr": "UK depolama turkiye teslim, ara depo",
+    "en": "uk storage before delivery turkey"
   },
   "update": "2026-05-08T05:40:46.684Z",
   "date": "2026-05-02T09:00:00.000Z",
@@ -33,7 +33,7 @@
   },
   "slider": [],
   "text": {
-    "tr": "",
-    "en": ""
+    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>Depo adresinin gümrük ve teslimat planına yazılması teslim gecikmelerini önler.</p>",
+    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Aligning warehouse addresses with customs and delivery plans prevents missed handovers.</p>"
   }
 }

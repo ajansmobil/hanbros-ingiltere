@@ -1,7 +1,7 @@
 
  
 
-  .shybz {
+  .bjmo4 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .shybztitle {
+  .bjmo4title {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .shybztitle:has(.shybztitlebodylang:empty),
-  .shybztitle:has(.shybztitlebodylang ul:empty) {
+  .bjmo4title:has(.bjmo4titlebodylang:empty),
+  .bjmo4title:has(.bjmo4titlebodylang ul:empty) {
     display: none;
   }
 
-  .shybztitlebody {
+  .bjmo4titlebody {
     color: #006b65;
     width: var(--max);
     display: flex;
@@ -31,34 +31,34 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .shybztitlebodytitle {
+  .bjmo4titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .shybztitlebodylang {
+  .bjmo4titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .shybztitlebodylang:empty,
-  .shybztitlebodylang ul:empty {
+  .bjmo4titlebodylang:empty,
+  .bjmo4titlebodylang ul:empty {
     display: none;
   }
 
-  .shybztitlebodylang ul {
+  .bjmo4titlebodylang ul {
     display: flex;
     gap: 8px;
   }
 
   
-  .shybztitlebodylang li {
+  .bjmo4titlebodylang li {
     list-style: none;
   }
 
-  .shybztitlebodylang li a {
+  .bjmo4titlebodylang li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -75,13 +75,13 @@
     cursor: pointer;
   }
 
-  .shybztitlebodylang li a:hover {
+  .bjmo4titlebodylang li a:hover {
     border-color: #006b65;
     background: #ffffff;
     color: #006b65 !important;
   }
 
-  .shybzbody {
+  .bjmo4body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
   }
 
   
-  .shybz-mobile-toggle {
+  .bjmo4-mobile-toggle {
     display: none;
     background: #cedc00;
     color: #006b65;
@@ -105,18 +105,18 @@
     right: 0;
   }
 
-  .shybz-mobile-toggle span {
+  .bjmo4-mobile-toggle span {
     font-size: 24px;
   }
 
-  .shybzmenu {
+  .bjmo4menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .shybzmenulist {
+  .bjmo4menulist {
     width: calc(100% - 20px);
     background-color: #cedc00;
     padding: 10px;
@@ -125,7 +125,7 @@
     display: flex;
   }
 
-  .shybzmenubody {
+  .bjmo4menubody {
     width: 100%;
     background-color: #cedc00;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .shybzmenulist ul {
+  .bjmo4menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -142,7 +142,7 @@
     padding: 0;
   }
 
-  .shybzmenulist ul a {
+  .bjmo4menulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #006b65 !important;
@@ -155,40 +155,40 @@
     margin: 0 2px;
   }
 
-  .shybzmenulist ul a:hover {
+  .bjmo4menulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .shybzmenulist ul a.shybz-menu-list-active {
+  .bjmo4menulist ul a.bjmo4-menu-list-active {
     color: #006b65 !important;
   }
 
-  .shybz-menu-list-active {
+  .bjmo4-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .shybzmenulistbody {
+  .bjmo4menulistbody {
     width: 100%;
   }
 
-  .shybzlanguages-mobile {
+  .bjmo4languages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .shybzlanguages-mobile:empty,
-  .shybzlanguages-mobile ul:empty {
+  .bjmo4languages-mobile:empty,
+  .bjmo4languages-mobile ul:empty {
     display: none !important;
   }
 
-  .shybzlanguages-mobile ul {
+  .bjmo4languages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -198,7 +198,7 @@
   }
 
   
-  .shybzlanguages-mobile li {
+  .bjmo4languages-mobile li {
     list-style: none;
     border: 1px solid color-mix(in srgb, #006b65 35%, transparent);
     padding: 0;
@@ -212,7 +212,7 @@
     transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .shybzlanguages-mobile li a {
+  .bjmo4languages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,29 +227,29 @@
     cursor: pointer;
   }
 
-  .shybzlanguages-mobile li:hover {
+  .bjmo4languages-mobile li:hover {
     background-color: #ffffff;
     border-color: #006b65;
     box-shadow: 0 2px 8px color-mix(in srgb, #006b65 25%, transparent);
   }
 
-  .shybzlanguages-mobile li:hover a {
+  .bjmo4languages-mobile li:hover a {
     color: #006b65 !important;
   }
 
   
-  .shybz-menu-backdrop {
+  .bjmo4-menu-backdrop {
     display: none;
   }
 
   @media screen and (min-width: 1024px) {
-    .shybzbodylogo {
+    .bjmo4bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .shybztitle {
+    .bjmo4title {
     margin-bottom: -30px;
   }
 
@@ -257,30 +257,30 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .shybzbody {
+    .bjmo4body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .shybzmenulist ul {
+    .bjmo4menulist ul {
       flex-direction: row;
     }
 
-    .shybzbodylogo {
+    .bjmo4bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .shybztitlebody {
+    .bjmo4titlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .shybztitlebodytitle {
+    .bjmo4titlebodytitle {
       text-align: center;
       font-size: 14px;
     }
@@ -288,28 +288,28 @@
 
     
   @media screen and (max-width: 768px) {
-    .shybztitlebodylang {
+    .bjmo4titlebodylang {
       display: none;
     }
 
-    .shybzbody {
+    .bjmo4body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .shybz-mobile-toggle {
+    .bjmo4-mobile-toggle {
       display: inline-flex;
     }
 
-    .shybzbodylogo {
+    .bjmo4bodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
     
-    .shybz-menu-backdrop {
+    .bjmo4-menu-backdrop {
       display: block;
       position: fixed;
       inset: 0;
@@ -322,14 +322,14 @@
       cursor: pointer;
     }
 
-    .shybz.shybzmenu-open .shybz-menu-backdrop {
+    .bjmo4.bjmo4menu-open .bjmo4-menu-backdrop {
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
     }
 
     
-    .shybzmenubody {
+    .bjmo4menubody {
       position: fixed;
       top: 0;
       right: 0;
@@ -349,22 +349,22 @@
       overflow-y: auto;
     }
 
-    .shybz.shybzmenu-open .shybzmenubody {
+    .bjmo4.bjmo4menu-open .bjmo4menubody {
       transform: translateX(0);
     }
 
-    .shybzmenu {
+    .bjmo4menu {
       width: 100%;
       flex-direction: column;
       height: 100%;
     }
 
-    .shybzmenulistbody {
+    .bjmo4menulistbody {
       flex: 1;
       overflow-y: auto;
     }
 
-    .shybzmenulist {
+    .bjmo4menulist {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -374,12 +374,12 @@
       box-shadow: none;
     }
 
-    .shybz.shybzmenu-open .shybzmenulist {
+    .bjmo4.bjmo4menu-open .bjmo4menulist {
       display: flex;
     }
 
     
-    .shybz.shybzmenu-open .shybzlanguages-mobile {
+    .bjmo4.bjmo4menu-open .bjmo4languages-mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -391,16 +391,16 @@
       flex-shrink: 0;
     }
 
-    .shybz.shybzmenu-open .shybzlanguages-mobile ul {
+    .bjmo4.bjmo4menu-open .bjmo4languages-mobile ul {
       justify-content: center;
     }
 
-    .shybzmenulist ul {
+    .bjmo4menulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .shybzmenulist ul a {
+    .bjmo4menulist ul a {
       font-size: 15px;
       width: 100%;
       padding: 14px 12px;
@@ -411,16 +411,16 @@
       box-sizing: border-box;
     }
 
-    .shybzmenulist ul a:last-child {
+    .bjmo4menulist ul a:last-child {
       border-bottom: none;
     }
 
-    .shybzmenulist ul a:hover {
+    .bjmo4menulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .shybztitlebodytitle {
+    .bjmo4titlebodytitle {
       font-size: 12px;
     }
   }

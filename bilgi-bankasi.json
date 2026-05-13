@@ -14,7 +14,7 @@
       "url": "",
       "path": "ingiltereden-turkiyeye-ev-esyasi-tasima-rehberi",
       "index": 0,
-      "img": "uk-turkey-guide.webp",
+      "img": "logo.png",
       "desing": {
         "header": [],
         "body": [],
@@ -38,7 +38,7 @@
       "url": "",
       "path": "ingiltereden-turkiyeye-arac-gonderimi-nasil-yapilir",
       "index": 1,
-      "img": "uk-car-guide.webp",
+      "img": "logo.png",
       "desing": {
         "header": [],
         "body": [],
@@ -62,7 +62,7 @@
       "url": "",
       "path": "brexit-sonrasi-ingiltere-turkiye-gumruk-islemleri",
       "index": 2,
-      "img": "brexit-customs.webp",
+      "img": "logo.png",
       "desing": {
         "header": [],
         "body": [],
@@ -70,8 +70,8 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Brexit sonrası İngiltere'den Türkiye'ye gümrük işlemleri. Gümrük beyannamesi, vergi hesaplamaları, muafiyet başvuruları, EUR.1 sertifikası, gümrük müşaviri seçimi ve sürecin adımları.",
-        "en": "Post-Brexit UK to Turkey customs procedures. Customs declaration, tax calculations, exemption applications, EUR.1 certificate, customs broker selection and process steps."
+        "tr": "Brexit sonrası İngiltere'den Türkiye'ye gümrük işlemleri. Gümrük beyannamesi, vergi hesaplamaları, muafiyet başvuruları, menşe ispatı ve tercihli rejim belgeleri, gümrük müşaviri seçimi ve sürecin adımları.",
+        "en": "Post-Brexit UK to Turkey customs procedures. Customs declaration, tax calculations, exemption applications, origin evidence and preferential trade documents where applicable, customs broker selection and process steps."
       },
       "icon": "home"
     },
@@ -86,7 +86,7 @@
       "url": "",
       "path": "ingiltereden-turkiyeye-kargo-gonderimi-rehberi",
       "index": 3,
-      "img": "uk-cargo-guide.webp",
+      "img": "logo.png",
       "desing": {
         "header": [],
         "body": [],
@@ -110,7 +110,7 @@
       "url": "",
       "path": "ingiltereden-turkiyeye-depolama-hizmetleri",
       "index": 4,
-      "img": "uk-storage-guide.webp",
+      "img": "logo.png",
       "desing": {
         "header": [],
         "body": [],
@@ -134,7 +134,7 @@
       "url": "",
       "path": "ingiltereden-turkiyeye-ticari-esya-tasima-rehberi",
       "index": 5,
-      "img": "uk-commercial-guide.webp",
+      "img": "logo.png",
       "desing": {
         "header": [],
         "body": [],

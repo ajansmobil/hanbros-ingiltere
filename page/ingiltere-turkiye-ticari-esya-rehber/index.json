@@ -9,7 +9,7 @@
   "url": "",
   "path": "ingiltereden-turkiyeye-ticari-esya-tasima-rehberi",
   "index": 5,
-  "img": "uk-commercial-guide.webp",
+  "img": "logo.png",
   "desing": {
     "header": [],
     "body": [],
@@ -17,13 +17,13 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "İngiltere'den Türkiye'ye ticari eşya taşıma rehberi. B2B lojistik, toplu sevkiyat, gümrük danışmanlığı, fatura entegrasyonu, ihracat belgeleri ve özel fiyatlandırma.",
-    "en": "UK to Turkey commercial goods shipping guide. B2B logistics, bulk shipping, customs consultancy, invoice integration, export documents and special pricing."
+    "tr": "B2B sevkiyatlarda fatura, paketleme listesi ve gümrük kodları.",
+    "en": "Invoices, packing lists and HS codes for B2B UK-TR shipments."
   },
   "icon": "home",
   "keyword": {
-    "tr": "İngiltere'den Türkiye'ye ticari eşya, B2B lojistik, ihracat, toplu sevkiyat, ticari nakliye",
-    "en": "UK to Turkey commercial goods, B2B logistics, export, bulk shipping, commercial shipping"
+    "tr": "ticari esya rehber UK TR, fatura menşe",
+    "en": "commercial shipping guide uk turkey invoice origin"
   },
   "update": "2026-05-08T05:40:46.692Z",
   "date": "2026-05-02T09:00:00.000Z",
@@ -33,7 +33,7 @@
   },
   "slider": [],
   "text": {
-    "tr": "",
-    "en": ""
+    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>İade ve garanti yönetimi için seri numarası takibi önerilir. Anti-damping dosyaları belirli sektörlerde ek maliyet doğurabilir.</p>",
+    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Serial tracking helps warranty returns. Anti-dumping cases can add sector-specific costs.</p>"
   }
 }

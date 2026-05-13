@@ -12,16 +12,16 @@
   "icon": "home",
   "desc": {},
   "description": {
-    "tr": "",
-    "en": ""
+    "tr": "UK posta kodu ve Türkiye teslim ili bilgisiyle hızlı ön teklif.",
+    "en": "Fast indicative quotes with UK postcode and Turkey city."
   },
   "keyword": {
-    "tr": "",
-    "en": ""
+    "tr": "online teklif UK TR, fiyat talebi",
+    "en": "online quote uk to turkey"
   },
   "text": {
-    "tr": "",
-    "en": ""
+    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>Formda eşya türü, hacim ve tarih aralığı net ise dönüş süresi kısalır.</p>",
+    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Clear commodity, volume and date window shorten turnaround.</p>"
   },
   "update": "2026-05-08T05:40:46.608Z",
   "date": "2026-05-08T05:18:35.709Z",
@@ -33,5 +33,6 @@
     "header": [],
     "body": [],
     "footer": []
-  }
+  },
+  "img": "logo.png"
 }

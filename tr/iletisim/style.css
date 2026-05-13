@@ -1,7 +1,7 @@
 
  
 
-  .iwoh4 {
+  .we560 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .iwoh4title {
+  .we560title {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .iwoh4title:has(.iwoh4titlebodylang:empty),
-  .iwoh4title:has(.iwoh4titlebodylang ul:empty) {
+  .we560title:has(.we560titlebodylang:empty),
+  .we560title:has(.we560titlebodylang ul:empty) {
     display: none;
   }
 
-  .iwoh4titlebody {
+  .we560titlebody {
     color: #006b65;
     width: var(--max);
     display: flex;
@@ -31,34 +31,34 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .iwoh4titlebodytitle {
+  .we560titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .iwoh4titlebodylang {
+  .we560titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .iwoh4titlebodylang:empty,
-  .iwoh4titlebodylang ul:empty {
+  .we560titlebodylang:empty,
+  .we560titlebodylang ul:empty {
     display: none;
   }
 
-  .iwoh4titlebodylang ul {
+  .we560titlebodylang ul {
     display: flex;
     gap: 8px;
   }
 
   
-  .iwoh4titlebodylang li {
+  .we560titlebodylang li {
     list-style: none;
   }
 
-  .iwoh4titlebodylang li a {
+  .we560titlebodylang li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -75,13 +75,13 @@
     cursor: pointer;
   }
 
-  .iwoh4titlebodylang li a:hover {
+  .we560titlebodylang li a:hover {
     border-color: #006b65;
     background: #ffffff;
     color: #006b65 !important;
   }
 
-  .iwoh4body {
+  .we560body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
   }
 
   
-  .iwoh4-mobile-toggle {
+  .we560-mobile-toggle {
     display: none;
     background: #cedc00;
     color: #006b65;
@@ -105,18 +105,18 @@
     right: 0;
   }
 
-  .iwoh4-mobile-toggle span {
+  .we560-mobile-toggle span {
     font-size: 24px;
   }
 
-  .iwoh4menu {
+  .we560menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .iwoh4menulist {
+  .we560menulist {
     width: calc(100% - 20px);
     background-color: #cedc00;
     padding: 10px;
@@ -125,7 +125,7 @@
     display: flex;
   }
 
-  .iwoh4menubody {
+  .we560menubody {
     width: 100%;
     background-color: #cedc00;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .iwoh4menulist ul {
+  .we560menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -142,7 +142,7 @@
     padding: 0;
   }
 
-  .iwoh4menulist ul a {
+  .we560menulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #006b65 !important;
@@ -155,40 +155,40 @@
     margin: 0 2px;
   }
 
-  .iwoh4menulist ul a:hover {
+  .we560menulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .iwoh4menulist ul a.iwoh4-menu-list-active {
+  .we560menulist ul a.we560-menu-list-active {
     color: #006b65 !important;
   }
 
-  .iwoh4-menu-list-active {
+  .we560-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .iwoh4menulistbody {
+  .we560menulistbody {
     width: 100%;
   }
 
-  .iwoh4languages-mobile {
+  .we560languages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .iwoh4languages-mobile:empty,
-  .iwoh4languages-mobile ul:empty {
+  .we560languages-mobile:empty,
+  .we560languages-mobile ul:empty {
     display: none !important;
   }
 
-  .iwoh4languages-mobile ul {
+  .we560languages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -198,7 +198,7 @@
   }
 
   
-  .iwoh4languages-mobile li {
+  .we560languages-mobile li {
     list-style: none;
     border: 1px solid color-mix(in srgb, #006b65 35%, transparent);
     padding: 0;
@@ -212,7 +212,7 @@
     transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .iwoh4languages-mobile li a {
+  .we560languages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,29 +227,29 @@
     cursor: pointer;
   }
 
-  .iwoh4languages-mobile li:hover {
+  .we560languages-mobile li:hover {
     background-color: #ffffff;
     border-color: #006b65;
     box-shadow: 0 2px 8px color-mix(in srgb, #006b65 25%, transparent);
   }
 
-  .iwoh4languages-mobile li:hover a {
+  .we560languages-mobile li:hover a {
     color: #006b65 !important;
   }
 
   
-  .iwoh4-menu-backdrop {
+  .we560-menu-backdrop {
     display: none;
   }
 
   @media screen and (min-width: 1024px) {
-    .iwoh4bodylogo {
+    .we560bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .iwoh4title {
+    .we560title {
     margin-bottom: -30px;
   }
 
@@ -257,30 +257,30 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .iwoh4body {
+    .we560body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .iwoh4menulist ul {
+    .we560menulist ul {
       flex-direction: row;
     }
 
-    .iwoh4bodylogo {
+    .we560bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .iwoh4titlebody {
+    .we560titlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .iwoh4titlebodytitle {
+    .we560titlebodytitle {
       text-align: center;
       font-size: 14px;
     }
@@ -288,28 +288,28 @@
 
     
   @media screen and (max-width: 768px) {
-    .iwoh4titlebodylang {
+    .we560titlebodylang {
       display: none;
     }
 
-    .iwoh4body {
+    .we560body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .iwoh4-mobile-toggle {
+    .we560-mobile-toggle {
       display: inline-flex;
     }
 
-    .iwoh4bodylogo {
+    .we560bodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
     
-    .iwoh4-menu-backdrop {
+    .we560-menu-backdrop {
       display: block;
       position: fixed;
       inset: 0;
@@ -322,14 +322,14 @@
       cursor: pointer;
     }
 
-    .iwoh4.iwoh4menu-open .iwoh4-menu-backdrop {
+    .we560.we560menu-open .we560-menu-backdrop {
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
     }
 
     
-    .iwoh4menubody {
+    .we560menubody {
       position: fixed;
       top: 0;
       right: 0;
@@ -349,22 +349,22 @@
       overflow-y: auto;
     }
 
-    .iwoh4.iwoh4menu-open .iwoh4menubody {
+    .we560.we560menu-open .we560menubody {
       transform: translateX(0);
     }
 
-    .iwoh4menu {
+    .we560menu {
       width: 100%;
       flex-direction: column;
       height: 100%;
     }
 
-    .iwoh4menulistbody {
+    .we560menulistbody {
       flex: 1;
       overflow-y: auto;
     }
 
-    .iwoh4menulist {
+    .we560menulist {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -374,12 +374,12 @@
       box-shadow: none;
     }
 
-    .iwoh4.iwoh4menu-open .iwoh4menulist {
+    .we560.we560menu-open .we560menulist {
       display: flex;
     }
 
     
-    .iwoh4.iwoh4menu-open .iwoh4languages-mobile {
+    .we560.we560menu-open .we560languages-mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -391,16 +391,16 @@
       flex-shrink: 0;
     }
 
-    .iwoh4.iwoh4menu-open .iwoh4languages-mobile ul {
+    .we560.we560menu-open .we560languages-mobile ul {
       justify-content: center;
     }
 
-    .iwoh4menulist ul {
+    .we560menulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .iwoh4menulist ul a {
+    .we560menulist ul a {
       font-size: 15px;
       width: 100%;
       padding: 14px 12px;
@@ -411,16 +411,16 @@
       box-sizing: border-box;
     }
 
-    .iwoh4menulist ul a:last-child {
+    .we560menulist ul a:last-child {
       border-bottom: none;
     }
 
-    .iwoh4menulist ul a:hover {
+    .we560menulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .iwoh4titlebodytitle {
+    .we560titlebodytitle {
       font-size: 12px;
     }
   }

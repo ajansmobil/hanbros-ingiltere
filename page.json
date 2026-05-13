@@ -47,7 +47,7 @@
         "tr": "Hanbros İngiltere'nin uçtan uca lojistik çözümleri: güvenli ev taşıma, hızlı ticari kargo, otomobil nakliyesi, depolama ve gümrükleme. Tek noktadan tam hizmet.",
         "en": "End-to-end logistics solutions from Hanbros UK: secure home moving, fast commercial cargo, car shipping, storage, and customs. Full service from a single point."
       },
-      "img": "logo2.png",
+      "img": "logo.png",
       "url": "",
       "pathnext": ""
     },
@@ -71,7 +71,7 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "info.png",
+      "img": "logo.png",
       "icon": "home"
     },
     {
@@ -94,7 +94,7 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "info.png",
+      "img": "logo.png",
       "icon": "home"
     },
     {
@@ -117,7 +117,7 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "tracking.png",
+      "img": "icon.png",
       "icon": "home"
     },
     {

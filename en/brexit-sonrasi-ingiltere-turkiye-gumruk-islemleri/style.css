@@ -1,7 +1,7 @@
 
  
 
-  .xhngl {
+  .ltc30 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .xhngltitle {
+  .ltc30title {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .xhngltitle:has(.xhngltitlebodylang:empty),
-  .xhngltitle:has(.xhngltitlebodylang ul:empty) {
+  .ltc30title:has(.ltc30titlebodylang:empty),
+  .ltc30title:has(.ltc30titlebodylang ul:empty) {
     display: none;
   }
 
-  .xhngltitlebody {
+  .ltc30titlebody {
     color: #006b65;
     width: var(--max);
     display: flex;
@@ -31,34 +31,34 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .xhngltitlebodytitle {
+  .ltc30titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .xhngltitlebodylang {
+  .ltc30titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .xhngltitlebodylang:empty,
-  .xhngltitlebodylang ul:empty {
+  .ltc30titlebodylang:empty,
+  .ltc30titlebodylang ul:empty {
     display: none;
   }
 
-  .xhngltitlebodylang ul {
+  .ltc30titlebodylang ul {
     display: flex;
     gap: 8px;
   }
 
   
-  .xhngltitlebodylang li {
+  .ltc30titlebodylang li {
     list-style: none;
   }
 
-  .xhngltitlebodylang li a {
+  .ltc30titlebodylang li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -75,13 +75,13 @@
     cursor: pointer;
   }
 
-  .xhngltitlebodylang li a:hover {
+  .ltc30titlebodylang li a:hover {
     border-color: #006b65;
     background: #ffffff;
     color: #006b65 !important;
   }
 
-  .xhnglbody {
+  .ltc30body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
   }
 
   
-  .xhngl-mobile-toggle {
+  .ltc30-mobile-toggle {
     display: none;
     background: #cedc00;
     color: #006b65;
@@ -105,18 +105,18 @@
     right: 0;
   }
 
-  .xhngl-mobile-toggle span {
+  .ltc30-mobile-toggle span {
     font-size: 24px;
   }
 
-  .xhnglmenu {
+  .ltc30menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .xhnglmenulist {
+  .ltc30menulist {
     width: calc(100% - 20px);
     background-color: #cedc00;
     padding: 10px;
@@ -125,7 +125,7 @@
     display: flex;
   }
 
-  .xhnglmenubody {
+  .ltc30menubody {
     width: 100%;
     background-color: #cedc00;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .xhnglmenulist ul {
+  .ltc30menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -142,7 +142,7 @@
     padding: 0;
   }
 
-  .xhnglmenulist ul a {
+  .ltc30menulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #006b65 !important;
@@ -155,40 +155,40 @@
     margin: 0 2px;
   }
 
-  .xhnglmenulist ul a:hover {
+  .ltc30menulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .xhnglmenulist ul a.xhngl-menu-list-active {
+  .ltc30menulist ul a.ltc30-menu-list-active {
     color: #006b65 !important;
   }
 
-  .xhngl-menu-list-active {
+  .ltc30-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .xhnglmenulistbody {
+  .ltc30menulistbody {
     width: 100%;
   }
 
-  .xhngllanguages-mobile {
+  .ltc30languages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .xhngllanguages-mobile:empty,
-  .xhngllanguages-mobile ul:empty {
+  .ltc30languages-mobile:empty,
+  .ltc30languages-mobile ul:empty {
     display: none !important;
   }
 
-  .xhngllanguages-mobile ul {
+  .ltc30languages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -198,7 +198,7 @@
   }
 
   
-  .xhngllanguages-mobile li {
+  .ltc30languages-mobile li {
     list-style: none;
     border: 1px solid color-mix(in srgb, #006b65 35%, transparent);
     padding: 0;
@@ -212,7 +212,7 @@
     transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .xhngllanguages-mobile li a {
+  .ltc30languages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,29 +227,29 @@
     cursor: pointer;
   }
 
-  .xhngllanguages-mobile li:hover {
+  .ltc30languages-mobile li:hover {
     background-color: #ffffff;
     border-color: #006b65;
     box-shadow: 0 2px 8px color-mix(in srgb, #006b65 25%, transparent);
   }
 
-  .xhngllanguages-mobile li:hover a {
+  .ltc30languages-mobile li:hover a {
     color: #006b65 !important;
   }
 
   
-  .xhngl-menu-backdrop {
+  .ltc30-menu-backdrop {
     display: none;
   }
 
   @media screen and (min-width: 1024px) {
-    .xhnglbodylogo {
+    .ltc30bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .xhngltitle {
+    .ltc30title {
     margin-bottom: -30px;
   }
 
@@ -257,30 +257,30 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .xhnglbody {
+    .ltc30body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .xhnglmenulist ul {
+    .ltc30menulist ul {
       flex-direction: row;
     }
 
-    .xhnglbodylogo {
+    .ltc30bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .xhngltitlebody {
+    .ltc30titlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .xhngltitlebodytitle {
+    .ltc30titlebodytitle {
       text-align: center;
       font-size: 14px;
     }
@@ -288,28 +288,28 @@
 
     
   @media screen and (max-width: 768px) {
-    .xhngltitlebodylang {
+    .ltc30titlebodylang {
       display: none;
     }
 
-    .xhnglbody {
+    .ltc30body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .xhngl-mobile-toggle {
+    .ltc30-mobile-toggle {
       display: inline-flex;
     }
 
-    .xhnglbodylogo {
+    .ltc30bodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
     
-    .xhngl-menu-backdrop {
+    .ltc30-menu-backdrop {
       display: block;
       position: fixed;
       inset: 0;
@@ -322,14 +322,14 @@
       cursor: pointer;
     }
 
-    .xhngl.xhnglmenu-open .xhngl-menu-backdrop {
+    .ltc30.ltc30menu-open .ltc30-menu-backdrop {
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
     }
 
     
-    .xhnglmenubody {
+    .ltc30menubody {
       position: fixed;
       top: 0;
       right: 0;
@@ -349,22 +349,22 @@
       overflow-y: auto;
     }
 
-    .xhngl.xhnglmenu-open .xhnglmenubody {
+    .ltc30.ltc30menu-open .ltc30menubody {
       transform: translateX(0);
     }
 
-    .xhnglmenu {
+    .ltc30menu {
       width: 100%;
       flex-direction: column;
       height: 100%;
     }
 
-    .xhnglmenulistbody {
+    .ltc30menulistbody {
       flex: 1;
       overflow-y: auto;
     }
 
-    .xhnglmenulist {
+    .ltc30menulist {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -374,12 +374,12 @@
       box-shadow: none;
     }
 
-    .xhngl.xhnglmenu-open .xhnglmenulist {
+    .ltc30.ltc30menu-open .ltc30menulist {
       display: flex;
     }
 
     
-    .xhngl.xhnglmenu-open .xhngllanguages-mobile {
+    .ltc30.ltc30menu-open .ltc30languages-mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -391,16 +391,16 @@
       flex-shrink: 0;
     }
 
-    .xhngl.xhnglmenu-open .xhngllanguages-mobile ul {
+    .ltc30.ltc30menu-open .ltc30languages-mobile ul {
       justify-content: center;
     }
 
-    .xhnglmenulist ul {
+    .ltc30menulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .xhnglmenulist ul a {
+    .ltc30menulist ul a {
       font-size: 15px;
       width: 100%;
       padding: 14px 12px;
@@ -411,16 +411,16 @@
       box-sizing: border-box;
     }
 
-    .xhnglmenulist ul a:last-child {
+    .ltc30menulist ul a:last-child {
       border-bottom: none;
     }
 
-    .xhnglmenulist ul a:hover {
+    .ltc30menulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .xhngltitlebodytitle {
+    .ltc30titlebodytitle {
       font-size: 12px;
     }
   }

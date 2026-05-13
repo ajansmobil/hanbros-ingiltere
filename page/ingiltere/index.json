@@ -9,7 +9,7 @@
   "url": "",
   "path": "ingiltere",
   "index": 0,
-  "img": "uk-flag.webp",
+  "img": "logo.png",
   "desing": {
     "header": [],
     "body": [],
@@ -18,17 +18,17 @@
   "pathnext": "",
   "icon": "home",
   "description": {
-    "tr": "Hanbros İngiltere ile İngiltere'den Türkiye'ye güvenli evden eve taşımacılık hizmeti. Londra, Manchester, Birmingham ve tüm şehirlere profesyonel nakliyat çözümleri. Sigortalı ve gümrüklü taşıma.",
-    "en": "Secure door-to-door transportation service from the United Kingdom to Turkey with Hanbros UK. Professional logistics solutions to London, Manchester, Birmingham and all cities. Insured and customs-cleared shipping."
+    "tr": "Birleşik Krallık genelinde UK→TR toplama ve yükleme planı.",
+    "en": "Nationwide UK pickup planning for Turkey-bound freight."
   },
   "desc": {},
   "keyword": {
-    "tr": "",
-    "en": ""
+    "tr": "ingiltere toplama adresi, UK pickup",
+    "en": "uk collection postcode nationwide"
   },
   "text": {
-    "tr": "",
-    "en": ""
+    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>Londra M25 çevresi, Midlands ve Kuzey İskoçya hatlarında sık sefer planları mümkündür.</p>",
+    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>We can structure frequent pickups around the M25, Midlands and northern Scotland lanes.</p>"
   },
   "update": "2026-05-08T05:40:46.619Z",
   "date": "2026-05-08T05:18:35.719Z",

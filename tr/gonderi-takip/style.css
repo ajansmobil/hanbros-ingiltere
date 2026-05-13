@@ -1,7 +1,7 @@
 
  
 
-  .p520v {
+  .xqtsn {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .p520vtitle {
+  .xqtsntitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .p520vtitle:has(.p520vtitlebodylang:empty),
-  .p520vtitle:has(.p520vtitlebodylang ul:empty) {
+  .xqtsntitle:has(.xqtsntitlebodylang:empty),
+  .xqtsntitle:has(.xqtsntitlebodylang ul:empty) {
     display: none;
   }
 
-  .p520vtitlebody {
+  .xqtsntitlebody {
     color: #006b65;
     width: var(--max);
     display: flex;
@@ -31,34 +31,34 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .p520vtitlebodytitle {
+  .xqtsntitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .p520vtitlebodylang {
+  .xqtsntitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .p520vtitlebodylang:empty,
-  .p520vtitlebodylang ul:empty {
+  .xqtsntitlebodylang:empty,
+  .xqtsntitlebodylang ul:empty {
     display: none;
   }
 
-  .p520vtitlebodylang ul {
+  .xqtsntitlebodylang ul {
     display: flex;
     gap: 8px;
   }
 
   
-  .p520vtitlebodylang li {
+  .xqtsntitlebodylang li {
     list-style: none;
   }
 
-  .p520vtitlebodylang li a {
+  .xqtsntitlebodylang li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -75,13 +75,13 @@
     cursor: pointer;
   }
 
-  .p520vtitlebodylang li a:hover {
+  .xqtsntitlebodylang li a:hover {
     border-color: #006b65;
     background: #ffffff;
     color: #006b65 !important;
   }
 
-  .p520vbody {
+  .xqtsnbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
   }
 
   
-  .p520v-mobile-toggle {
+  .xqtsn-mobile-toggle {
     display: none;
     background: #cedc00;
     color: #006b65;
@@ -105,18 +105,18 @@
     right: 0;
   }
 
-  .p520v-mobile-toggle span {
+  .xqtsn-mobile-toggle span {
     font-size: 24px;
   }
 
-  .p520vmenu {
+  .xqtsnmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .p520vmenulist {
+  .xqtsnmenulist {
     width: calc(100% - 20px);
     background-color: #cedc00;
     padding: 10px;
@@ -125,7 +125,7 @@
     display: flex;
   }
 
-  .p520vmenubody {
+  .xqtsnmenubody {
     width: 100%;
     background-color: #cedc00;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .p520vmenulist ul {
+  .xqtsnmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -142,7 +142,7 @@
     padding: 0;
   }
 
-  .p520vmenulist ul a {
+  .xqtsnmenulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #006b65 !important;
@@ -155,40 +155,40 @@
     margin: 0 2px;
   }
 
-  .p520vmenulist ul a:hover {
+  .xqtsnmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .p520vmenulist ul a.p520v-menu-list-active {
+  .xqtsnmenulist ul a.xqtsn-menu-list-active {
     color: #006b65 !important;
   }
 
-  .p520v-menu-list-active {
+  .xqtsn-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .p520vmenulistbody {
+  .xqtsnmenulistbody {
     width: 100%;
   }
 
-  .p520vlanguages-mobile {
+  .xqtsnlanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .p520vlanguages-mobile:empty,
-  .p520vlanguages-mobile ul:empty {
+  .xqtsnlanguages-mobile:empty,
+  .xqtsnlanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .p520vlanguages-mobile ul {
+  .xqtsnlanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -198,7 +198,7 @@
   }
 
   
-  .p520vlanguages-mobile li {
+  .xqtsnlanguages-mobile li {
     list-style: none;
     border: 1px solid color-mix(in srgb, #006b65 35%, transparent);
     padding: 0;
@@ -212,7 +212,7 @@
     transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .p520vlanguages-mobile li a {
+  .xqtsnlanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,29 +227,29 @@
     cursor: pointer;
   }
 
-  .p520vlanguages-mobile li:hover {
+  .xqtsnlanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #006b65;
     box-shadow: 0 2px 8px color-mix(in srgb, #006b65 25%, transparent);
   }
 
-  .p520vlanguages-mobile li:hover a {
+  .xqtsnlanguages-mobile li:hover a {
     color: #006b65 !important;
   }
 
   
-  .p520v-menu-backdrop {
+  .xqtsn-menu-backdrop {
     display: none;
   }
 
   @media screen and (min-width: 1024px) {
-    .p520vbodylogo {
+    .xqtsnbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .p520vtitle {
+    .xqtsntitle {
     margin-bottom: -30px;
   }
 
@@ -257,30 +257,30 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .p520vbody {
+    .xqtsnbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .p520vmenulist ul {
+    .xqtsnmenulist ul {
       flex-direction: row;
     }
 
-    .p520vbodylogo {
+    .xqtsnbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .p520vtitlebody {
+    .xqtsntitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .p520vtitlebodytitle {
+    .xqtsntitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
@@ -288,28 +288,28 @@
 
     
   @media screen and (max-width: 768px) {
-    .p520vtitlebodylang {
+    .xqtsntitlebodylang {
       display: none;
     }
 
-    .p520vbody {
+    .xqtsnbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .p520v-mobile-toggle {
+    .xqtsn-mobile-toggle {
       display: inline-flex;
     }
 
-    .p520vbodylogo {
+    .xqtsnbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
     
-    .p520v-menu-backdrop {
+    .xqtsn-menu-backdrop {
       display: block;
       position: fixed;
       inset: 0;
@@ -322,14 +322,14 @@
       cursor: pointer;
     }
 
-    .p520v.p520vmenu-open .p520v-menu-backdrop {
+    .xqtsn.xqtsnmenu-open .xqtsn-menu-backdrop {
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
     }
 
     
-    .p520vmenubody {
+    .xqtsnmenubody {
       position: fixed;
       top: 0;
       right: 0;
@@ -349,22 +349,22 @@
       overflow-y: auto;
     }
 
-    .p520v.p520vmenu-open .p520vmenubody {
+    .xqtsn.xqtsnmenu-open .xqtsnmenubody {
       transform: translateX(0);
     }
 
-    .p520vmenu {
+    .xqtsnmenu {
       width: 100%;
       flex-direction: column;
       height: 100%;
     }
 
-    .p520vmenulistbody {
+    .xqtsnmenulistbody {
       flex: 1;
       overflow-y: auto;
     }
 
-    .p520vmenulist {
+    .xqtsnmenulist {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -374,12 +374,12 @@
       box-shadow: none;
     }
 
-    .p520v.p520vmenu-open .p520vmenulist {
+    .xqtsn.xqtsnmenu-open .xqtsnmenulist {
       display: flex;
     }
 
     
-    .p520v.p520vmenu-open .p520vlanguages-mobile {
+    .xqtsn.xqtsnmenu-open .xqtsnlanguages-mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -391,16 +391,16 @@
       flex-shrink: 0;
     }
 
-    .p520v.p520vmenu-open .p520vlanguages-mobile ul {
+    .xqtsn.xqtsnmenu-open .xqtsnlanguages-mobile ul {
       justify-content: center;
     }
 
-    .p520vmenulist ul {
+    .xqtsnmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .p520vmenulist ul a {
+    .xqtsnmenulist ul a {
       font-size: 15px;
       width: 100%;
       padding: 14px 12px;
@@ -411,16 +411,16 @@
       box-sizing: border-box;
     }
 
-    .p520vmenulist ul a:last-child {
+    .xqtsnmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .p520vmenulist ul a:hover {
+    .xqtsnmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .p520vtitlebodytitle {
+    .xqtsntitlebodytitle {
       font-size: 12px;
     }
   }

@@ -1,7 +1,7 @@
 
  
 
-  .mp2py {
+  .vraoq {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .mp2pytitle {
+  .vraoqtitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .mp2pytitle:has(.mp2pytitlebodylang:empty),
-  .mp2pytitle:has(.mp2pytitlebodylang ul:empty) {
+  .vraoqtitle:has(.vraoqtitlebodylang:empty),
+  .vraoqtitle:has(.vraoqtitlebodylang ul:empty) {
     display: none;
   }
 
-  .mp2pytitlebody {
+  .vraoqtitlebody {
     color: #006b65;
     width: var(--max);
     display: flex;
@@ -31,34 +31,34 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .mp2pytitlebodytitle {
+  .vraoqtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .mp2pytitlebodylang {
+  .vraoqtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .mp2pytitlebodylang:empty,
-  .mp2pytitlebodylang ul:empty {
+  .vraoqtitlebodylang:empty,
+  .vraoqtitlebodylang ul:empty {
     display: none;
   }
 
-  .mp2pytitlebodylang ul {
+  .vraoqtitlebodylang ul {
     display: flex;
     gap: 8px;
   }
 
   
-  .mp2pytitlebodylang li {
+  .vraoqtitlebodylang li {
     list-style: none;
   }
 
-  .mp2pytitlebodylang li a {
+  .vraoqtitlebodylang li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -75,13 +75,13 @@
     cursor: pointer;
   }
 
-  .mp2pytitlebodylang li a:hover {
+  .vraoqtitlebodylang li a:hover {
     border-color: #006b65;
     background: #ffffff;
     color: #006b65 !important;
   }
 
-  .mp2pybody {
+  .vraoqbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
   }
 
   
-  .mp2py-mobile-toggle {
+  .vraoq-mobile-toggle {
     display: none;
     background: #cedc00;
     color: #006b65;
@@ -105,18 +105,18 @@
     right: 0;
   }
 
-  .mp2py-mobile-toggle span {
+  .vraoq-mobile-toggle span {
     font-size: 24px;
   }
 
-  .mp2pymenu {
+  .vraoqmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .mp2pymenulist {
+  .vraoqmenulist {
     width: calc(100% - 20px);
     background-color: #cedc00;
     padding: 10px;
@@ -125,7 +125,7 @@
     display: flex;
   }
 
-  .mp2pymenubody {
+  .vraoqmenubody {
     width: 100%;
     background-color: #cedc00;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .mp2pymenulist ul {
+  .vraoqmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -142,7 +142,7 @@
     padding: 0;
   }
 
-  .mp2pymenulist ul a {
+  .vraoqmenulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #006b65 !important;
@@ -155,40 +155,40 @@
     margin: 0 2px;
   }
 
-  .mp2pymenulist ul a:hover {
+  .vraoqmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .mp2pymenulist ul a.mp2py-menu-list-active {
+  .vraoqmenulist ul a.vraoq-menu-list-active {
     color: #006b65 !important;
   }
 
-  .mp2py-menu-list-active {
+  .vraoq-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .mp2pymenulistbody {
+  .vraoqmenulistbody {
     width: 100%;
   }
 
-  .mp2pylanguages-mobile {
+  .vraoqlanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .mp2pylanguages-mobile:empty,
-  .mp2pylanguages-mobile ul:empty {
+  .vraoqlanguages-mobile:empty,
+  .vraoqlanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .mp2pylanguages-mobile ul {
+  .vraoqlanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -198,7 +198,7 @@
   }
 
   
-  .mp2pylanguages-mobile li {
+  .vraoqlanguages-mobile li {
     list-style: none;
     border: 1px solid color-mix(in srgb, #006b65 35%, transparent);
     padding: 0;
@@ -212,7 +212,7 @@
     transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .mp2pylanguages-mobile li a {
+  .vraoqlanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,29 +227,29 @@
     cursor: pointer;
   }
 
-  .mp2pylanguages-mobile li:hover {
+  .vraoqlanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #006b65;
     box-shadow: 0 2px 8px color-mix(in srgb, #006b65 25%, transparent);
   }
 
-  .mp2pylanguages-mobile li:hover a {
+  .vraoqlanguages-mobile li:hover a {
     color: #006b65 !important;
   }
 
   
-  .mp2py-menu-backdrop {
+  .vraoq-menu-backdrop {
     display: none;
   }
 
   @media screen and (min-width: 1024px) {
-    .mp2pybodylogo {
+    .vraoqbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .mp2pytitle {
+    .vraoqtitle {
     margin-bottom: -30px;
   }
 
@@ -257,30 +257,30 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .mp2pybody {
+    .vraoqbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .mp2pymenulist ul {
+    .vraoqmenulist ul {
       flex-direction: row;
     }
 
-    .mp2pybodylogo {
+    .vraoqbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .mp2pytitlebody {
+    .vraoqtitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .mp2pytitlebodytitle {
+    .vraoqtitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
@@ -288,28 +288,28 @@
 
     
   @media screen and (max-width: 768px) {
-    .mp2pytitlebodylang {
+    .vraoqtitlebodylang {
       display: none;
     }
 
-    .mp2pybody {
+    .vraoqbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .mp2py-mobile-toggle {
+    .vraoq-mobile-toggle {
       display: inline-flex;
     }
 
-    .mp2pybodylogo {
+    .vraoqbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
     
-    .mp2py-menu-backdrop {
+    .vraoq-menu-backdrop {
       display: block;
       position: fixed;
       inset: 0;
@@ -322,14 +322,14 @@
       cursor: pointer;
     }
 
-    .mp2py.mp2pymenu-open .mp2py-menu-backdrop {
+    .vraoq.vraoqmenu-open .vraoq-menu-backdrop {
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
     }
 
     
-    .mp2pymenubody {
+    .vraoqmenubody {
       position: fixed;
       top: 0;
       right: 0;
@@ -349,22 +349,22 @@
       overflow-y: auto;
     }
 
-    .mp2py.mp2pymenu-open .mp2pymenubody {
+    .vraoq.vraoqmenu-open .vraoqmenubody {
       transform: translateX(0);
     }
 
-    .mp2pymenu {
+    .vraoqmenu {
       width: 100%;
       flex-direction: column;
       height: 100%;
     }
 
-    .mp2pymenulistbody {
+    .vraoqmenulistbody {
       flex: 1;
       overflow-y: auto;
     }
 
-    .mp2pymenulist {
+    .vraoqmenulist {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -374,12 +374,12 @@
       box-shadow: none;
     }
 
-    .mp2py.mp2pymenu-open .mp2pymenulist {
+    .vraoq.vraoqmenu-open .vraoqmenulist {
       display: flex;
     }
 
     
-    .mp2py.mp2pymenu-open .mp2pylanguages-mobile {
+    .vraoq.vraoqmenu-open .vraoqlanguages-mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -391,16 +391,16 @@
       flex-shrink: 0;
     }
 
-    .mp2py.mp2pymenu-open .mp2pylanguages-mobile ul {
+    .vraoq.vraoqmenu-open .vraoqlanguages-mobile ul {
       justify-content: center;
     }
 
-    .mp2pymenulist ul {
+    .vraoqmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .mp2pymenulist ul a {
+    .vraoqmenulist ul a {
       font-size: 15px;
       width: 100%;
       padding: 14px 12px;
@@ -411,16 +411,16 @@
       box-sizing: border-box;
     }
 
-    .mp2pymenulist ul a:last-child {
+    .vraoqmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .mp2pymenulist ul a:hover {
+    .vraoqmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .mp2pytitlebodytitle {
+    .vraoqtitlebodytitle {
       font-size: 12px;
     }
   }

@@ -1,7 +1,7 @@
 {
   "name": {
     "tr": "Kişisel Veriler",
-    "en": ""
+    "en": "Personal Data"
   },
   "status": "play",
   "id": "kisiselveriler",
@@ -15,22 +15,23 @@
   "index": 5,
   "icon": "home",
   "description": {
-    "tr": "",
-    "en": ""
+    "tr": "Veri kategorileri, hukuki sebepler ve başvuru kanalları.",
+    "en": "Categories of data, legal bases and complaint channels."
   },
   "pathnext": "",
   "keyword": {
-    "tr": "",
-    "en": ""
+    "tr": "kisisel veri isleme, veri sorumlusu, basvuru",
+    "en": "personal data processing, controller"
   },
   "text": {
-    "tr": "",
-    "en": ""
+    "tr": "<p>UK ve TR operasyonlarında gümrük ve taşıma zorunluluğu bulunan alanlar ayrı açıklanır. Başvurularınızı e-posta ile iletebilirsiniz.</p>",
+    "en": "<p>UK and TR operational necessities for customs and carriage are described separately. Requests can be emailed to us.</p>"
   },
   "update": "2026-05-08T05:40:46.582Z",
   "date": "2026-05-08T05:40:45.256Z",
   "title": {
-    "tr": "Kişisel Veriler",
-    "en": ""
-  }
+    "tr": "Kişisel Veriler | Hanbros İngiltere",
+    "en": "Personal Data | Hanbros UK"
+  },
+  "img": "logo.png"
 }

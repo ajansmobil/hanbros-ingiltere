@@ -1,7 +1,7 @@
 
  
 
-  .grtdl {
+  .p32ls {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .grtdltitle {
+  .p32lstitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .grtdltitle:has(.grtdltitlebodylang:empty),
-  .grtdltitle:has(.grtdltitlebodylang ul:empty) {
+  .p32lstitle:has(.p32lstitlebodylang:empty),
+  .p32lstitle:has(.p32lstitlebodylang ul:empty) {
     display: none;
   }
 
-  .grtdltitlebody {
+  .p32lstitlebody {
     color: #006b65;
     width: var(--max);
     display: flex;
@@ -31,34 +31,34 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .grtdltitlebodytitle {
+  .p32lstitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .grtdltitlebodylang {
+  .p32lstitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .grtdltitlebodylang:empty,
-  .grtdltitlebodylang ul:empty {
+  .p32lstitlebodylang:empty,
+  .p32lstitlebodylang ul:empty {
     display: none;
   }
 
-  .grtdltitlebodylang ul {
+  .p32lstitlebodylang ul {
     display: flex;
     gap: 8px;
   }
 
   
-  .grtdltitlebodylang li {
+  .p32lstitlebodylang li {
     list-style: none;
   }
 
-  .grtdltitlebodylang li a {
+  .p32lstitlebodylang li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -75,13 +75,13 @@
     cursor: pointer;
   }
 
-  .grtdltitlebodylang li a:hover {
+  .p32lstitlebodylang li a:hover {
     border-color: #006b65;
     background: #ffffff;
     color: #006b65 !important;
   }
 
-  .grtdlbody {
+  .p32lsbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
   }
 
   
-  .grtdl-mobile-toggle {
+  .p32ls-mobile-toggle {
     display: none;
     background: #cedc00;
     color: #006b65;
@@ -105,18 +105,18 @@
     right: 0;
   }
 
-  .grtdl-mobile-toggle span {
+  .p32ls-mobile-toggle span {
     font-size: 24px;
   }
 
-  .grtdlmenu {
+  .p32lsmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .grtdlmenulist {
+  .p32lsmenulist {
     width: calc(100% - 20px);
     background-color: #cedc00;
     padding: 10px;
@@ -125,7 +125,7 @@
     display: flex;
   }
 
-  .grtdlmenubody {
+  .p32lsmenubody {
     width: 100%;
     background-color: #cedc00;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .grtdlmenulist ul {
+  .p32lsmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -142,7 +142,7 @@
     padding: 0;
   }
 
-  .grtdlmenulist ul a {
+  .p32lsmenulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #006b65 !important;
@@ -155,40 +155,40 @@
     margin: 0 2px;
   }
 
-  .grtdlmenulist ul a:hover {
+  .p32lsmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .grtdlmenulist ul a.grtdl-menu-list-active {
+  .p32lsmenulist ul a.p32ls-menu-list-active {
     color: #006b65 !important;
   }
 
-  .grtdl-menu-list-active {
+  .p32ls-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .grtdlmenulistbody {
+  .p32lsmenulistbody {
     width: 100%;
   }
 
-  .grtdllanguages-mobile {
+  .p32lslanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .grtdllanguages-mobile:empty,
-  .grtdllanguages-mobile ul:empty {
+  .p32lslanguages-mobile:empty,
+  .p32lslanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .grtdllanguages-mobile ul {
+  .p32lslanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -198,7 +198,7 @@
   }
 
   
-  .grtdllanguages-mobile li {
+  .p32lslanguages-mobile li {
     list-style: none;
     border: 1px solid color-mix(in srgb, #006b65 35%, transparent);
     padding: 0;
@@ -212,7 +212,7 @@
     transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .grtdllanguages-mobile li a {
+  .p32lslanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,29 +227,29 @@
     cursor: pointer;
   }
 
-  .grtdllanguages-mobile li:hover {
+  .p32lslanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #006b65;
     box-shadow: 0 2px 8px color-mix(in srgb, #006b65 25%, transparent);
   }
 
-  .grtdllanguages-mobile li:hover a {
+  .p32lslanguages-mobile li:hover a {
     color: #006b65 !important;
   }
 
   
-  .grtdl-menu-backdrop {
+  .p32ls-menu-backdrop {
     display: none;
   }
 
   @media screen and (min-width: 1024px) {
-    .grtdlbodylogo {
+    .p32lsbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .grtdltitle {
+    .p32lstitle {
     margin-bottom: -30px;
   }
 
@@ -257,30 +257,30 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .grtdlbody {
+    .p32lsbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .grtdlmenulist ul {
+    .p32lsmenulist ul {
       flex-direction: row;
     }
 
-    .grtdlbodylogo {
+    .p32lsbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .grtdltitlebody {
+    .p32lstitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .grtdltitlebodytitle {
+    .p32lstitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
@@ -288,28 +288,28 @@
 
     
   @media screen and (max-width: 768px) {
-    .grtdltitlebodylang {
+    .p32lstitlebodylang {
       display: none;
     }
 
-    .grtdlbody {
+    .p32lsbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .grtdl-mobile-toggle {
+    .p32ls-mobile-toggle {
       display: inline-flex;
     }
 
-    .grtdlbodylogo {
+    .p32lsbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
     
-    .grtdl-menu-backdrop {
+    .p32ls-menu-backdrop {
       display: block;
       position: fixed;
       inset: 0;
@@ -322,14 +322,14 @@
       cursor: pointer;
     }
 
-    .grtdl.grtdlmenu-open .grtdl-menu-backdrop {
+    .p32ls.p32lsmenu-open .p32ls-menu-backdrop {
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
     }
 
     
-    .grtdlmenubody {
+    .p32lsmenubody {
       position: fixed;
       top: 0;
       right: 0;
@@ -349,22 +349,22 @@
       overflow-y: auto;
     }
 
-    .grtdl.grtdlmenu-open .grtdlmenubody {
+    .p32ls.p32lsmenu-open .p32lsmenubody {
       transform: translateX(0);
     }
 
-    .grtdlmenu {
+    .p32lsmenu {
       width: 100%;
       flex-direction: column;
       height: 100%;
     }
 
-    .grtdlmenulistbody {
+    .p32lsmenulistbody {
       flex: 1;
       overflow-y: auto;
     }
 
-    .grtdlmenulist {
+    .p32lsmenulist {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -374,12 +374,12 @@
       box-shadow: none;
     }
 
-    .grtdl.grtdlmenu-open .grtdlmenulist {
+    .p32ls.p32lsmenu-open .p32lsmenulist {
       display: flex;
     }
 
     
-    .grtdl.grtdlmenu-open .grtdllanguages-mobile {
+    .p32ls.p32lsmenu-open .p32lslanguages-mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -391,16 +391,16 @@
       flex-shrink: 0;
     }
 
-    .grtdl.grtdlmenu-open .grtdllanguages-mobile ul {
+    .p32ls.p32lsmenu-open .p32lslanguages-mobile ul {
       justify-content: center;
     }
 
-    .grtdlmenulist ul {
+    .p32lsmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .grtdlmenulist ul a {
+    .p32lsmenulist ul a {
       font-size: 15px;
       width: 100%;
       padding: 14px 12px;
@@ -411,16 +411,16 @@
       box-sizing: border-box;
     }
 
-    .grtdlmenulist ul a:last-child {
+    .p32lsmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .grtdlmenulist ul a:hover {
+    .p32lsmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .grtdltitlebodytitle {
+    .p32lstitlebodytitle {
       font-size: 12px;
     }
   }

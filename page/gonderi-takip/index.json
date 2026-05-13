@@ -18,11 +18,11 @@
     "footer": []
   },
   "pathnext": "",
-  "img": "tracking.png",
+  "img": "icon.png",
   "desc": {},
   "keyword": {
-    "tr": "",
-    "en": ""
+    "tr": "gonderi takip UK TR, kargo durumu",
+    "en": "shipment tracking uk to turkey"
   },
   "update": "2026-05-08T05:40:46.499Z",
   "date": "2026-05-08T05:18:35.588Z",
@@ -30,5 +30,9 @@
     "tr": "Gönderi Takip",
     "en": "Shipment Tracking"
   },
-  "icon": "home"
+  "icon": "home",
+  "text": {
+    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>Takip numarası ile deniz/kara aktarma kilometre taşlarını görüntüleyin. Gümrük statüsü resmi beyanlara bağlıdır.</p>",
+    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Use your reference to view sea/road milestones. Customs status depends on formal declarations.</p>"
+  }
 }

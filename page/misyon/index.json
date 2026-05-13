@@ -1,7 +1,7 @@
 {
   "name": {
     "tr": "Misyon",
-    "en": ""
+    "en": "Mission"
   },
   "status": "play",
   "id": "misyon",
@@ -15,24 +15,24 @@
   "index": 1,
   "icon": "home",
   "description": {
-    "tr": "",
-    "en": ""
+    "tr": "Şeffaf fiyat, doğru evrak ve zamanında teslim ile UK→Türkiye taşımayı öngörülebilir kılmak.",
+    "en": "Predictable UK-to-Turkey moves through transparent pricing, correct paperwork and on-time delivery."
   },
   "img": "logo.png",
   "url": "",
   "pathnext": "vizyon",
   "keyword": {
-    "tr": "",
-    "en": ""
+    "tr": "hanbros misyon, UK TR lojistik kalitesi, seffaf tasima",
+    "en": "hanbros mission, uk tr logistics quality"
   },
   "text": {
-    "tr": "",
-    "en": ""
+    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>Misyonumuz; müşteri beklentisini ölçülebilir SLA'larla yönetmek, hasar riskini tasarım aşamasında düşürmek ve gümrük süreçlerinde doğru sınıflandırma ile gecikmeleri önlemektir.</p>",
+    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Our mission is to run measurable SLAs, engineer out damage risk at planning time, and keep customs classifications accurate to avoid delays.</p>"
   },
   "update": "2026-05-08T05:40:46.560Z",
   "date": "2026-05-08T05:40:45.232Z",
   "title": {
-    "tr": "Misyon",
-    "en": ""
+    "tr": "Misyon | Hanbros İngiltere",
+    "en": "Mission | Hanbros UK"
   }
 }

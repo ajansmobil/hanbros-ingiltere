@@ -1,7 +1,7 @@
 {
   "name": {
     "tr": "Hakkımızda",
-    "en": ""
+    "en": "About Us"
   },
   "status": "play",
   "id": "hakkimizda",
@@ -15,24 +15,24 @@
   "index": 0,
   "icon": "home",
   "description": {
-    "tr": "",
-    "en": ""
+    "tr": "Hanbros İngiltere; Birleşik Krallık çıkışlı UK→Türkiye ev eşyası, kargo, araç ve ticari lojistik markasıdır.",
+    "en": "Hanbros UK is the UK-origin brand for moves and freight to Turkey, operating on hanbroscargo.co.uk."
   },
   "img": "logo.png",
   "url": "",
   "pathnext": "misyon",
   "slider": [],
   "title": {
-    "tr": "Hakkımızda",
-    "en": ""
+    "tr": "Hakkımızda | Hanbros İngiltere (UK→Türkiye)",
+    "en": "About Hanbros UK (UK to Turkey)"
   },
   "keyword": {
-    "tr": "",
-    "en": ""
+    "tr": "hanbros ingiltere, hanbroscargo.co.uk, ingiltereden turkiyeye tasima, UK Turkey logistics",
+    "en": "hanbros uk, hanbroscargo.co.uk, uk to turkey shipping, uk turkey logistics"
   },
   "text": {
-    "tr": "",
-    "en": ""
+    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><h2>Kimiz?</h2><p>Hanbros İngiltere ekibi; Londra ve Birleşik Krallık genelinde toplama, profesyonel paketleme ve Türkiye'deki teslim ayağında gümrük ve dağıtım koordinasyonunu tek elden yönetmenizi sağlar.</p><h2>Neden ayrı bir site?</h2><p>hanbroscargo.co.uk alan adı, arama motorlarında <em>UK çıkışlı</em> niyet sorgularıyla uyumlu canonical sinyal üretir. Türkiye merkezli içerikler hanbroscargo.com üzerinde tutulur; böylece iki marka birbirinin sıralamalarını tüketmez.</p>",
+    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><h2>Who we are</h2><p>We coordinate UK-wide collections, professional packing and the Turkey delivery leg including customs and distribution.</p><h2>Why a dedicated UK domain</h2><p>hanbroscargo.co.uk strengthens intent signals for UK-origin queries while Turkey-origin content remains on hanbroscargo.com.</p>"
   },
   "textmodul": false,
   "update": "2026-05-08T05:40:46.555Z",

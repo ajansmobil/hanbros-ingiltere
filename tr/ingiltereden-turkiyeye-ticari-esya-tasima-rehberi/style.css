@@ -1,7 +1,7 @@
 
  
 
-  .sswqv {
+  .e154l {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .sswqvtitle {
+  .e154ltitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .sswqvtitle:has(.sswqvtitlebodylang:empty),
-  .sswqvtitle:has(.sswqvtitlebodylang ul:empty) {
+  .e154ltitle:has(.e154ltitlebodylang:empty),
+  .e154ltitle:has(.e154ltitlebodylang ul:empty) {
     display: none;
   }
 
-  .sswqvtitlebody {
+  .e154ltitlebody {
     color: #006b65;
     width: var(--max);
     display: flex;
@@ -31,34 +31,34 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .sswqvtitlebodytitle {
+  .e154ltitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .sswqvtitlebodylang {
+  .e154ltitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .sswqvtitlebodylang:empty,
-  .sswqvtitlebodylang ul:empty {
+  .e154ltitlebodylang:empty,
+  .e154ltitlebodylang ul:empty {
     display: none;
   }
 
-  .sswqvtitlebodylang ul {
+  .e154ltitlebodylang ul {
     display: flex;
     gap: 8px;
   }
 
   
-  .sswqvtitlebodylang li {
+  .e154ltitlebodylang li {
     list-style: none;
   }
 
-  .sswqvtitlebodylang li a {
+  .e154ltitlebodylang li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -75,13 +75,13 @@
     cursor: pointer;
   }
 
-  .sswqvtitlebodylang li a:hover {
+  .e154ltitlebodylang li a:hover {
     border-color: #006b65;
     background: #ffffff;
     color: #006b65 !important;
   }
 
-  .sswqvbody {
+  .e154lbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
   }
 
   
-  .sswqv-mobile-toggle {
+  .e154l-mobile-toggle {
     display: none;
     background: #cedc00;
     color: #006b65;
@@ -105,18 +105,18 @@
     right: 0;
   }
 
-  .sswqv-mobile-toggle span {
+  .e154l-mobile-toggle span {
     font-size: 24px;
   }
 
-  .sswqvmenu {
+  .e154lmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .sswqvmenulist {
+  .e154lmenulist {
     width: calc(100% - 20px);
     background-color: #cedc00;
     padding: 10px;
@@ -125,7 +125,7 @@
     display: flex;
   }
 
-  .sswqvmenubody {
+  .e154lmenubody {
     width: 100%;
     background-color: #cedc00;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .sswqvmenulist ul {
+  .e154lmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -142,7 +142,7 @@
     padding: 0;
   }
 
-  .sswqvmenulist ul a {
+  .e154lmenulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #006b65 !important;
@@ -155,40 +155,40 @@
     margin: 0 2px;
   }
 
-  .sswqvmenulist ul a:hover {
+  .e154lmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .sswqvmenulist ul a.sswqv-menu-list-active {
+  .e154lmenulist ul a.e154l-menu-list-active {
     color: #006b65 !important;
   }
 
-  .sswqv-menu-list-active {
+  .e154l-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #006b65 !important;
     cursor: pointer;
   }
 
-  .sswqvmenulistbody {
+  .e154lmenulistbody {
     width: 100%;
   }
 
-  .sswqvlanguages-mobile {
+  .e154llanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .sswqvlanguages-mobile:empty,
-  .sswqvlanguages-mobile ul:empty {
+  .e154llanguages-mobile:empty,
+  .e154llanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .sswqvlanguages-mobile ul {
+  .e154llanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -198,7 +198,7 @@
   }
 
   
-  .sswqvlanguages-mobile li {
+  .e154llanguages-mobile li {
     list-style: none;
     border: 1px solid color-mix(in srgb, #006b65 35%, transparent);
     padding: 0;
@@ -212,7 +212,7 @@
     transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .sswqvlanguages-mobile li a {
+  .e154llanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,29 +227,29 @@
     cursor: pointer;
   }
 
-  .sswqvlanguages-mobile li:hover {
+  .e154llanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #006b65;
     box-shadow: 0 2px 8px color-mix(in srgb, #006b65 25%, transparent);
   }
 
-  .sswqvlanguages-mobile li:hover a {
+  .e154llanguages-mobile li:hover a {
     color: #006b65 !important;
   }
 
   
-  .sswqv-menu-backdrop {
+  .e154l-menu-backdrop {
     display: none;
   }
 
   @media screen and (min-width: 1024px) {
-    .sswqvbodylogo {
+    .e154lbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .sswqvtitle {
+    .e154ltitle {
     margin-bottom: -30px;
   }
 
@@ -257,30 +257,30 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .sswqvbody {
+    .e154lbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .sswqvmenulist ul {
+    .e154lmenulist ul {
       flex-direction: row;
     }
 
-    .sswqvbodylogo {
+    .e154lbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .sswqvtitlebody {
+    .e154ltitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .sswqvtitlebodytitle {
+    .e154ltitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
@@ -288,28 +288,28 @@
 
     
   @media screen and (max-width: 768px) {
-    .sswqvtitlebodylang {
+    .e154ltitlebodylang {
       display: none;
     }
 
-    .sswqvbody {
+    .e154lbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .sswqv-mobile-toggle {
+    .e154l-mobile-toggle {
       display: inline-flex;
     }
 
-    .sswqvbodylogo {
+    .e154lbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
     
-    .sswqv-menu-backdrop {
+    .e154l-menu-backdrop {
       display: block;
       position: fixed;
       inset: 0;
@@ -322,14 +322,14 @@
       cursor: pointer;
     }
 
-    .sswqv.sswqvmenu-open .sswqv-menu-backdrop {
+    .e154l.e154lmenu-open .e154l-menu-backdrop {
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
     }
 
     
-    .sswqvmenubody {
+    .e154lmenubody {
       position: fixed;
       top: 0;
       right: 0;
@@ -349,22 +349,22 @@
       overflow-y: auto;
     }
 
-    .sswqv.sswqvmenu-open .sswqvmenubody {
+    .e154l.e154lmenu-open .e154lmenubody {
       transform: translateX(0);
     }
 
-    .sswqvmenu {
+    .e154lmenu {
       width: 100%;
       flex-direction: column;
       height: 100%;
     }
 
-    .sswqvmenulistbody {
+    .e154lmenulistbody {
       flex: 1;
       overflow-y: auto;
     }
 
-    .sswqvmenulist {
+    .e154lmenulist {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -374,12 +374,12 @@
       box-shadow: none;
     }
 
-    .sswqv.sswqvmenu-open .sswqvmenulist {
+    .e154l.e154lmenu-open .e154lmenulist {
       display: flex;
     }
 
     
-    .sswqv.sswqvmenu-open .sswqvlanguages-mobile {
+    .e154l.e154lmenu-open .e154llanguages-mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -391,16 +391,16 @@
       flex-shrink: 0;
     }
 
-    .sswqv.sswqvmenu-open .sswqvlanguages-mobile ul {
+    .e154l.e154lmenu-open .e154llanguages-mobile ul {
       justify-content: center;
     }
 
-    .sswqvmenulist ul {
+    .e154lmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .sswqvmenulist ul a {
+    .e154lmenulist ul a {
       font-size: 15px;
       width: 100%;
       padding: 14px 12px;
@@ -411,16 +411,16 @@
       box-sizing: border-box;
     }
 
-    .sswqvmenulist ul a:last-child {
+    .e154lmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .sswqvmenulist ul a:hover {
+    .e154lmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .sswqvtitlebodytitle {
+    .e154ltitlebodytitle {
       font-size: 12px;
     }
   }

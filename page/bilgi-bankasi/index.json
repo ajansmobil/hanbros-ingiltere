@@ -18,11 +18,11 @@
     "footer": []
   },
   "pathnext": "",
-  "img": "info.png",
+  "img": "logo.png",
   "desc": {},
   "keyword": {
-    "tr": "",
-    "en": ""
+    "tr": "bilgi bankasi UK TR, tasima rehberi",
+    "en": "knowledge base uk turkey shipping"
   },
   "update": "2026-05-08T05:40:46.494Z",
   "date": "2026-05-08T05:18:35.583Z",
@@ -30,5 +30,9 @@
     "tr": "Bilgi Bankası",
     "en": "Knowledge Base"
   },
-  "icon": "home"
+  "icon": "home",
+  "text": {
+    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>Rehber yazıları gümrük ve operasyon akışını özetler; kesin hukuki sonuç için danışmanlık alın.</p>",
+    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Guides summarise operational and customs flows; obtain professional advice for legal certainty.</p>"
+  }
 }

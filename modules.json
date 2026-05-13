@@ -24,36 +24,36 @@
       "id": "k4t90c",
       "data": [
         {
-          "img": "uk-turkey-route.webp",
+          "img": "logo.png",
           "title": {
             "tr": "İngiltere'den Türkiye'ye Güvenilir Nakliye",
-            "en": "Reliable Shipping from UK to Turkey"
+            "en": "Reliable Shipping from the UK to Turkey"
           },
           "description": {
-            "tr": "Londra'dan İstanbul'a profesyonel evden eve taşımacılık",
-            "en": "Professional door-to-door moving from London to Istanbul"
+            "tr": "Birleşik Krallık çıkışlı; İstanbul, Ankara, İzmir ve tüm Türkiye adreslerine kapıdan kapıya taşıma ve kargo.",
+            "en": "UK-origin logistics with door-to-door delivery to Istanbul, Ankara, Izmir and all addresses across Turkey."
           }
         },
         {
-          "img": "uk-car-ship.webp",
+          "img": "logo.png",
           "title": {
             "tr": "İngiltere'den Türkiye'ye Araç Gönderimi",
-            "en": "Vehicle Shipping from UK to Turkey"
+            "en": "Vehicle Shipping from the UK to Turkey"
           },
           "description": {
-            "tr": "Otomobil, SUV ve motosiklet taşımacılığı",
-            "en": "Car, SUV and motorcycle transport"
+            "tr": "Otomobil, SUV ve motosiklet için gümrük ve sigorta süreçleriyle güvenli taşıma planı.",
+            "en": "Safe transport planning for cars, SUVs and motorcycles with customs and insurance workflows."
           }
         },
         {
-          "img": "uk-commercial.webp",
+          "img": "logo.png",
           "title": {
-            "tr": "İşletmeler İçin Lojistik Çözümler",
-            "en": "Logistics Solutions for Businesses"
+            "tr": "İşletmeler İçin UK → TR Lojistik",
+            "en": "B2B Logistics from the UK to Turkey"
           },
           "description": {
-            "tr": "B2B ticari eşya taşımacılığı ve gümrük danışmanlığı",
-            "en": "B2B commercial goods shipping and customs consultancy"
+            "tr": "Ticari eşya, palet ve proje bazlı sevkiyatlarda gümrük danışmanlığı ve teslimat koordinasyonu.",
+            "en": "Commercial freight, pallets and project moves with customs consultancy and delivery coordination."
           }
         }
       ],
@@ -91,11 +91,11 @@
         },
         {
           "icon": "email",
-          "text": "info@hanbrosuk.com"
+          "text": "info@hanbroscargo.co.uk"
         },
         {
           "icon": "email",
-          "text": "destek@hanbrosuk.com"
+          "text": "destek@hanbroscargo.co.uk"
         },
         {
           "icon": "map",
@@ -129,7 +129,7 @@
         "opacity": "0.5",
         "backgroundcolor": "#000",
         "color": "#1e3046",
-        "img": "map.png",
+        "img": "icon.png",
         "externalUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3195.8!2d-0.1278!3d51.5074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDMwJzI2LjQiTiAwwrAwNyczMC4wIlc!5e0!3m2!1str!2suk!4v1234567890"
       },
       "version": "1.0.0",
@@ -262,10 +262,10 @@
             },
             {
               "text": {
-                "tr": "✉️ info@hanbrosuk.com",
-                "en": "✉️ info@hanbrosuk.com"
+                "tr": "✉️ info@hanbroscargo.co.uk",
+                "en": "✉️ info@hanbroscargo.co.uk"
               },
-              "url": "mailto:info@hanbrosuk.com"
+              "url": "mailto:info@hanbroscargo.co.uk"
             }
           ]
         }
