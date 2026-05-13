@@ -1,10 +1,10 @@
 {
   "name": {
-    "tr": "İngiltere'den Türkiye'ye Araç Gönderimi Nasıl Yapılır?",
+    "tr": "How to Ship a Vehicle from UK to Turkey?",
     "en": "How to Ship a Vehicle from UK to Turkey?"
   },
   "status": "play",
-  "category": "Araç Taşıma",
+  "category": "Vehicle transport",
   "id": "ingiltere-turkiye-arac-gonderimi",
   "url": "",
   "path": "ingiltereden-turkiyeye-arac-gonderimi-nasil-yapilir",
@@ -17,23 +17,23 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Araç belgeleri, taşıma modları ve Türkiye tescil hazırlığı.",
+    "tr": "Vehicle papers, transport modes and Turkey registration readiness.",
     "en": "Vehicle papers, transport modes and Turkey registration readiness."
   },
   "icon": "home",
   "keyword": {
-    "tr": "arac gonderimi rehber UK TR, V5C ihracat",
+    "tr": "vehicle export guide uk turkey",
     "en": "vehicle export guide uk turkey"
   },
   "update": "2026-05-08T05:40:46.660Z",
   "date": "2026-05-02T09:00:00.000Z",
   "title": {
-    "tr": "İngiltere'den Türkiye'ye Araç Gönderimi Nasıl Yapılır?",
+    "tr": "How to Ship a Vehicle from UK to Turkey?",
     "en": "How to Ship a Vehicle from UK to Turkey?"
   },
   "slider": [],
   "text": {
-    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>RoRo'da yakıt seviyesi ve kişisel eşya taşıma kuralları operatöre göre değişir. Konteynerde sabitleme fotoğrafları sigorta için önemlidir.</p>",
+    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>RoRo fuel levels and personal effects rules vary by operator. Container lashing photos matter for claims.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>RoRo fuel levels and personal effects rules vary by operator. Container lashing photos matter for claims.</p>"
   }
 }

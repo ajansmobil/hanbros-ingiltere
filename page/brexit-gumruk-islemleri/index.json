@@ -1,10 +1,10 @@
 {
   "name": {
-    "tr": "Brexit Sonrası İngiltere-Türkiye Gümrük İşlemleri",
+    "tr": "Post-Brexit UK-Turkey Customs Procedures",
     "en": "Post-Brexit UK-Turkey Customs Procedures"
   },
   "status": "play",
-  "category": "Gümrük",
+  "category": "Customs",
   "id": "brexit-gumruk-islemleri",
   "url": "",
   "path": "brexit-sonrasi-ingiltere-turkiye-gumruk-islemleri",
@@ -17,23 +17,23 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Brexit sonrası İngiltere'den Türkiye'ye gümrük işlemleri. Gümrük beyannamesi, vergi hesaplamaları, muafiyet başvuruları, menşe ispatı ve tercihli rejim belgeleri, gümrük müşaviri seçimi ve sürecin adımları.",
+    "tr": "Post-Brexit UK to Turkey customs procedures. Customs declaration, tax calculations, exemption applications, origin evidence and preferential trade documents where applicable, customs broker selection and process steps.",
     "en": "Post-Brexit UK to Turkey customs procedures. Customs declaration, tax calculations, exemption applications, origin evidence and preferential trade documents where applicable, customs broker selection and process steps."
   },
   "icon": "home",
   "keyword": {
-    "tr": "Brexit gümrük, İngiltere Türkiye gümrük, gümrük beyannamesi, vergi muafiyeti, menşe ispatı, gümrük müşaviri",
+    "tr": "Brexit customs, UK Turkey customs, customs declaration, tax exemption, origin evidence, customs broker",
     "en": "Brexit customs, UK Turkey customs, customs declaration, tax exemption, origin evidence, customs broker"
   },
   "update": "2026-05-08T05:40:46.668Z",
   "date": "2026-05-02T09:00:00.000Z",
   "title": {
-    "tr": "Brexit Sonrası İngiltere-Türkiye Gümrük İşlemleri",
+    "tr": "Post-Brexit UK-Turkey Customs Procedures",
     "en": "Post-Brexit UK-Turkey Customs Procedures"
   },
   "slider": [],
   "text": {
-    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><h2>Brexit sonrası dikkatler</h2><p>UK artık AB gümrük birliği dışındadır; menşe ve değer beyanları ayrıntılı olmalıdır. Türkiye ile UK arasındaki ticaret anlaşmaları ürün grubuna göre avantaj sağlayabilir.</p>",
+    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><h2>Post-Brexit notes</h2><p>The UK sits outside the EU customs union; origin and valuation must be precise. Preferential schemes depend on product rules.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><h2>Post-Brexit notes</h2><p>The UK sits outside the EU customs union; origin and valuation must be precise. Preferential schemes depend on product rules.</p>"
   }
 }

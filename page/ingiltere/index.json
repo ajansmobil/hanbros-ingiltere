@@ -1,10 +1,10 @@
 {
   "name": {
-    "tr": "İngiltere",
+    "tr": "United Kingdom",
     "en": "United Kingdom"
   },
   "status": "play",
-  "category": "Hizmet Bölgeleri",
+  "category": "Service regions",
   "id": "ingiltere",
   "url": "",
   "path": "ingiltere",
@@ -18,22 +18,22 @@
   "pathnext": "",
   "icon": "home",
   "description": {
-    "tr": "Birleşik Krallık genelinde UK→TR toplama ve yükleme planı.",
+    "tr": "Nationwide UK pickup planning for Turkey-bound freight.",
     "en": "Nationwide UK pickup planning for Turkey-bound freight."
   },
   "desc": {},
   "keyword": {
-    "tr": "ingiltere toplama adresi, UK pickup",
+    "tr": "uk collection postcode nationwide",
     "en": "uk collection postcode nationwide"
   },
   "text": {
-    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>Londra M25 çevresi, Midlands ve Kuzey İskoçya hatlarında sık sefer planları mümkündür.</p>",
+    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>We can structure frequent pickups around the M25, Midlands and northern Scotland lanes.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>We can structure frequent pickups around the M25, Midlands and northern Scotland lanes.</p>"
   },
   "update": "2026-05-08T05:40:46.619Z",
   "date": "2026-05-08T05:18:35.719Z",
   "title": {
-    "tr": "İngiltere",
+    "tr": "United Kingdom",
     "en": "United Kingdom"
   }
 }

@@ -1,0 +1,903 @@
+<main class="module-container" role="main" aria-label="Metreküp hesaplama aracı">
+
+<section class="metrekup-container" aria-labelledby="metrekup-title">
+    <div class="metrekup-body">
+
+        <div id="hesaplama-container" class="metrekup-main-container">
+            
+            <header class="metrekup-list-header">
+                <div class="metrekup-header-wrapper">
+                    <div>
+                        <h1 id="metrekup-title" class="metrekup-list-title">{{mainTitle}}</h1>
+                        <p class="metrekup-list-subtitle">{{mainSubtitle}}</p>
+                    </div>
+                    <div class="metrekup-buttons">
+                        <button type="button" onclick="addItem()" class="metrekup-btn-add" aria-label="Yeni eşya ekle">{{btnAddItem}}</button>
+                        <button type="button" onclick="clearAll()" class="metrekup-btn-clear" aria-label="Tüm verileri temizle">{{btnClear}}</button>
+                    </div>
+                </div>
+            </header>
+            
+            <section id="esya-listesi" class="metrekup-items-grid" aria-label="Eşya listesi">
+                
+            </section>
+            
+            <section class="metrekup-bottom-section" aria-labelledby="results-title">
+                <div class="metrekup-results-section">
+                    <header class="metrekup-results-header">
+                        <h2 id="results-title" class="metrekup-results-title">{{resultsTitle}}</h2> 
+                        <p class="metrekup-results-subtitle">{{resultsSubtitle}}</p>
+                    </header>
+                    <div class="metrekup-results-grid">
+                        <div class="metrekup-result-card">
+                            <div class="metrekup-result-icon">📦</div>
+                            <div class="metrekup-result-label">{{labelTotalVolume}}</div>
+                            <div class="metrekup-result-value">
+                                <span id="total-volume">0</span> <span class="metrekup-result-unit">m³</span>
+                            </div>
+                        </div>
+                        <div class="metrekup-result-card">
+                            <div class="metrekup-result-icon">⚖️</div>
+                            <div class="metrekup-result-label">{{labelTotalWeight}}</div>
+                            <div class="metrekup-result-value">
+                                <span id="total-weight">0</span> <span class="metrekup-result-unit">kg</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>
+</main>
+
+
+
+
+<script>
+var items = [];
+var itemCounter = 0;
+
+setTimeout(function() {
+    initializeCalculator();
+}, 100);
+
+function initializeCalculator() {
+
+    for (var i = 1; i <= 3; i++) {
+        addItem();
+    }
+    updateTotals();
+}
+
+function addItem() {
+    itemCounter++;
+    var container = document.getElementById('esya-listesi');
+    var itemId = itemCounter;
+    
+    var removeButton = '';
+    if (itemId > 3) {
+        removeButton = '<button type="button" onclick="removeItem(' + itemId + ')" class="metrekup-btn-remove" aria-label="Eşyayı kaldır">×</button>';
+    }
+    
+    var itemHtml = '<div class="metrekup-item-card" id="item-' + itemId + '">' +
+        '<div class="metrekup-item-header">' +
+            '<div class="metrekup-item-title-wrapper">' +
+                '<div class="metrekup-item-number">' + itemId + '</div>' +
+                '<h3 class="metrekup-item-title">{{itemTitle}} ' + itemId + '</h3>' +
+            '</div>' +
+            removeButton +
+        '</div>' +
+        '<div class="metrekup-inputs-grid">' +
+            '<div class="metrekup-input-group">' +
+                '<label class="metrekup-input-label" for="length-' + itemId + '">{{labelLength}}</label>' +
+                '<input type="number" id="length-' + itemId + '" name="length-' + itemId + '" placeholder="0" step="0.1" oninput="calculateItem(' + itemId + ')" class="metrekup-input" aria-label="{{labelLength}}">' +
+            '</div>' +
+            '<div class="metrekup-input-group">' +
+                '<label class="metrekup-input-label" for="width-' + itemId + '">{{labelWidth}}</label>' +
+                '<input type="number" id="width-' + itemId + '" name="width-' + itemId + '" placeholder="0" step="0.1" oninput="calculateItem(' + itemId + ')" class="metrekup-input" aria-label="{{labelWidth}}">' +
+            '</div>' +
+            '<div class="metrekup-input-group">' +
+                '<label class="metrekup-input-label" for="height-' + itemId + '">{{labelHeight}}</label>' +
+                '<input type="number" id="height-' + itemId + '" name="height-' + itemId + '" placeholder="0" step="0.1" oninput="calculateItem(' + itemId + ')" class="metrekup-input" aria-label="{{labelHeight}}">' +
+            '</div>' +
+            '<div class="metrekup-input-group">' +
+                '<label class="metrekup-input-label" for="quantity-' + itemId + '">{{labelQuantity}}</label>' +
+                '<input type="number" id="quantity-' + itemId + '" name="quantity-' + itemId + '" placeholder="1" step="1" min="1" value="1" oninput="calculateItem(' + itemId + ')" class="metrekup-input" aria-label="{{labelQuantity}}">' +
+            '</div>' +
+            '<div class="metrekup-input-group metrekup-weight-group">' +
+                '<label class="metrekup-input-label" for="weight-' + itemId + '">{{labelWeight}}</label>' +
+                '<input type="number" id="weight-' + itemId + '" name="weight-' + itemId + '" placeholder="0" step="0.1" oninput="calculateItem(' + itemId + ')" class="metrekup-input" aria-label="{{labelWeight}}">' +
+            '</div>' +
+            '<div class="metrekup-input-group metrekup-volume-group">' +
+                '<label class="metrekup-input-label" for="item-volume-' + itemId + '">{{labelItemVolume}}</label>' +
+                '<div class="metrekup-volume-display">' +
+                    '<span id="item-volume-' + itemId + '">0.00</span>' +
+                    '<span class="metrekup-volume-unit">m³</span>' +
+                '</div>' +
+            '</div>' +
+        '</div>' +
+    '</div>';
+    
+    container.insertAdjacentHTML('beforeend', itemHtml);
+
+    items.push({
+        id: itemId,
+        quantity: 1,
+        length: 0,
+        width: 0,
+        height: 0,
+        weight: 0,
+        volume: 0
+    });
+}
+
+function removeItem(itemId) {
+    var itemElement = document.getElementById('item-' + itemId);
+    if (itemElement) {
+        itemElement.remove();
+    }
+
+    items = items.filter(function(item) {
+        return item.id !== itemId;
+    });
+
+    renumberItems();
+    
+    updateTotals();
+}
+
+function renumberItems() {
+    var container = document.getElementById('esya-listesi');
+    var allItems = container.querySelectorAll('.metrekup-item-card');
+
+    for (var i = 0; i < allItems.length; i++) {
+        var itemElement = allItems[i];
+        var newNumber = i + 1;
+        var oldId = itemElement.id.replace('item-', '');
+        var newId = newNumber;
+
+        if (parseInt(oldId) !== newId) {
+
+            itemElement.id = 'item-' + newId;
+
+            var numberElement = itemElement.querySelector('.metrekup-item-number');
+            if (numberElement) {
+                numberElement.textContent = newId;
+            }
+
+            var titleElement = itemElement.querySelector('.metrekup-item-title');
+            if (titleElement) {
+                titleElement.textContent = '{{itemTitle}} ' + newId;
+            }
+
+            var lengthInput = itemElement.querySelector('#length-' + oldId);
+            if (lengthInput) {
+                lengthInput.id = 'length-' + newId;
+                lengthInput.setAttribute('oninput', 'calculateItem(' + newId + ')');
+            }
+            
+            var widthInput = itemElement.querySelector('#width-' + oldId);
+            if (widthInput) {
+                widthInput.id = 'width-' + newId;
+                widthInput.setAttribute('oninput', 'calculateItem(' + newId + ')');
+            }
+            
+            var heightInput = itemElement.querySelector('#height-' + oldId);
+            if (heightInput) {
+                heightInput.id = 'height-' + newId;
+                heightInput.setAttribute('oninput', 'calculateItem(' + newId + ')');
+            }
+            
+            var quantityInput = itemElement.querySelector('#quantity-' + oldId);
+            if (quantityInput) {
+                quantityInput.id = 'quantity-' + newId;
+                quantityInput.setAttribute('oninput', 'calculateItem(' + newId + ')');
+            }
+            
+            var weightInput = itemElement.querySelector('#weight-' + oldId);
+            if (weightInput) {
+                weightInput.id = 'weight-' + newId;
+                weightInput.setAttribute('oninput', 'calculateItem(' + newId + ')');
+            }
+
+            var volumeElement = itemElement.querySelector('#item-volume-' + oldId);
+            if (volumeElement) {
+                volumeElement.id = 'item-volume-' + newId;
+            }
+
+            var removeButton = itemElement.querySelector('.metrekup-btn-remove');
+            if (removeButton) {
+                removeButton.setAttribute('onclick', 'removeItem(' + newId + ')');
+            } else if (newId > 3) {
+
+                var headerElement = itemElement.querySelector('.metrekup-item-header');
+                if (headerElement) {
+                    var newRemoveButton = '<button onclick="removeItem(' + newId + ')" class="metrekup-btn-remove">×</button>';
+                    var titleDiv = headerElement.querySelector('div');
+                    if (titleDiv && titleDiv.nextSibling) {
+                        titleDiv.parentNode.insertAdjacentHTML('beforeend', newRemoveButton);
+                    } else {
+                        headerElement.insertAdjacentHTML('beforeend', newRemoveButton);
+                    }
+                }
+            }
+
+            var itemIndex = items.findIndex(function(item) {
+                return item.id === parseInt(oldId);
+            });
+            if (itemIndex !== -1) {
+
+                var lengthValue = lengthInput ? parseFloat(lengthInput.value) || 0 : 0;
+                var widthValue = widthInput ? parseFloat(widthInput.value) || 0 : 0;
+                var heightValue = heightInput ? parseFloat(heightInput.value) || 0 : 0;
+                var quantityValue = quantityInput ? parseInt(quantityInput.value) || 1 : 1;
+                var weightValue = weightInput ? parseFloat(weightInput.value) || 0 : 0;
+
+                var singleVolume = (lengthValue * widthValue * heightValue) / 1000000;
+                var totalVolume = singleVolume * quantityValue;
+                var totalWeight = weightValue * quantityValue;
+
+                items[itemIndex] = {
+                    id: newId,
+                    quantity: quantityValue,
+                    length: lengthValue,
+                    width: widthValue,
+                    height: heightValue,
+                    weight: totalWeight,
+                    singleWeight: weightValue,
+                    volume: totalVolume,
+                    singleVolume: singleVolume
+                };
+
+                if (volumeElement) {
+                    volumeElement.textContent = totalVolume.toFixed(2);
+                }
+            }
+        } else {
+
+            var removeButton = itemElement.querySelector('.metrekup-btn-remove');
+            if (newId <= 3 && removeButton) {
+                removeButton.remove();
+            } else if (newId > 3 && !removeButton) {
+                var headerElement = itemElement.querySelector('.metrekup-item-header');
+                if (headerElement) {
+                    var newRemoveButton = '<button onclick="removeItem(' + newId + ')" class="metrekup-btn-remove">×</button>';
+                    headerElement.insertAdjacentHTML('beforeend', newRemoveButton);
+                }
+            }
+        }
+    }
+}
+
+function calculateItem(itemId) {
+    var quantityInput = document.getElementById('quantity-' + itemId);
+    var lengthInput = document.getElementById('length-' + itemId);
+    var widthInput = document.getElementById('width-' + itemId);
+    var heightInput = document.getElementById('height-' + itemId);
+    var weightInput = document.getElementById('weight-' + itemId);
+    
+    if (!quantityInput || !lengthInput || !widthInput || !heightInput || !weightInput) {
+        return;
+    }
+    
+    var quantity = parseInt(quantityInput.value) || 1;
+    var length = parseFloat(lengthInput.value) || 0;
+    var width = parseFloat(widthInput.value) || 0;
+    var height = parseFloat(heightInput.value) || 0;
+    var weight = parseFloat(weightInput.value) || 0;
+
+    var singleVolume = (length * width * height) / 1000000;
+    var totalVolume = singleVolume * quantity;
+    var totalWeight = weight * quantity;
+
+    var itemIndex = items.findIndex(function(item) {
+        return item.id === itemId;
+    });
+    if (itemIndex !== -1) {
+        items[itemIndex] = {
+            id: itemId,
+            quantity: quantity,
+            length: length,
+            width: width,
+            height: height,
+            weight: totalWeight,
+            singleWeight: weight,
+            volume: totalVolume,
+            singleVolume: singleVolume
+        };
+    } else {
+        items.push({
+            id: itemId,
+            quantity: quantity,
+            length: length,
+            width: width,
+            height: height,
+            weight: totalWeight,
+            singleWeight: weight,
+            volume: totalVolume,
+            singleVolume: singleVolume
+        });
+    }
+
+    updateItemVolume(itemId, totalVolume);
+    
+    updateTotals();
+}
+
+function updateItemVolume(itemId, volume) {
+    var volumeElement = document.getElementById('item-volume-' + itemId);
+    if (volumeElement) {
+        volumeElement.textContent = volume.toFixed(2);
+    }
+}
+
+function updateTotals() {
+    var totalVolumeElement = document.getElementById('total-volume');
+    var totalWeightElement = document.getElementById('total-weight');
+    
+    if (!totalVolumeElement || !totalWeightElement) {
+        return;
+    }
+    
+    var totalVolume = items.reduce(function(sum, item) {
+        return sum + (item.volume || 0);
+    }, 0);
+    var totalWeight = items.reduce(function(sum, item) {
+        return sum + (item.weight || 0);
+    }, 0);
+    
+    totalVolumeElement.textContent = totalVolume.toFixed(2);
+    totalWeightElement.textContent = totalWeight.toFixed(2);
+}
+
+function clearAll() {
+
+    items.forEach(function(item) {
+        var quantityInput = document.getElementById('quantity-' + item.id);
+        var lengthInput = document.getElementById('length-' + item.id);
+        var widthInput = document.getElementById('width-' + item.id);
+        var heightInput = document.getElementById('height-' + item.id);
+        var weightInput = document.getElementById('weight-' + item.id);
+        
+        if (quantityInput) quantityInput.value = '1';
+        if (lengthInput) lengthInput.value = '';
+        if (widthInput) widthInput.value = '';
+        if (heightInput) heightInput.value = '';
+        if (weightInput) weightInput.value = '';
+    });
+
+    items = items.map(function(item) {
+
+        updateItemVolume(item.id, 0);
+        
+        return {
+            id: item.id,
+            quantity: 1,
+            length: 0,
+            width: 0,
+            height: 0,
+            weight: 0,
+            singleWeight: 0,
+            volume: 0,
+            singleVolume: 0
+        };
+    });
+    
+    updateTotals();
+}
+
+console.log('Metreküp hesaplama modülü yüklendi');
+</script>
+
+<style>
+
+    .module-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        background-color: #006B65;
+        width: 100%;
+        padding: 10px 0px 10px 0px;
+    }
+.metrekup-container {
+    background: linear-gradient(135deg, var(--bgcolor--) 0%, #ffffff 100%);
+    border-radius: var(--border_radius--);
+    box-shadow: var(--card_shadow--);
+    padding: 0;
+    max-width: var(--max);
+    overflow: hidden;
+}
+
+
+.metrekup-body {
+    color: var(--color--);
+}
+
+.metrekup-main-container {
+    background: white;
+    border-radius: 20px;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+    overflow: hidden;
+    border: 1px solid #f0f0f0;
+}
+
+.metrekup-list-header {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 25px 30px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.metrekup-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.metrekup-list-title {
+    color: #2c3e50;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+}
+
+.metrekup-list-subtitle {
+    color: #6c757d;
+    font-size: 14px;
+    margin: 0;
+}
+
+.metrekup-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .metrekup-container {
+       width: 95%;
+       background-color: #006B65 !important;
+    }
+    .metrekup-list-header {
+        padding: 15px 15px;
+    }
+    
+    .metrekup-header-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .metrekup-buttons {
+        width: 100%;
+        justify-content: space-between;
+        gap: 8px;
+    }
+    
+    .metrekup-btn-add,
+    .metrekup-btn-clear {
+        flex: 1;
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+    
+    .metrekup-list-title {
+        font-size: 18px;
+    }
+    
+    .metrekup-list-subtitle {
+        font-size: 13px;
+    }
+}
+
+.metrekup-btn-add {
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.metrekup-btn-add:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
+}
+
+.metrekup-btn-clear {
+    background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(220, 53, 69, 0.3);
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.metrekup-btn-clear:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(220, 53, 69, 0.4);
+}
+
+.metrekup-items-grid {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+    .metrekup-items-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .metrekup-items-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .metrekup-items-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.metrekup-item-card {
+    background: white;
+    border: 2px solid #f0f0f0;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+    min-width: 0;
+}
+
+.metrekup-item-card:hover {
+    border-color: #006B65;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+}
+
+.metrekup-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.metrekup-item-title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.metrekup-item-number {
+    width: 40px;
+    height: 40px;
+    background-color: #cedc00;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.metrekup-item-title {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.metrekup-btn-remove {
+    background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(220, 53, 69, 0.3);
+    transition: all 0.3s ease;
+}
+
+.metrekup-btn-remove:hover {
+    transform: scale(1.1);
+}
+
+.metrekup-inputs-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    .metrekup-inputs-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .metrekup-inputs-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.metrekup-input-group {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.metrekup-input-label {
+    font-size: 12px;
+    color: #6c757d;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+    font-size: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2;
+}
+
+.metrekup-input {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #e9ecef;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    background: #fafafa;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.metrekup-input:focus {
+    border-color: #006B65;
+    background: white;
+    box-shadow: 0 0 0 3px rgba(0,123,255,0.1);
+    outline: none;
+}
+
+.metrekup-weight-group {
+    grid-column: span 1;
+}
+
+.metrekup-volume-group {
+    grid-column: span 1;
+}
+
+.metrekup-volume-display {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #e9ecef;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    background: #f8f9fa;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    min-height: 34px;
+}
+
+.metrekup-volume-display span:first-child {
+    font-size: 16px;
+    font-weight: 700;
+    color: #006B65;
+}
+
+.metrekup-volume-unit {
+    font-size: 12px;
+    color: #6c757d;
+    font-weight: 600;
+}
+
+.metrekup-bottom-section {
+    display: block;
+    border-top: 1px solid #dee2e6;
+}
+
+.metrekup-results-section {
+    background-color: #cedc00;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.metrekup-results-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="2" fill="white" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23dots)"/></svg>');
+    opacity: 0.3;
+
+}
+
+.metrekup-results-content {
+    position: relative;
+    z-index: 2;
+}
+
+.metrekup-results-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+    color: #2c3e50;
+}
+
+.metrekup-results-subtitle {
+    opacity: 0.9;
+    font-size: 12px;
+    margin: 0;
+}
+
+
+
+.metrekup-results-header {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.metrekup-results-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.metrekup-result-card {
+    background: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: 3px solid rgba(255,255,255,0.3);
+    width: 100%;
+    box-sizing: border-box;
+    min-width: 0;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    overflow: hidden;
+}
+
+.metrekup-result-icon {
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.metrekup-result-label {
+    font-size: 12px;
+    color: #6c757d;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    overflow: hidden;
+    flex: 0 1 auto;
+    text-align: left;
+    white-space: nowrap;
+    min-width: 0;
+    max-width: 100%;
+    text-overflow: ellipsis;
+}
+
+.metrekup-result-value {
+    font-size: 20px;
+    font-weight: 700;
+    color: #006B65;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.metrekup-result-unit {
+    font-size: 14px;
+    color: #6c757d;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .metrekup-results-section {
+        padding: 15px 10px;
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .metrekup-results-header {
+        margin-bottom: 15px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .metrekup-results-title {
+        font-size: 18px;
+    }
+    
+    .metrekup-results-subtitle {
+        font-size: 11px;
+    }
+    
+    .metrekup-results-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        width: 100%;
+    }
+    
+    .metrekup-result-card {
+        padding: 12px;
+        border-radius: 12px;
+        gap: 10px;
+    }
+    
+    .metrekup-result-icon {
+        font-size: 20px;
+    }
+    
+    .metrekup-result-label {
+        font-size: 11px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        flex: 0 1 auto;
+    }
+    
+    .metrekup-result-value {
+        font-size: 18px;
+    }
+    
+    .metrekup-result-unit {
+        font-size: 12px;
+    }
+}
+</style>
+

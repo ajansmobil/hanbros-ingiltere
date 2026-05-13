@@ -1,6 +1,6 @@
 {
   "name": {
-    "tr": "Müşteri Hizmetleri",
+    "tr": "Customer Service",
     "en": "Customer Service"
   },
   "status": "play",
@@ -12,21 +12,21 @@
   "icon": "home",
   "desc": {},
   "description": {
-    "tr": "Gönderi durumu, belge ve hasar süreçlerinde destek.",
+    "tr": "Support for status, documents and claims.",
     "en": "Support for status, documents and claims."
   },
   "keyword": {
-    "tr": "musteri hizmetleri hanbros UK",
+    "tr": "customer service hanbros uk",
     "en": "customer service hanbros uk"
   },
   "text": {
-    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>Resmi iletişim: info@hanbroscargo.co.uk · Gönderi numaranızı paylaşın.</p>",
+    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Official contact: info@hanbroscargo.co.uk · Please share your shipment reference.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Official contact: info@hanbroscargo.co.uk · Please share your shipment reference.</p>"
   },
   "update": "2026-05-08T05:40:46.614Z",
   "date": "2026-05-08T05:18:35.714Z",
   "title": {
-    "tr": "Müşteri Hizmetleri",
+    "tr": "Customer Service",
     "en": "Customer Service"
   },
   "desing": {

@@ -1,6 +1,6 @@
 {
   "name": {
-    "tr": "İngiltere'den Türkiye'ye Araç Gönderimi",
+    "tr": "UK to Turkey Vehicle Shipping",
     "en": "UK to Turkey Vehicle Shipping"
   },
   "status": "play",
@@ -18,22 +18,22 @@
   "icon": "home",
   "img": "logo.png",
   "description": {
-    "tr": "Otomobil ve motosiklet için ro-ro/konteyner seçenekleri; belge ve sigorta planı.",
+    "tr": "RoRo/container options for cars and motorcycles with document and insurance planning.",
     "en": "RoRo/container options for cars and motorcycles with document and insurance planning."
   },
   "desc": {},
   "keyword": {
-    "tr": "ingiltereden turkiyeye arac gonderimi, V5C, ro ro arac tasima",
+    "tr": "ship car uk to turkey, V5C export, roro vehicle shipping",
     "en": "ship car uk to turkey, V5C export, roro vehicle shipping"
   },
   "text": {
-    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>Araç taşımada model yılı, modifikasyon ve LPG gibi değişkenler gümrük sınıfını etkiler. Tescil ve muayene süreçleri için ön danışmanlık önerilir.</p>",
+    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Model year, modifications and LPG may affect customs classification. Early guidance on registration steps in Turkey is recommended.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Model year, modifications and LPG may affect customs classification. Early guidance on registration steps in Turkey is recommended.</p>"
   },
   "update": "2026-05-08T05:40:46.520Z",
   "date": "2026-05-08T05:18:35.624Z",
   "title": {
-    "tr": "İngiltere'den Türkiye'ye Araç Gönderimi",
+    "tr": "UK to Turkey Vehicle Shipping",
     "en": "UK to Turkey Vehicle Shipping"
   }
 }

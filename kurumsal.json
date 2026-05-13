@@ -1,11 +1,11 @@
 {
-  "name": "Kurumsal",
+  "name": "Corporate",
   "path": "kurumsal",
   "desc": [],
   "data": [
     {
       "name": {
-        "tr": "Hakkımızda",
+        "tr": "About Us",
         "en": "About Us"
       },
       "status": "play",
@@ -20,7 +20,7 @@
       "index": 0,
       "icon": "home",
       "description": {
-        "tr": "Hanbros İngiltere; Birleşik Krallık çıkışlı UK→Türkiye ev eşyası, kargo, araç ve ticari lojistikte uzmanlaşmış markadır. hanbroscargo.co.uk sitesi bu güzergâha özel içerik ve teklif kanallarını sunar (Türkiye çıkışlı operasyonlar Han Bros Cargo / hanbroscargo.com ile ayrışır).",
+        "tr": "Hanbros UK specialises in UK-origin moves and freight to Turkey: household goods, cargo, vehicles and B2B logistics. This site (hanbroscargo.co.uk) is dedicated to the UK→Turkey lane and is distinct from Turkey-origin services marketed on hanbroscargo.com.",
         "en": "Hanbros UK specialises in UK-origin moves and freight to Turkey: household goods, cargo, vehicles and B2B logistics. This site (hanbroscargo.co.uk) is dedicated to the UK→Turkey lane and is distinct from Turkey-origin services marketed on hanbroscargo.com."
       },
       "img": "logo.png",
@@ -29,7 +29,7 @@
     },
     {
       "name": {
-        "tr": "Misyon",
+        "tr": "Mission",
         "en": "Mission"
       },
       "status": "play",
@@ -44,7 +44,7 @@
       "index": 1,
       "icon": "home",
       "description": {
-        "tr": "Şeffaf fiyatlandırma, doğru belge yönetimi ve zamanında teslimat ile İngiltere'den Türkiye'ye taşımayı güvenilir ve öngörülebilir kılmak.",
+        "tr": "Make UK-to-Turkey shipping predictable through transparent pricing, correct documentation and on-time delivery.",
         "en": "Make UK-to-Turkey shipping predictable through transparent pricing, correct documentation and on-time delivery."
       },
       "img": "logo.png",
@@ -53,7 +53,7 @@
     },
     {
       "name": {
-        "tr": "Vizyon",
+        "tr": "Vision",
         "en": "Vision"
       },
       "status": "play",
@@ -68,7 +68,7 @@
       "index": 2,
       "icon": "home",
       "description": {
-        "tr": "UK→Türkiye koridorunda müşteri deneyimini dijital takip, esnek depolama ve gümrük danışmanlığı ile bölgesel referans seviyesine taşımak.",
+        "tr": "Lead the UK→Turkey corridor on customer experience with digital tracking, flexible storage and customs advisory at a regional reference standard.",
         "en": "Lead the UK→Turkey corridor on customer experience with digital tracking, flexible storage and customs advisory at a regional reference standard."
       },
       "img": "logo.png",
@@ -77,7 +77,7 @@
     },
     {
       "name": {
-        "tr": "Kalite Politikamız",
+        "tr": "Quality Policy",
         "en": "Quality Policy"
       },
       "status": "play",
@@ -92,7 +92,7 @@
       "index": 3,
       "icon": "home",
       "description": {
-        "tr": "Paketleme standartları, hasar önleme kontrolleri ve müşteri geri bildirim döngüsü ile sürekli iyileştirme; her gönderide ölçülebilir hizmet kalitesi.",
+        "tr": "Continuous improvement through packing standards, damage-prevention checks and customer feedback loops; measurable service quality on every shipment.",
         "en": "Continuous improvement through packing standards, damage-prevention checks and customer feedback loops; measurable service quality on every shipment."
       },
       "img": "logo.png",
@@ -101,7 +101,7 @@
     },
     {
       "name": {
-        "tr": "Gizlilik Politikası",
+        "tr": "Privacy Policy",
         "en": "Privacy Policy"
       },
       "status": "play",
@@ -116,14 +116,14 @@
       "index": 4,
       "icon": "home",
       "description": {
-        "tr": "Kişisel verilerin işlenme amaçları, saklama süreleri, çerezler ve üçüncü taraflarla paylaşım ilkeleri. UK GDPR ve Türkiye KVKK çerçevesinde aydınlatma metni detayları sayfada yer alır.",
+        "tr": "Purposes of processing, retention, cookies and sharing principles. Detailed notices aligned with UK GDPR and Turkey KVKK are provided on the page.",
         "en": "Purposes of processing, retention, cookies and sharing principles. Detailed notices aligned with UK GDPR and Turkey KVKK are provided on the page."
       },
       "pathnext": ""
     },
     {
       "name": {
-        "tr": "Kişisel Veriler",
+        "tr": "Personal Data",
         "en": "Personal Data"
       },
       "status": "play",
@@ -138,14 +138,14 @@
       "index": 5,
       "icon": "home",
       "description": {
-        "tr": "Veri sorumlusu bilgileri, işlenen veri kategorileri ve başvuru kanalları. Taşımacılık sözleşmesi kapsamında zorunlu veri alanları açıklanır.",
+        "tr": "Controller details, categories of data processed and complaint channels. Mandatory data fields for transport contracts are explained.",
         "en": "Controller details, categories of data processed and complaint channels. Mandatory data fields for transport contracts are explained."
       },
       "pathnext": ""
     },
     {
       "name": {
-        "tr": "Kullanıcı Hakları",
+        "tr": "User Rights",
         "en": "User Rights"
       },
       "status": "play",
@@ -160,14 +160,14 @@
       "index": 6,
       "icon": "home",
       "description": {
-        "tr": "Erişim, düzeltme, silme, itiraz ve veri taşınabilirliği haklarının kullanımı. Başvuru yöntemleri ve yanıt süreleri.",
+        "tr": "How to exercise access, rectification, erasure, objection and portability rights, including response timelines.",
         "en": "How to exercise access, rectification, erasure, objection and portability rights, including response timelines."
       },
       "pathnext": ""
     },
     {
       "name": {
-        "tr": "Yasal Uyarı",
+        "tr": "Legal Notice",
         "en": "Legal Notice"
       },
       "status": "play",
@@ -182,7 +182,7 @@
       "index": 7,
       "icon": "home",
       "description": {
-        "tr": "Site içeriğinin bilgilendirme amaçlı olduğu, gümrük ve vergi uygulamalarının resmi mevzuata tabi olduğu ve nihai kararların yetkili kurumlara ait olduğu hususlarında yasal sorumluluk sınırları.",
+        "tr": "Disclaimer scope: informational web content, dependence on official customs/tax rules, and limits of liability regarding regulatory decisions.",
         "en": "Disclaimer scope: informational web content, dependence on official customs/tax rules, and limits of liability regarding regulatory decisions."
       },
       "pathnext": ""
@@ -192,7 +192,7 @@
   "desing": {
     "header": [],
     "body": [
-      "tp5jo4"
+      "my2y3e"
     ],
     "footer": []
   }

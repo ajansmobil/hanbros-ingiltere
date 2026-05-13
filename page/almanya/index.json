@@ -1,10 +1,10 @@
 {
   "name": {
-    "tr": "Almanya",
+    "tr": "Germany",
     "en": "Germany"
   },
   "status": "play",
-  "category": "Avrupa Ülkeleri",
+  "category": "European countries",
   "id": "almanya",
   "url": "",
   "path": "almanya",
@@ -18,22 +18,22 @@
   "pathnext": "",
   "img": "logo.png",
   "description": {
-    "tr": "Almanya çıkışlı yüklerde UK konsolidasyon veya doğrudan hat alternatifleri.",
+    "tr": "Germany-origin cargo via UK consolidation or direct strings.",
     "en": "Germany-origin cargo via UK consolidation or direct strings."
   },
   "desc": {},
   "keyword": {
-    "tr": "almanya UK hub turkiye besleme",
+    "tr": "germany feeder uk hub turkey",
     "en": "germany feeder uk hub turkey"
   },
   "text": {
-    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>Bu site UK→TR sözleşmesini öne çıkarır; Almanya çıkışı için güzergâh birleştirme teklifte netleştirilir.</p>",
+    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>This site foregrounds UK→TR contracting; Germany-origin routing is clarified per quote.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>This site foregrounds UK→TR contracting; Germany-origin routing is clarified per quote.</p>"
   },
   "update": "2026-05-08T05:40:46.629Z",
   "date": "2026-05-08T05:18:35.730Z",
   "title": {
-    "tr": "Almanya",
+    "tr": "Germany",
     "en": "Germany"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": {
-    "tr": "İngiltere'den Türkiye'ye Depolama Hizmeti",
+    "tr": "UK to Turkey Storage Service",
     "en": "UK to Turkey Storage Service"
   },
   "status": "play",
@@ -18,22 +18,22 @@
   "pathnext": "",
   "img": "logo.png",
   "description": {
-    "tr": "UK çıkış öncesi veya TR teslim öncesi ara depolama ve envanter yönetimi.",
+    "tr": "Interim storage in the UK or inventory staging before final delivery in Turkey.",
     "en": "Interim storage in the UK or inventory staging before final delivery in Turkey."
   },
   "desc": {},
   "keyword": {
-    "tr": "ingiltere depolama UK, turkiye teslim oncesi stok",
+    "tr": "uk storage before turkey move, bonded storage",
     "en": "uk storage before turkey move, bonded storage"
   },
   "text": {
-    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>Depoda kalış süresi gümrük ve sigorta koşullarını etkiler. Klimatik ihtiyaçlar mobilya ve elektronik için ayrı değerlendirilir.</p>",
+    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Dwell time affects insurance and customs posture. Climate needs are assessed for furniture and electronics.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Dwell time affects insurance and customs posture. Climate needs are assessed for furniture and electronics.</p>"
   },
   "update": "2026-05-08T05:40:46.535Z",
   "date": "2026-05-08T05:18:35.640Z",
   "title": {
-    "tr": "İngiltere'den Türkiye'ye Depolama Hizmeti",
+    "tr": "UK to Turkey Storage Service",
     "en": "UK to Turkey Storage Service"
   }
 }

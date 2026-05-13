@@ -1,6 +1,6 @@
 {
   "name": {
-    "tr": "Online Teklif Formu",
+    "tr": "Online Quote Form",
     "en": "Online Quote Form"
   },
   "status": "play",
@@ -12,21 +12,21 @@
   "icon": "home",
   "desc": {},
   "description": {
-    "tr": "UK posta kodu ve Türkiye teslim ili bilgisiyle hızlı ön teklif.",
+    "tr": "Fast indicative quotes with UK postcode and Turkey city.",
     "en": "Fast indicative quotes with UK postcode and Turkey city."
   },
   "keyword": {
-    "tr": "online teklif UK TR, fiyat talebi",
+    "tr": "online quote uk to turkey",
     "en": "online quote uk to turkey"
   },
   "text": {
-    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>Formda eşya türü, hacim ve tarih aralığı net ise dönüş süresi kısalır.</p>",
+    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Clear commodity, volume and date window shorten turnaround.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Clear commodity, volume and date window shorten turnaround.</p>"
   },
   "update": "2026-05-08T05:40:46.608Z",
   "date": "2026-05-08T05:18:35.709Z",
   "title": {
-    "tr": "Online Teklif Formu",
+    "tr": "Online Quote Form",
     "en": "Online Quote Form"
   },
   "desing": {

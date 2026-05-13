@@ -1,6 +1,6 @@
 {
   "name": {
-    "tr": "Yasal Uyarı",
+    "tr": "Legal Notice",
     "en": "Legal Notice"
   },
   "status": "play",
@@ -15,22 +15,22 @@
   "index": 7,
   "icon": "home",
   "description": {
-    "tr": "Site içeriği bilgilendirme amaçlıdır; resmi mercilerin kararları önceliklidir.",
+    "tr": "Site content is informational; official authorities prevail.",
     "en": "Site content is informational; official authorities prevail."
   },
   "pathnext": "",
   "keyword": {
-    "tr": "yasal uyari site, sorumluluk sinirlari",
+    "tr": "legal notice website disclaimer",
     "en": "legal notice website disclaimer"
   },
   "text": {
-    "tr": "<p>Gümrük tarifeleri ve vergi uygulamaları değişebilir. Fiyat tahminleri bağlayıcı teklif değildir.</p>",
+    "tr": "<p>Customs tariffs and taxes may change. Estimates are not binding offers.</p>",
     "en": "<p>Customs tariffs and taxes may change. Estimates are not binding offers.</p>"
   },
   "update": "2026-05-08T05:40:46.593Z",
   "date": "2026-05-08T05:40:45.268Z",
   "title": {
-    "tr": "Yasal Uyarı | Hanbros İngiltere",
+    "tr": "Legal Notice | Hanbros UK",
     "en": "Legal Notice | Hanbros UK"
   },
   "img": "logo.png"

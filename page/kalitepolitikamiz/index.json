@@ -1,6 +1,6 @@
 {
   "name": {
-    "tr": "Kalite Politikamız",
+    "tr": "Quality Policy",
     "en": "Quality Policy"
   },
   "status": "play",
@@ -15,24 +15,24 @@
   "index": 3,
   "icon": "home",
   "description": {
-    "tr": "Paketleme standartları, kontrol listeleri ve geri bildirim ile sürekli iyileştirme.",
+    "tr": "Packing standards, checklists and continuous improvement through feedback.",
     "en": "Packing standards, checklists and continuous improvement through feedback."
   },
   "img": "logo.png",
   "url": "",
   "pathnext": "gizlilikpolitikasi",
   "keyword": {
-    "tr": "kalite politika tasima, hasar onleme, ambalaj standardi",
+    "tr": "quality policy moving, damage prevention",
     "en": "quality policy moving, damage prevention"
   },
   "text": {
-    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><ul><li>Ölçüm ve fotoğraflı yükleme tutanakları</li><li>Kırılgan eşya için çift kat ambalaj rehberi</li><li>Teslimatta tutarlı hasar bildirim süreci</li></ul>",
+    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><ul><li>Measured loads with photographic handover notes</li><li>Fragile goods double-pack guide</li><li>Consistent incident reporting at delivery</li></ul>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><ul><li>Measured loads with photographic handover notes</li><li>Fragile goods double-pack guide</li><li>Consistent incident reporting at delivery</li></ul>"
   },
   "update": "2026-05-08T05:40:46.570Z",
   "date": "2026-05-08T05:40:45.244Z",
   "title": {
-    "tr": "Kalite Politikası | Hanbros İngiltere",
+    "tr": "Quality Policy | Hanbros UK",
     "en": "Quality Policy | Hanbros UK"
   }
 }

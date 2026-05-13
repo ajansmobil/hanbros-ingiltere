@@ -1,6 +1,6 @@
 {
   "name": {
-    "tr": "İngiltere'den Türkiye'ye Ticari Eşya Taşımacılığı",
+    "tr": "UK to Turkey Commercial Goods Shipping",
     "en": "UK to Turkey Commercial Goods Shipping"
   },
   "status": "play",
@@ -18,22 +18,22 @@
   "pathnext": "",
   "img": "logo.png",
   "description": {
-    "tr": "Palet, parsiyel ve proje yüklerinde fatura, menşe ve gümrük sınıflandırması ile uyumlu sevkiyat.",
+    "tr": "Pallet, LTL and project freight aligned with invoices, origin and HS classification.",
     "en": "Pallet, LTL and project freight aligned with invoices, origin and HS classification."
   },
   "desc": {},
   "keyword": {
-    "tr": "ingiltereden turkiyeye ticari yuk, B2B lojistik UK TR",
+    "tr": "uk to turkey commercial freight, b2b logistics",
     "en": "uk to turkey commercial freight, b2b logistics"
   },
   "text": {
-    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>İhracatçı/ithalatçı rollerine göre Incoterms seçimi ve teslim şekli fiyatı belirler. Düzenli seferlerde kapasite rezervasyonu maliyeti düşürür.</p>",
+    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Incoterms drive cost and risk allocation. Standing allocations can reduce lane cost for recurring volumes.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Incoterms drive cost and risk allocation. Standing allocations can reduce lane cost for recurring volumes.</p>"
   },
   "update": "2026-05-08T05:40:46.525Z",
   "date": "2026-05-08T05:18:35.630Z",
   "title": {
-    "tr": "İngiltere'den Türkiye'ye Ticari Eşya Taşımacılığı",
+    "tr": "UK to Turkey Commercial Goods Shipping",
     "en": "UK to Turkey Commercial Goods Shipping"
   }
 }

@@ -1,13 +1,13 @@
 {
-  "name": "Hanbros İngiltere",
-  "short_name": "Hanbros İngi",
-  "description": "Hanbros İngiltere, İngiltere'den Türkiye'ye güvenli evden eve taşımacılık, uluslararası kargo, araç taşıma ve ticari lojistik hizmetleri sunan güvenilir bir nakliye firmasıdır.",
-  "start_url": "/tr/",
+  "name": "Hanbros UK",
+  "short_name": "Hanbros UK",
+  "description": "Hanbros UK is a reliable shipping company offering secure door-to-door moving from the UK to Turkey, international cargo, vehicle transport and commercial logistics services.",
+  "start_url": "/en/",
   "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#2196f3",
-  "lang": "tr",
+  "lang": "en",
   "icons": [
     {
       "src": "/img/icon.png",

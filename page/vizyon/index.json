@@ -1,6 +1,6 @@
 {
   "name": {
-    "tr": "Vizyon",
+    "tr": "Vision",
     "en": "Vision"
   },
   "status": "play",
@@ -15,24 +15,24 @@
   "index": 2,
   "icon": "home",
   "description": {
-    "tr": "UK→Türkiye koridorunda dijital takip, depolama ve gümrük danışmanlığı ile referans deneyim.",
+    "tr": "Reference experience on the UK→Turkey corridor with tracking, storage and customs advisory.",
     "en": "Reference experience on the UK→Turkey corridor with tracking, storage and customs advisory."
   },
   "img": "logo.png",
   "url": "",
   "pathnext": "kalitepolitikamiz",
   "keyword": {
-    "tr": "vizyon UK Turkiye koridor, dijital takip, depolama",
+    "tr": "vision uk turkey corridor, digital tracking",
     "en": "vision uk turkey corridor, digital tracking"
   },
   "text": {
-    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>Vizyonumuz; müşteri paneli, proaktif bildirimler ve saha geri bildirimleriyle uçtan uca görünür bir tedarik zinciri sunmaktır.</p>",
+    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>We aim for end-to-end visibility: customer notifications, proactive ops updates and tight field feedback loops.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>We aim for end-to-end visibility: customer notifications, proactive ops updates and tight field feedback loops.</p>"
   },
   "update": "2026-05-08T05:40:46.565Z",
   "date": "2026-05-08T05:40:45.238Z",
   "title": {
-    "tr": "Vizyon | Hanbros İngiltere",
+    "tr": "Vision | Hanbros UK",
     "en": "Vision | Hanbros UK"
   }
 }

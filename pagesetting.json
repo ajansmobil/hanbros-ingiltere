@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "name": "Sayfalar",
+      "name": "Pages",
       "path": "page",
       "desc": [],
       "data": [],
@@ -21,10 +21,10 @@
       "active": true,
       "activeicon": "pause",
       "activeclass": "buttonGreen",
-      "pageTypeBadge": "<span class=\"mx-badge-grey\" style=\"font-size:11px; padding:2px 8px;\">Statik</span>"
+      "pageTypeBadge": "<span class=\"mx-badge-grey\" style=\"font-size:11px; padding:2px 8px;\">Static</span>"
     },
     {
-      "name": "Hizmetlerimiz",
+      "name": "Our Services",
       "path": "hizmetler",
       "desc": [],
       "data": [],
@@ -32,8 +32,8 @@
       "desing": {
         "header": [],
         "body": [
-          "tp5jo4",
-          "fhxr98"
+          "my2y3e",
+          "johbrf"
         ],
         "footer": []
       },
@@ -46,10 +46,10 @@
       "active": true,
       "activeicon": "pause",
       "activeclass": "buttonGreen",
-      "pageTypeBadge": "<span class=\"mx-badge-grey\" style=\"font-size:11px; padding:2px 8px;\">Statik</span>"
+      "pageTypeBadge": "<span class=\"mx-badge-grey\" style=\"font-size:11px; padding:2px 8px;\">Static</span>"
     },
     {
-      "name": "Kurumsal",
+      "name": "Corporate",
       "path": "kurumsal",
       "desc": [],
       "data": [],
@@ -57,7 +57,7 @@
       "desing": {
         "header": [],
         "body": [
-          "tp5jo4"
+          "my2y3e"
         ],
         "footer": []
       },
@@ -69,10 +69,10 @@
       "active": true,
       "activeicon": "pause",
       "activeclass": "buttonGreen",
-      "pageTypeBadge": "<span class=\"mx-badge-purple\" style=\"font-size:11px; padding:2px 8px;\">Kurumsal</span>"
+      "pageTypeBadge": "<span class=\"mx-badge-purple\" style=\"font-size:11px; padding:2px 8px;\">Corporate</span>"
     },
     {
-      "name": "İletişim",
+      "name": "Contact",
       "path": "iletisim",
       "desc": [],
       "data": [],
@@ -80,13 +80,12 @@
       "desing": {
         "header": [],
         "body": [
-          "fhxr98",
-          "bi4hta"
+          "kizjvk"
         ],
         "footer": []
       },
       "modulestatus": {
-        "img": false,
+        "img": true,
         "bgimg": false,
         "detail": true,
         "body": true
@@ -94,10 +93,10 @@
       "active": true,
       "activeicon": "pause",
       "activeclass": "buttonGreen",
-      "pageTypeBadge": "<span class=\"mx-badge-grey\" style=\"font-size:11px; padding:2px 8px;\">Statik</span>"
+      "pageTypeBadge": "<span class=\"mx-badge-grey\" style=\"font-size:11px; padding:2px 8px;\">Static</span>"
     },
     {
-      "name": "Ülkeler",
+      "name": "Countries",
       "path": "ulkeler",
       "desc": [],
       "data": [],
@@ -105,7 +104,7 @@
       "desing": {
         "header": [],
         "body": [
-          "tp5jo4"
+          "my2y3e"
         ],
         "footer": []
       },
@@ -117,10 +116,10 @@
       "active": true,
       "activeicon": "pause",
       "activeclass": "buttonGreen",
-      "pageTypeBadge": "<span class=\"mx-badge-grey\" style=\"font-size:11px; padding:2px 8px;\">Statik</span>"
+      "pageTypeBadge": "<span class=\"mx-badge-grey\" style=\"font-size:11px; padding:2px 8px;\">Static</span>"
     },
     {
-      "name": "Bilgi Bankası",
+      "name": "Knowledge Base",
       "path": "bilgi-bankasi",
       "desc": [],
       "data": [],
@@ -128,13 +127,13 @@
       "desing": {
         "header": [],
         "body": [
-          "tp5jo4",
-          "fhxr98"
+          "kyqg9u",
+          "johbrf"
         ],
         "footer": []
       },
       "modulestatus": {
-        "img": false,
+        "img": true,
         "bgimg": false,
         "detail": true,
         "spot": true
@@ -142,7 +141,7 @@
       "active": true,
       "activeicon": "pause",
       "activeclass": "buttonGreen",
-      "pageTypeBadge": "<span class=\"mx-badge-grey\" style=\"font-size:11px; padding:2px 8px;\">Statik</span>"
+      "pageTypeBadge": "<span class=\"mx-badge-grey\" style=\"font-size:11px; padding:2px 8px;\">Static</span>"
     }
   ]
 }

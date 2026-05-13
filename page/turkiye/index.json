@@ -1,10 +1,10 @@
 {
   "name": {
-    "tr": "Türkiye",
+    "tr": "Turkey",
     "en": "Turkey"
   },
   "status": "play",
-  "category": "Hizmet Bölgeleri",
+  "category": "Service regions",
   "id": "turkiye",
   "url": "",
   "path": "turkiye",
@@ -18,22 +18,22 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Türkiye içi dağıtım, gümrük ve teslimat randevusu.",
+    "tr": "Domestic distribution, customs and delivery appointments in Turkey.",
     "en": "Domestic distribution, customs and delivery appointments in Turkey."
   },
   "desc": {},
   "keyword": {
-    "tr": "turkiye teslim ilce, TR gumruk adres",
+    "tr": "turkey delivery customs address",
     "en": "turkey delivery customs address"
   },
   "text": {
-    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>Site içi vinç veya yük asansörü ihtiyacı önceden bildirilmelidir.</p>",
+    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Crane or lift access should be flagged early for heavy items.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Crane or lift access should be flagged early for heavy items.</p>"
   },
   "update": "2026-05-08T05:40:46.624Z",
   "date": "2026-05-08T05:18:35.725Z",
   "title": {
-    "tr": "Türkiye",
+    "tr": "Turkey",
     "en": "Turkey"
   }
 }

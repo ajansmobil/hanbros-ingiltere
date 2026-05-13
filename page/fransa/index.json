@@ -1,10 +1,10 @@
 {
   "name": {
-    "tr": "Fransa",
+    "tr": "France",
     "en": "France"
   },
   "status": "play",
-  "category": "Avrupa Ülkeleri",
+  "category": "European countries",
   "id": "fransa",
   "url": "",
   "path": "fransa",
@@ -18,22 +18,22 @@
   "pathnext": "",
   "img": "logo.png",
   "description": {
-    "tr": "Fransa çıkışlı yüklerde Kanal geçişi ve UK entegrasyonu.",
+    "tr": "Channel crossing and UK integration for France-origin loads.",
     "en": "Channel crossing and UK integration for France-origin loads."
   },
   "desc": {},
   "keyword": {
-    "tr": "fransa UK turkiye ro ro",
+    "tr": "france uk turkey roro",
     "en": "france uk turkey roro"
   },
   "text": {
-    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>Özel genişlik/yükseklik ölçüleri için rota izni ayrı planlanır.</p>",
+    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Out-of-gauge moves need permits planned separately.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Out-of-gauge moves need permits planned separately.</p>"
   },
   "update": "2026-05-08T05:40:46.643Z",
   "date": "2026-05-08T05:18:35.740Z",
   "title": {
-    "tr": "Fransa",
+    "tr": "France",
     "en": "France"
   }
 }

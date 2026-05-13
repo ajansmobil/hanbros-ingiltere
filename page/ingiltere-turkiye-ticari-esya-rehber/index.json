@@ -1,10 +1,10 @@
 {
   "name": {
-    "tr": "İngiltere'den Türkiye'ye Ticari Eşya Taşıma Rehberi",
+    "tr": "UK to Turkey Commercial Goods Shipping Guide",
     "en": "UK to Turkey Commercial Goods Shipping Guide"
   },
   "status": "play",
-  "category": "Ticari",
+  "category": "Commercial",
   "id": "ingiltere-turkiye-ticari-esya-rehber",
   "url": "",
   "path": "ingiltereden-turkiyeye-ticari-esya-tasima-rehberi",
@@ -17,23 +17,23 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "B2B sevkiyatlarda fatura, paketleme listesi ve gümrük kodları.",
+    "tr": "Invoices, packing lists and HS codes for B2B UK-TR shipments.",
     "en": "Invoices, packing lists and HS codes for B2B UK-TR shipments."
   },
   "icon": "home",
   "keyword": {
-    "tr": "ticari esya rehber UK TR, fatura menşe",
+    "tr": "commercial shipping guide uk turkey invoice origin",
     "en": "commercial shipping guide uk turkey invoice origin"
   },
   "update": "2026-05-08T05:40:46.692Z",
   "date": "2026-05-02T09:00:00.000Z",
   "title": {
-    "tr": "İngiltere'den Türkiye'ye Ticari Eşya Taşıma Rehberi",
+    "tr": "UK to Turkey Commercial Goods Shipping Guide",
     "en": "UK to Turkey Commercial Goods Shipping Guide"
   },
   "slider": [],
   "text": {
-    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>İade ve garanti yönetimi için seri numarası takibi önerilir. Anti-damping dosyaları belirli sektörlerde ek maliyet doğurabilir.</p>",
+    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Serial tracking helps warranty returns. Anti-dumping cases can add sector-specific costs.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Serial tracking helps warranty returns. Anti-dumping cases can add sector-specific costs.</p>"
   }
 }

@@ -1,11 +1,11 @@
 {
-  "name": "İletişim",
+  "name": "Contact",
   "path": "iletisim",
   "desc": [],
   "data": [
     {
       "name": {
-        "tr": "İngiltere Ofis",
+        "tr": "UK Office",
         "en": "UK Office"
       },
       "status": "play",
@@ -15,7 +15,7 @@
       "path": "ingiltere-ofis",
       "index": 0,
       "description": {
-        "tr": "Birleşik Krallık çıkışlı sevkiyatlarınız için operasyon ve müşteri iletişimi. UK adresinden yükleme planı, depo randevusu ve teslimat öncesi evrak kontrolü bu ofis üzerinden koordine edilir.",
+        "tr": "Operations and customer contact for UK-origin shipments. UK pickup scheduling, warehouse appointments and pre-departure paperwork checks are coordinated from this office.",
         "en": "Operations and customer contact for UK-origin shipments. UK pickup scheduling, warehouse appointments and pre-departure paperwork checks are coordinated from this office."
       },
       "desing": {
@@ -27,7 +27,7 @@
     },
     {
       "name": {
-        "tr": "Türkiye Ofis",
+        "tr": "Turkey Office",
         "en": "Turkey Office"
       },
       "status": "play",
@@ -38,7 +38,7 @@
       "index": 1,
       "icon": "home",
       "description": {
-        "tr": "Türkiye teslim ayağında gümrük, adres doğrulama ve son mil dağıtım koordinasyonu. İstanbul, Ankara, İzmir, Gaziantep ve diğer şehirlerde yerel saha desteği.",
+        "tr": "Turkey delivery leg: customs, address validation and last-mile coordination. Local field support across Istanbul, Ankara, Izmir, Gaziantep and other cities.",
         "en": "Turkey delivery leg: customs, address validation and last-mile coordination. Local field support across Istanbul, Ankara, Izmir, Gaziantep and other cities."
       },
       "desing": {
@@ -49,7 +49,7 @@
     },
     {
       "name": {
-        "tr": "Online Teklif Formu",
+        "tr": "Online Quote Form",
         "en": "Online Quote Form"
       },
       "status": "play",
@@ -60,7 +60,7 @@
       "index": 2,
       "icon": "home",
       "description": {
-        "tr": "UK posta kodu, Türkiye teslim ili/ilçesi, eşya türü ve hacim bilgilerinizi iletin; İngiltere'den Türkiye'ye hat için ayrıntılı fiyat aralığı ve süre tahmini alın.",
+        "tr": "Share your UK postcode, Turkey delivery city/district, commodity type and volume; receive a detailed price band and transit estimate for the UK-to-Turkey lane.",
         "en": "Share your UK postcode, Turkey delivery city/district, commodity type and volume; receive a detailed price band and transit estimate for the UK-to-Turkey lane."
       },
       "desing": {
@@ -71,7 +71,7 @@
     },
     {
       "name": {
-        "tr": "Müşteri Hizmetleri",
+        "tr": "Customer Service",
         "en": "Customer Service"
       },
       "status": "play",
@@ -82,7 +82,7 @@
       "index": 3,
       "icon": "home",
       "description": {
-        "tr": "Gönderi durumu, belge listesi ve sigorta seçenekleri hakkında hızlı yanıt. Resmi kanallar: hanbroscargo.co.uk domaini ve info@hanbroscargo.co.uk e-posta adresi.",
+        "tr": "Fast answers on shipment status, document packs and insurance options. Official channels: hanbroscargo.co.uk and info@hanbroscargo.co.uk.",
         "en": "Fast answers on shipment status, document packs and insurance options. Official channels: hanbroscargo.co.uk and info@hanbroscargo.co.uk."
       },
       "desing": {

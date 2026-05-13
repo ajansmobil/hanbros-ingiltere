@@ -1,10 +1,10 @@
 {
   "name": {
-    "tr": "İngiltere'den Türkiye'ye Ev Eşyası Taşıma Rehberi",
+    "tr": "UK to Turkey Household Goods Moving Guide",
     "en": "UK to Turkey Household Goods Moving Guide"
   },
   "status": "play",
-  "category": "Taşıma Rehberleri",
+  "category": "Moving guides",
   "id": "ingiltere-turkiye-ev-esyasi-rehber",
   "url": "",
   "path": "ingiltereden-turkiyeye-ev-esyasi-tasima-rehberi",
@@ -17,23 +17,23 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Ev eşyası taşımada belge, paketleme ve gümrük adımlarının kontrol listesi.",
+    "tr": "Checklist for documents, packing and customs on household moves.",
     "en": "Checklist for documents, packing and customs on household moves."
   },
   "icon": "home",
   "keyword": {
-    "tr": "ingiltere turkiye ev esyasi rehber, ToR1 turkiye",
+    "tr": "uk turkey household guide ToR1",
     "en": "uk turkey household guide ToR1"
   },
   "update": "2026-05-08T05:40:46.652Z",
   "date": "2026-05-02T09:00:00.000Z",
   "title": {
-    "tr": "İngiltere'den Türkiye'ye Ev Eşyası Taşıma Rehberi",
+    "tr": "UK to Turkey Household Goods Moving Guide",
     "en": "UK to Turkey Household Goods Moving Guide"
   },
   "slider": [],
   "text": {
-    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><h2>Belge hazırlığı</h2><p>Envanter, sigorta poliçesi ve taşıma sözleşmesi çıkış ülkesi gümrüğünde talep edilebilir. Türkiye tarafında ikamet ve muafiyet kapsamı soruları öne çıkar.</p>",
+    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><h2>Documents</h2><p>Inventory, insurance and carriage contracts may be requested at export. Turkey-side residency and relief questions are common.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><h2>Documents</h2><p>Inventory, insurance and carriage contracts may be requested at export. Turkey-side residency and relief questions are common.</p>"
   }
 }

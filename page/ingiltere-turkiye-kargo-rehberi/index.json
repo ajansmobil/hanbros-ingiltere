@@ -1,10 +1,10 @@
 {
   "name": {
-    "tr": "İngiltere'den Türkiye'ye Kargo Gönderimi Rehberi",
+    "tr": "UK to Turkey Cargo Shipping Guide",
     "en": "UK to Turkey Cargo Shipping Guide"
   },
   "status": "play",
-  "category": "Kargo",
+  "category": "Cargo",
   "id": "ingiltere-turkiye-kargo-rehberi",
   "url": "",
   "path": "ingiltereden-turkiyeye-kargo-gonderimi-rehberi",
@@ -17,23 +17,23 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Ağırlık/hacim, INCOTERMS ve gümrük masraflarının kargo fiyatına etkisi.",
+    "tr": "How weight/volume, Incoterms and duties affect UK-TR cargo pricing.",
     "en": "How weight/volume, Incoterms and duties affect UK-TR cargo pricing."
   },
   "icon": "home",
   "keyword": {
-    "tr": "kargo rehberi UK TR, parsiyel fiyat etkenleri",
+    "tr": "cargo guide uk turkey ltl pricing factors",
     "en": "cargo guide uk turkey ltl pricing factors"
   },
   "update": "2026-05-08T05:40:46.675Z",
   "date": "2026-05-02T09:00:00.000Z",
   "title": {
-    "tr": "İngiltere'den Türkiye'ye Kargo Gönderimi Rehberi",
+    "tr": "UK to Turkey Cargo Shipping Guide",
     "en": "UK to Turkey Cargo Shipping Guide"
   },
   "slider": [],
   "text": {
-    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>Tehlikeli madde sınıfları ve batarya etiketleri taşıyıcı kabulünü belirler. HS kodu ön sınıflandırması gümrük riskini azaltır.</p>",
+    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>DG classes and battery labels drive carrier acceptance. Preliminary HS coding reduces customs risk.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>DG classes and battery labels drive carrier acceptance. Preliminary HS coding reduces customs risk.</p>"
   }
 }

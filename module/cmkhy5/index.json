@@ -1,0 +1,50 @@
+{
+  "name": "Header contact strip",
+  "path": "menu-3",
+  "desing": {
+    "logo": "logo.svg",
+    "color": "#000",
+    "logosize": 300,
+    "logosizemobil": 200
+  },
+  "local": "header",
+  "data": [
+    {
+      "name": {
+        "tr": "Call us now",
+        "en": "Call us now"
+      },
+      "spot": "+90 850 800 2727",
+      "icon": "phone",
+      "externalUrl": "",
+      "titlecolor": "#000",
+      "spotcolor": "#000",
+      "iconcolor": "#000"
+    },
+    {
+      "name": {
+        "tr": "Write to us",
+        "en": "Write to us"
+      },
+      "spot": "info@{{domain}}",
+      "icon": "mail",
+      "url": "info@{{domain}}",
+      "titlecolor": "#000",
+      "spotcolor": "#000",
+      "iconcolor": "#000"
+    },
+    {
+      "name": {
+        "tr": "London office",
+        "en": "London office"
+      },
+      "spot": "Unit 7 Redburn Business Estate, Woodall Road, Enfield EN3 4LQ, UK",
+      "icon": "location_on",
+      "externalUrl": "",
+      "titlecolor": "#000",
+      "spotcolor": "#000",
+      "iconcolor": "#000"
+    }
+  ],
+  "category": "menu"
+}

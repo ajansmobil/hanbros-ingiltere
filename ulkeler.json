@@ -1,15 +1,15 @@
 {
-  "name": "Ülkeler",
+  "name": "Countries",
   "path": "ulkeler",
   "desc": [],
   "data": [
     {
       "name": {
-        "tr": "İngiltere",
+        "tr": "United Kingdom",
         "en": "United Kingdom"
       },
       "status": "play",
-      "category": "Hizmet Bölgeleri",
+      "category": "Service regions",
       "id": "ingiltere",
       "url": "",
       "path": "ingiltere",
@@ -23,17 +23,17 @@
       "pathnext": "",
       "icon": "home",
       "description": {
-        "tr": "Birleşik Krallık genelinde toplama: Londra, Manchester, Birmingham, Leeds, Glasgow ve tüm posta kodları. UK çıkışlı ev eşyası, kargo ve ticari yüklerin Türkiye teslim adresine güvenli sevkiyatı.",
+        "tr": "UK-wide collections across London, Manchester, Birmingham, Leeds, Glasgow and all postal areas. Secure movement of household goods, parcels and commercial freight from the UK to your address in Turkey.",
         "en": "UK-wide collections across London, Manchester, Birmingham, Leeds, Glasgow and all postal areas. Secure movement of household goods, parcels and commercial freight from the UK to your address in Turkey."
       }
     },
     {
       "name": {
-        "tr": "Türkiye",
+        "tr": "Turkey",
         "en": "Turkey"
       },
       "status": "play",
-      "category": "Hizmet Bölgeleri",
+      "category": "Service regions",
       "id": "turkiye",
       "url": "",
       "path": "turkiye",
@@ -47,17 +47,17 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Türkiye teslim noktaları: İstanbul, Ankara, İzmir, Gaziantep ve tüm illere kapıdan kapıya dağıtım. Gümrük muayenesi ve adres teyidi yerel ekip ile yürütülür.",
+        "tr": "Delivery points across Turkey with door-to-door distribution. Customs inspection and address confirmation handled with local teams.",
         "en": "Delivery points across Turkey with door-to-door distribution. Customs inspection and address confirmation handled with local teams."
       }
     },
     {
       "name": {
-        "tr": "Almanya",
+        "tr": "Germany",
         "en": "Germany"
       },
       "status": "play",
-      "category": "Avrupa Ülkeleri",
+      "category": "European countries",
       "id": "almanya",
       "url": "",
       "path": "almanya",
@@ -71,17 +71,17 @@
       "pathnext": "",
       "img": "logo.png",
       "description": {
-        "tr": "Almanya çıkışlı yüklerinizde birincil plan: İngiltere hub'ına sevk veya doğrudan ro-ro/kara kombinasyonları ile Türkiye'ye bağlantı. UK→TR ana sözleşme ve fiyatlandırma bu site kapsamındadır.",
+        "tr": "For Germany-origin loads, primary planning is consolidation via the UK hub or combined road/ro-ro links into Turkey. UK→TR contracting is in scope for this site.",
         "en": "For Germany-origin loads, primary planning is consolidation via the UK hub or combined road/ro-ro links into Turkey. UK→TR contracting is in scope for this site."
       }
     },
     {
       "name": {
-        "tr": "Hollanda",
+        "tr": "Netherlands",
         "en": "Netherlands"
       },
       "status": "play",
-      "category": "Avrupa Ülkeleri",
+      "category": "European countries",
       "id": "hollanda",
       "url": "",
       "path": "hollanda",
@@ -95,17 +95,17 @@
       "pathnext": "",
       "img": "logo.png",
       "description": {
-        "tr": "Rotterdam/Amsterdam çıkışlı parsiyellerde deniz + UK aktarma veya doğrudan hat seçenekleri. Gümrük ve sigorta senaryoları proje bazında netleştirilir.",
+        "tr": "Parcel and LTL options from Rotterdam/Amsterdam with sea plus UK transfer or direct strings. Customs and insurance scenarios are clarified per project.",
         "en": "Parcel and LTL options from Rotterdam/Amsterdam with sea plus UK transfer or direct strings. Customs and insurance scenarios are clarified per project."
       }
     },
     {
       "name": {
-        "tr": "Fransa",
+        "tr": "France",
         "en": "France"
       },
       "status": "play",
-      "category": "Avrupa Ülkeleri",
+      "category": "European countries",
       "id": "fransa",
       "url": "",
       "path": "fransa",
@@ -119,7 +119,7 @@
       "pathnext": "",
       "img": "logo.png",
       "description": {
-        "tr": "Fransa çıkışlı yüklerde Calais/Dover hattı veya doğrudan Ro-Ro planları. UK→TR ana marka mesajı ile uyumlu şekilde güzergâh optimizasyonu.",
+        "tr": "From France, Channel routing or direct Ro-Ro plans into Turkey, aligned with the UK→TR brand positioning of this property.",
         "en": "From France, Channel routing or direct Ro-Ro plans into Turkey, aligned with the UK→TR brand positioning of this property."
       }
     }

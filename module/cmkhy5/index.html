@@ -1,0 +1,1193 @@
+<header class="modulex" role="banner">
+
+  <div class="modulexbody">
+    <a href="/{{lang}}/" aria-label="{{web-name}} Ana Sayfa">
+      <img src="/img/{{logo}}?v={{random}}" class="module-logo" alt="{{web-name}} Logo" width="300" height="auto" />
+    </a>
+
+
+    <div class="lang_telif">
+      <nav class="modulextitlebodylang" aria-label="Dil seçimi">
+        {{langhtml}}
+      </nav>
+
+      <div class="header-actions">
+        <nav class="contact-buttons" aria-label="Hızlı erişim butonları">
+         
+         
+            
+          <a href="https://hanbros.poodify.com/" target="_blank" class="btn-track" title="{{gonder}} - {{trackPageTitle}}">
+            <i class="icon" aria-hidden="true"><img src="/img/cmkhy5/e-link.png" alt="{{elink}}" width="50" ></i>
+            <span>{{elink}}</span>
+          </a>
+
+         
+         
+          <a href="/{{lang}}/gonderi-takip/" class="btn-quote" title="{{gonder}} - {{trackPageTitle}}">
+            <i class="icon" aria-hidden="true">🚛</i>
+            <span>{{gonder}}</span>
+          </a>
+
+
+          <a href="/{{lang}}/teklif-al/" class="btn-quote" title="{{teklifal}} - {{quotePageTitle}}">
+            <i class="icon" aria-hidden="true">✏️</i>
+            <span>{{teklifal}}</span>
+          </a>
+        </nav>
+      </div>
+
+    </div>
+  </div>
+  <nav class="modulexmenubody" role="navigation" aria-label="Ana menü">
+    <div class="modulexmenu">
+      <button class="mobile-menu-toggle" aria-expanded="false" aria-label="Menüyü aç/kapat"
+        aria-controls="modulexmenulistbody">
+        <span class="mobile-menu-toggle-icon" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </button>
+      <div class="mobile-menu-overlay" id="mobile-menu-overlay" aria-hidden="true"></div>
+      <div class="modulexmenulistbody" id="modulexmenulistbody">
+        <button class="mobile-menu-close" type="button" aria-label="Menüyü kapat" aria-controls="modulexmenulistbody">
+          <span class="material-symbols-outlined" aria-hidden="true">close</span>
+        </button>
+        <div class="modulexmenulist">
+          {{html}}
+          <div class="mobile-lang-wrapper" role="navigation" aria-label="Mobil dil seçimi">{{langhtml}}</div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+
+<style>
+  
+  header.modulex {
+    --mx-teal: #006b65;
+    --mx-teal-deep: #063d3a;
+    --mx-teal-mid: #0a5c56;
+    --mx-lime: #cedc00;
+    --mx-lime-dim: rgba(206, 220, 0, 0.35);
+    --mx-lime-glow: rgba(206, 220, 0, 0.12);
+    --mx-on-dark: #e8f4ee;
+    --mx-dropdown-edge: rgba(206, 220, 0, 0.28);
+    --mx-dropdown-bg: linear-gradient(165deg, #0f6d66 0%, #0a524d 45%, #063d3a 100%);
+  }
+
+  .lang_telif {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: auto;
+    gap: 10px;
+  }
+
+
+  .wa-advanced {
+    position: fixed;
+    bottom: 80px !important;
+  }
+
+  
+  .modulexmenulist-menu:hover .dropdown-content-modulex,
+  .modulexmenulist-menu:focus-within .dropdown-content-modulex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+  .modulexmenulist-menu {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    color: #cedc00 !important;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .modulexmenulist-menu--hasdropdown {
+    flex-direction: column;
+    align-items: stretch;
+    white-space: normal;
+  }
+
+  .modulexmenulist-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    min-height: 44px;
+  }
+
+  .modulexmenulist-link {
+    display: block;
+    flex: 1;
+    min-width: 0;
+    color: #cedc00 !important;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .modulexmenulist-home {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #cedc00 !important;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  
+  .modulex-submenu-toggle {
+    display: none;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid var(--mx-lime-dim);
+    border-radius: 8px;
+    background: var(--mx-lime-glow);
+    color: var(--mx-lime);
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+  }
+
+  .modulex-submenu-toggle:hover {
+    background: rgba(206, 220, 0, 0.22);
+    border-color: var(--mx-lime);
+  }
+
+  .modulex-submenu-toggle:focus-visible {
+    outline: 2px solid var(--mx-lime);
+    outline-offset: 2px;
+  }
+
+  .modulex-submenu-chevron {
+    display: block;
+    width: 8px;
+    height: 8px;
+    margin-top: -3px;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(45deg);
+    transition: transform 0.25s ease;
+  }
+
+  .modulexmenulist-menu.is-submenu-open .modulex-submenu-chevron {
+    margin-top: 3px;
+    transform: rotate(225deg);
+  }
+
+  .modulexmenulist-menu:hover {
+    background-color: #cedc00;
+    border-radius: 5px;
+    color: #006b65 !important;
+    cursor: pointer;
+  }
+
+  .modulexmenulist-menu:hover .modulexmenulist-link,
+  .modulexmenulist-menu:hover .modulexmenulist-home {
+    color: #006b65 !important;
+  }
+
+  .dropdown-content-active-modulex {
+    background-color: #cedc00;
+    border-radius: 5px;
+    color: #006b65 !important;
+    cursor: pointer;
+  }
+
+  .dropdown-content-active-modulex .modulexmenulist-link {
+    color: #006b65 !important;
+  }
+
+  .dropdown-content-modulex {
+    display: none;
+    position: absolute;
+    background: var(--mx-dropdown-bg);
+    color: var(--mx-lime);
+    z-index: 102;
+    left: 0;
+    top: 100%;
+    margin-top: 0;
+    min-width: max(100%, 220px);
+    padding: 6px 4px 4px 4px;
+    border-radius: 10px;
+    border: 1px solid var(--mx-dropdown-edge);
+    box-shadow: 0 12px 28px rgba(5, 40, 38, 0.45), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  }
+
+  .dropdown-content-modulex > a {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 14px;
+    border: none;
+    border-bottom: 1px solid rgba(206, 220, 0, 0.12);
+    text-align: left;
+    color: var(--mx-on-dark) !important;
+    background: transparent;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.35;
+    cursor: pointer;
+    transition: background 0.18s ease, color 0.18s ease;
+  }
+
+  .dropdown-content-modulex > a:last-child {
+    border-bottom: none;
+  }
+
+  .dropdown-content-modulex > a:hover,
+  .dropdown-content-modulex > a:focus-visible {
+    background-color: var(--mx-teal-mid);
+    color: #ffffff !important;
+    outline: none;
+  }
+
+  .module-logo {
+    width: 300px;
+  }
+
+  .modulexbody {
+    width: var(--max);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  .modulexbody>a {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    gap: 10px;
+  }
+
+  .modulex-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #006b65;
+  }
+
+  .modulex-spot {
+    font-size: 16px;
+    color: #006b65;
+  }
+
+  .modulex-icon {
+    font-size: 36px !important;
+    color: #006b65;
+  }
+
+  .modulex {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modulextitle {
+    width: 100%;
+    background-color: #cedc00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .modulextitlebodylang {
+    width: auto;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .mobile-lang-wrapper {
+    display: none;
+  }
+
+
+  .mobile-menu-close {
+    display: none !important;
+  }
+
+  .modulexmenu {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: var(--max);
+  }
+
+  .modulexmenulist {
+    width: calc(100% - 20px);
+    background-color: var(--mx-teal);
+    border-radius: 8px;
+  }
+
+  .modulexmenubody {
+    width: 100%;
+    background-color: var(--mx-teal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modulexmenulist {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    
+  }
+
+  .modulexmenulistbody {
+    width: 100%;
+  }
+
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .contact-buttons {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .contact-buttons a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    position: relative;
+    overflow: hidden;
+    min-width: 140px;
+    justify-content: center;
+  }
+
+  .contact-buttons a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,
+        transparent,
+        rgba(255, 255, 255, 0.2),
+        transparent);
+    transition: left 0.5s;
+  }
+
+  .contact-buttons a:hover::before {
+    left: 100%;
+  }
+
+  
+  .btn-track {
+    cursor: pointer;
+    background: white;
+    color: #006b65;
+    border: 2px solid #006b65;
+  }
+
+  .btn-track:hover {
+    background: #cedc00;
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 8px 25px rgba(0, 107, 100, 0.25);
+    border-color: #004d47;
+  }
+
+  .btn-quote {
+    background: linear-gradient(135deg, #006b65, #008a7d);
+    color: white !important;
+    border: 2px solid #006b65;
+  }
+
+  .btn-quote:hover {
+    background: linear-gradient(135deg, #004d47, #006b65);
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 8px 25px rgba(0, 107, 100, 0.25);
+    border-color: #004d47;
+  }
+
+  
+  .contact-buttons .icon {
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+  }
+
+  .contact-buttons a:hover .icon {
+    transform: scale(1.1);
+  }
+
+  .contact-buttons span {
+    white-space: nowrap;
+    letter-spacing: 0.5px;
+  }
+
+  .mobile-menu-toggle {
+    display: none;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    background: transparent;
+    color: #fff;
+    padding: 12px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+    border: none;
+    position: relative;
+    z-index: 1;
+  }
+
+  .mobile-menu-toggle:hover {
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  .mobile-menu-toggle:focus-visible {
+    outline: none;
+  }
+
+  .mobile-menu-toggle-icon {
+    position: relative;
+    width: 20px;
+    height: 14px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10px;
+  }
+
+  .mobile-menu-toggle-icon span {
+    width: 100%;
+    height: 2px;
+    background-color: currentColor;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  .mobile-menu-toggle.is-active {
+    background: #cedc00;
+    color: #006b65;
+  }
+
+  .mobile-menu-toggle.is-active .mobile-menu-toggle-icon span:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+  }
+
+  .mobile-menu-toggle.is-active .mobile-menu-toggle-icon span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .mobile-menu-toggle.is-active .mobile-menu-toggle-icon span:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+  }
+
+  @media screen and (min-width: 769px) {
+    
+    .modulexmenulist-menu {
+      position: relative;
+    }
+
+    
+    .modulex-submenu-toggle {
+      display: none !important;
+    }
+
+    .modulexmenulistbody {
+      position: static !important;
+      right: auto !important;
+      width: 100% !important;
+      max-width: none !important;
+      height: auto !important;
+      display: block !important;
+      overflow: visible !important;
+      box-shadow: none !important;
+    }
+
+    .modulexmenulist {
+      flex-direction: row !important;
+      overflow: visible !important;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .lang_telif { 
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    
+    
+    .lang_telif .modulextitlebodylang {
+      display: none;
+    }
+    
+    
+    .lang_telif .header-actions {
+      display: flex !important;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .modulexmenu {
+      overflow-x: auto;
+    }
+
+    .modulexmenulist {
+      flex-direction: row;
+    }
+
+    .module-logo {
+      width: 200px;
+    }
+
+    .modulexbody {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    
+    .lang_telif {
+      display: flex !important;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    
+    .modulextitlebodylang {
+      display: none;
+    }
+
+    
+    .lang_telif .header-actions {
+      position: fixed !important;
+      bottom: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+      width: calc(100% - 20px) !important;
+      background-color: #006b65 !important;
+      padding: 10px !important;
+      box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.15) !important;
+      z-index: 1000 !important;
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+      margin: 0 !important;
+    }
+
+    .contact-buttons {
+      display: flex !important;
+      width: 100%;
+      max-width: 600px;
+      flex-direction: row;
+      gap: 12px;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .contact-buttons a {
+      flex: 1;
+      font-size: 14px;
+      padding: 14px 16px;
+      border-radius: 8px;
+      min-width: 0;
+      text-align: center;
+      font-weight: 600;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-buttons .icon {
+      font-size: 18px;
+      margin-right: 6px;
+    }
+
+    .contact-buttons span {
+      font-size: 13px;
+    }
+
+    
+    body {
+      padding-bottom: calc(75px + env(safe-area-inset-bottom, 0px)) !important;
+    }
+
+
+    
+    .mobile-menu-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      z-index: 9998;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+      pointer-events: none;
+      cursor: pointer;
+    }
+
+    .mobile-menu-overlay.active {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+
+    .modulexmenu {
+      flex-direction: column;
+      gap: 0;
+      width: 100%;
+    }
+
+    .mobile-menu-toggle {
+      display: flex;
+      width: 100%;
+    }
+
+    
+    .modulexmenulistbody {
+      position: fixed;
+      top: 0;
+      right: -100%;
+      max-width: min(100vw - 48px, 360px);
+      width: 100%;
+      height: 100%;
+      height: 100dvh;
+      max-height: 100dvh;
+      background: linear-gradient(180deg, #006b65 0%, #004d47 100%);
+      background-color: #006b65;
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      overflow-y: auto;
+      overflow-x: hidden;
+      -webkit-overflow-scrolling: touch;
+      box-shadow: -4px 0 24px rgba(0, 0, 0, 0.35);
+      transform: translateX(100%);
+      touch-action: pan-y;
+      padding-bottom: env(safe-area-inset-bottom, 0px);
+      padding-top: env(safe-area-inset-top, 0px);
+    }
+
+    .modulexmenulistbody.is-visible {
+      right: 0;
+      transform: translateX(0);
+    }
+
+    .modulexmenulistbody.swiping {
+      transition: none;
+    }
+
+    
+    .mobile-menu-close {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 15px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      color: #fff;
+      font-size: 28px;
+      width: 100%;
+    }
+
+    .mobile-menu-close span {
+      font-size: 28px;
+      color: #fff;
+    }
+
+    .mobile-menu-close:focus {
+      outline: 2px solid #fff;
+      outline-offset: -2px;
+    }
+
+    .modulexmenulist {
+      flex-direction: column;
+      gap: 0;
+      padding: 0;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    
+    .mobile-lang-wrapper {
+      display: flex;
+      justify-content: center;
+      padding: 20px 16px;
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      margin-top: auto;
+      background-color: rgba(0, 0, 0, 0.1);
+      gap: 15px;
+    }
+
+    .mobile-lang-wrapper ul {
+      display: flex;
+      gap: 10px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .mobile-lang-wrapper li {
+      list-style: none;
+    }
+
+    .mobile-lang-wrapper a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 35px;
+      height: 35px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, 0.1);
+      transition: all 0.3s ease;
+    }
+
+    .mobile-lang-wrapper a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .mobile-lang-wrapper a:focus {
+      outline: 2px solid #fff;
+      outline-offset: 2px;
+    }
+
+    .modulexmenulist-menu {
+      justify-content: flex-start;
+      text-align: left;
+      width: 100%;
+      padding: 0;
+      border-radius: 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      margin: 0;
+      transition: background-color 0.2s ease;
+    }
+
+    .modulexmenulist-menu:last-child {
+      border-bottom: none;
+    }
+
+    .modulexmenulist-menu:hover {
+      background-color: rgba(255, 255, 255, 0.06);
+      border-radius: 0;
+    }
+
+    .modulexmenulist-home {
+      display: flex;
+      padding: 16px 20px;
+      justify-content: flex-start;
+      text-align: left;
+      width: 100%;
+      box-sizing: border-box;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .modulexmenulist-row {
+      padding: 4px 12px 4px 20px;
+      min-height: 48px;
+    }
+
+    .modulexmenulist-menu:not(.modulexmenulist-menu--hasdropdown) .modulexmenulist-link {
+      text-align: left;
+      width: 100%;
+      display: block;
+      padding: 16px 20px;
+      box-sizing: border-box;
+    }
+
+    .modulexmenulist-menu--hasdropdown .modulexmenulist-link {
+      text-align: left;
+      padding: 12px 0;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.35;
+    }
+
+    
+    .modulex-submenu-toggle {
+      display: flex !important;
+    }
+
+    .modulexmenulist-menu--hasdropdown .dropdown-content-modulex {
+      display: flex;
+      flex-direction: column;
+      position: static;
+      left: auto;
+      top: auto;
+      min-width: 0;
+      width: 100%;
+      max-height: 0;
+      margin: 0;
+      padding: 0 12px 0 16px;
+      opacity: 0;
+      overflow: hidden;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      border-radius: 0 0 12px 12px;
+      background: var(--mx-dropdown-bg);
+      color: var(--mx-lime);
+      border: 1px solid var(--mx-dropdown-edge);
+      border-top: none;
+      box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.12);
+      gap: 0;
+      transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.25s ease, padding 0.25s ease;
+    }
+
+    .modulexmenulist-menu--hasdropdown.is-submenu-open .dropdown-content-modulex {
+      max-height: min(55vh, 420px);
+      opacity: 1;
+      padding: 10px 12px 12px 16px;
+    }
+
+    
+    .modulexmenulist-menu--hasdropdown:not(.is-submenu-open):hover .dropdown-content-modulex,
+    .modulexmenulist-menu--hasdropdown:not(.is-submenu-open):focus-within .dropdown-content-modulex {
+      max-height: 0 !important;
+      opacity: 0 !important;
+      padding: 0 12px 0 16px !important;
+      overflow: hidden !important;
+    }
+
+    .modulexmenulist-menu--hasdropdown .dropdown-content-modulex > a {
+      display: block;
+      border: 0;
+      border-bottom: 1px solid rgba(206, 220, 0, 0.14);
+      padding: 14px 12px 14px 10px;
+      color: var(--mx-on-dark) !important;
+      font-size: 15px;
+      line-height: 1.4;
+      text-align: left;
+      text-decoration: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.15s ease, color 0.15s ease;
+    }
+
+    .modulexmenulist-menu--hasdropdown .dropdown-content-modulex > a:last-child {
+      border-bottom: none;
+    }
+
+    .modulexmenulist-menu--hasdropdown .dropdown-content-modulex > a:hover,
+    .modulexmenulist-menu--hasdropdown .dropdown-content-modulex > a:focus-visible {
+      background-color: var(--mx-teal-mid);
+      color: #ffffff !important;
+      outline: none;
+    }
+  }
+</style>
+<script>
+  setTimeout(function () {
+    try {
+
+      var toggle = document.querySelector(".mobile-menu-toggle");
+      var menuBody = document.querySelector(".modulexmenulistbody");
+      var overlay = document.querySelector(".mobile-menu-overlay");
+      var closeButton = document.querySelector(".mobile-menu-close");
+
+      if (!toggle || !menuBody) {
+        return;
+      }
+
+      var mql = window.matchMedia("(max-width: 768px)");
+
+      function openMenu() {
+        closeAllSubmenus();
+        if (menuBody) {
+          menuBody.classList.add("is-visible");
+        }
+        if (overlay) {
+          overlay.classList.add("active");
+          overlay.setAttribute("aria-hidden", "false");
+        }
+        if (toggle) {
+          toggle.classList.add("is-active");
+          toggle.setAttribute("aria-expanded", "true");
+        }
+
+        document.body.style.overflow = "hidden";
+      }
+
+      function closeAllSubmenus() {
+        if (!menuBody) {
+          return;
+        }
+        var opened = menuBody.querySelectorAll(".modulexmenulist-menu.is-submenu-open");
+        var si;
+        for (si = 0; si < opened.length; si++) {
+          opened[si].classList.remove("is-submenu-open");
+          var tb = opened[si].querySelector(".modulex-submenu-toggle");
+          if (tb) {
+            tb.setAttribute("aria-expanded", "false");
+          }
+        }
+      }
+
+      function initMobileSubmenuToggles() {
+        var toggles = menuBody.querySelectorAll(".modulex-submenu-toggle");
+        var ti;
+        for (ti = 0; ti < toggles.length; ti++) {
+          toggles[ti].addEventListener("click", function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (!mql.matches) {
+              return;
+            }
+            var row = this.closest(".modulexmenulist-menu--hasdropdown");
+            if (!row) {
+              return;
+            }
+            var willOpen = !row.classList.contains("is-submenu-open");
+            var allRows = menuBody.querySelectorAll(".modulexmenulist-menu--hasdropdown");
+            var i;
+            for (i = 0; i < allRows.length; i++) {
+              allRows[i].classList.remove("is-submenu-open");
+              var tbtn = allRows[i].querySelector(".modulex-submenu-toggle");
+              if (tbtn) {
+                tbtn.setAttribute("aria-expanded", "false");
+              }
+            }
+            if (willOpen) {
+              row.classList.add("is-submenu-open");
+              this.setAttribute("aria-expanded", "true");
+            }
+          });
+        }
+      }
+      initMobileSubmenuToggles();
+
+      function closeMenu() {
+        closeAllSubmenus();
+        if (menuBody) {
+          menuBody.classList.remove("is-visible");
+          menuBody.classList.remove("swiping");
+          menuBody.style.transform = "";
+        }
+        if (overlay) {
+          overlay.classList.remove("active");
+          overlay.setAttribute("aria-hidden", "true");
+          overlay.style.opacity = "";
+        }
+        if (toggle) {
+          toggle.classList.remove("is-active");
+          toggle.setAttribute("aria-expanded", "false");
+        }
+
+        document.body.style.overflow = "";
+
+        if (toggle) {
+          toggle.focus();
+        }
+      }
+
+      toggle.addEventListener("click", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        if (menuBody.classList.contains("is-visible")) {
+          closeMenu();
+        } else {
+          openMenu();
+        }
+      });
+
+      if (closeButton) {
+        closeButton.addEventListener("click", function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          closeMenu();
+        });
+      }
+
+      if (overlay) {
+        overlay.addEventListener("click", function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          closeMenu();
+        });
+      }
+
+      var touchStartX = 0;
+      var touchStartY = 0;
+      var touchCurrentX = 0;
+      var isSwiping = false;
+      var swipeThreshold = 50; // Minimum çekme mesafesi (px)
+      var menuWidth = 0;
+
+      function getMenuWidth() {
+        if (menuBody) {
+          return menuBody.offsetWidth || window.innerWidth * 0.8;
+        }
+        return 320;
+      }
+
+      menuBody.addEventListener("touchstart", function (e) {
+        if (!menuBody.classList.contains("is-visible")) {
+          return;
+        }
+        var touch = e.touches[0];
+        touchStartX = touch.clientX;
+        touchStartY = touch.clientY;
+        isSwiping = false;
+        menuWidth = getMenuWidth();
+      }, { passive: true });
+
+      menuBody.addEventListener("touchmove", function (e) {
+        if (!menuBody.classList.contains("is-visible")) {
+          return;
+        }
+        var touch = e.touches[0];
+        touchCurrentX = touch.clientX;
+        var deltaX = touchCurrentX - touchStartX;
+        var deltaY = Math.abs(touch.clientY - touchStartY);
+
+        if (Math.abs(deltaX) > 10 && Math.abs(deltaX) > deltaY) {
+          isSwiping = true;
+          e.preventDefault();
+
+          if (deltaX > 0) {
+            menuBody.classList.add("swiping");
+            var translateX = Math.min(deltaX, menuWidth);
+            menuBody.style.transform = "translateX(" + translateX + "px)";
+
+            if (overlay) {
+              var opacity = 0.6 * (1 - deltaX / menuWidth);
+              overlay.style.opacity = opacity;
+            }
+          }
+        }
+      }, { passive: false });
+
+      menuBody.addEventListener("touchend", function (e) {
+        if (!menuBody.classList.contains("is-visible")) {
+          return;
+        }
+        
+        if (isSwiping) {
+          menuBody.classList.remove("swiping");
+          var deltaX = touchCurrentX - touchStartX;
+
+          if (deltaX > swipeThreshold) {
+            closeMenu();
+          } else {
+
+            menuBody.style.transform = "";
+            if (overlay) {
+              overlay.style.opacity = "";
+            }
+          }
+          
+          isSwiping = false;
+        }
+      }, { passive: true });
+
+      menuBody.addEventListener("touchcancel", function (e) {
+        if (isSwiping) {
+          menuBody.classList.remove("swiping");
+          menuBody.style.transform = "";
+          if (overlay) {
+            overlay.style.opacity = "";
+          }
+          isSwiping = false;
+        }
+      }, { passive: true });
+
+      menuBody.addEventListener("click", function (event) {
+        var link = event.target.closest("a");
+        var closeBtn = event.target.closest(".mobile-menu-close");
+        if (link && !closeBtn) {
+          closeMenu();
+        }
+      });
+
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && menuBody && menuBody.classList.contains("is-visible")) {
+          closeMenu();
+        }
+      });
+
+      toggle.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          if (menuBody.classList.contains("is-visible")) {
+            closeMenu();
+          } else {
+            openMenu();
+          }
+        }
+      });
+
+      function handleBreakpoint() {
+        if (!mql.matches) {
+
+          closeAllSubmenus();
+          if (menuBody) {
+            menuBody.classList.remove("is-visible");
+          }
+          if (overlay) {
+            overlay.classList.remove("active");
+            overlay.setAttribute("aria-hidden", "true");
+          }
+          if (toggle) {
+            toggle.classList.remove("is-active");
+            toggle.setAttribute("aria-expanded", "false");
+          }
+          document.body.style.overflow = "";
+        }
+      }
+
+      if (typeof mql.addEventListener === "function") {
+        mql.addEventListener("change", handleBreakpoint);
+      } else if (typeof mql.addListener === "function") {
+        mql.addListener(handleBreakpoint);
+      }
+      handleBreakpoint();
+    } catch (error) {
+      console.error("cmkhy5 mobil menü hatası:", error);
+    }
+  }, 100);
+</script>

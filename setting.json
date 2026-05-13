@@ -2,19 +2,19 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Hanbros İngiltere, İngiltere'den Türkiye'ye güvenli evden eve taşımacılık, uluslararası kargo, araç taşıma ve ticari lojistik hizmetleri sunan güvenilir bir nakliye firmasıdır.",
+    "tr": "Hanbros UK is a reliable shipping company offering secure door-to-door moving from the UK to Turkey, international cargo, vehicle transport and commercial logistics services.",
     "en": "Hanbros UK is a reliable shipping company offering secure door-to-door moving from the UK to Turkey, international cargo, vehicle transport and commercial logistics services."
   },
   "keyword": {
-    "tr": "hanbroscargo.co.uk, ingiltereden turkiyeye nakliye, ingiltere turkiye kargo, ingiltere turkiye araç gönderimi, ingiltereden ev esyasi gönderimi, ingiltereden turkiyeye ticari esya, UK to Turkey shipping",
+    "tr": "hanbroscargo.co.uk, uk to turkey shipping, uk turkey cargo, uk to turkey vehicle shipping, shipping household goods from uk to turkey, commercial goods from uk to turkey, hanbros uk",
     "en": "hanbroscargo.co.uk, uk to turkey shipping, uk turkey cargo, uk to turkey vehicle shipping, shipping household goods from uk to turkey, commercial goods from uk to turkey, hanbros uk"
   },
   "category": "",
-  "name": "Hanbros İngiltere",
+  "name": "Hanbros UK",
   "domain": "hanbroscargo.co.uk",
   "eticaret": false,
   "langs": {
-    "tr": true,
+    "tr": false,
     "en": true,
     "ar": false,
     "de": false,
@@ -28,6 +28,5 @@
     "pt": false
   },
   "logo": "logo.png",
-  "multi": true,
-  "eticaret": false
+  "multi": false
 }

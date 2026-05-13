@@ -1,6 +1,6 @@
 {
   "name": {
-    "tr": "Kullanıcı Hakları",
+    "tr": "User Rights",
     "en": "User Rights"
   },
   "status": "play",
@@ -15,22 +15,22 @@
   "index": 6,
   "icon": "home",
   "description": {
-    "tr": "Erişim, düzeltme, silme ve itiraz haklarının kullanımı.",
+    "tr": "How to exercise access, rectification, erasure and objection rights.",
     "en": "How to exercise access, rectification, erasure and objection rights."
   },
   "pathnext": "",
   "keyword": {
-    "tr": "kvkk haklari, erisim silme itiraz",
+    "tr": "gdpr rights access erasure",
     "en": "gdpr rights access erasure"
   },
   "text": {
-    "tr": "<p>Haklarınızı kullanırken gönderi numarası ve kimlik teyidi talep edilebilir. Yanıt süreleri mevzuata göre değişir.</p>",
+    "tr": "<p>We may ask for shipment references and identity checks. Response timelines depend on applicable law.</p>",
     "en": "<p>We may ask for shipment references and identity checks. Response timelines depend on applicable law.</p>"
   },
   "update": "2026-05-08T05:40:46.588Z",
   "date": "2026-05-08T05:40:45.262Z",
   "title": {
-    "tr": "Kullanıcı Hakları | Hanbros İngiltere",
+    "tr": "User Rights | Hanbros UK",
     "en": "User Rights | Hanbros UK"
   },
   "img": "logo.png"

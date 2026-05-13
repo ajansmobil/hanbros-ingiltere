@@ -1,6 +1,6 @@
 {
   "name": {
-    "tr": "Kurumsal",
+    "tr": "Corporate",
     "en": "Corporate"
   },
   "status": "play",
@@ -16,24 +16,24 @@
   },
   "pathnext": "hakkimizda",
   "description": {
-    "tr": "Hanbros İngiltere kurumsal sayfası; şirket değerlerini, organizasyon yapısını, misyon-vizyon çerçevesini ve sürdürülen kalite standartlarını tek noktada sunar.",
+    "tr": "Hanbros UK corporate page presents our values, organisational structure, mission-vision framework and the quality standards guiding logistics projects.",
     "en": "Hanbros UK corporate page presents our values, organisational structure, mission-vision framework and the quality standards guiding logistics projects."
   },
   "desc": {},
   "icon": "home",
   "keyword": {
-    "tr": "kurumsal hanbros ingiltere",
+    "tr": "corporate hanbros uk",
     "en": "corporate hanbros uk"
   },
   "update": "2026-05-08T05:40:46.476Z",
   "date": "2026-05-04T19:01:36.357Z",
   "title": {
-    "tr": "Kurumsal",
+    "tr": "Corporate",
     "en": "Corporate"
   },
   "img": "logo.png",
   "text": {
-    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>Kurumsal menü altında misyon, vizyon, kalite ve yasal metinler yer alır.</p>",
+    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Use the corporate submenu for mission, vision, quality and legal texts.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Use the corporate submenu for mission, vision, quality and legal texts.</p>"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": {
-    "tr": "Ülkeler",
+    "tr": "Countries",
     "en": "Countries"
   },
   "status": "play",
@@ -9,7 +9,7 @@
   "path": "ulkeler",
   "index": 2,
   "description": {
-    "tr": "Hanbros İngiltere ülke sayfaları. Hangi ülkelere taşımacılık hizmeti veriyoruz. İngiltere-Türkiye taşımacılık. Ülke bazlı hizmetler.",
+    "tr": "Hanbros UK country pages. Which countries we provide transportation services to. UK-Turkey transportation. Country-based services.",
     "en": "Hanbros UK country pages. Which countries we provide transportation services to. UK-Turkey transportation. Country-based services."
   },
   "desing": {
@@ -21,18 +21,18 @@
   "img": "logo.png",
   "desc": {},
   "keyword": {
-    "tr": "ulkeler UK TR koridor, hanbros bolgeler",
+    "tr": "countries uk turkey corridor hanbros",
     "en": "countries uk turkey corridor hanbros"
   },
   "update": "2026-05-08T05:40:46.489Z",
   "date": "2026-05-08T05:18:35.577Z",
   "title": {
-    "tr": "Ülkeler",
+    "tr": "Countries",
     "en": "Countries"
   },
   "icon": "home",
   "text": {
-    "tr": "<p><strong>Marka ve SEO ayrımı:</strong> Bu içerik <strong>İngiltere'den Türkiye'ye (UK→TR)</strong> güzergâhına özeldir. <strong>Türkiye çıkışlı</strong> Avrupa/İngiltere taşımacılığı için <strong>hanbroscargo.com</strong> sitesindeki Han Bros Cargo içerikleri kullanılır; iki alan adı farklı yön ve anahtar kelime setine sahiptir.</p><p>Ülke sayfaları güzergâh planlaması içindir; fiyat teklifi için iletişim veya teklif formunu kullanın.</p>",
+    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Country pages explain routing; use contact or quote for pricing.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Country pages explain routing; use contact or quote for pricing.</p>"
   }
 }
