@@ -5,7 +5,7 @@
   },
   "status": "play",
   "id": "yasaluyari",
-  "path": "yasal-uyari",
+  "path": "legal-notice",
   "category": "",
   "desing": {
     "header": [],
@@ -15,13 +15,12 @@
   "index": 7,
   "icon": "home",
   "description": {
-    "tr": "Site content is informational; official authorities prevail.",
-    "en": "Site content is informational; official authorities prevail."
+    "tr": "Website content is informational; customs and tax outcomes rest with authorities. Liability limits and reliance scope are summarised here—not legal advice.",
+    "en": "Website content is informational; customs and tax outcomes rest with authorities. Liability limits and reliance scope are summarised here—not legal advice."
   },
-  "pathnext": "",
   "keyword": {
-    "tr": "legal notice website disclaimer",
-    "en": "legal notice website disclaimer"
+    "tr": "Hanbros UK legal disclaimer, website liability limitation UK, informational content scope",
+    "en": "Hanbros UK legal disclaimer, website liability limitation UK, informational content scope"
   },
   "text": {
     "tr": "<p>Customs tariffs and taxes may change. Estimates are not binding offers.</p>",
@@ -30,8 +29,8 @@
   "update": "2026-05-08T05:40:46.593Z",
   "date": "2026-05-08T05:40:45.268Z",
   "title": {
-    "tr": "Legal Notice | Hanbros UK",
-    "en": "Legal Notice | Hanbros UK"
+    "tr": "Legal notice | Hanbros UK",
+    "en": "Legal notice | Hanbros UK"
   },
   "img": "logo.png"
 }

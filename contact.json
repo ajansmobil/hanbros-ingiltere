@@ -1,0 +1,108 @@
+{
+  "name": "Contact",
+  "path": "contact",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "UK Office",
+        "en": "UK Office"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ingiltere-ofis",
+      "url": "",
+      "path": "uk-office",
+      "index": 0,
+      "description": {
+        "tr": "Operations and customer contact for UK-origin shipments. UK pickup scheduling, warehouse appointments and pre-departure paperwork checks are coordinated from this office.",
+        "en": "Operations and customer contact for UK-origin shipments. UK pickup scheduling, warehouse appointments and pre-departure paperwork checks are coordinated from this office."
+      },
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "icon": "home"
+    },
+    {
+      "name": {
+        "tr": "Turkey Office",
+        "en": "Turkey Office"
+      },
+      "status": "play",
+      "category": "",
+      "id": "turkiye-ofis",
+      "url": "",
+      "path": "turkey-office",
+      "index": 1,
+      "icon": "home",
+      "description": {
+        "tr": "Turkey delivery leg: customs, address validation and last-mile coordination. Local field support across Istanbul, Ankara, Izmir, Gaziantep and other cities.",
+        "en": "Turkey delivery leg: customs, address validation and last-mile coordination. Local field support across Istanbul, Ankara, Izmir, Gaziantep and other cities."
+      },
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      }
+    },
+    {
+      "name": {
+        "tr": "Online Quote Form",
+        "en": "Online Quote Form"
+      },
+      "status": "play",
+      "category": "",
+      "id": "online-teklif",
+      "url": "",
+      "path": "online-quote",
+      "index": 2,
+      "icon": "home",
+      "description": {
+        "tr": "Share your UK postcode, Turkey delivery city/district, commodity type and volume; receive a detailed price band and transit estimate for the UK-to-Turkey lane.",
+        "en": "Share your UK postcode, Turkey delivery city/district, commodity type and volume; receive a detailed price band and transit estimate for the UK-to-Turkey lane."
+      },
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      }
+    },
+    {
+      "name": {
+        "tr": "Customer Service",
+        "en": "Customer Service"
+      },
+      "status": "play",
+      "category": "",
+      "id": "musteri-hizmetleri",
+      "url": "",
+      "path": "customer-service",
+      "index": 3,
+      "icon": "home",
+      "description": {
+        "tr": "Fast answers on shipment status, document packs and insurance options. Official channels: hanbroscargo.co.uk and info@hanbroscargo.co.uk.",
+        "en": "Fast answers on shipment status, document packs and insurance options. Official channels: hanbroscargo.co.uk and info@hanbroscargo.co.uk."
+      },
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      }
+    }
+  ],
+  "index": 6,
+  "desing": {
+    "header": [],
+    "body": [
+      "kizjvk"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "img": true,
+    "bgimg": true,
+    "detail": true
+  }
+}

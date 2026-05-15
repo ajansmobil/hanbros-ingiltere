@@ -5,7 +5,7 @@
   },
   "status": "play",
   "id": "kalitepolitikamiz",
-  "path": "kalite-politikamiz",
+  "path": "quality-policy",
   "category": "",
   "desing": {
     "header": [],
@@ -15,15 +15,15 @@
   "index": 3,
   "icon": "home",
   "description": {
-    "tr": "Packing standards, checklists and continuous improvement through feedback.",
-    "en": "Packing standards, checklists and continuous improvement through feedback."
+    "tr": "Packing standards, checklists and continuous improvement for moves and freight from England and the United Kingdom — Hanbros UK quality policy.",
+    "en": "Packing standards, checklists and continuous improvement for moves and freight from England and the United Kingdom — Hanbros UK quality policy."
   },
   "img": "logo.png",
   "url": "",
-  "pathnext": "gizlilikpolitikasi",
+  "pathnext": "privacy-policy",
   "keyword": {
-    "tr": "quality policy moving, damage prevention",
-    "en": "quality policy moving, damage prevention"
+    "tr": "packing quality standard, damage prevention checklist, POD photo quality logistics",
+    "en": "packing quality standard, damage prevention checklist, POD photo quality logistics"
   },
   "text": {
     "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><ul><li>Measured loads with photographic handover notes</li><li>Fragile goods double-pack guide</li><li>Consistent incident reporting at delivery</li></ul>",
@@ -32,7 +32,7 @@
   "update": "2026-05-08T05:40:46.570Z",
   "date": "2026-05-08T05:40:45.244Z",
   "title": {
-    "tr": "Quality Policy | Hanbros UK",
-    "en": "Quality Policy | Hanbros UK"
+    "tr": "Quality policy | Hanbros UK",
+    "en": "Quality policy | Hanbros UK"
   }
 }

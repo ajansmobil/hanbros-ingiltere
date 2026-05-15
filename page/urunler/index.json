@@ -5,29 +5,31 @@
   },
   "status": "play",
   "id": "urunler",
-  "path": "hizmetlerimiz",
+  "path": "services",
   "category": "",
   "desing": {
     "header": [],
-    "body": [],
+    "body": [
+      "l2vwz3"
+    ],
     "footer": []
   },
   "desc": {},
   "index": 1,
   "icon": "home",
   "description": {
-    "tr": "End-to-end logistics solutions from Hanbros UK: secure home moving, fast commercial cargo, car shipping, storage, and customs. Full service from a single point.",
-    "en": "End-to-end logistics solutions from Hanbros UK: secure home moving, fast commercial cargo, car shipping, storage, and customs. Full service from a single point."
+    "tr": "Menu overview of household, vehicle, commercial, linehaul cargo, storage and customs lines—each line has its own service page.",
+    "en": "Menu overview of household, vehicle, commercial, linehaul cargo, storage and customs lines—each line has its own service page."
   },
   "keyword": {
-    "tr": "hanbros uk services household cargo vehicle turkey",
-    "en": "hanbros uk services household cargo vehicle turkey"
+    "tr": "Hanbros UK service catalogue, UK Turkey multimodal menu, shipping lines index one brand",
+    "en": "Hanbros UK service catalogue, UK Turkey multimodal menu, shipping lines index one brand"
   },
   "update": "2026-05-08T05:40:46.482Z",
   "date": "2026-05-02T09:00:00.000Z",
   "title": {
-    "tr": "Products and Services | Hanbros UK",
-    "en": "Products and Services | Hanbros UK"
+    "tr": "Services | Hanbros UK",
+    "en": "Services | Hanbros UK"
   },
   "img": "logo.png",
   "url": "",

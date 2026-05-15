@@ -12,20 +12,32 @@
       "category": "",
       "id": "yvi9dlb59o",
       "url": "",
-      "path": "kurumsal",
+      "path": "corporate",
       "index": 0,
       "desing": {
         "header": [],
         "body": [],
         "footer": []
       },
-      "pathnext": "hakkimizda",
+      "pathnext": "about-us",
       "description": {
-        "tr": "Hanbros UK corporate page presents our values, organisational structure, mission-vision framework and the quality standards guiding logistics projects.",
-        "en": "Hanbros UK corporate page presents our values, organisational structure, mission-vision framework and the quality standards guiding logistics projects."
+        "tr": "Corporate structure, policy tree and legal notices index—operational pricing, shipment lookup and quote forms live on dedicated pages.",
+        "en": "Corporate structure, policy tree and legal notices index—operational pricing, shipment lookup and quote forms live on dedicated pages."
       },
+      "desc": {},
       "icon": "home",
-      "img": "logo.png"
+      "keyword": {
+        "tr": "Hanbros UK corporate hub, company governance UK forwarder, policy index legal notices",
+        "en": "Hanbros UK corporate hub, company governance UK forwarder, policy index legal notices"
+      },
+      "update": "2026-05-08T05:40:46.476Z",
+      "date": "2026-05-04T19:01:36.357Z",
+      "title": {
+        "tr": "Corporate hub | Hanbros UK",
+        "en": "Corporate hub | Hanbros UK"
+      },
+      "img": "logo.png",
+      "slider": []
     },
     {
       "name": {
@@ -34,7 +46,7 @@
       },
       "status": "play",
       "id": "urunler",
-      "path": "hizmetlerimiz",
+      "path": "services",
       "category": "",
       "index": 1,
       "desing": {
@@ -46,8 +58,16 @@
       },
       "icon": "home",
       "description": {
-        "tr": "End-to-end logistics solutions from Hanbros UK: secure home moving, fast commercial cargo, car shipping, storage, and customs. Full service from a single point.",
-        "en": "End-to-end logistics solutions from Hanbros UK: secure home moving, fast commercial cargo, car shipping, storage, and customs. Full service from a single point."
+        "tr": "Menu overview of household, vehicle, commercial, linehaul cargo, storage and customs lines—each line has its own service page.",
+        "en": "Menu overview of household, vehicle, commercial, linehaul cargo, storage and customs lines—each line has its own service page."
+      },
+      "keyword": {
+        "tr": "Hanbros UK service catalogue, UK Turkey multimodal menu, shipping lines index one brand",
+        "en": "Hanbros UK service catalogue, UK Turkey multimodal menu, shipping lines index one brand"
+      },
+      "title": {
+        "tr": "Services | Hanbros UK",
+        "en": "Services | Hanbros UK"
       },
       "img": "logo.png",
       "url": "",
@@ -61,11 +81,19 @@
       "status": "play",
       "category": "",
       "id": "ulkeler",
-      "path": "ulkeler",
+      "path": "countries",
       "index": 2,
       "description": {
-        "tr": "Hanbros UK country pages. Which countries we provide transportation services to. UK-Turkey transportation. Country-based services.",
-        "en": "Hanbros UK country pages. Which countries we provide transportation services to. UK-Turkey transportation. Country-based services."
+        "tr": "Routing map for UK nations, Scotland/Wales/NI and European feeder legs into the Turkey lane—request pricing on the quote page.",
+        "en": "Routing map for UK nations, Scotland/Wales/NI and European feeder legs into the Turkey lane—request pricing on the quote page."
+      },
+      "keyword": {
+        "tr": "UK nations routing map, European feeder Turkey corridor, Scotland Wales NI collection planning",
+        "en": "UK nations routing map, European feeder Turkey corridor, Scotland Wales NI collection planning"
+      },
+      "title": {
+        "tr": "Regions & routing | Hanbros UK",
+        "en": "Regions & routing | Hanbros UK"
       },
       "desing": {
         "header": [],
@@ -80,17 +108,66 @@
     },
     {
       "name": {
+        "tr": "Smart Calculation",
+        "en": "Smart Calculation"
+      },
+      "status": "play",
+      "category": "",
+      "id": "aut9rh4oya",
+      "url": "",
+      "path": "smart-calculator",
+      "googleStatus": "pending",
+      "googleDate": null,
+      "googleError": null,
+      "desc": {},
+      "index": 3,
+      "desing": {
+        "header": [],
+        "body": [
+          "go1ilz"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Estimate cubic metres from a room-by-room list before you book capacity—a planning aid, not a booking or quote checkout.",
+        "en": "Estimate cubic metres from a room-by-room list before you book capacity—a planning aid, not a booking or quote checkout."
+      },
+      "keyword": {
+        "tr": "removal volume calculator, cubic metre furniture list UK, DIY loading gauge estimate",
+        "en": "removal volume calculator, cubic metre furniture list UK, DIY loading gauge estimate"
+      },
+      "update": "2026-05-16T12:00:00.000Z",
+      "date": "2026-05-16T12:00:00.000Z",
+      "title": {
+        "tr": "Smart volume planner | Hanbros UK",
+        "en": "Smart volume planner | Hanbros UK"
+      },
+      "slider": [],
+      "icon": "home",
+      "img": "volume-hero.webp"
+    },
+    {
+      "name": {
         "tr": "Knowledge Base",
         "en": "Knowledge Base"
       },
       "status": "play",
       "category": "",
       "id": "bilgi-bankasi",
-      "path": "bilgi-bankasi",
-      "index": 3,
+      "path": "knowledge-base",
+      "index": 4,
       "description": {
-        "tr": "Hanbros UK knowledge base. Frequently asked questions and answers. Detailed information about our transportation services. FAQ page.",
-        "en": "Hanbros UK knowledge base. Frequently asked questions and answers. Detailed information about our transportation services. FAQ page."
+        "tr": "Read-first guides and FAQs on paperwork, packing and process—shipment lookup and quote request forms are on their own pages.",
+        "en": "Read-first guides and FAQs on paperwork, packing and process—shipment lookup and quote request forms are on their own pages."
+      },
+      "keyword": {
+        "tr": "UK Turkey relocation guide, moving paperwork checklist, post-Brexit shipping knowledge base",
+        "en": "UK Turkey relocation guide, moving paperwork checklist, post-Brexit shipping knowledge base"
+      },
+      "title": {
+        "tr": "Knowledge base | Hanbros UK",
+        "en": "Knowledge base | Hanbros UK"
       },
       "desing": {
         "header": [],
@@ -111,11 +188,19 @@
       "status": "play",
       "category": "",
       "id": "gonderi-takip",
-      "path": "gonderi-takip",
-      "index": 4,
+      "path": "shipment-tracking",
+      "index": 5,
       "description": {
-        "tr": "Hanbros UK live shipment tracking service. Track your cargo's location, estimated arrival time, and customs status 24/7 instantly.",
-        "en": "Hanbros UK live shipment tracking service. Track your cargo's location, estimated arrival time, and customs status 24/7 instantly."
+        "tr": "Look up milestones and customs status with your consignment reference—use the quote page for pricing, not this tool.",
+        "en": "Look up milestones and customs status with your consignment reference—use the quote page for pricing, not this tool."
+      },
+      "keyword": {
+        "tr": "consignment reference lookup, shipment milestone trace UK Turkey, cargo status by reference",
+        "en": "consignment reference lookup, shipment milestone trace UK Turkey, cargo status by reference"
+      },
+      "title": {
+        "tr": "Shipment lookup | Hanbros UK",
+        "en": "Shipment lookup | Hanbros UK"
       },
       "desing": {
         "header": [],
@@ -136,11 +221,19 @@
       "status": "play",
       "category": "",
       "id": "teklif-al",
-      "path": "teklif-al",
-      "index": 5,
+      "path": "get-a-quote",
+      "index": 6,
       "description": {
-        "tr": "Use the Hanbros UK quote form to request a tailored logistics plan for international cargo, household moves, vehicles and commercial freight.",
-        "en": "Use the Hanbros UK quote form to request a tailored logistics plan for international cargo, household moves, vehicles and commercial freight."
+        "tr": "Written pricing request form by door addresses and cargo type—for live status use the shipment lookup page.",
+        "en": "Written pricing request form by door addresses and cargo type—for live status use the shipment lookup page."
+      },
+      "keyword": {
+        "tr": "UK Turkey freight RFQ, written removal quote form, pallet rate request England Turkey",
+        "en": "UK Turkey freight RFQ, written removal quote form, pallet rate request England Turkey"
+      },
+      "title": {
+        "tr": "Request a quote | Hanbros UK",
+        "en": "Request a quote | Hanbros UK"
       },
       "desing": {
         "header": [],
@@ -162,8 +255,8 @@
       "category": "",
       "id": "xnzu5au0ag",
       "url": "",
-      "path": "iletisim",
-      "index": 6,
+      "path": "contact",
+      "index": 7,
       "icon": "home",
       "desing": {
         "header": [],
@@ -174,8 +267,16 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Reach Hanbros UK for international logistics requests, 24/7 customer support and fast free moving or shipping quotes.",
-        "en": "Reach Hanbros UK for international logistics requests, 24/7 customer support and fast free moving or shipping quotes."
+        "tr": "Phone, email and office hours—for operational pricing use the quote form; for shipment status use the lookup page.",
+        "en": "Phone, email and office hours—for operational pricing use the quote form; for shipment status use the lookup page."
+      },
+      "keyword": {
+        "tr": "Hanbros UK customer care phone, London office email, hanbroscargo.co.uk contact channels",
+        "en": "Hanbros UK customer care phone, London office email, hanbroscargo.co.uk contact channels"
+      },
+      "title": {
+        "tr": "Contact | Hanbros UK",
+        "en": "Contact | Hanbros UK"
       },
       "img": "icon.png"
     }

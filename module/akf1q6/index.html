@@ -347,8 +347,8 @@
   }
 
   function akf1q6GetLanguageCode() {
-    var raw = (typeof navigator !== 'undefined') ? (navigator.language || navigator.userLanguage || 'tr') : 'tr';
-    raw = String(raw || 'tr').toLowerCase();
+    var raw = (typeof navigator !== 'undefined') ? (navigator.language || navigator.userLanguage || 'en') : 'en';
+    raw = String(raw || 'en').toLowerCase();
     if (raw.indexOf('-') !== -1) return raw.split('-')[0];
     if (raw.indexOf('_') !== -1) return raw.split('_')[0];
     return raw.length > 2 ? raw.slice(0, 2) : raw;

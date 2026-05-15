@@ -7,7 +7,7 @@
   "category": "",
   "id": "ingiltereden-turkiyeye-kargo",
   "url": "",
-  "path": "ingiltereden-turkiyeye-kargo-gonderimi",
+  "path": "uk-to-turkey-road-cargo",
   "index": 3,
   "icon": "home",
   "desing": {
@@ -18,13 +18,13 @@
   "pathnext": "",
   "img": "logo.png",
   "description": {
-    "tr": "LTL and FTL options with tracking milestones and customs status updates.",
-    "en": "LTL and FTL options with tracking milestones and customs status updates."
+    "tr": "Road trailer LTL and FTL lane: chargeable weight and ADR workflows—invoice-led B2B flows sit on the commercial goods page.",
+    "en": "Road trailer LTL and FTL lane: chargeable weight and ADR workflows—invoice-led B2B flows sit on the commercial goods page."
   },
   "desc": {},
   "keyword": {
-    "tr": "uk to turkey parcel freight, ltl uk turkey",
-    "en": "uk to turkey parcel freight, ltl uk turkey"
+    "tr": "LTL FTL road trailer UK Turkey, chargeable weight freight, ADR dangerous goods approval",
+    "en": "LTL FTL road trailer UK Turkey, chargeable weight freight, ADR dangerous goods approval"
   },
   "text": {
     "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Chargeable weight rules apply. Dangerous goods and batteries need separate approvals.</p>",
@@ -33,7 +33,7 @@
   "update": "2026-05-08T05:40:46.530Z",
   "date": "2026-05-08T05:18:35.635Z",
   "title": {
-    "tr": "UK to Turkey Cargo Shipping",
-    "en": "UK to Turkey Cargo Shipping"
+    "tr": "Road cargo (LTL/FTL) | Hanbros UK",
+    "en": "Road cargo (LTL/FTL) | Hanbros UK"
   }
 }

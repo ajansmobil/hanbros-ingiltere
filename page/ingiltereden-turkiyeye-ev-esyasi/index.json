@@ -7,7 +7,7 @@
   "category": "",
   "id": "ingiltereden-turkiyeye-ev-esyasi",
   "url": "",
-  "path": "ingiltereden-turkiyeye-ev-esyasi-tasimaciligi",
+  "path": "uk-to-turkey-household-shipping",
   "index": 0,
   "desing": {
     "header": [],
@@ -16,15 +16,15 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Pickup across the UK; packing, insurance and customs coordination through door delivery in Turkey.",
-    "en": "Pickup across the UK; packing, insurance and customs coordination through door delivery in Turkey."
+    "tr": "Door-to-door household removals from England and across the United Kingdom to Turkey with packing, insurance and customs coordination by Hanbros UK.",
+    "en": "Door-to-door household removals from England and across the United Kingdom to Turkey with packing, insurance and customs coordination by Hanbros UK."
   },
   "img": "logo.png",
   "icon": "home",
   "desc": {},
   "keyword": {
-    "tr": "uk to turkey household removal, ToR1 move turkey, post brexit relocation",
-    "en": "uk to turkey household removal, ToR1 move turkey, post brexit relocation"
+    "tr": "ToR1 household move UK Turkey, residence relocation international, United Kingdom door-to-door removal",
+    "en": "ToR1 household move UK Turkey, residence relocation international, United Kingdom door-to-door removal"
   },
   "text": {
     "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><h2>Process outline</h2><ol><li>Survey and volume estimate</li><li>Document pack</li><li>UK loading and export formalities</li><li>Sea/road main carriage</li><li>TR import and door delivery</li></ol>",
@@ -33,7 +33,8 @@
   "update": "2026-05-08T05:40:46.515Z",
   "date": "2026-05-08T05:18:35.620Z",
   "title": {
-    "tr": "UK to Turkey Household Goods Shipping",
-    "en": "UK to Turkey Household Goods Shipping"
-  }
+    "tr": "Household removals | Hanbros UK",
+    "en": "Household removals | Hanbros UK"
+  },
+  "slider": []
 }

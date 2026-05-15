@@ -1,4 +1,4 @@
-<main class="module-container" role="main" aria-label="Metreküp hesaplama aracı">
+<main class="module-container" role="main" aria-label="Cubic metre planning tool">
 
 <section class="metrekup-container" aria-labelledby="metrekup-title">
     <div class="metrekup-body">
@@ -12,13 +12,13 @@
                         <p class="metrekup-list-subtitle">{{mainSubtitle}}</p>
                     </div>
                     <div class="metrekup-buttons">
-                        <button type="button" onclick="addItem()" class="metrekup-btn-add" aria-label="Yeni eşya ekle">{{btnAddItem}}</button>
-                        <button type="button" onclick="clearAll()" class="metrekup-btn-clear" aria-label="Tüm verileri temizle">{{btnClear}}</button>
+                        <button type="button" onclick="addItem()" class="metrekup-btn-add" aria-label="Add item">{{btnAddItem}}</button>
+                        <button type="button" onclick="clearAll()" class="metrekup-btn-clear" aria-label="Clear all data">{{btnClear}}</button>
                     </div>
                 </div>
             </header>
             
-            <section id="esya-listesi" class="metrekup-items-grid" aria-label="Eşya listesi">
+            <section id="esya-listesi" class="metrekup-items-grid" aria-label="Items list">
                 
             </section>
             
@@ -77,7 +77,7 @@ function addItem() {
     
     var removeButton = '';
     if (itemId > 3) {
-        removeButton = '<button type="button" onclick="removeItem(' + itemId + ')" class="metrekup-btn-remove" aria-label="Eşyayı kaldır">×</button>';
+        removeButton = '<button type="button" onclick="removeItem(' + itemId + ')" class="metrekup-btn-remove" aria-label="Remove item">×</button>';
     }
     
     var itemHtml = '<div class="metrekup-item-card" id="item-' + itemId + '">' +
@@ -387,7 +387,7 @@ function clearAll() {
     updateTotals();
 }
 
-console.log('Metreküp hesaplama modülü yüklendi');
+console.log('Cubic metre calculator module loaded');
 </script>
 
 <style>

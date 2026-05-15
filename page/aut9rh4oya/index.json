@@ -1,0 +1,41 @@
+{
+  "name": {
+    "tr": "Smart Calculation",
+    "en": "Smart Calculation"
+  },
+  "status": "play",
+  "category": "",
+  "id": "aut9rh4oya",
+  "url": "",
+  "path": "smart-calculator",
+  "googleStatus": "pending",
+  "googleDate": null,
+  "googleError": null,
+  "desc": {},
+  "index": 3,
+  "desing": {
+    "header": [],
+    "body": [
+      "go1ilz"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Estimate cubic metres from a room-by-room list before you book capacity—a planning aid only; not a quote or booking checkout.",
+    "en": "Estimate cubic metres from a room-by-room list before you book capacity—a planning aid only; not a quote or booking checkout."
+  },
+  "keyword": {
+    "tr": "removal volume calculator, cubic metre furniture list UK, DIY loading gauge estimate",
+    "en": "removal volume calculator, cubic metre furniture list UK, DIY loading gauge estimate"
+  },
+  "update": "2026-05-16T12:00:00.000Z",
+  "date": "2026-05-16T12:00:00.000Z",
+  "title": {
+    "tr": "Smart volume planner | Hanbros UK",
+    "en": "Smart volume planner | Hanbros UK"
+  },
+  "slider": [],
+  "icon": "home",
+  "img": "volume-hero.webp"
+}

@@ -25,7 +25,7 @@
     },
     {
       "name": "Our Services",
-      "path": "hizmetler",
+      "path": "services",
       "desc": [],
       "data": [],
       "index": 1,
@@ -50,7 +50,7 @@
     },
     {
       "name": "Corporate",
-      "path": "kurumsal",
+      "path": "corporate",
       "desc": [],
       "data": [],
       "index": 2,
@@ -73,7 +73,7 @@
     },
     {
       "name": "Contact",
-      "path": "iletisim",
+      "path": "contact",
       "desc": [],
       "data": [],
       "index": 3,
@@ -97,7 +97,7 @@
     },
     {
       "name": "Countries",
-      "path": "ulkeler",
+      "path": "countries",
       "desc": [],
       "data": [],
       "index": 4,
@@ -120,15 +120,14 @@
     },
     {
       "name": "Knowledge Base",
-      "path": "bilgi-bankasi",
+      "path": "knowledge-base",
       "desc": [],
       "data": [],
       "index": 5,
       "desing": {
         "header": [],
         "body": [
-          "kyqg9u",
-          "johbrf"
+          "my2y3e"
         ],
         "footer": []
       },

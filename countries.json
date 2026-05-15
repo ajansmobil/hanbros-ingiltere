@@ -1,0 +1,140 @@
+{
+  "name": "Countries",
+  "path": "countries",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "United Kingdom",
+        "en": "United Kingdom"
+      },
+      "status": "play",
+      "category": "Service regions",
+      "id": "ingiltere",
+      "url": "",
+      "path": "united-kingdom",
+      "index": 0,
+      "img": "country-card.jpg",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "icon": "home",
+      "description": {
+        "tr": "UK-wide collection planning: M25 belt, Midlands and northern Scotland lanes.",
+        "en": "UK-wide collection planning: M25 belt, Midlands and northern Scotland lanes."
+      }
+    },
+    {
+      "name": {
+        "tr": "Turkey",
+        "en": "Turkey"
+      },
+      "status": "play",
+      "category": "Service regions",
+      "id": "turkiye",
+      "url": "",
+      "path": "turkey",
+      "index": 1,
+      "img": "country-card.jpg",
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Domestic distribution in Turkey after import clearance and door appointments.",
+        "en": "Domestic distribution in Turkey after import clearance and door appointments."
+      }
+    },
+    {
+      "name": {
+        "tr": "Germany",
+        "en": "Germany"
+      },
+      "status": "play",
+      "category": "European countries",
+      "id": "almanya",
+      "url": "",
+      "path": "germany",
+      "index": 2,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "country-card.jpg",
+      "description": {
+        "tr": "Routing Germany-origin cargo into the Turkey lane via United Kingdom consolidation and corridor planning.",
+        "en": "Routing Germany-origin cargo into the Turkey lane via United Kingdom consolidation and corridor planning."
+      }
+    },
+    {
+      "name": {
+        "tr": "Netherlands",
+        "en": "Netherlands"
+      },
+      "status": "play",
+      "category": "European countries",
+      "id": "hollanda",
+      "url": "",
+      "path": "netherlands",
+      "index": 3,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "country-card.jpg",
+      "description": {
+        "tr": "Rotterdam and Amsterdam sea options with optional United Kingdom relay into the Turkey corridor.",
+        "en": "Rotterdam and Amsterdam sea options with optional United Kingdom relay into the Turkey corridor."
+      }
+    },
+    {
+      "name": {
+        "tr": "France",
+        "en": "France"
+      },
+      "status": "play",
+      "category": "European countries",
+      "id": "fransa",
+      "url": "",
+      "path": "france",
+      "index": 4,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "country-card.jpg",
+      "description": {
+        "tr": "Channel crossing and United Kingdom integration for France-origin loads into the Turkey corridor.",
+        "en": "Channel crossing and United Kingdom integration for France-origin loads into the Turkey corridor."
+      }
+    }
+  ],
+  "index": 3,
+  "desing": {
+    "header": [],
+    "body": [
+      "my2y3e"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "img": true,
+    "bgimg": false,
+    "detail": true
+  }
+}

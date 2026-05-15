@@ -1,6 +1,6 @@
 {
-  "name": "Ürün Kategorileri",
-  "description": "Kategorilere göre ürün listesi gösterir",
+  "name": "Product categories",
+  "description": "Lists products by category for the volume planner",
   "version": "1.0.0",
   "type": "body",
   "category": "liste",

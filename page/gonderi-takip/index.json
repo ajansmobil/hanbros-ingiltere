@@ -6,29 +6,31 @@
   "status": "play",
   "category": "",
   "id": "gonderi-takip",
-  "path": "gonderi-takip",
-  "index": 4,
+  "path": "shipment-tracking",
+  "index": 5,
   "description": {
-    "tr": "Hanbros UK live shipment tracking service. Track your cargo's location, estimated arrival time, and customs status 24/7 instantly.",
-    "en": "Hanbros UK live shipment tracking service. Track your cargo's location, estimated arrival time, and customs status 24/7 instantly."
+    "tr": "Look up milestones and customs status with your consignment reference—use the quote page for pricing, not this tool.",
+    "en": "Look up milestones and customs status with your consignment reference—use the quote page for pricing, not this tool."
   },
   "desing": {
     "header": [],
-    "body": [],
+    "body": [
+      "eberbu"
+    ],
     "footer": []
   },
   "pathnext": "",
   "img": "icon.png",
   "desc": {},
   "keyword": {
-    "tr": "shipment tracking uk to turkey",
-    "en": "shipment tracking uk to turkey"
+    "tr": "consignment reference lookup, shipment milestone trace UK Turkey, cargo status by reference",
+    "en": "consignment reference lookup, shipment milestone trace UK Turkey, cargo status by reference"
   },
   "update": "2026-05-08T05:40:46.499Z",
   "date": "2026-05-08T05:18:35.588Z",
   "title": {
-    "tr": "Shipment Tracking",
-    "en": "Shipment Tracking"
+    "tr": "Shipment lookup | Hanbros UK",
+    "en": "Shipment lookup | Hanbros UK"
   },
   "icon": "home",
   "text": {

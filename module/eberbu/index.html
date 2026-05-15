@@ -712,10 +712,10 @@
             var trackingInfo = document.getElementById('tracking-info');
             var statusSection = document.getElementById('statusSection');
             var fabButton = document.getElementById('fabButton');
-            var loadingText = (typeof eberbuLoadingText !== 'undefined') ? eberbuLoadingText : 'Yükleniyor...';
-            var statusFormat = (typeof eberbuTrackingStatusFormat !== 'undefined') ? eberbuTrackingStatusFormat : '{0} takip numaralı siparişinizin durumu aşağıdaki gibidir.';
-            var errorNotFound = (typeof eberbuErrorNotFound !== 'undefined') ? eberbuErrorNotFound : 'Sipariş bulunamadı veya bir hata oluştu.';
-            var errorNoHistory = (typeof eberbuErrorNoHistory !== 'undefined') ? eberbuErrorNoHistory : 'Bu takip numarası için geçmiş bulunamadı.';
+            var loadingText = (typeof eberbuLoadingText !== 'undefined') ? eberbuLoadingText : 'Loading...';
+            var statusFormat = (typeof eberbuTrackingStatusFormat !== 'undefined') ? eberbuTrackingStatusFormat : 'Status for tracking number {0}:';
+            var errorNotFound = (typeof eberbuErrorNotFound !== 'undefined') ? eberbuErrorNotFound : 'Shipment not found or an error occurred.';
+            var errorNoHistory = (typeof eberbuErrorNoHistory !== 'undefined') ? eberbuErrorNoHistory : 'No history found for this tracking number.';
 
             if (timeline) {
                 timeline.innerHTML = '<div class="eberbu-loading"><div class="eberbu-loading-spinner"></div><p class="eberbu-loading-text">' + loadingText + '</p></div>';
@@ -745,7 +745,7 @@
 
         function displayTrackingData(data) {
             var timeline = document.getElementById('timeline');
-            var errorNoHistory = (typeof eberbuErrorNoHistory !== 'undefined') ? eberbuErrorNoHistory : 'Bu takip numarası için geçmiş bulunamadı.';
+            var errorNoHistory = (typeof eberbuErrorNoHistory !== 'undefined') ? eberbuErrorNoHistory : 'No history found for this tracking number.';
             if (!timeline) return;
             if (!data.TransactionHistory || data.TransactionHistory.length === 0) {
                 timeline.innerHTML = '<div class="eberbu-error">' + errorNoHistory + '</div>';

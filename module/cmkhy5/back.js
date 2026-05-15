@@ -11,10 +11,10 @@ function shouldSkipSubmenu(menuRow) {
   }
   var p = menuRow.path != null ? String(menuRow.path) : "";
   var nid = menuRow.id != null ? String(menuRow.id) : "";
-  if (p === "bilgi-bankasi" || p === "iletisim") {
+  if (p === "knowledge-base" || p === "contact") {
     return true;
   }
-  if (nid === "bilgi-bankasi" || nid === "iletisim") {
+  if (nid === "bilgi-bankasi" || nid === "xnzu5au0ag") {
     return true;
   }
   return false;
@@ -60,7 +60,7 @@ if (pagesettingjson) {
             "</a>" +
             '<button type="button" class="modulex-submenu-toggle" aria-expanded="false" aria-controls="' +
             sid +
-            '" title="Alt menü" aria-label="Alt menüyü aç veya kapat">' +
+            '" title="Submenu" aria-label="Open or close submenu">' +
             '<span class="modulex-submenu-chevron" aria-hidden="true"></span>' +
             "</button>" +
             "</div>" +

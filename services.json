@@ -1,0 +1,289 @@
+{
+  "name": "Our Services",
+  "path": "services",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "UK to Turkey Household Goods Shipping",
+        "en": "UK to Turkey Household Goods Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ingiltereden-turkiyeye-ev-esyasi",
+      "url": "",
+      "path": "uk-to-turkey-household-shipping",
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Door-to-door household removals from England and across the United Kingdom to Turkey with packing, insurance and customs coordination by Hanbros UK.",
+        "en": "Door-to-door household removals from England and across the United Kingdom to Turkey with packing, insurance and customs coordination by Hanbros UK."
+      },
+      "img": "logo.png",
+      "icon": "home",
+      "desc": {},
+      "keyword": {
+        "tr": "ToR1 household move UK Turkey, residence relocation international, United Kingdom door-to-door removal",
+        "en": "ToR1 household move UK Turkey, residence relocation international, United Kingdom door-to-door removal"
+      },
+      "update": "2026-05-08T05:40:46.515Z",
+      "date": "2026-05-08T05:18:35.620Z",
+      "title": {
+        "tr": "Household removals | Hanbros UK",
+        "en": "Household removals | Hanbros UK"
+      },
+      "slider": []
+    },
+    {
+      "name": {
+        "tr": "UK to Turkey Vehicle Shipping",
+        "en": "UK to Turkey Vehicle Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ingiltereden-turkiyeye-arac-gonderimi",
+      "url": "",
+      "path": "uk-to-turkey-vehicle-shipping",
+      "index": 1,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "icon": "home",
+      "img": "service-card.jpg",
+      "description": {
+        "tr": "Ship cars and motorcycles from England and the United Kingdom to Turkey: RoRo and container options with documentation and insurance planning by Hanbros UK.",
+        "en": "Ship cars and motorcycles from England and the United Kingdom to Turkey: RoRo and container options with documentation and insurance planning by Hanbros UK."
+      },
+      "desc": {},
+      "keyword": {
+        "tr": "V5C vehicle export UK, RoRo car Turkey, motorcycle container shipping United Kingdom",
+        "en": "V5C vehicle export UK, RoRo car Turkey, motorcycle container shipping United Kingdom"
+      },
+      "title": {
+        "tr": "Vehicle transport (RoRo) | Hanbros UK",
+        "en": "Vehicle transport (RoRo) | Hanbros UK"
+      }
+    },
+    {
+      "name": {
+        "tr": "UK to Turkey Commercial Goods Shipping",
+        "en": "UK to Turkey Commercial Goods Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ingiltereden-turkiyeye-ticari-esya",
+      "url": "",
+      "path": "uk-to-turkey-commercial-shipping",
+      "index": 2,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "service-card.jpg",
+      "description": {
+        "tr": "B2B moves aligned to commercial invoice, origin and HS codes—road LTL linehaul is detailed on the cargo page, not here.",
+        "en": "B2B moves aligned to commercial invoice, origin and HS codes—road LTL linehaul is detailed on the cargo page, not here."
+      },
+      "desc": {},
+      "keyword": {
+        "tr": "B2B commercial invoice origin HS, Incoterms palletised UK Turkey, trade compliance freight",
+        "en": "B2B commercial invoice origin HS, Incoterms palletised UK Turkey, trade compliance freight"
+      },
+      "title": {
+        "tr": "Commercial freight (B2B) | Hanbros UK",
+        "en": "Commercial freight (B2B) | Hanbros UK"
+      }
+    },
+    {
+      "name": {
+        "tr": "UK to Turkey Cargo Shipping",
+        "en": "UK to Turkey Cargo Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ingiltereden-turkiyeye-kargo",
+      "url": "",
+      "path": "uk-to-turkey-road-cargo",
+      "index": 3,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "service-card.jpg",
+      "description": {
+        "tr": "Road trailer LTL and FTL lane: chargeable weight and ADR workflows—invoice-led B2B flows sit on the commercial goods page.",
+        "en": "Road trailer LTL and FTL lane: chargeable weight and ADR workflows—invoice-led B2B flows sit on the commercial goods page."
+      },
+      "desc": {},
+      "keyword": {
+        "tr": "LTL FTL road trailer UK Turkey, chargeable weight freight, ADR dangerous goods approval",
+        "en": "LTL FTL road trailer UK Turkey, chargeable weight freight, ADR dangerous goods approval"
+      },
+      "title": {
+        "tr": "Road cargo (LTL/FTL) | Hanbros UK",
+        "en": "Road cargo (LTL/FTL) | Hanbros UK"
+      }
+    },
+    {
+      "name": {
+        "tr": "UK to Turkey Storage Service",
+        "en": "UK to Turkey Storage Service"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ingiltereden-turkiyeye-depolama",
+      "url": "",
+      "path": "uk-to-turkey-storage",
+      "index": 4,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "service-card.jpg",
+      "description": {
+        "tr": "Interim storage in England and the United Kingdom or staging before final delivery in Turkey — Hanbros UK storage solutions.",
+        "en": "Interim storage in England and the United Kingdom or staging before final delivery in Turkey — Hanbros UK storage solutions."
+      },
+      "desc": {},
+      "keyword": {
+        "tr": "interim UK warehousing, pre-move inventory hold, climate controlled storage staging",
+        "en": "interim UK warehousing, pre-move inventory hold, climate controlled storage staging"
+      },
+      "title": {
+        "tr": "Interim storage | Hanbros UK",
+        "en": "Interim storage | Hanbros UK"
+      }
+    },
+    {
+      "name": {
+        "tr": "UK to Turkey Customs Consultancy",
+        "en": "UK to Turkey Customs Consultancy"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ingiltereden-turkiyeye-gumruk",
+      "url": "",
+      "path": "uk-to-turkey-customs",
+      "index": 5,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "service-card.jpg",
+      "description": {
+        "tr": "Classification, origin, VAT and excise scenarios for movements from England and the United Kingdom to Turkey — Hanbros UK customs consultancy.",
+        "en": "Classification, origin, VAT and excise scenarios for movements from England and the United Kingdom to Turkey — Hanbros UK customs consultancy."
+      },
+      "desc": {},
+      "keyword": {
+        "tr": "HS classification advisory, origin proof UK Turkey, pre-declaration customs review",
+        "en": "HS classification advisory, origin proof UK Turkey, pre-declaration customs review"
+      },
+      "title": {
+        "tr": "Customs & classification | Hanbros UK",
+        "en": "Customs & classification | Hanbros UK"
+      }
+    },
+    {
+      "name": {
+        "tr": "UK to Turkey New Furniture Shipping",
+        "en": "UK to Turkey New Furniture Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ingiltereden-turkiyeye-yeni-mobilya",
+      "url": "",
+      "path": "uk-to-turkey-new-furniture",
+      "index": 6,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "service-card.jpg",
+      "description": {
+        "tr": "New furniture from retail or workshop origins in England and the United Kingdom to Turkey with packing, palletisation and optional assembly by Hanbros UK.",
+        "en": "New furniture from retail or workshop origins in England and the United Kingdom to Turkey with packing, palletisation and optional assembly by Hanbros UK."
+      },
+      "desc": {},
+      "keyword": {
+        "tr": "retail furniture flatpack shipping, showroom palletisation, optional assembly delivery",
+        "en": "retail furniture flatpack shipping, showroom palletisation, optional assembly delivery"
+      },
+      "title": {
+        "tr": "New furniture (retail) | Hanbros UK",
+        "en": "New furniture (retail) | Hanbros UK"
+      }
+    },
+    {
+      "name": {
+        "tr": "UK to Turkey Express Cargo",
+        "en": "UK to Turkey Express Cargo"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ingiltereden-turkiyeye-ekspres-kargo",
+      "url": "",
+      "path": "uk-to-turkey-express",
+      "index": 7,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "service-card.jpg",
+      "description": {
+        "tr": "Time-critical shipments from England and the United Kingdom to Turkey with priority loading and accelerated customs prep — Hanbros UK express.",
+        "en": "Time-critical shipments from England and the United Kingdom to Turkey with priority loading and accelerated customs prep — Hanbros UK express."
+      },
+      "desc": {},
+      "keyword": {
+        "tr": "priority loading cut-off, time-critical shipment slot, expedited customs prep express",
+        "en": "priority loading cut-off, time-critical shipment slot, expedited customs prep express"
+      },
+      "title": {
+        "tr": "Express / priority lane | Hanbros UK",
+        "en": "Express / priority lane | Hanbros UK"
+      }
+    }
+  ],
+  "index": 1,
+  "desing": {
+    "header": [],
+    "body": [
+      "my2y3e",
+      "johbrf"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "img": true,
+    "bgimg": false,
+    "detail": true,
+    "spot": true
+  }
+}

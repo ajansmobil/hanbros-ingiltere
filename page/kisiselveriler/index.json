@@ -5,7 +5,7 @@
   },
   "status": "play",
   "id": "kisiselveriler",
-  "path": "kisisel-veriler",
+  "path": "personal-data",
   "category": "",
   "desing": {
     "header": [],
@@ -15,13 +15,12 @@
   "index": 5,
   "icon": "home",
   "description": {
-    "tr": "Categories of data, legal bases and complaint channels.",
-    "en": "Categories of data, legal bases and complaint channels."
+    "tr": "Categories of personal data, lawful bases and controller identity—the full privacy statement sits on the privacy policy page.",
+    "en": "Categories of personal data, lawful bases and controller identity—the full privacy statement sits on the privacy policy page."
   },
-  "pathnext": "",
   "keyword": {
-    "tr": "personal data processing, controller",
-    "en": "personal data processing, controller"
+    "tr": "personal data categories inventory, controller contact UK logistics, mandatory transport contract fields",
+    "en": "personal data categories inventory, controller contact UK logistics, mandatory transport contract fields"
   },
   "text": {
     "tr": "<p>UK and TR operational necessities for customs and carriage are described separately. Requests can be emailed to us.</p>",
@@ -30,8 +29,8 @@
   "update": "2026-05-08T05:40:46.582Z",
   "date": "2026-05-08T05:40:45.256Z",
   "title": {
-    "tr": "Personal Data | Hanbros UK",
-    "en": "Personal Data | Hanbros UK"
+    "tr": "Personal data categories | Hanbros UK",
+    "en": "Personal data categories | Hanbros UK"
   },
   "img": "logo.png"
 }

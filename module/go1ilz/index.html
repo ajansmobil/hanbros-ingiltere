@@ -1680,7 +1680,7 @@
     var editingProductId = null;
 
     var GO1ILZ_API_BASE = 'https://api.hanbroscargo.workers.dev';
-    var STORAGE_KEY_GO1ILZ = 'hanbroscargo_go1ilz_akilli_hesaplama';
+    var STORAGE_KEY_GO1ILZ = 'hanbros_uk_go1ilz_akilli_hesaplama';
 
 
     function saveToLocalStorage() {
@@ -1705,7 +1705,7 @@
             if (!data || typeof data.productCounters !== 'object') return null;
             return data;
         } catch (e) {
-            console.warn('localStorage okunamadı:', e);
+            console.warn('localStorage could not be read:', e);
             return null;
         }
     }
@@ -1776,7 +1776,7 @@
     }
 
     function buildPDFContent(doc, addedProducts, totalAdet, totalHacim, totalAgirlik, lang, now, logoBase64, logoHeight, logoImgHeight) {
-        var locale = lang === 'en' ? 'en-US' : 'tr-TR';
+        var locale = lang === 'en' ? 'en-US' : 'en-GB';
         var dateStr = now.toLocaleDateString(locale, { year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit' });
 
         var fontName = doc._pdfTrFont ? 'RobotoTR' : 'helvetica';
@@ -1977,7 +1977,7 @@
                 updateClearCartButtonText();
             })
             .catch(function (error) {
-                console.warn('Lang.json yüklenemedi:', error);
+                console.warn('Lang.json could not be loaded:', error);
             });
     } else {
         setTimeout(applyTranslationsToModule, 0);
@@ -2422,7 +2422,7 @@
         if (weight) {
             var weightItem = document.createElement('div');
             weightItem.className = 'product-detail-item';
-            weightItem.innerHTML = '<span class="product-detail-label">Ağırlık:</span>' +
+            weightItem.innerHTML = '<span class="product-detail-label">Weight:</span>' +
                 '<span class="product-detail-value">' + weight + ' kg</span>';
             details.appendChild(weightItem);
         }
@@ -2449,7 +2449,7 @@
         var editBtn = document.createElement('button');
         editBtn.className = 'edit-btn';
         editBtn.innerHTML = '<span class="material-symbols-outlined" style="font-size: 18px;">edit</span>';
-        editBtn.title = 'Hacim düzenle';
+        editBtn.title = 'Edit volume';
         editBtn.style.display = count > 0 ? 'flex' : 'none';
         editBtn.onclick = function () { openVolumeEditPopup(productId); };
 
@@ -2546,31 +2546,41 @@
     
     function getCategoriesFilteredByHash(allCategories) {
         var hash = (location.hash || '').replace(/^#/, '').toLowerCase().trim();
-        if (!hash) return allCategories;
+        if (!hash) {
+            return allCategories;
+        }
 
-        var g = function (name) { return String(name || '').trim(); };
-        var gLower = function (name) { return g(name).toLowerCase(); };
+        var groupKey = function (name) {
+            var s = String(name || '').trim();
+            var parts = s.split(/\s*\/\s*/);
+            if (parts.length >= 2) {
+                return parts[parts.length - 1].trim().toUpperCase();
+            }
+            return s.toUpperCase();
+        };
 
         if (hash === 'ticari') {
             return allCategories.filter(function (c) {
-                var s = g(c);
-                return s === 'TİCARİ / COMMERCIAL' || s === 'MUHTELİF / VARIOUS';
+                var k = groupKey(c);
+                return k === 'COMMERCIAL' || k === 'VARIOUS';
             });
         }
         if (hash === 'arac' || hash === 'vehicle') {
             return allCategories.filter(function (c) {
-                return gLower(c) === 'araç / vehicle';
+                return groupKey(c) === 'VEHICLE';
             });
         }
         if (hash === 'zati' || hash === 'kargo') {
             return allCategories.filter(function (c) {
-                var s = g(c);
-                return s !== 'ARAÇ / VEHICLE' && s !== 'TİCARİ / COMMERCIAL';
+                var k = groupKey(c);
+                return k !== 'VEHICLE' && k !== 'COMMERCIAL';
             });
         }
         if (hash === 'mobilya') {
-            var fuAllowed = ['YATAK ODASI / BEDROOM', 'SALON / LOUNGE', 'ÇOCUK-GENÇ ODASI / YOUTH ROOM', 'BALKON-BAHÇE / BALCONY-GARDEN', 'HOL / HALL', 'MİSAFİR ODASI / DRAWING ROOM', 'YEMEK ODASI / DINING ROOM', 'MUTFAK / KITCHEN', 'BANYO / BATH', 'MUHTELİF / VARIOUS'];
-            return allCategories.filter(function (c) { return fuAllowed.indexOf(g(c)) !== -1; });
+            var fuAllowed = ['BEDROOM', 'LOUNGE', 'YOUTH ROOM', 'BALCONY-GARDEN', 'HALL', 'DRAWING ROOM', 'DINING ROOM', 'KITCHEN', 'BATH', 'VARIOUS'];
+            return allCategories.filter(function (c) {
+                return fuAllowed.indexOf(groupKey(c)) !== -1;
+            });
         }
         return allCategories;
     }
@@ -2581,13 +2591,13 @@
         var maxRetries = 3;
         var categoriesContent = document.getElementById('categories-content');
         if (categoriesContent) {
-            categoriesContent.innerHTML = '<div class="no-products" style="text-align:center;padding:40px;">' + (getTranslation('loading') || 'Yükleniyor') + '...</div>';
+            categoriesContent.innerHTML = '<div class="no-products" style="text-align:center;padding:40px;">' + (getTranslation('loading') || 'Loading') + '...</div>';
         }
 
         var abortController = new AbortController();
         var timeoutId = setTimeout(function () {
             abortController.abort();
-            console.error('API timeout - 20 saniye içinde yanıt alınamadı');
+            console.error('API timeout — no response within 20 seconds');
         }, 20000);
 
         fetch('https://api.hanbroscargo.workers.dev/groups', {
@@ -2709,10 +2719,10 @@
         })
         .catch(function (error) {
             clearTimeout(timeoutId);
-            console.error('Ürünler yüklenemedi:', error);
+            console.error('Products could not be loaded:', error);
 
             if (retryCount < maxRetries) {
-                console.log('Tekrar deneme: ' + (retryCount + 1) + '/' + maxRetries);
+                console.log('Retry: ' + (retryCount + 1) + '/' + maxRetries);
                 setTimeout(function () { loadProducts(retryCount + 1); }, 2000 * (retryCount + 1));
                 return;
             }
@@ -2720,22 +2730,22 @@
             var catContent = document.getElementById('categories-content');
             if (!catContent) return;
 
-            var errorMsg = getTranslation('loading-error') || 'Veriler yüklenemedi';
+            var errorMsg = getTranslation('loading-error') || 'Could not load data';
             var errorDetail;
             if (error.name === 'AbortError' || (error.message && error.message.indexOf('timeout') !== -1)) {
-                errorDetail = 'Bağlantı zaman aşımına uğradı. Lütfen internet bağlantınızı kontrol edin.';
+                errorDetail = 'The request timed out. Please check your internet connection.';
             } else if (error.message && error.message.indexOf('Failed to fetch') !== -1) {
-                errorDetail = 'Sunucuya bağlanılamadı. Lütfen internet bağlantınızı kontrol edin.';
+                errorDetail = 'Could not reach the server. Please check your internet connection.';
             } else if (error.message && error.message.indexOf('CORS') !== -1) {
-                errorDetail = 'CORS hatası. Lütfen daha sonra tekrar deneyin.';
+                errorDetail = 'A CORS error occurred. Please try again later.';
             } else {
-                errorDetail = error.message || 'Bilinmeyen bir hata oluştu.';
+                errorDetail = error.message || 'An unknown error occurred.';
             }
 
             catContent.innerHTML = '<div class="no-products" style="text-align:center;padding:40px;">' +
                 '<div style="color:#dc3545;margin-bottom:10px;font-weight:600;">' + errorMsg + '</div>' +
                 '<div style="font-size:12px;color:#666;margin-bottom:15px;">' + errorDetail + '</div>' +
-                '<button onclick="loadProducts(0)" style="padding:10px 20px;background:#009a96;color:white;border:none;border-radius:5px;cursor:pointer;font-size:14px;">Tekrar Dene</button>' +
+                '<button onclick="loadProducts(0)" style="padding:10px 20px;background:#009a96;color:white;border:none;border-radius:5px;cursor:pointer;font-size:14px;">Try again</button>' +
                 '</div>';
         });
     }
@@ -2843,7 +2853,7 @@
         if (!btn) return;
         btn.disabled = false;
         btn.classList.remove('sent');
-        btn.textContent = getTranslation('quote-send-btn') || 'Teklif gönder';
+        btn.textContent = getTranslation('quote-send-btn') || 'Send quote';
     }
 
     function fillQuoteCartSummary(adet, hacim, agirlik) {
@@ -2851,7 +2861,7 @@
         if (!el) return;
         el.textContent = getTranslation('total-quantity') + ': ' + (adet || 0) + ' • ' +
             (getTranslation('total-volume') || 'Hacim') + ': ' + (hacim ? parseFloat(hacim).toFixed(2) : '0') + ' m³ • ' +
-            (getTranslation('total-weight') || 'Ağırlık') + ': ' + (agirlik ? parseFloat(agirlik).toFixed(1) : '0') + ' kg';
+            (getTranslation('total-weight') || 'Weight') + ': ' + (agirlik ? parseFloat(agirlik).toFixed(1) : '0') + ' kg';
     }
 
     function toFixedNumber(value, digits) {
@@ -3044,7 +3054,7 @@
         if (btn) {
             btn.disabled = true;
             btn.classList.remove('sent');
-            btn.textContent = getTranslation('quote-sending') || 'Gönderiliyor...';
+            btn.textContent = getTranslation('quote-sending') || 'Sending...';
         }
         if (resultEl) resultEl.innerHTML = '';
         var payload = getQuotePayloadFromGo1ilz();
@@ -3062,12 +3072,12 @@
             if (btn) {
                 btn.disabled = false;
                 btn.classList.remove('sent');
-                btn.textContent = getTranslation('quote-send-btn') || 'Teklif gönder';
+                btn.textContent = getTranslation('quote-send-btn') || 'Send quote';
             }
             if (isQuoteAcceptedResponse(r)) {
                 if (resultEl) {
                     resultEl.className = 'quote-result success';
-                    resultEl.textContent = getTranslation('quote-success') || 'Teklif talebiniz alındı.';
+                    resultEl.textContent = getTranslation('quote-success') || 'Your quote request was received.';
                 }
                 if (btn) {
 
@@ -3093,7 +3103,7 @@
                 }
                 if (resultEl) {
                     resultEl.className = 'quote-result error';
-                    resultEl.textContent = errMsg || (getTranslation('quote-error') || 'Gönderim başarısız.');
+                    resultEl.textContent = errMsg || (getTranslation('quote-error') || 'Send failed.');
                 }
                 resetQuoteSendButtonState();
             }
@@ -3102,11 +3112,11 @@
             if (btn) {
                 btn.disabled = false;
                 btn.classList.remove('sent');
-                btn.textContent = getTranslation('quote-send-btn') || 'Teklif gönder';
+                btn.textContent = getTranslation('quote-send-btn') || 'Send quote';
             }
             if (resultEl) {
                 resultEl.className = 'quote-result error';
-                resultEl.textContent = (getTranslation('quote-error') || 'Gönderim başarısız.') + ' ' + (err && err.message ? err.message : '');
+                resultEl.textContent = (getTranslation('quote-error') || 'Send failed.') + ' ' + (err && err.message ? err.message : '');
             }
         });
         return false;

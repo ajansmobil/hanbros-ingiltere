@@ -3,11 +3,23 @@
 if (typeof json === 'undefined') {
   var json = {};
 }
-var lang = (json.lang === 'tr' || json.lang === 'en') ? json.lang : 'tr';
+var lang = (json.lang === 'tr' || json.lang === 'en') ? json.lang : 'en';
 var d = json.desing || {};
 
 function getDesing(key) {
-  return (d[key] && d[key][lang]) ? d[key][lang] : (d[key] && d[key].tr) ? d[key].tr : '';
+  if (!d[key]) {
+    return '';
+  }
+  if (d[key][lang]) {
+    return d[key][lang];
+  }
+  if (d[key].en) {
+    return d[key].en;
+  }
+  if (d[key].tr) {
+    return d[key].tr;
+  }
+  return '';
 }
 
 html = html.replace(/\{\{lang\}\}/g, lang);

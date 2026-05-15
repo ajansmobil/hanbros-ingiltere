@@ -7,7 +7,7 @@
   "category": "Service regions",
   "id": "turkiye",
   "url": "",
-  "path": "turkiye",
+  "path": "turkey",
   "index": 1,
   "img": "logo.png",
   "icon": "home",
@@ -18,13 +18,13 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Domestic distribution, customs and delivery appointments in Turkey.",
-    "en": "Domestic distribution, customs and delivery appointments in Turkey."
+    "tr": "Domestic distribution in Turkey after import clearance and door appointments—UK-origin pickup is explained on the UK page.",
+    "en": "Domestic distribution in Turkey after import clearance and door appointments—UK-origin pickup is explained on the UK page."
   },
   "desc": {},
   "keyword": {
-    "tr": "turkey delivery customs address",
-    "en": "turkey delivery customs address"
+    "tr": "Turkey domestic linehaul, post-clearance door delivery, Istanbul Antalya appointment delivery",
+    "en": "Turkey domestic linehaul, post-clearance door delivery, Istanbul Antalya appointment delivery"
   },
   "text": {
     "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Crane or lift access should be flagged early for heavy items.</p>",
@@ -33,7 +33,7 @@
   "update": "2026-05-08T05:40:46.624Z",
   "date": "2026-05-08T05:18:35.725Z",
   "title": {
-    "tr": "Turkey",
-    "en": "Turkey"
+    "tr": "Turkey delivery leg | Hanbros UK",
+    "en": "Turkey delivery leg | Hanbros UK"
   }
 }

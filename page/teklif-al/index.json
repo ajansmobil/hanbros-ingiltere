@@ -6,29 +6,31 @@
   "status": "play",
   "category": "",
   "id": "teklif-al",
-  "path": "teklif-al",
-  "index": 5,
+  "path": "get-a-quote",
+  "index": 6,
   "description": {
-    "tr": "Use the Hanbros UK quote form to request a tailored logistics plan for international cargo, household moves, vehicles and commercial freight.",
-    "en": "Use the Hanbros UK quote form to request a tailored logistics plan for international cargo, household moves, vehicles and commercial freight."
+    "tr": "Written pricing request form by door addresses and cargo type—for live status use the shipment lookup page.",
+    "en": "Written pricing request form by door addresses and cargo type—for live status use the shipment lookup page."
   },
   "desing": {
     "header": [],
-    "body": [],
+    "body": [
+      "akf1q6"
+    ],
     "footer": []
   },
   "pathnext": "",
   "img": "logo.png",
   "desc": {},
   "keyword": {
-    "tr": "get quote uk to turkey shipping",
-    "en": "get quote uk to turkey shipping"
+    "tr": "UK Turkey freight RFQ, written removal quote form, pallet rate request England Turkey",
+    "en": "UK Turkey freight RFQ, written removal quote form, pallet rate request England Turkey"
   },
   "update": "2026-05-08T05:40:46.505Z",
   "date": "2026-05-08T05:18:35.593Z",
   "title": {
-    "tr": "Get a Quote",
-    "en": "Get a Quote"
+    "tr": "Request a quote | Hanbros UK",
+    "en": "Request a quote | Hanbros UK"
   },
   "icon": "home",
   "text": {

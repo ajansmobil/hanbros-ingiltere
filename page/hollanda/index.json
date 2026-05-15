@@ -7,7 +7,7 @@
   "category": "European countries",
   "id": "hollanda",
   "url": "",
-  "path": "hollanda",
+  "path": "netherlands",
   "index": 3,
   "icon": "home",
   "desing": {
@@ -18,13 +18,13 @@
   "pathnext": "",
   "img": "logo.png",
   "description": {
-    "tr": "Sea options from Rotterdam/Amsterdam with optional UK relay.",
-    "en": "Sea options from Rotterdam/Amsterdam with optional UK relay."
+    "tr": "Rotterdam and Amsterdam sea options with optional England and United Kingdom relay into the Turkey corridor via Hanbros UK.",
+    "en": "Rotterdam and Amsterdam sea options with optional England and United Kingdom relay into the Turkey corridor via Hanbros UK."
   },
   "desc": {},
   "keyword": {
-    "tr": "netherlands port uk relay turkey",
-    "en": "netherlands port uk relay turkey"
+    "tr": "Rotterdam LCL sailing cut-off, Amsterdam short sea UK relay, Antwerp alternative feeder planning",
+    "en": "Rotterdam LCL sailing cut-off, Amsterdam short sea UK relay, Antwerp alternative feeder planning"
   },
   "text": {
     "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>LCL cut-offs drive available capacity.</p>",
@@ -33,7 +33,7 @@
   "update": "2026-05-08T05:40:46.635Z",
   "date": "2026-05-08T05:18:35.735Z",
   "title": {
-    "tr": "Netherlands",
-    "en": "Netherlands"
+    "tr": "Netherlands port lane | Hanbros UK",
+    "en": "Netherlands port lane | Hanbros UK"
   }
 }

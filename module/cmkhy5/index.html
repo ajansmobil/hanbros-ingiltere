@@ -1,18 +1,18 @@
 <header class="modulex" role="banner">
 
   <div class="modulexbody">
-    <a href="/{{lang}}/" aria-label="{{web-name}} Ana Sayfa">
+    <a href="/{{lang}}/" aria-label="{{web-name}} home">
       <img src="/img/{{logo}}?v={{random}}" class="module-logo" alt="{{web-name}} Logo" width="300" height="auto" />
     </a>
 
 
     <div class="lang_telif">
-      <nav class="modulextitlebodylang" aria-label="Dil seçimi">
+      <nav class="modulextitlebodylang" aria-label="Language">
         {{langhtml}}
       </nav>
 
       <div class="header-actions">
-        <nav class="contact-buttons" aria-label="Hızlı erişim butonları">
+        <nav class="contact-buttons" aria-label="Quick links">
          
          
             
@@ -23,13 +23,13 @@
 
          
          
-          <a href="/{{lang}}/gonderi-takip/" class="btn-quote" title="{{gonder}} - {{trackPageTitle}}">
+          <a href="/{{lang}}/shipment-tracking/" class="btn-quote" title="{{gonder}} - {{trackPageTitle}}">
             <i class="icon" aria-hidden="true">🚛</i>
             <span>{{gonder}}</span>
           </a>
 
 
-          <a href="/{{lang}}/teklif-al/" class="btn-quote" title="{{teklifal}} - {{quotePageTitle}}">
+          <a href="/{{lang}}/get-a-quote/" class="btn-quote" title="{{teklifal}} - {{quotePageTitle}}">
             <i class="icon" aria-hidden="true">✏️</i>
             <span>{{teklifal}}</span>
           </a>
@@ -38,9 +38,9 @@
 
     </div>
   </div>
-  <nav class="modulexmenubody" role="navigation" aria-label="Ana menü">
+  <nav class="modulexmenubody" role="navigation" aria-label="Main menu">
     <div class="modulexmenu">
-      <button class="mobile-menu-toggle" aria-expanded="false" aria-label="Menüyü aç/kapat"
+      <button class="mobile-menu-toggle" aria-expanded="false" aria-label="Open or close menu"
         aria-controls="modulexmenulistbody">
         <span class="mobile-menu-toggle-icon" aria-hidden="true">
           <span></span>
@@ -50,12 +50,12 @@
       </button>
       <div class="mobile-menu-overlay" id="mobile-menu-overlay" aria-hidden="true"></div>
       <div class="modulexmenulistbody" id="modulexmenulistbody">
-        <button class="mobile-menu-close" type="button" aria-label="Menüyü kapat" aria-controls="modulexmenulistbody">
+        <button class="mobile-menu-close" type="button" aria-label="Close menu" aria-controls="modulexmenulistbody">
           <span class="material-symbols-outlined" aria-hidden="true">close</span>
         </button>
         <div class="modulexmenulist">
           {{html}}
-          <div class="mobile-lang-wrapper" role="navigation" aria-label="Mobil dil seçimi">{{langhtml}}</div>
+          <div class="mobile-lang-wrapper" role="navigation" aria-label="Mobile language">{{langhtml}}</div>
         </div>
       </div>
     </div>
@@ -1187,7 +1187,7 @@
       }
       handleBreakpoint();
     } catch (error) {
-      console.error("cmkhy5 mobil menü hatası:", error);
+      console.error("cmkhy5 mobile menu error:", error);
     }
   }, 100);
 </script>

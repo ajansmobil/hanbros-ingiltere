@@ -7,7 +7,7 @@
   "category": "Service regions",
   "id": "ingiltere",
   "url": "",
-  "path": "ingiltere",
+  "path": "united-kingdom",
   "index": 0,
   "img": "logo.png",
   "desing": {
@@ -18,13 +18,13 @@
   "pathnext": "",
   "icon": "home",
   "description": {
-    "tr": "Nationwide UK pickup planning for Turkey-bound freight.",
-    "en": "Nationwide UK pickup planning for Turkey-bound freight."
+    "tr": "UK-wide collection planning: M25 belt, Midlands and northern Scotland lanes—the routing map is summarised on the regions page.",
+    "en": "UK-wide collection planning: M25 belt, Midlands and northern Scotland lanes—the routing map is summarised on the regions page."
   },
   "desc": {},
   "keyword": {
-    "tr": "uk collection postcode nationwide",
-    "en": "uk collection postcode nationwide"
+    "tr": "M25 collection belt, Midlands UK pickup Turkey sailing, Edinburgh Glasgow loading window",
+    "en": "M25 collection belt, Midlands UK pickup Turkey sailing, Edinburgh Glasgow loading window"
   },
   "text": {
     "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>We can structure frequent pickups around the M25, Midlands and northern Scotland lanes.</p>",
@@ -33,7 +33,7 @@
   "update": "2026-05-08T05:40:46.619Z",
   "date": "2026-05-08T05:18:35.719Z",
   "title": {
-    "tr": "United Kingdom",
-    "en": "United Kingdom"
+    "tr": "UK collection planning | Hanbros UK",
+    "en": "UK collection planning | Hanbros UK"
   }
 }

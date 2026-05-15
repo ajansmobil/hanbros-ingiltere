@@ -1,18 +1,19 @@
 
-
 var GO1ILZ_HASH = ['zati', 'mobilya', 'ticari', 'kargo', 'arac'];
 var menuHtml = '';
 
 var TASIMA_TIPLERI = [
-    { code: 'CA', title: { tr: 'Zati', en: 'Personal Effects' }, icon: 'inventory_2' },
-    { code: 'CO', title: { tr: 'Mobilya', en: 'Furniture' }, icon: 'weekend' },
-    { code: 'FU', title: { tr: 'Ticari', en: 'Commercial' }, icon: 'business_center' },
-    { code: 'RE', title: { tr: 'Kargo', en: 'Cargo' }, icon: 'local_shipping' },
-    { code: 'AU', title: { tr: 'Araç', en: 'Vehicle' }, icon: 'directions_car' }
+    { code: 'CA', title: { tr: 'Personal Effects', en: 'Personal Effects' }, icon: 'inventory_2' },
+    { code: 'CO', title: { tr: 'Furniture', en: 'Furniture' }, icon: 'weekend' },
+    { code: 'FU', title: { tr: 'Commercial', en: 'Commercial' }, icon: 'business_center' },
+    { code: 'RE', title: { tr: 'Cargo', en: 'Cargo' }, icon: 'local_shipping' },
+    { code: 'AU', title: { tr: 'Vehicle', en: 'Vehicle' }, icon: 'directions_car' }
 ];
-var lang = (typeof json !== 'undefined' && json.lang && json.lang === 'en') ? 'en' : 'tr';
+
+var lang = (typeof json !== 'undefined' && json.lang && json.lang === 'tr') ? 'tr' : 'en';
 var data = (typeof json !== 'undefined' && json.desing && json.desing.data && Array.isArray(json.desing.data)) ? json.desing.data : null;
-var go1ilzBase = '/' + lang + '/akilli-hesaplama/';
+
+var go1ilzBase = '/' + lang + '/smart-calculator/';
 for (var i = 0; i < TASIMA_TIPLERI.length; i++) {
     var tip = TASIMA_TIPLERI[i];
     var it = data && data[i] ? data[i] : tip;

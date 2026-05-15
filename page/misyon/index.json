@@ -5,7 +5,7 @@
   },
   "status": "play",
   "id": "misyon",
-  "path": "misyon",
+  "path": "mission",
   "category": "",
   "desing": {
     "header": [],
@@ -15,15 +15,15 @@
   "index": 1,
   "icon": "home",
   "description": {
-    "tr": "Predictable UK-to-Turkey moves through transparent pricing, correct paperwork and on-time delivery.",
-    "en": "Predictable UK-to-Turkey moves through transparent pricing, correct paperwork and on-time delivery."
+    "tr": "Transparent pricing, accurate paperwork and on-time delivery as operational promise—vision and quality policy have their own pages.",
+    "en": "Transparent pricing, accurate paperwork and on-time delivery as operational promise—vision and quality policy have their own pages."
   },
   "img": "logo.png",
   "url": "",
-  "pathnext": "vizyon",
+  "pathnext": "vision",
   "keyword": {
-    "tr": "hanbros mission, uk tr logistics quality",
-    "en": "hanbros mission, uk tr logistics quality"
+    "tr": "freight SLA commitment, documentation accuracy logistics, on-time delivery operations UK Turkey",
+    "en": "freight SLA commitment, documentation accuracy logistics, on-time delivery operations UK Turkey"
   },
   "text": {
     "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Our mission is to run measurable SLAs, engineer out damage risk at planning time, and keep customs classifications accurate to avoid delays.</p>",

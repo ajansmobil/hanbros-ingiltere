@@ -6,29 +6,31 @@
   "status": "play",
   "category": "",
   "id": "ulkeler",
-  "path": "ulkeler",
+  "path": "countries",
   "index": 2,
   "description": {
-    "tr": "Hanbros UK country pages. Which countries we provide transportation services to. UK-Turkey transportation. Country-based services.",
-    "en": "Hanbros UK country pages. Which countries we provide transportation services to. UK-Turkey transportation. Country-based services."
+    "tr": "Routing map for UK nations, Scotland/Wales/NI and European feeder legs into the Turkey lane—request pricing on the quote page.",
+    "en": "Routing map for UK nations, Scotland/Wales/NI and European feeder legs into the Turkey lane—request pricing on the quote page."
   },
   "desing": {
     "header": [],
-    "body": [],
+    "body": [
+      "ckh2vr"
+    ],
     "footer": []
   },
   "pathnext": "",
   "img": "logo.png",
   "desc": {},
   "keyword": {
-    "tr": "countries uk turkey corridor hanbros",
-    "en": "countries uk turkey corridor hanbros"
+    "tr": "UK nations routing map, European feeder Turkey corridor, Scotland Wales NI collection planning",
+    "en": "UK nations routing map, European feeder Turkey corridor, Scotland Wales NI collection planning"
   },
   "update": "2026-05-08T05:40:46.489Z",
   "date": "2026-05-08T05:18:35.577Z",
   "title": {
-    "tr": "Countries",
-    "en": "Countries"
+    "tr": "Regions & routing | Hanbros UK",
+    "en": "Regions & routing | Hanbros UK"
   },
   "icon": "home",
   "text": {

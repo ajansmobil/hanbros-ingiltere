@@ -5,7 +5,7 @@
   },
   "status": "play",
   "id": "hakkimizda",
-  "path": "hakkimizda",
+  "path": "about-us",
   "category": "",
   "desing": {
     "header": [],
@@ -15,20 +15,20 @@
   "index": 0,
   "icon": "home",
   "description": {
-    "tr": "Hanbros UK is the UK-origin brand for moves and freight to Turkey, operating on hanbroscargo.co.uk.",
-    "en": "Hanbros UK is the UK-origin brand for moves and freight to Turkey, operating on hanbroscargo.co.uk."
+    "tr": "Who Hanbros UK is on the United Kingdom origin Turkey corridor—corporate policies and legal texts sit under the corporate hub.",
+    "en": "Who Hanbros UK is on the United Kingdom origin Turkey corridor—corporate policies and legal texts sit under the corporate hub."
   },
   "img": "logo.png",
   "url": "",
-  "pathnext": "misyon",
+  "pathnext": "mission",
   "slider": [],
   "title": {
-    "tr": "About Hanbros UK (UK to Turkey)",
-    "en": "About Hanbros UK (UK to Turkey)"
+    "tr": "About us | Hanbros UK",
+    "en": "About us | Hanbros UK"
   },
   "keyword": {
-    "tr": "hanbros uk, hanbroscargo.co.uk, uk to turkey shipping, uk turkey logistics",
-    "en": "hanbros uk, hanbroscargo.co.uk, uk to turkey shipping, uk turkey logistics"
+    "tr": "who is Hanbros UK, UK origin Turkey carrier profile, Han Bros brand story United Kingdom",
+    "en": "who is Hanbros UK, UK origin Turkey carrier profile, Han Bros brand story United Kingdom"
   },
   "text": {
     "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><h2>Who we are</h2><p>We coordinate UK-wide collections, professional packing and the Turkey delivery leg including customs and distribution.</p><h2>Why a dedicated UK domain</h2><p>hanbroscargo.co.uk strengthens intent signals for UK-origin queries while Turkey-origin content remains on hanbroscargo.com.</p>",

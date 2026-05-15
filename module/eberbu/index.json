@@ -1,11 +1,11 @@
 {
-  "name": "Kargo Takip Sistemi",
-  "description": "Hanbros Cargo kargo takip sistemi modülü",
+  "name": "Shipment tracking module",
+  "description": "Hanbros UK shipment status lookup module (Hanbros Cargo API).",
   "version": "1.0.0",
   "icon": "local_shipping",
   "category": "kargo",
   "desing": {
-    "page": "gonderi-takip",
+    "page": "shipment-tracking",
     "color": "#28a745",
     "bgcolor": "#ffffff",
     "pageTitle": {

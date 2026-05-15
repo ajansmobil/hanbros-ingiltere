@@ -7,29 +7,31 @@
   "category": "",
   "id": "xnzu5au0ag",
   "url": "",
-  "path": "iletisim",
-  "index": 6,
+  "path": "contact",
+  "index": 7,
   "icon": "home",
   "desing": {
     "header": [],
-    "body": [],
+    "body": [
+      "kizjvk"
+    ],
     "footer": []
   },
   "pathnext": "",
   "description": {
-    "tr": "Reach Hanbros UK for international logistics requests, 24/7 customer support and fast free moving or shipping quotes.",
-    "en": "Reach Hanbros UK for international logistics requests, 24/7 customer support and fast free moving or shipping quotes."
+    "tr": "Phone, email and office hours—for operational pricing use the quote form; for shipment status use the lookup page.",
+    "en": "Phone, email and office hours—for operational pricing use the quote form; for shipment status use the lookup page."
   },
   "desc": {},
   "keyword": {
-    "tr": "contact hanbros uk hanbroscargo.co.uk",
-    "en": "contact hanbros uk hanbroscargo.co.uk"
+    "tr": "Hanbros UK customer care phone, London office email, hanbroscargo.co.uk contact channels",
+    "en": "Hanbros UK customer care phone, London office email, hanbroscargo.co.uk contact channels"
   },
   "update": "2026-05-08T05:40:46.510Z",
   "date": "2026-05-04T19:01:36.370Z",
   "title": {
-    "tr": "Contact",
-    "en": "Contact"
+    "tr": "Contact | Hanbros UK",
+    "en": "Contact | Hanbros UK"
   },
   "img": "icon.png",
   "text": {

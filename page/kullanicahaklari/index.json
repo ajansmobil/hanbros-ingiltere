@@ -5,7 +5,7 @@
   },
   "status": "play",
   "id": "kullanicahaklari",
-  "path": "kullanici-haklari",
+  "path": "user-rights",
   "category": "",
   "desing": {
     "header": [],
@@ -15,13 +15,12 @@
   "index": 6,
   "icon": "home",
   "description": {
-    "tr": "How to exercise access, rectification, erasure and objection rights.",
-    "en": "How to exercise access, rectification, erasure and objection rights."
+    "tr": "How to submit access, rectification, erasure and objection requests with response timelines—the privacy policy explains processing principles.",
+    "en": "How to submit access, rectification, erasure and objection requests with response timelines—the privacy policy explains processing principles."
   },
-  "pathnext": "",
   "keyword": {
-    "tr": "gdpr rights access erasure",
-    "en": "gdpr rights access erasure"
+    "tr": "GDPR DSAR timeline UK, data erasure request logistics, subject access procedure Hanbros UK",
+    "en": "GDPR DSAR timeline UK, data erasure request logistics, subject access procedure Hanbros UK"
   },
   "text": {
     "tr": "<p>We may ask for shipment references and identity checks. Response timelines depend on applicable law.</p>",
@@ -30,8 +29,8 @@
   "update": "2026-05-08T05:40:46.588Z",
   "date": "2026-05-08T05:40:45.262Z",
   "title": {
-    "tr": "User Rights | Hanbros UK",
-    "en": "User Rights | Hanbros UK"
+    "tr": "Data subject requests | Hanbros UK",
+    "en": "Data subject requests | Hanbros UK"
   },
   "img": "logo.png"
 }

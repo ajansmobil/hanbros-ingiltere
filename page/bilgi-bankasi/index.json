@@ -6,29 +6,31 @@
   "status": "play",
   "category": "",
   "id": "bilgi-bankasi",
-  "path": "bilgi-bankasi",
-  "index": 3,
+  "path": "knowledge-base",
+  "index": 4,
   "description": {
-    "tr": "Hanbros UK knowledge base. Frequently asked questions and answers. Detailed information about our transportation services. FAQ page.",
-    "en": "Hanbros UK knowledge base. Frequently asked questions and answers. Detailed information about our transportation services. FAQ page."
+    "tr": "Read-first guides and FAQs on paperwork, packing and process—shipment lookup and quote request forms are on their own pages.",
+    "en": "Read-first guides and FAQs on paperwork, packing and process—shipment lookup and quote request forms are on their own pages."
   },
   "desing": {
     "header": [],
-    "body": [],
+    "body": [
+      "bmvw3u"
+    ],
     "footer": []
   },
   "pathnext": "",
   "img": "logo.png",
   "desc": {},
   "keyword": {
-    "tr": "knowledge base uk turkey shipping",
-    "en": "knowledge base uk turkey shipping"
+    "tr": "UK Turkey relocation guide, moving paperwork checklist, post-Brexit shipping knowledge base",
+    "en": "UK Turkey relocation guide, moving paperwork checklist, post-Brexit shipping knowledge base"
   },
   "update": "2026-05-08T05:40:46.494Z",
   "date": "2026-05-08T05:18:35.583Z",
   "title": {
-    "tr": "Knowledge Base",
-    "en": "Knowledge Base"
+    "tr": "Knowledge base | Hanbros UK",
+    "en": "Knowledge base | Hanbros UK"
   },
   "icon": "home",
   "text": {

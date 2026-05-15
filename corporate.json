@@ -1,0 +1,199 @@
+{
+  "name": "Corporate",
+  "path": "corporate",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "About Us",
+        "en": "About Us"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "about-us",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 0,
+      "icon": "home",
+      "description": {
+        "tr": "Who Hanbros UK is on the United Kingdom origin Turkey corridor—corporate policies and legal texts sit under the corporate hub.",
+        "en": "Who Hanbros UK is on the United Kingdom origin Turkey corridor—corporate policies and legal texts sit under the corporate hub."
+      },
+      "img": "logo.png",
+      "url": "",
+      "pathnext": "mission"
+    },
+    {
+      "name": {
+        "tr": "Mission",
+        "en": "Mission"
+      },
+      "status": "play",
+      "id": "misyon",
+      "path": "mission",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 1,
+      "icon": "home",
+      "description": {
+        "tr": "Transparent pricing, accurate paperwork and on-time delivery as operational promise—vision and quality policy have their own pages.",
+        "en": "Transparent pricing, accurate paperwork and on-time delivery as operational promise—vision and quality policy have their own pages."
+      },
+      "img": "logo.png",
+      "url": "",
+      "pathnext": "vision"
+    },
+    {
+      "name": {
+        "tr": "Vision",
+        "en": "Vision"
+      },
+      "status": "play",
+      "id": "vizyon",
+      "path": "vision",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 2,
+      "icon": "home",
+      "description": {
+        "tr": "End-to-end transparency and predictability in customer experience—live lookup and pricing requests sit on dedicated pages.",
+        "en": "End-to-end transparency and predictability in customer experience—live lookup and pricing requests sit on dedicated pages."
+      },
+      "img": "logo.png",
+      "url": "",
+      "pathnext": "quality-policy"
+    },
+    {
+      "name": {
+        "tr": "Quality Policy",
+        "en": "Quality Policy"
+      },
+      "status": "play",
+      "id": "kalitepolitikamiz",
+      "path": "quality-policy",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 3,
+      "icon": "home",
+      "description": {
+        "tr": "Continuous improvement through packing standards, damage-prevention checks and customer feedback loops; measurable service quality on every shipment.",
+        "en": "Continuous improvement through packing standards, damage-prevention checks and customer feedback loops; measurable service quality on every shipment."
+      },
+      "img": "logo.png",
+      "url": "",
+      "pathnext": "privacy-policy"
+    },
+    {
+      "name": {
+        "tr": "Privacy Policy",
+        "en": "Privacy Policy"
+      },
+      "status": "play",
+      "id": "gizlilikpolitikasi",
+      "path": "privacy-policy",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 4,
+      "icon": "home",
+      "description": {
+        "tr": "Processing purposes, retention, cookies and sharing principles on-page; personal data categories are summarised on a separate page.",
+        "en": "Processing purposes, retention, cookies and sharing principles on-page; personal data categories are summarised on a separate page."
+      },
+      "pathnext": ""
+    },
+    {
+      "name": {
+        "tr": "Personal Data",
+        "en": "Personal Data"
+      },
+      "status": "play",
+      "id": "kisiselveriler",
+      "path": "personal-data",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 5,
+      "icon": "home",
+      "description": {
+        "tr": "Categories of personal data, lawful bases and controller identity—the full privacy statement sits on the privacy policy page.",
+        "en": "Categories of personal data, lawful bases and controller identity—the full privacy statement sits on the privacy policy page."
+      },
+      "pathnext": ""
+    },
+    {
+      "name": {
+        "tr": "User Rights",
+        "en": "User Rights"
+      },
+      "status": "play",
+      "id": "kullanicahaklari",
+      "path": "user-rights",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 6,
+      "icon": "home",
+      "description": {
+        "tr": "How to submit access, rectification, erasure and objection requests with response timelines—the privacy policy explains processing principles.",
+        "en": "How to submit access, rectification, erasure and objection requests with response timelines—the privacy policy explains processing principles."
+      },
+      "pathnext": ""
+    },
+    {
+      "name": {
+        "tr": "Legal Notice",
+        "en": "Legal Notice"
+      },
+      "status": "play",
+      "id": "yasaluyari",
+      "path": "legal-notice",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 7,
+      "icon": "home",
+      "description": {
+        "tr": "Website content is informational; customs and tax outcomes rest with authorities. Liability limits are summarised here.",
+        "en": "Website content is informational; customs and tax outcomes rest with authorities. Liability limits are summarised here."
+      },
+      "pathnext": ""
+    }
+  ],
+  "index": 2,
+  "desing": {
+    "header": [],
+    "body": [
+      "my2y3e"
+    ],
+    "footer": []
+  }
+}

@@ -7,7 +7,7 @@
   "category": "European countries",
   "id": "fransa",
   "url": "",
-  "path": "fransa",
+  "path": "france",
   "index": 4,
   "icon": "home",
   "desing": {
@@ -18,13 +18,13 @@
   "pathnext": "",
   "img": "logo.png",
   "description": {
-    "tr": "Channel crossing and UK integration for France-origin loads.",
-    "en": "Channel crossing and UK integration for France-origin loads."
+    "tr": "Channel crossing and United Kingdom integration for France-origin loads into the Turkey corridor with Hanbros UK.",
+    "en": "Channel crossing and United Kingdom integration for France-origin loads into the Turkey corridor with Hanbros UK."
   },
   "desc": {},
   "keyword": {
-    "tr": "france uk turkey roro",
-    "en": "france uk turkey roro"
+    "tr": "Calais Dover short sea, Le Havre RoRo UK integration, out-of-gauge France origin load",
+    "en": "Calais Dover short sea, Le Havre RoRo UK integration, out-of-gauge France origin load"
   },
   "text": {
     "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Out-of-gauge moves need permits planned separately.</p>",
@@ -33,7 +33,7 @@
   "update": "2026-05-08T05:40:46.643Z",
   "date": "2026-05-08T05:18:35.740Z",
   "title": {
-    "tr": "France",
-    "en": "France"
+    "tr": "France / Channel crossing | Hanbros UK",
+    "en": "France / Channel crossing | Hanbros UK"
   }
 }

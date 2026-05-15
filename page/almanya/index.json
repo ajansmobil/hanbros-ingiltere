@@ -7,7 +7,7 @@
   "category": "European countries",
   "id": "almanya",
   "url": "",
-  "path": "almanya",
+  "path": "germany",
   "index": 2,
   "icon": "home",
   "desing": {
@@ -18,13 +18,13 @@
   "pathnext": "",
   "img": "logo.png",
   "description": {
-    "tr": "Germany-origin cargo via UK consolidation or direct strings.",
-    "en": "Germany-origin cargo via UK consolidation or direct strings."
+    "tr": "Routing Germany-origin cargo into the Turkey lane via United Kingdom consolidation and corridor planning with Hanbros UK.",
+    "en": "Routing Germany-origin cargo into the Turkey lane via United Kingdom consolidation and corridor planning with Hanbros UK."
   },
   "desc": {},
   "keyword": {
-    "tr": "germany feeder uk hub turkey",
-    "en": "germany feeder uk hub turkey"
+    "tr": "Ruhr industrial cargo UK consolidation, Hamburg feeder Turkey lane, Germany origin pallet programme",
+    "en": "Ruhr industrial cargo UK consolidation, Hamburg feeder Turkey lane, Germany origin pallet programme"
   },
   "text": {
     "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>This site foregrounds UK→TR contracting; Germany-origin routing is clarified per quote.</p>",
@@ -33,7 +33,7 @@
   "update": "2026-05-08T05:40:46.629Z",
   "date": "2026-05-08T05:18:35.730Z",
   "title": {
-    "tr": "Germany",
-    "en": "Germany"
+    "tr": "Germany feeder | Hanbros UK",
+    "en": "Germany feeder | Hanbros UK"
   }
 }

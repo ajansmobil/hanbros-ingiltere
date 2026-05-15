@@ -4,30 +4,30 @@
       <h1 id="form-title">{{title}}</h1>
       <p>{{subtitle}}</p>
     </header>
-    <form id="indirimForm" class="indirim-form" aria-label="İndirim çeki formu" novalidate>
+    <form id="indirimForm" class="indirim-form" aria-label="Discount voucher form" novalidate>
       <div class="form-group">
-        <label for="kod">İndirim Kodu</label>
-        <input type="text" id="kod" name="kod" readonly value="" aria-label="İndirim kodu" aria-readonly="true">
+        <label for="kod">Voucher code</label>
+        <input type="text" id="kod" name="kod" readonly value="" aria-label="Voucher code" aria-readonly="true">
       </div>
       <div class="form-group">
-        <label for="adsoyad">Ad Soyad <span class="required" aria-label="Zorunlu alan">*</span></label>
-        <input type="text" id="adsoyad" name="adsoyad" required placeholder="Adınız ve soyadınız" aria-required="true" autocomplete="name">
+        <label for="adsoyad">Full name <span class="required" aria-label="Required field">*</span></label>
+        <input type="text" id="adsoyad" name="adsoyad" required placeholder="Your first and last name" aria-required="true" autocomplete="name">
       </div>
       <div class="form-group">
-        <label for="telefon">Telefon <span class="required" aria-label="Zorunlu alan">*</span></label>
+        <label for="telefon">Phone <span class="required" aria-label="Required field">*</span></label>
         <input type="tel" id="telefon" name="telefon" required placeholder="+44 XX XXX XX XX" aria-required="true" autocomplete="tel">
       </div>
       <div class="form-group">
-        <label for="email">E-posta <span class="required" aria-label="Zorunlu alan">*</span></label>
-        <input type="email" id="email" name="email" required placeholder="ornek@email.com" aria-required="true" autocomplete="email">
+        <label for="email">Email <span class="required" aria-label="Required field">*</span></label>
+        <input type="email" id="email" name="email" required placeholder="name@example.com" aria-required="true" autocomplete="email">
       </div>
       <div class="form-group">
-        <label for="mesaj">Mesaj (Opsiyonel)</label>
-        <textarea id="mesaj" name="mesaj" rows="4" placeholder="Mesajınızı buraya yazabilirsiniz..." aria-label="Mesaj alanı"></textarea>
+        <label for="mesaj">Message (optional)</label>
+        <textarea id="mesaj" name="mesaj" rows="4" placeholder="Add any notes here..." aria-label="Message"></textarea>
       </div>
       <div class="form-group">
-        <button type="submit" class="submit-btn" aria-label="WhatsApp ile gönder">
-          <span>WhatsApp ile Gönder</span>
+        <button type="submit" class="submit-btn" aria-label="Send via WhatsApp">
+          <span>Send with WhatsApp</span>
           <img src="/src/icon/whatsapp.png" alt="WhatsApp" height="24" width="24" loading="lazy">
         </button>
       </div>
@@ -263,14 +263,14 @@
   var originalFormHTML = formContainer.innerHTML;
   
   if (!kodParam) {
-    formContainer.innerHTML = '<div class="error-container"><div class="error-icon">⚠️</div><h3>Geçersiz Link</h3><p>İndirim çeki kodu bulunamadı. Lütfen doğru linki kullanın.</p></div>';
+    formContainer.innerHTML = '<div class="error-container"><div class="error-icon">⚠️</div><h3>Invalid link</h3><p>No voucher code was found in the URL. Please use the link you received.</p></div>';
     return;
   }
-  formContainer.innerHTML = '<div class="loading-container"><div class="loading-spinner"></div><h3>Kod kontrol ediliyor...</h3></div>';
+  formContainer.innerHTML = '<div class="loading-container"><div class="loading-spinner"></div><h3>Checking code...</h3></div>';
   fetch('/module/rzqplw/codelist.json')
     .then(function(response) {
       if (!response.ok) {
-        throw new Error('Kod listesi yüklenemedi');
+        throw new Error('Code list could not be loaded');
       }
       return response.json();
     })
@@ -283,7 +283,7 @@
         }
       }
       if (!kodGecerli) {
-        formContainer.innerHTML = '<div class="error-container"><div class="error-icon">❌</div><h3>Geçersiz Kod</h3><p>Girdiğiniz indirim çeki kodu geçersizdir. Lütfen doğru kodu kontrol ediniz.</p><div class="error-details">İndirim çeki kodunuzu fuardan aldığınız kart veya belgeden kontrol edebilirsiniz.</div></div>';
+        formContainer.innerHTML = '<div class="error-container"><div class="error-icon">❌</div><h3>Invalid code</h3><p>The voucher code is not valid. Please double-check the code.</p><div class="error-details">You can find your voucher code on the card or document you received at the fair.</div></div>';
         return;
       }
       formContainer.innerHTML = originalFormHTML;
@@ -302,28 +302,29 @@
           var mesaj = document.getElementById('mesaj').value.trim();
           var kod = kodParam;
           if (!adsoyad || !telefon || !email) {
-            alert('Lütfen zorunlu alanları doldurunuz.');
+            alert('Please fill in all required fields.');
             return;
           }
-          var whatsappMessage = '🎟️ *İndirim Çeki Formu*\n\n';
-          whatsappMessage += '📋 *Kod:* ' + kod + '\n';
-          whatsappMessage += '👤 *Ad Soyad:* ' + adsoyad + '\n';
-          whatsappMessage += '📱 *Telefon:* ' + telefon + '\n';
-          whatsappMessage += '📧 *E-posta:* ' + email + '\n';
+          var whatsappMessage = '🎟️ *Discount voucher form*\n\n';
+          whatsappMessage += '📋 *Code:* ' + kod + '\n';
+          whatsappMessage += '👤 *Full name:* ' + adsoyad + '\n';
+          whatsappMessage += '📱 *Phone:* ' + telefon + '\n';
+          whatsappMessage += '📧 *Email:* ' + email + '\n';
           
           if (mesaj) {
-            whatsappMessage += '💬 *Mesaj:* ' + mesaj + '\n';
+            whatsappMessage += '💬 *Message:* ' + mesaj + '\n';
           }
           var whatsappNumber = '905418504646';
           var encodedMessage = encodeURIComponent(whatsappMessage);
           var whatsappUrl = 'https://api.whatsapp.com/send/?phone=' + whatsappNumber + '&text=' + encodedMessage + '&app_absent=0';
+
           window.open(whatsappUrl, '_blank');
         });
       }
     })
     .catch(function(error) {
-      console.error('Kod listesi yüklenemedi:', error);
-      formContainer.innerHTML = '<div class="error-container"><div class="error-icon">⚠️</div><h3>Hata</h3><p>Kod listesi yüklenirken bir hata oluştu. Lütfen sayfayı yenileyin.</p></div>';
+      console.error('Code list could not be loaded:', error);
+      formContainer.innerHTML = '<div class="error-container"><div class="error-icon">⚠️</div><h3>Error</h3><p>The code list could not be loaded. Please refresh the page.</p></div>';
     });
 })();
 </script>
