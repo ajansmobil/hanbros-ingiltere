@@ -1,16 +1,14 @@
 {
   "name": {
-    "tr": "Countries",
     "en": "Countries"
   },
   "status": "play",
   "category": "",
   "id": "ulkeler",
-  "path": "countries",
+  "path": "ulkeler",
   "index": 2,
   "description": {
-    "tr": "Routing map for UK nations, Scotland/Wales/NI and European feeder legs into the Turkey lane—request pricing on the quote page.",
-    "en": "Routing map for UK nations, Scotland/Wales/NI and European feeder legs into the Turkey lane—request pricing on the quote page."
+    "en": "Geography layer for Hanbros UK: how each listed country touches UK-export programmes bound for Turkey—collection density, relay ports and inland quirks rather than generic travel copy."
   },
   "desing": {
     "header": [],
@@ -23,18 +21,15 @@
   "img": "logo.png",
   "desc": {},
   "keyword": {
-    "tr": "UK nations routing map, European feeder Turkey corridor, Scotland Wales NI collection planning",
-    "en": "UK nations routing map, European feeder Turkey corridor, Scotland Wales NI collection planning"
+    "en": "Hanbros UK regional pages, UK Turkey corridor geography, Europe relay notes"
   },
-  "update": "2026-05-08T05:40:46.489Z",
+  "update": "2026-05-16T18:00:00.000Z",
   "date": "2026-05-08T05:18:35.577Z",
   "title": {
-    "tr": "Regions & routing | Hanbros UK",
-    "en": "Regions & routing | Hanbros UK"
+    "en": "Regions & relay countries | Hanbros UK"
   },
   "icon": "home",
   "text": {
-    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Country pages explain routing; use contact or quote for pricing.</p>",
-    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Country pages explain routing; use contact or quote for pricing.</p>"
+    "en": "<p>Use these country cards to understand <strong>where your UK pickup sits</strong> and how mainland legs may stage before deep-sea or ro-ro sailings toward Turkey. Copy here is written for freight and relocation teams; it is not a duplicate of other Han Bros family sites and may omit corridors Hanbros UK does not promote from this domain.</p>"
   }
 }

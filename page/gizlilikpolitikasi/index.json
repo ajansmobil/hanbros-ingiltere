@@ -1,6 +1,5 @@
 {
   "name": {
-    "tr": "Privacy Policy",
     "en": "Privacy Policy"
   },
   "status": "play",
@@ -15,22 +14,18 @@
   "index": 4,
   "icon": "home",
   "description": {
-    "tr": "How Hanbros UK (England and United Kingdom origin logistics) processes and retains personal data and how you exercise your rights on hanbroscargo.co.uk.",
     "en": "How Hanbros UK (England and United Kingdom origin logistics) processes and retains personal data and how you exercise your rights on hanbroscargo.co.uk."
   },
   "pathnext": "",
   "keyword": {
-    "tr": "Hanbros UK privacy policy, cookies retention summary, UK GDPR KVKK compliance overview",
     "en": "Hanbros UK privacy policy, cookies retention summary, UK GDPR KVKK compliance overview"
   },
   "text": {
-    "tr": "<p>Informational only; not legal advice. Contact: <strong>info@hanbroscargo.co.uk</strong>.</p><h2>Purposes</h2><p>Quotes, contracts, customs filings, delivery and support may require identity and contact data.</p>",
     "en": "<p>Informational only; not legal advice. Contact: <strong>info@hanbroscargo.co.uk</strong>.</p><h2>Purposes</h2><p>Quotes, contracts, customs filings, delivery and support may require identity and contact data.</p>"
   },
   "update": "2026-05-08T05:40:46.575Z",
   "date": "2026-05-08T05:40:45.250Z",
   "title": {
-    "tr": "Privacy policy | Hanbros UK",
     "en": "Privacy policy | Hanbros UK"
   },
   "img": "logo.png"

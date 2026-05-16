@@ -1,6 +1,5 @@
 {
   "name": {
-    "tr": "Knowledge Base",
     "en": "Knowledge Base"
   },
   "status": "play",
@@ -9,8 +8,7 @@
   "path": "knowledge-base",
   "index": 4,
   "description": {
-    "tr": "Read-first guides and FAQs on paperwork, packing and process—shipment lookup and quote request forms are on their own pages.",
-    "en": "Read-first guides and FAQs on paperwork, packing and process—shipment lookup and quote request forms are on their own pages."
+    "en": "Route guides for shipping from the United Kingdom to Turkey: UK region to Turkish city checklists, export paperwork and arrival notes—quotes and tracking use their own pages."
   },
   "desing": {
     "header": [],
@@ -23,18 +21,15 @@
   "img": "logo.png",
   "desc": {},
   "keyword": {
-    "tr": "UK Turkey relocation guide, moving paperwork checklist, post-Brexit shipping knowledge base",
-    "en": "UK Turkey relocation guide, moving paperwork checklist, post-Brexit shipping knowledge base"
+    "en": "UK to Turkey shipping guides, England to Turkey export knowledge base, Hanbros UK region to city logistics"
   },
   "update": "2026-05-08T05:40:46.494Z",
   "date": "2026-05-08T05:18:35.583Z",
   "title": {
-    "tr": "Knowledge base | Hanbros UK",
     "en": "Knowledge base | Hanbros UK"
   },
   "icon": "home",
   "text": {
-    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Guides summarise operational and customs flows; obtain professional advice for legal certainty.</p>",
-    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Guides summarise operational and customs flows; obtain professional advice for legal certainty.</p>"
+    "en": "<p>These articles explain how we move <strong>goods from England and the United Kingdom to Turkey (UK→TR)</strong>: UK pickup regions, export paperwork, main carriage and delivery into Turkish cities. They are practical summaries for shippers and households, not legal advice.</p>"
   }
 }

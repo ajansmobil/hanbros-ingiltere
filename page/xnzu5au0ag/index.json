@@ -1,6 +1,5 @@
 {
   "name": {
-    "tr": "Contact",
     "en": "Contact"
   },
   "status": "play",
@@ -19,23 +18,19 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Phone, email and office hours—for operational pricing use the quote form; for shipment status use the lookup page.",
     "en": "Phone, email and office hours—for operational pricing use the quote form; for shipment status use the lookup page."
   },
   "desc": {},
   "keyword": {
-    "tr": "Hanbros UK customer care phone, London office email, hanbroscargo.co.uk contact channels",
     "en": "Hanbros UK customer care phone, London office email, hanbroscargo.co.uk contact channels"
   },
   "update": "2026-05-08T05:40:46.510Z",
   "date": "2026-05-04T19:01:36.370Z",
   "title": {
-    "tr": "Contact | Hanbros UK",
     "en": "Contact | Hanbros UK"
   },
   "img": "icon.png",
   "text": {
-    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Contact us by email or phone. UK and Turkey offices operate across different time zones.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Contact us by email or phone. UK and Turkey offices operate across different time zones.</p>"
   }
 }

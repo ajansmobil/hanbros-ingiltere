@@ -1,9 +1,8 @@
 {
   "name": {
-    "tr": "UK to Turkey Customs Consultancy",
     "en": "UK to Turkey Customs Consultancy"
   },
-  "status": "play",
+  "status": "pause",
   "category": "",
   "id": "ingiltereden-turkiyeye-gumruk",
   "url": "",
@@ -18,22 +17,18 @@
   "pathnext": "",
   "img": "logo.png",
   "description": {
-    "tr": "Classification, origin, VAT and excise scenarios for movements from England and the United Kingdom to Turkey — Hanbros UK customs consultancy.",
     "en": "Classification, origin, VAT and excise scenarios for movements from England and the United Kingdom to Turkey — Hanbros UK customs consultancy."
   },
   "desc": {},
   "keyword": {
-    "tr": "HS classification advisory, origin proof UK Turkey, pre-declaration customs review",
     "en": "HS classification advisory, origin proof UK Turkey, pre-declaration customs review"
   },
   "text": {
-    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Regulatory changes may require amended declarations. We align your statements with broker review.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Regulatory changes may require amended declarations. We align your statements with broker review.</p>"
   },
   "update": "2026-05-08T05:40:46.540Z",
   "date": "2026-05-08T05:18:35.645Z",
   "title": {
-    "tr": "Customs & classification | Hanbros UK",
     "en": "Customs & classification | Hanbros UK"
   }
 }

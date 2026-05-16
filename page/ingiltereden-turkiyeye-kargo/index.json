@@ -1,14 +1,13 @@
 {
   "name": {
-    "tr": "UK to Turkey Cargo Shipping",
-    "en": "UK to Turkey Cargo Shipping"
+    "en": "International Cargo Transportation and Parcel Delivery Service"
   },
   "status": "play",
   "category": "",
   "id": "ingiltereden-turkiyeye-kargo",
   "url": "",
   "path": "uk-to-turkey-road-cargo",
-  "index": 3,
+  "index": 4,
   "icon": "home",
   "desing": {
     "header": [],
@@ -16,24 +15,20 @@
     "footer": []
   },
   "pathnext": "",
-  "img": "logo.png",
+  "img": "b572p.webp",
   "description": {
-    "tr": "Road trailer LTL and FTL lane: chargeable weight and ADR workflows—invoice-led B2B flows sit on the commercial goods page.",
-    "en": "Road trailer LTL and FTL lane: chargeable weight and ADR workflows—invoice-led B2B flows sit on the commercial goods page."
+    "en": "Groupage, full-trailer and parcel streams from the UK timed to vessel or ro-ro cut-offs, with milestone tracking through departure, main carriage and Turkish handover."
   },
   "desc": {},
   "keyword": {
-    "tr": "LTL FTL road trailer UK Turkey, chargeable weight freight, ADR dangerous goods approval",
-    "en": "LTL FTL road trailer UK Turkey, chargeable weight freight, ADR dangerous goods approval"
+    "en": "UK Turkey LTL FTL groupage, linehaul cut-off parcels, Hanbros UK tracking"
   },
   "text": {
-    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Chargeable weight rules apply. Dangerous goods and batteries need separate approvals.</p>",
-    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Chargeable weight rules apply. Dangerous goods and batteries need separate approvals.</p>"
+    "en": "<p>Chargeable weight rules apply to air-style parcels; road groupage uses load metres and weight together. Batteries, aerosols and magnetised parts need separate approvals—declare them on the first call, not at the gate.</p><p>Hanbros UK sequences UK collection, feeder if needed, and mainline booking so paperwork and physical cargo reach the cut-off together.</p>"
   },
-  "update": "2026-05-08T05:40:46.530Z",
+  "update": "2026-05-16T18:00:00.000Z",
   "date": "2026-05-08T05:18:35.635Z",
   "title": {
-    "tr": "Road cargo (LTL/FTL) | Hanbros UK",
-    "en": "Road cargo (LTL/FTL) | Hanbros UK"
+    "en": "Road cargo & parcels UK–Turkey | Hanbros UK"
   }
 }

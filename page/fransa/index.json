@@ -1,13 +1,12 @@
 {
   "name": {
-    "tr": "France",
-    "en": "France"
+    "en": "France — Channel and Atlantic routing context"
   },
   "status": "play",
-  "category": "European countries",
+  "category": "",
   "id": "fransa",
   "url": "",
-  "path": "france",
+  "path": "fransa",
   "index": 4,
   "icon": "home",
   "desing": {
@@ -16,24 +15,20 @@
     "footer": []
   },
   "pathnext": "",
-  "img": "logo.png",
+  "img": "country-card.jpg",
   "description": {
-    "tr": "Channel crossing and United Kingdom integration for France-origin loads into the Turkey corridor with Hanbros UK.",
-    "en": "Channel crossing and United Kingdom integration for France-origin loads into the Turkey corridor with Hanbros UK."
+    "en": "Channel-facing logistics for UK-exported Turkey programmes: short-sea from northern France, Atlantic ro-ro options and inland trunking that dovetails with sailing calendars."
   },
   "desc": {},
   "keyword": {
-    "tr": "Calais Dover short sea, Le Havre RoRo UK integration, out-of-gauge France origin load",
-    "en": "Calais Dover short sea, Le Havre RoRo UK integration, out-of-gauge France origin load"
+    "en": "France Channel short-sea UK Turkey, Atlantic ro-ro feeder Hanbros UK"
   },
   "text": {
-    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Out-of-gauge moves need permits planned separately.</p>",
-    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Out-of-gauge moves need permits planned separately.</p>"
+    "en": "<p>France matters to Hanbros UK when your routing crosses Calais-Dover alternatives or Atlantic sailings. Strike calendars, holiday peaks and agricultural blockades can shift motorway reliability—build buffer into critical cut-offs.</p><p>Paris and Lyon hubs are heavy on night bans for heavy vehicles; we align truck classes with local rules before locking collection times.</p>"
   },
-  "update": "2026-05-08T05:40:46.643Z",
+  "update": "2026-05-16T18:00:00.000Z",
   "date": "2026-05-08T05:18:35.740Z",
   "title": {
-    "tr": "France / Channel crossing | Hanbros UK",
-    "en": "France / Channel crossing | Hanbros UK"
+    "en": "France routing notes | Hanbros UK"
   }
 }

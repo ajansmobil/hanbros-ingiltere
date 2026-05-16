@@ -25,7 +25,7 @@
     },
     {
       "name": "Our Services",
-      "path": "services",
+      "path": "hizmetler",
       "desc": [],
       "data": [],
       "index": 1,
@@ -97,7 +97,7 @@
     },
     {
       "name": "Countries",
-      "path": "countries",
+      "path": "ulkeler",
       "desc": [],
       "data": [],
       "index": 4,

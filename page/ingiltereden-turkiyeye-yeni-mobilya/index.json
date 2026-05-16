@@ -1,14 +1,13 @@
 {
   "name": {
-    "tr": "UK to Turkey New Furniture Shipping",
-    "en": "UK to Turkey New Furniture Shipping"
+    "en": "New Furniture Shipping"
   },
   "status": "play",
   "category": "",
   "id": "ingiltereden-turkiyeye-yeni-mobilya",
   "url": "",
   "path": "uk-to-turkey-new-furniture",
-  "index": 6,
+  "index": 2,
   "icon": "home",
   "desing": {
     "header": [],
@@ -16,24 +15,20 @@
     "footer": []
   },
   "pathnext": "",
-  "img": "logo.png",
+  "img": "swxi9.webp",
   "description": {
-    "tr": "New furniture from retail or workshop origins in England and the United Kingdom to Turkey with packing, palletisation and optional assembly by Hanbros UK.",
-    "en": "New furniture from retail or workshop origins in England and the United Kingdom to Turkey with packing, palletisation and optional assembly by Hanbros UK."
+    "en": "Retail and workshop furniture ex-UK: carton strength checks, moisture barriers for long sea spells, and delivery slots sized to Turkish lifts and door heights."
   },
   "desc": {},
   "keyword": {
-    "tr": "retail furniture flatpack shipping, showroom palletisation, optional assembly delivery",
-    "en": "retail furniture flatpack shipping, showroom palletisation, optional assembly delivery"
+    "en": "furniture export UK Turkey retail, flatpack sea packing, showroom logistics Hanbros UK"
   },
   "text": {
-    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Part counts and carton strength affect stowage plans. Door and lift access are verified before delivery.</p>",
-    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Part counts and carton strength affect stowage plans. Door and lift access are verified before delivery.</p>"
+    "en": "<p>New goods ship differently from used households—commercial invoices, HS lines and origin statements matter. We coordinate with your supplier for collection windows, pallet or loose floor loading, and labelling that survives transhipment.</p><p>Photograph serial plates where present; note glass panels and stone tops so extra bracing is booked before the truck arrives.</p>"
   },
-  "update": "2026-05-08T05:40:46.545Z",
+  "update": "2026-05-16T18:00:00.000Z",
   "date": "2026-05-08T05:18:35.650Z",
   "title": {
-    "tr": "New furniture (retail) | Hanbros UK",
-    "en": "New furniture (retail) | Hanbros UK"
+    "en": "New furniture UK to Turkey | Hanbros UK"
   }
 }

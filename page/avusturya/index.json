@@ -1,0 +1,34 @@
+{
+  "name": {
+    "en": "Austria — Alpine and Danube corridor notes"
+  },
+  "status": "play",
+  "category": "Country guides",
+  "id": "avusturya",
+  "url": "",
+  "path": "avusturya",
+  "index": 5,
+  "img": "country-card.jpg",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "en": "Alpine and Danube-side constraints for cargo that transits Austria after leaving the UK: winter weight checks, tunnel escorts and Vienna–Graz–Linz trunk patterns."
+  },
+  "icon": "home",
+  "desc": {},
+  "keyword": {
+    "en": "Austria Alpine transit UK Turkey, Brenner tunnel winter rules Hanbros UK"
+  },
+  "text": {
+    "en": "<p>Austrian segments often decide whether a convoy needs snow chains, second drivers or daylight-only moves. Height and weight envelopes differ from lowland EU routes—send technical sheets before we price the leg.</p><p>Danube barge options exist for certain bulk or project shapes; they trade speed for fuel efficiency and can suit non-urgent UK-exported industrial kits.</p>"
+  },
+  "update": "2026-05-16T18:00:00.000Z",
+  "date": "2026-05-16T14:00:00.000Z",
+  "title": {
+    "en": "Austria transit | Hanbros UK"
+  }
+}

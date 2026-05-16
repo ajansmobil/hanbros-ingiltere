@@ -1,6 +1,5 @@
 {
   "name": {
-    "tr": "Personal Data",
     "en": "Personal Data"
   },
   "status": "play",
@@ -15,21 +14,17 @@
   "index": 5,
   "icon": "home",
   "description": {
-    "tr": "Categories of personal data, lawful bases and controller identity—the full privacy statement sits on the privacy policy page.",
     "en": "Categories of personal data, lawful bases and controller identity—the full privacy statement sits on the privacy policy page."
   },
   "keyword": {
-    "tr": "personal data categories inventory, controller contact UK logistics, mandatory transport contract fields",
     "en": "personal data categories inventory, controller contact UK logistics, mandatory transport contract fields"
   },
   "text": {
-    "tr": "<p>UK and TR operational necessities for customs and carriage are described separately. Requests can be emailed to us.</p>",
     "en": "<p>UK and TR operational necessities for customs and carriage are described separately. Requests can be emailed to us.</p>"
   },
   "update": "2026-05-08T05:40:46.582Z",
   "date": "2026-05-08T05:40:45.256Z",
   "title": {
-    "tr": "Personal data categories | Hanbros UK",
     "en": "Personal data categories | Hanbros UK"
   },
   "img": "logo.png"

@@ -1,14 +1,13 @@
 {
   "name": {
-    "tr": "Netherlands",
     "en": "Netherlands"
   },
   "status": "play",
-  "category": "European countries",
+  "category": "",
   "id": "hollanda",
   "url": "",
-  "path": "netherlands",
-  "index": 3,
+  "path": "hollanda",
+  "index": 2,
   "icon": "home",
   "desing": {
     "header": [],
@@ -16,24 +15,20 @@
     "footer": []
   },
   "pathnext": "",
-  "img": "logo.png",
+  "img": "country-card.jpg",
   "description": {
-    "tr": "Rotterdam and Amsterdam sea options with optional England and United Kingdom relay into the Turkey corridor via Hanbros UK.",
-    "en": "Rotterdam and Amsterdam sea options with optional England and United Kingdom relay into the Turkey corridor via Hanbros UK."
+    "en": "Randstad port chemistry and inland barge feeds when UK loads consolidate via Dutch hubs before deep-sea sailings toward Turkey."
   },
   "desc": {},
   "keyword": {
-    "tr": "Rotterdam LCL sailing cut-off, Amsterdam short sea UK relay, Antwerp alternative feeder planning",
-    "en": "Rotterdam LCL sailing cut-off, Amsterdam short sea UK relay, Antwerp alternative feeder planning"
+    "en": "Rotterdam Amsterdam feeder UK Turkey, barge pre-carriage Hanbros UK"
   },
   "text": {
-    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>LCL cut-offs drive available capacity.</p>",
-    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>LCL cut-offs drive available capacity.</p>"
+    "en": "<p>Dutch gateways excel at dense container exchanges and tight barge windows. If your programme touches the Netherlands, we watch free-time at terminals and match VGM cut-offs for the onward vessel.</p><p>City-centre collections in Amsterdam or Utrecht need lift and parking plans just like London—share access constraints early.</p>"
   },
-  "update": "2026-05-08T05:40:46.635Z",
-  "date": "2026-05-08T05:18:35.735Z",
+  "update": "2026-05-16T18:00:00.000Z",
+  "date": "2026-05-08T05:18:35.730Z",
   "title": {
-    "tr": "Netherlands port lane | Hanbros UK",
-    "en": "Netherlands port lane | Hanbros UK"
+    "en": "Netherlands staging | Hanbros UK"
   }
 }

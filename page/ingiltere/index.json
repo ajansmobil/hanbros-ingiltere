@@ -1,15 +1,14 @@
 {
   "name": {
-    "tr": "United Kingdom",
-    "en": "United Kingdom"
+    "en": "United Kingdom logistics for Turkey-bound freight"
   },
   "status": "play",
   "category": "Service regions",
   "id": "ingiltere",
   "url": "",
-  "path": "united-kingdom",
+  "path": "ingiltere",
   "index": 0,
-  "img": "logo.png",
+  "img": "country-card.jpg",
   "desing": {
     "header": [],
     "body": [],
@@ -18,22 +17,18 @@
   "pathnext": "",
   "icon": "home",
   "description": {
-    "tr": "UK-wide collection planning: M25 belt, Midlands and northern Scotland lanes—the routing map is summarised on the regions page.",
-    "en": "UK-wide collection planning: M25 belt, Midlands and northern Scotland lanes—the routing map is summarised on the regions page."
+    "en": "UK-wide collection intelligence for exports to Turkey: M25 ring density, Midlands industrial belts, Scottish trunk roads and Welsh valley access—mapped to realistic loading slots."
   },
   "desc": {},
   "keyword": {
-    "tr": "M25 collection belt, Midlands UK pickup Turkey sailing, Edinburgh Glasgow loading window",
-    "en": "M25 collection belt, Midlands UK pickup Turkey sailing, Edinburgh Glasgow loading window"
+    "en": "UK pickup Turkey export, Greater London Midlands Scotland logistics, Hanbros UK"
   },
   "text": {
-    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>We can structure frequent pickups around the M25, Midlands and northern Scotland lanes.</p>",
-    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>We can structure frequent pickups around the M25, Midlands and northern Scotland lanes.</p>"
+    "en": "<p>Most Hanbros UK programmes start on British soil. We weight congestion, low bridges and site access when proposing collection times. If your load already sits in another EU country, tell us early so routing does not assume a UK origin that is not there.</p><p>Postcode-led notes cover parking suspensions, lift bookings and warehouse time windows common in dense urban drops.</p>"
   },
-  "update": "2026-05-08T05:40:46.619Z",
+  "update": "2026-05-16T18:00:00.000Z",
   "date": "2026-05-08T05:18:35.719Z",
   "title": {
-    "tr": "UK collection planning | Hanbros UK",
-    "en": "UK collection planning | Hanbros UK"
+    "en": "UK origin & collections | Hanbros UK"
   }
 }

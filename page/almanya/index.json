@@ -1,14 +1,13 @@
 {
   "name": {
-    "tr": "Germany",
     "en": "Germany"
   },
   "status": "play",
-  "category": "European countries",
+  "category": "",
   "id": "almanya",
   "url": "",
-  "path": "germany",
-  "index": 2,
+  "path": "almanya",
+  "index": 1,
   "icon": "home",
   "desing": {
     "header": [],
@@ -16,24 +15,20 @@
     "footer": []
   },
   "pathnext": "",
-  "img": "logo.png",
+  "img": "country-card.jpg",
   "description": {
-    "tr": "Routing Germany-origin cargo into the Turkey lane via United Kingdom consolidation and corridor planning with Hanbros UK.",
-    "en": "Routing Germany-origin cargo into the Turkey lane via United Kingdom consolidation and corridor planning with Hanbros UK."
+    "en": "Germany as a continental relay for UK-originated Turkey traffic: Ruhr industry clusters, northern ports and southern automotive corridors paired with Channel or North Sea legs."
   },
   "desc": {},
   "keyword": {
-    "tr": "Ruhr industrial cargo UK consolidation, Hamburg feeder Turkey lane, Germany origin pallet programme",
-    "en": "Ruhr industrial cargo UK consolidation, Hamburg feeder Turkey lane, Germany origin pallet programme"
+    "en": "Germany feeder UK Turkey, Ruhr Hamburg Bremen relay, Hanbros UK corridor"
   },
   "text": {
-    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>This site foregrounds UK→TR contracting; Germany-origin routing is clarified per quote.</p>",
-    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>This site foregrounds UK→TR contracting; Germany-origin routing is clarified per quote.</p>"
+    "en": "<p>When UK cargo stages through Germany, timing hinges on factory shifts, Sunday truck bans in some Länder and port free-time clocks. We align German pre-carriage with the deep-sea or ro-ro booking so demurrage does not start while cargo is still inland.</p><p>Use this page as context, not a promise of a German domestic product—scope always follows your booking confirmation.</p>"
   },
-  "update": "2026-05-08T05:40:46.629Z",
-  "date": "2026-05-08T05:18:35.730Z",
+  "update": "2026-05-16T18:00:00.000Z",
+  "date": "2026-05-08T05:18:35.725Z",
   "title": {
-    "tr": "Germany feeder | Hanbros UK",
-    "en": "Germany feeder | Hanbros UK"
+    "en": "Germany relay notes | Hanbros UK"
   }
 }

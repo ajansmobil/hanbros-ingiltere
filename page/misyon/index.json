@@ -1,6 +1,5 @@
 {
   "name": {
-    "tr": "Mission",
     "en": "Mission"
   },
   "status": "play",
@@ -15,24 +14,20 @@
   "index": 1,
   "icon": "home",
   "description": {
-    "tr": "Transparent pricing, accurate paperwork and on-time delivery as operational promise—vision and quality policy have their own pages.",
     "en": "Transparent pricing, accurate paperwork and on-time delivery as operational promise—vision and quality policy have their own pages."
   },
   "img": "logo.png",
   "url": "",
   "pathnext": "vision",
   "keyword": {
-    "tr": "freight SLA commitment, documentation accuracy logistics, on-time delivery operations UK Turkey",
     "en": "freight SLA commitment, documentation accuracy logistics, on-time delivery operations UK Turkey"
   },
   "text": {
-    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Our mission is to run measurable SLAs, engineer out damage risk at planning time, and keep customs classifications accurate to avoid delays.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Our mission is to run measurable SLAs, engineer out damage risk at planning time, and keep customs classifications accurate to avoid delays.</p>"
   },
   "update": "2026-05-08T05:40:46.560Z",
   "date": "2026-05-08T05:40:45.232Z",
   "title": {
-    "tr": "Mission | Hanbros UK",
     "en": "Mission | Hanbros UK"
   }
 }

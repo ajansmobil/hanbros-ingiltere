@@ -1,6 +1,5 @@
 {
   "name": {
-    "tr": "Online Quote Form",
     "en": "Online Quote Form"
   },
   "status": "play",
@@ -12,21 +11,17 @@
   "icon": "home",
   "desc": {},
   "description": {
-    "tr": "Fast indicative pricing with UK postcode and Turkey city—not a binding offer; use the main quote page for a written quotation.",
     "en": "Fast indicative pricing with UK postcode and Turkey city—not a binding offer; use the main quote page for a written quotation."
   },
   "keyword": {
-    "tr": "ballpark freight estimate UK postcode, quick indicative quote Turkey city, non-binding rate preview",
     "en": "ballpark freight estimate UK postcode, quick indicative quote Turkey city, non-binding rate preview"
   },
   "text": {
-    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Clear commodity, volume and date window shorten turnaround.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Clear commodity, volume and date window shorten turnaround.</p>"
   },
   "update": "2026-05-08T05:40:46.608Z",
   "date": "2026-05-08T05:18:35.709Z",
   "title": {
-    "tr": "Quick indicative quote | Hanbros UK",
     "en": "Quick indicative quote | Hanbros UK"
   },
   "desing": {

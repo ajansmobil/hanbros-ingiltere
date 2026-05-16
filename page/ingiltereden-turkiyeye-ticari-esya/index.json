@@ -1,14 +1,13 @@
 {
   "name": {
-    "tr": "UK to Turkey Commercial Goods Shipping",
-    "en": "UK to Turkey Commercial Goods Shipping"
+    "en": "Commercial Goods Shipping"
   },
   "status": "play",
   "category": "",
   "id": "ingiltereden-turkiyeye-ticari-esya",
   "url": "",
   "path": "uk-to-turkey-commercial-shipping",
-  "index": 2,
+  "index": 3,
   "icon": "home",
   "desing": {
     "header": [],
@@ -16,24 +15,20 @@
     "footer": []
   },
   "pathnext": "",
-  "img": "logo.png",
+  "img": "kpxm0.webp",
   "description": {
-    "tr": "B2B moves aligned to commercial invoice, origin and HS codes—road LTL linehaul is detailed on the cargo page, not here.",
-    "en": "B2B moves aligned to commercial invoice, origin and HS codes—road LTL linehaul is detailed on the cargo page, not here."
+    "en": "B2B pallet and loose freight from UK warehouses to Turkish hubs: HS-led paperwork, CMR where road legs apply, and slot booking around factory receiving hours."
   },
   "desc": {},
   "keyword": {
-    "tr": "B2B commercial invoice origin HS, Incoterms palletised UK Turkey, trade compliance freight",
-    "en": "B2B commercial invoice origin HS, Incoterms palletised UK Turkey, trade compliance freight"
+    "en": "UK pallet export Turkey HS, B2B warehouse pickup, Incoterms freight Hanbros UK"
   },
   "text": {
-    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Incoterms drive cost and risk allocation. Standing allocations can reduce lane cost for recurring volumes.</p>",
-    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Incoterms drive cost and risk allocation. Standing allocations can reduce lane cost for recurring volumes.</p>"
+    "en": "<p>Commercial lanes live or die on data quality—pack dimensions, stackability, temperature needs and dangerous-goods flags must match the booking. Standing allocations and recurring SKUs can shorten booking lead times once patterns are known.</p><p>Clarify Incoterms up front; they decide who arranges insurance, export filing and import representation on the Turkish side.</p>"
   },
-  "update": "2026-05-08T05:40:46.525Z",
+  "update": "2026-05-16T18:00:00.000Z",
   "date": "2026-05-08T05:18:35.630Z",
   "title": {
-    "tr": "Commercial freight (B2B) | Hanbros UK",
-    "en": "Commercial freight (B2B) | Hanbros UK"
+    "en": "B2B freight UK to Turkey | Hanbros UK"
   }
 }

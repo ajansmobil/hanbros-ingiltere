@@ -1,7 +1,6 @@
 {
   "name": {
-    "tr": "UK to Turkey Household Goods Shipping",
-    "en": "UK to Turkey Household Goods Shipping"
+    "en": "Door-to-door moving"
   },
   "status": "play",
   "category": "",
@@ -16,25 +15,21 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Door-to-door household removals from England and across the United Kingdom to Turkey with packing, insurance and customs coordination by Hanbros UK.",
-    "en": "Door-to-door household removals from England and across the United Kingdom to Turkey with packing, insurance and customs coordination by Hanbros UK."
+    "en": "Whole-home relocations from the UK to Turkey: measured volume, inventoried cartons, export wrapping standards and a single named delivery window after Turkish customs release."
   },
-  "img": "logo.png",
+  "img": "j7uyj.webp",
   "icon": "home",
   "desc": {},
   "keyword": {
-    "tr": "ToR1 household move UK Turkey, residence relocation international, United Kingdom door-to-door removal",
-    "en": "ToR1 household move UK Turkey, residence relocation international, United Kingdom door-to-door removal"
+    "en": "UK household removal Turkey, volume survey export packing, Hanbros UK door delivery"
   },
   "text": {
-    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><h2>Process outline</h2><ol><li>Survey and volume estimate</li><li>Document pack</li><li>UK loading and export formalities</li><li>Sea/road main carriage</li><li>TR import and door delivery</li></ol>",
-    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><h2>Process outline</h2><ol><li>Survey and volume estimate</li><li>Document pack</li><li>UK loading and export formalities</li><li>Sea/road main carriage</li><li>TR import and door delivery</li></ol>"
+    "en": "<p>Hanbros UK plans residential moves as a closed chain—survey, packing crew, UK export formalities, main carriage and Turkish address handover. Ask early about restricted items, plants and high-value declarations so paperwork matches the physical load.</p><h2>Typical milestones</h2><ol><li>On-site or video survey and cubic estimate</li><li>Packing dates aligned with tenancy or completion</li><li>Loading, sealing and export documentation</li><li>Sea or multimodal main leg to Turkey</li><li>Import clearance support and final positioning in rooms</li></ol>"
   },
-  "update": "2026-05-08T05:40:46.515Z",
+  "update": "2026-05-16T18:00:00.000Z",
   "date": "2026-05-08T05:18:35.620Z",
   "title": {
-    "tr": "Household removals | Hanbros UK",
-    "en": "Household removals | Hanbros UK"
+    "en": "Household moves UK to Turkey | Hanbros UK"
   },
   "slider": []
 }

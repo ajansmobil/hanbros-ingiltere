@@ -1,0 +1,34 @@
+{
+  "name": {
+    "en": "Luxembourg — compact-state logistics"
+  },
+  "status": "play",
+  "category": "European transport",
+  "id": "luksemburg",
+  "url": "",
+  "path": "luksemburg",
+  "index": 6,
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "",
+  "img": "country-card.jpg",
+  "description": {
+    "en": "Lift-limited city centres, cross-border handoffs with Belgium and multimodal tickets that can slot UK-exported consignments into wider EU programmes."
+  },
+  "desc": {},
+  "keyword": {
+    "en": "Luxembourg city logistics UK export, Belgium cross-border relay Hanbros UK"
+  },
+  "text": {
+    "en": "<p>Luxembourg deliveries are short in distance but picky on access: underground loading bays, tight turning circles and mixed French/German paperwork habits on the border. We pair Luxembourg drops with Belgian linehaul when that saves a relay day.</p><p>If your cargo never touches Luxembourg, you do not need this page—routing stays UK→Turkey without the detour.</p>"
+  },
+  "update": "2026-05-16T18:00:00.000Z",
+  "date": "2026-05-16T14:00:00.000Z",
+  "title": {
+    "en": "Luxembourg access | Hanbros UK"
+  }
+}

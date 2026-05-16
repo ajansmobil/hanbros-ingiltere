@@ -14,83 +14,63 @@
     "border_radius": "15px",
     "card_shadow": "0 4px 20px rgba(0, 0, 0, 0.08)",
     "pageTitle": {
-      "tr": "Volume Calculator",
       "en": "Volume Calculator"
     },
     "mainTitle": {
-      "tr": "📦 Volume Calculator",
       "en": "📦 Volume Calculator"
     },
     "mainSubtitle": {
-      "tr": "Enter your items dimensions",
       "en": "Enter your items dimensions"
     },
     "btnAddItem": {
-      "tr": "➕ New Item",
       "en": "➕ New Item"
     },
     "btnClear": {
-      "tr": "🗑️ Clear",
       "en": "🗑️ Clear"
     },
     "transportTitle": {
-      "tr": "🚚 Select Transport Type",
       "en": "🚚 Select Transport Type"
     },
     "transportSubtitle": {
-      "tr": "Choose the most suitable transport method",
       "en": "Choose the most suitable transport method"
     },
     "transportRoad": {
-      "tr": "Road",
       "en": "Road"
     },
     "transportAir": {
-      "tr": "Air",
       "en": "Air"
     },
     "transportSea": {
-      "tr": "Sea",
       "en": "Sea"
     },
     "resultsTitle": {
-      "tr": "📊 Calculation Results",
       "en": "📊 Calculation Results"
     },
     "resultsSubtitle": {
-      "tr": "Total volume and weight information",
       "en": "Total volume and weight information"
     },
     "labelTotalVolume": {
-      "tr": "TOTAL VOLUME",
       "en": "TOTAL VOLUME"
     },
     "labelTotalWeight": {
-      "tr": "TOTAL WEIGHT",
       "en": "TOTAL WEIGHT"
     },
     "itemTitle": {
-      "tr": "Item",
       "en": "Item"
     },
     "labelLength": {
-      "tr": "📏 Length (cm)",
       "en": "📏 Length (cm)"
     },
     "labelWidth": {
-      "tr": "📐 Width (cm)",
       "en": "📐 Width (cm)"
     },
     "labelHeight": {
-      "tr": "📏 Height (cm)",
       "en": "📏 Height (cm)"
     },
     "labelQuantity": {
-      "tr": "📦 Quantity",
       "en": "📦 Quantity"
     },
     "labelWeight": {
-      "tr": "⚖️ Weight (kg)",
       "en": "⚖️ Weight (kg)"
     }
   }

@@ -1,6 +1,5 @@
 {
   "name": {
-    "tr": "Customer Service",
     "en": "Customer Service"
   },
   "status": "play",
@@ -12,21 +11,17 @@
   "icon": "home",
   "desc": {},
   "description": {
-    "tr": "After-sales help on documents, claims and status with your shipment reference—use contact and quote pages for new enquiries.",
     "en": "After-sales help on documents, claims and status with your shipment reference—use contact and quote pages for new enquiries."
   },
   "keyword": {
-    "tr": "Hanbros UK claims support, shipment reference helpdesk, UK Turkey customer operations documents",
     "en": "Hanbros UK claims support, shipment reference helpdesk, UK Turkey customer operations documents"
   },
   "text": {
-    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Official contact: info@hanbroscargo.co.uk · Please share your shipment reference.</p>",
-    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Official contact: info@hanbroscargo.co.uk · Please share your shipment reference.</p>"
+    "en": "<p>This page is for <strong>United Kingdom → Turkey</strong> shipment support with Hanbros UK operations. If your cargo origin or destination differs, confirm the correct channel with your coordinator.</p><p>Official contact: <strong>info@hanbroscargo.co.uk</strong> · Please share your shipment reference.</p>"
   },
   "update": "2026-05-08T05:40:46.614Z",
   "date": "2026-05-08T05:18:35.714Z",
   "title": {
-    "tr": "Operations support | Hanbros UK",
     "en": "Operations support | Hanbros UK"
   },
   "desing": {

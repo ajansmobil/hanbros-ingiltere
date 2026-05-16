@@ -1,6 +1,5 @@
 {
   "name": {
-    "tr": "Shipment Tracking",
     "en": "Shipment Tracking"
   },
   "status": "play",
@@ -9,7 +8,6 @@
   "path": "shipment-tracking",
   "index": 5,
   "description": {
-    "tr": "Look up milestones and customs status with your consignment reference—use the quote page for pricing, not this tool.",
     "en": "Look up milestones and customs status with your consignment reference—use the quote page for pricing, not this tool."
   },
   "desing": {
@@ -23,18 +21,15 @@
   "img": "icon.png",
   "desc": {},
   "keyword": {
-    "tr": "consignment reference lookup, shipment milestone trace UK Turkey, cargo status by reference",
     "en": "consignment reference lookup, shipment milestone trace UK Turkey, cargo status by reference"
   },
   "update": "2026-05-08T05:40:46.499Z",
   "date": "2026-05-08T05:18:35.588Z",
   "title": {
-    "tr": "Shipment lookup | Hanbros UK",
     "en": "Shipment lookup | Hanbros UK"
   },
   "icon": "home",
   "text": {
-    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Use your reference to view sea/road milestones. Customs status depends on formal declarations.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Use your reference to view sea/road milestones. Customs status depends on formal declarations.</p>"
   }
 }

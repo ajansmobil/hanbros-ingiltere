@@ -1,6 +1,5 @@
 {
   "name": {
-    "tr": "About Us",
     "en": "About Us"
   },
   "status": "play",
@@ -15,7 +14,6 @@
   "index": 0,
   "icon": "home",
   "description": {
-    "tr": "Who Hanbros UK is on the United Kingdom origin Turkey corridor—corporate policies and legal texts sit under the corporate hub.",
     "en": "Who Hanbros UK is on the United Kingdom origin Turkey corridor—corporate policies and legal texts sit under the corporate hub."
   },
   "img": "logo.png",
@@ -23,15 +21,12 @@
   "pathnext": "mission",
   "slider": [],
   "title": {
-    "tr": "About us | Hanbros UK",
     "en": "About us | Hanbros UK"
   },
   "keyword": {
-    "tr": "who is Hanbros UK, UK origin Turkey carrier profile, Han Bros brand story United Kingdom",
     "en": "who is Hanbros UK, UK origin Turkey carrier profile, Han Bros brand story United Kingdom"
   },
   "text": {
-    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><h2>Who we are</h2><p>We coordinate UK-wide collections, professional packing and the Turkey delivery leg including customs and distribution.</p><h2>Why a dedicated UK domain</h2><p>hanbroscargo.co.uk strengthens intent signals for UK-origin queries while Turkey-origin content remains on hanbroscargo.com.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><h2>Who we are</h2><p>We coordinate UK-wide collections, professional packing and the Turkey delivery leg including customs and distribution.</p><h2>Why a dedicated UK domain</h2><p>hanbroscargo.co.uk strengthens intent signals for UK-origin queries while Turkey-origin content remains on hanbroscargo.com.</p>"
   },
   "textmodul": false,

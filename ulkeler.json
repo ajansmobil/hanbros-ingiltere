@@ -5,7 +5,6 @@
   "data": [
     {
       "name": {
-        "tr": "United Kingdom",
         "en": "United Kingdom"
       },
       "status": "play",
@@ -14,7 +13,6 @@
       "url": "",
       "path": "ingiltere",
       "index": 0,
-      "img": "logo.png",
       "desing": {
         "header": [],
         "body": [],
@@ -22,45 +20,44 @@
       },
       "pathnext": "",
       "icon": "home",
+      "img": "country-card.jpg",
       "description": {
-        "tr": "UK-wide collections across London, Manchester, Birmingham, Leeds, Glasgow and all postal areas. Secure movement of household goods, parcels and commercial freight from the UK to your address in Turkey.",
-        "en": "UK-wide collections across London, Manchester, Birmingham, Leeds, Glasgow and all postal areas. Secure movement of household goods, parcels and commercial freight from the UK to your address in Turkey."
-      }
+        "en": "Nationwide collection windows for UK→Turkey: Greater London density, Midlands manufacturing belts, Scottish central belt and Welsh valleys—each with postcode-led routing notes."
+      },
+      "desc": {}
     },
     {
       "name": {
-        "tr": "Turkey",
-        "en": "Turkey"
-      },
-      "status": "play",
-      "category": "Service regions",
-      "id": "turkiye",
-      "url": "",
-      "path": "turkiye",
-      "index": 1,
-      "img": "logo.png",
-      "icon": "home",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "pathnext": "",
-      "description": {
-        "tr": "Delivery points across Turkey with door-to-door distribution. Customs inspection and address confirmation handled with local teams.",
-        "en": "Delivery points across Turkey with door-to-door distribution. Customs inspection and address confirmation handled with local teams."
-      }
-    },
-    {
-      "name": {
-        "tr": "Germany",
         "en": "Germany"
       },
       "status": "play",
-      "category": "European countries",
+      "category": "",
       "id": "almanya",
       "url": "",
       "path": "almanya",
+      "index": 1,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "country-card.jpg",
+      "description": {
+        "en": "Continental feeder context for UK-originated Turkey traffic: Ruhr industry clusters, northern ports and southern automotive corridors that can pair with Channel or North Sea legs."
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "en": "Netherlands"
+      },
+      "status": "play",
+      "category": "",
+      "id": "hollanda",
+      "url": "",
+      "path": "hollanda",
       "index": 2,
       "icon": "home",
       "desing": {
@@ -69,22 +66,21 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "logo.png",
+      "img": "country-card.jpg",
       "description": {
-        "tr": "For Germany-origin loads, primary planning is consolidation via the UK hub or combined road/ro-ro links into Turkey. UK→TR contracting is in scope for this site.",
-        "en": "For Germany-origin loads, primary planning is consolidation via the UK hub or combined road/ro-ro links into Turkey. UK→TR contracting is in scope for this site."
-      }
+        "en": "Randstad port chemistry and inland barge feeds relevant when UK loads consolidate via Dutch hubs before deep-sea sailings toward Turkey."
+      },
+      "desc": {}
     },
     {
       "name": {
-        "tr": "Netherlands",
-        "en": "Netherlands"
+        "en": "Belgium"
       },
       "status": "play",
-      "category": "European countries",
-      "id": "hollanda",
+      "category": "",
+      "id": "belcika",
       "url": "",
-      "path": "hollanda",
+      "path": "belcika",
       "index": 3,
       "icon": "home",
       "desing": {
@@ -93,19 +89,18 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "logo.png",
+      "img": "country-card.jpg",
       "description": {
-        "tr": "Parcel and LTL options from Rotterdam/Amsterdam with sea plus UK transfer or direct strings. Customs and insurance scenarios are clarified per project.",
-        "en": "Parcel and LTL options from Rotterdam/Amsterdam with sea plus UK transfer or direct strings. Customs and insurance scenarios are clarified per project."
-      }
+        "en": "Short-haul Benelux positioning: Antwerp and Brussels catchments, customs-light cross-border legs that sometimes stage UK-exported goods ahead of mainline sailings."
+      },
+      "desc": {}
     },
     {
       "name": {
-        "tr": "France",
         "en": "France"
       },
       "status": "play",
-      "category": "European countries",
+      "category": "",
       "id": "fransa",
       "url": "",
       "path": "fransa",
@@ -117,17 +112,65 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "logo.png",
+      "img": "country-card.jpg",
       "description": {
-        "tr": "From France, Channel routing or direct Ro-Ro plans into Turkey, aligned with the UK→TR brand positioning of this property.",
-        "en": "From France, Channel routing or direct Ro-Ro plans into Turkey, aligned with the UK→TR brand positioning of this property."
-      }
+        "en": "Channel-facing logistics: short-sea from northern France, Atlantic coast ro-ro options and inland trunking that can dovetail with UK-export programmes bound for Turkey."
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "en": "Austria"
+      },
+      "status": "play",
+      "category": "Country guides",
+      "id": "avusturya",
+      "url": "",
+      "path": "avusturya",
+      "index": 5,
+      "img": "country-card.jpg",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "en": "Alpine and Danube-side corridors: winter weight rules, tunnel restrictions and Vienna–Graz–Linz trunk patterns that affect timing when UK cargo transits Central Europe."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "en": "Luxembourg"
+      },
+      "status": "play",
+      "category": "European transport",
+      "id": "luksemburg",
+      "url": "",
+      "path": "luksemburg",
+      "index": 6,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "country-card.jpg",
+      "description": {
+        "en": "Compact-state moves: lift-limited city centres, cross-border handoffs with Belgium and multimodal tickets that can slot UK-exported consignments into wider EU programmes."
+      },
+      "desc": {}
     }
   ],
   "index": 3,
   "desing": {
     "header": [],
-    "body": [],
+    "body": [
+      "my2y3e"
+    ],
     "footer": []
   },
   "modulestatus": {

@@ -5,14 +5,13 @@
   "data": [
     {
       "name": {
-        "tr": "UK to Turkey Household Goods Shipping",
-        "en": "UK to Turkey Household Goods Shipping"
+        "en": "Door-to-door moving"
       },
       "status": "play",
       "category": "",
       "id": "ingiltereden-turkiyeye-ev-esyasi",
       "url": "",
-      "path": "ingiltereden-turkiyeye-ev-esyasi-tasimaciligi",
+      "path": "uk-to-turkey-household-shipping",
       "index": 0,
       "desing": {
         "header": [],
@@ -21,22 +20,30 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Household goods moves from the United Kingdom (London, Manchester, Birmingham and all UK pickup points) to your delivery address in Turkey with Hanbros UK: post-Brexit customs, professional packing, insured carriage and door-to-door service.",
-        "en": "Household goods moves from the United Kingdom (London, Manchester, Birmingham and all UK pickup points) to your delivery address in Turkey with Hanbros UK: post-Brexit customs, professional packing, insured carriage and door-to-door service."
+        "en": "Full-home relocations ex England, Scotland, Wales or Northern Ireland: volume survey, export-safe packing, inventory lists and named delivery after Turkish import clearance."
       },
-      "img": "logo.png",
-      "icon": "home"
+      "img": "j7uyj.webp",
+      "icon": "home",
+      "desc": {},
+      "keyword": {
+        "en": "UK domestic removals to Turkey, Hanbros UK volume survey, export packing door delivery"
+      },
+      "update": "2026-05-16T18:00:00.000Z",
+      "date": "2026-05-08T05:18:35.620Z",
+      "title": {
+        "en": "Household moves UK to Turkey | Hanbros UK"
+      },
+      "slider": []
     },
     {
       "name": {
-        "tr": "UK to Turkey Vehicle Shipping",
-        "en": "UK to Turkey Vehicle Shipping"
+        "en": "Vehicle Shipping"
       },
       "status": "play",
       "category": "",
       "id": "ingiltereden-turkiyeye-arac-gonderimi",
       "url": "",
-      "path": "ingiltereden-turkiyeye-arac-gonderimi",
+      "path": "uk-to-turkey-vehicle-shipping",
       "index": 1,
       "desing": {
         "header": [],
@@ -45,22 +52,27 @@
       },
       "pathnext": "",
       "icon": "home",
-      "img": "logo.png",
+      "img": "qdg37.webp",
       "description": {
-        "tr": "Vehicle shipping from UK to Turkey with Hanbros UK. Car, SUV, motorcycle and commercial vehicle transport. Post-Brexit customs procedures, insurance and safe delivery. Enclosed and open vehicle transport options.",
-        "en": "Vehicle shipping from UK to Turkey with Hanbros UK. Car, SUV, motorcycle and commercial vehicle transport. Post-Brexit customs procedures, insurance and safe delivery. Enclosed and open vehicle transport options."
+        "en": "Passenger cars, motorcycles and selected light commercial units leaving the UK on RoRo or container services, with registration papers, condition photos and insurance values prepared for Turkish import."
+      },
+      "desc": {},
+      "keyword": {
+        "en": "export car UK to Turkey RoRo, motorcycle container shipping UK, V5C export Hanbros UK"
+      },
+      "title": {
+        "en": "Cars and bikes UK to Turkey | Hanbros UK"
       }
     },
     {
       "name": {
-        "tr": "UK to Turkey Commercial Goods Shipping",
-        "en": "UK to Turkey Commercial Goods Shipping"
+        "en": "New Furniture Shipping"
       },
       "status": "play",
       "category": "",
-      "id": "ingiltereden-turkiyeye-ticari-esya",
+      "id": "ingiltereden-turkiyeye-yeni-mobilya",
       "url": "",
-      "path": "ingiltereden-turkiyeye-ticari-esya-tasimaciligi",
+      "path": "uk-to-turkey-new-furniture",
       "index": 2,
       "icon": "home",
       "desing": {
@@ -69,22 +81,27 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "logo.png",
+      "img": "swxi9.webp",
       "description": {
-        "tr": "Commercial goods shipping from UK to Turkey with Hanbros UK. B2B international logistics, bulk shipping, customs consultancy and invoice integration. Special B2B pricing.",
-        "en": "Commercial goods shipping from UK to Turkey with Hanbros UK. B2B international logistics, bulk shipping, customs consultancy and invoice integration. Special B2B pricing."
+        "en": "Shop-to-door programmes for boxed or assembled furniture from UK retailers and workshops: moisture-aware wrapping, corner protection and load plans matched to sea or road main carriage."
+      },
+      "desc": {},
+      "keyword": {
+        "en": "retail furniture export UK Turkey, showroom pallet shipping, flatpack sea stowage Hanbros UK"
+      },
+      "title": {
+        "en": "Retail furniture ex-UK to TR | Hanbros UK"
       }
     },
     {
       "name": {
-        "tr": "UK to Turkey Cargo Shipping",
-        "en": "UK to Turkey Cargo Shipping"
+        "en": "Commercial Goods Shipping"
       },
       "status": "play",
       "category": "",
-      "id": "ingiltereden-turkiyeye-kargo",
+      "id": "ingiltereden-turkiyeye-ticari-esya",
       "url": "",
-      "path": "ingiltereden-turkiyeye-kargo-gonderimi",
+      "path": "uk-to-turkey-commercial-shipping",
       "index": 3,
       "icon": "home",
       "desing": {
@@ -93,22 +110,27 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "logo.png",
+      "img": "kpxm0.webp",
       "description": {
-        "tr": "Cargo shipping from UK to Turkey with Hanbros UK. Partial and full load cargo, express delivery, customs procedures and 24/7 tracking. Parcel and package shipping. Safe and fast logistics solutions.",
-        "en": "Cargo shipping from UK to Turkey with Hanbros UK. Partial and full load cargo, express delivery, customs procedures and 24/7 tracking. Parcel and package shipping. Safe and fast logistics solutions."
+        "en": "Palletised and loose B2B freight from UK warehouses with HS-led invoices, origin statements where required, and booked linehaul slots into Turkish hubs or bonded hand-offs."
+      },
+      "desc": {},
+      "keyword": {
+        "en": "UK pallet export Turkey HS, B2B warehouse pickup CMR, Incoterms freight Hanbros UK"
+      },
+      "title": {
+        "en": "B2B freight UK to Turkey | Hanbros UK"
       }
     },
     {
       "name": {
-        "tr": "UK to Turkey Storage Service",
-        "en": "UK to Turkey Storage Service"
+        "en": "International Cargo Transportation and Parcel Delivery Service"
       },
       "status": "play",
       "category": "",
-      "id": "ingiltereden-turkiyeye-depolama",
+      "id": "ingiltereden-turkiyeye-kargo",
       "url": "",
-      "path": "ingiltereden-turkiyeye-depolama-hizmeti",
+      "path": "uk-to-turkey-road-cargo",
       "index": 4,
       "icon": "home",
       "desing": {
@@ -117,89 +139,26 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "logo.png",
+      "img": "b572p.webp",
       "description": {
-        "tr": "Storage service from UK to Turkey with Hanbros UK. Secure storage facilities, flexible storage periods, inventory management and order processing. Short and long term storage solutions.",
-        "en": "Storage service from UK to Turkey with Hanbros UK. Secure storage facilities, flexible storage periods, inventory management and order processing. Short and long term storage solutions."
-      }
-    },
-    {
-      "name": {
-        "tr": "UK to Turkey Customs Consultancy",
-        "en": "UK to Turkey Customs Consultancy"
+        "en": "Groupage and full-trailer road feeds plus parcel streams timed to sailing or ro-ro cut-offs; milestones tracked through UK departure, main carriage and Turkish handover."
       },
-      "status": "play",
-      "category": "",
-      "id": "ingiltereden-turkiyeye-gumruk",
-      "url": "",
-      "path": "ingiltereden-turkiyeye-gumruk-danismanligi",
-      "index": 5,
-      "icon": "home",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
+      "desc": {},
+      "keyword": {
+        "en": "UK Turkey groupage linehaul, LTL FTL trailer booking, parcel cut-off tracking Hanbros UK"
       },
-      "pathnext": "",
-      "img": "logo.png",
-      "description": {
-        "tr": "Customs consultancy from UK to Turkey with Hanbros UK. Post-Brexit customs procedures, document preparation, tax calculations, exemption applications and smooth process management.",
-        "en": "Customs consultancy from UK to Turkey with Hanbros UK. Post-Brexit customs procedures, document preparation, tax calculations, exemption applications and smooth process management."
-      }
-    },
-    {
-      "name": {
-        "tr": "UK to Turkey New Furniture Shipping",
-        "en": "UK to Turkey New Furniture Shipping"
-      },
-      "status": "play",
-      "category": "",
-      "id": "ingiltereden-turkiyeye-yeni-mobilya",
-      "url": "",
-      "path": "ingiltereden-turkiyeye-yeni-mobilya-tasimaciligi",
-      "index": 6,
-      "icon": "home",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "pathnext": "",
-      "img": "logo.png",
-      "description": {
-        "tr": "New furniture shipping from UK to Turkey with Hanbros UK. Professional packing, safe transport and delivery. Furniture assembly service. Special size and weight solutions.",
-        "en": "New furniture shipping from UK to Turkey with Hanbros UK. Professional packing, safe transport and delivery. Furniture assembly service. Special size and weight solutions."
-      }
-    },
-    {
-      "name": {
-        "tr": "UK to Turkey Express Cargo",
-        "en": "UK to Turkey Express Cargo"
-      },
-      "status": "play",
-      "category": "",
-      "id": "ingiltereden-turkiyeye-ekspres-kargo",
-      "url": "",
-      "path": "ingiltereden-turkiyeye-ekspres-kargo",
-      "index": 7,
-      "icon": "home",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "pathnext": "",
-      "img": "logo.png",
-      "description": {
-        "tr": "Express cargo from UK to Turkey with Hanbros UK. 24-72 hour delivery for urgent shipments, priority processing, customs fast track and safe shipping. Fast and reliable.",
-        "en": "Express cargo from UK to Turkey with Hanbros UK. 24-72 hour delivery for urgent shipments, priority processing, customs fast track and safe shipping. Fast and reliable."
+      "title": {
+        "en": "Road linehaul & parcels UK–TR | Hanbros UK"
       }
     }
   ],
   "index": 1,
   "desing": {
     "header": [],
-    "body": [],
+    "body": [
+      "my2y3e",
+      "johbrf"
+    ],
     "footer": []
   },
   "modulestatus": {

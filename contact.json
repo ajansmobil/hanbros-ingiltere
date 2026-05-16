@@ -5,7 +5,6 @@
   "data": [
     {
       "name": {
-        "tr": "UK Office",
         "en": "UK Office"
       },
       "status": "play",
@@ -15,7 +14,6 @@
       "path": "uk-office",
       "index": 0,
       "description": {
-        "tr": "Operations and customer contact for UK-origin shipments. UK pickup scheduling, warehouse appointments and pre-departure paperwork checks are coordinated from this office.",
         "en": "Operations and customer contact for UK-origin shipments. UK pickup scheduling, warehouse appointments and pre-departure paperwork checks are coordinated from this office."
       },
       "desing": {
@@ -27,7 +25,6 @@
     },
     {
       "name": {
-        "tr": "Turkey Office",
         "en": "Turkey Office"
       },
       "status": "play",
@@ -38,7 +35,6 @@
       "index": 1,
       "icon": "home",
       "description": {
-        "tr": "Turkey delivery leg: customs, address validation and last-mile coordination. Local field support across Istanbul, Ankara, Izmir, Gaziantep and other cities.",
         "en": "Turkey delivery leg: customs, address validation and last-mile coordination. Local field support across Istanbul, Ankara, Izmir, Gaziantep and other cities."
       },
       "desing": {
@@ -49,7 +45,6 @@
     },
     {
       "name": {
-        "tr": "Online Quote Form",
         "en": "Online Quote Form"
       },
       "status": "play",
@@ -60,7 +55,6 @@
       "index": 2,
       "icon": "home",
       "description": {
-        "tr": "Share your UK postcode, Turkey delivery city/district, commodity type and volume; receive a detailed price band and transit estimate for the UK-to-Turkey lane.",
         "en": "Share your UK postcode, Turkey delivery city/district, commodity type and volume; receive a detailed price band and transit estimate for the UK-to-Turkey lane."
       },
       "desing": {
@@ -71,7 +65,6 @@
     },
     {
       "name": {
-        "tr": "Customer Service",
         "en": "Customer Service"
       },
       "status": "play",
@@ -82,7 +75,6 @@
       "index": 3,
       "icon": "home",
       "description": {
-        "tr": "Fast answers on shipment status, document packs and insurance options. Official channels: hanbroscargo.co.uk and info@hanbroscargo.co.uk.",
         "en": "Fast answers on shipment status, document packs and insurance options. Official channels: hanbroscargo.co.uk and info@hanbroscargo.co.uk."
       },
       "desing": {

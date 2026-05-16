@@ -1,9 +1,8 @@
 {
   "name": {
-    "tr": "UK to Turkey Express Cargo",
     "en": "UK to Turkey Express Cargo"
   },
-  "status": "play",
+  "status": "pause",
   "category": "",
   "id": "ingiltereden-turkiyeye-ekspres-kargo",
   "url": "",
@@ -18,22 +17,18 @@
   "pathnext": "",
   "img": "logo.png",
   "description": {
-    "tr": "Time-critical shipments from England and the United Kingdom to Turkey with priority loading and accelerated customs prep — Hanbros UK express.",
     "en": "Time-critical shipments from England and the United Kingdom to Turkey with priority loading and accelerated customs prep — Hanbros UK express."
   },
   "desc": {},
   "keyword": {
-    "tr": "priority loading cut-off, time-critical shipment slot, expedited customs prep express",
     "en": "priority loading cut-off, time-critical shipment slot, expedited customs prep express"
   },
   "text": {
-    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Express lanes tolerate little slack; missing paperwork magnifies delay. Fixed-date jobs need confirmed capacity.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Express lanes tolerate little slack; missing paperwork magnifies delay. Fixed-date jobs need confirmed capacity.</p>"
   },
   "update": "2026-05-08T05:40:46.550Z",
   "date": "2026-05-08T05:18:35.655Z",
   "title": {
-    "tr": "Express / priority lane | Hanbros UK",
     "en": "Express / priority lane | Hanbros UK"
   }
 }

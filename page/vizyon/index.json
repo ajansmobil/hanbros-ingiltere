@@ -1,6 +1,5 @@
 {
   "name": {
-    "tr": "Vision",
     "en": "Vision"
   },
   "status": "play",
@@ -15,24 +14,20 @@
   "index": 2,
   "icon": "home",
   "description": {
-    "tr": "End-to-end transparency and predictability in customer experience—live lookup sits on the shipment page; pricing on the quote page.",
     "en": "End-to-end transparency and predictability in customer experience—live lookup sits on the shipment page; pricing on the quote page."
   },
   "img": "logo.png",
   "url": "",
   "pathnext": "quality-policy",
   "keyword": {
-    "tr": "logistics roadmap transparency, customer journey predictability, UK Turkey experience vision",
     "en": "logistics roadmap transparency, customer journey predictability, UK Turkey experience vision"
   },
   "text": {
-    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>We aim for end-to-end visibility: customer notifications, proactive ops updates and tight field feedback loops.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>We aim for end-to-end visibility: customer notifications, proactive ops updates and tight field feedback loops.</p>"
   },
   "update": "2026-05-08T05:40:46.565Z",
   "date": "2026-05-08T05:40:45.238Z",
   "title": {
-    "tr": "Vision | Hanbros UK",
     "en": "Vision | Hanbros UK"
   }
 }

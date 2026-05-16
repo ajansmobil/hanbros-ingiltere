@@ -1,6 +1,5 @@
 {
   "name": {
-    "tr": "Get a Quote",
     "en": "Get a Quote"
   },
   "status": "play",
@@ -9,7 +8,6 @@
   "path": "get-a-quote",
   "index": 6,
   "description": {
-    "tr": "Written pricing request form by door addresses and cargo type—for live status use the shipment lookup page.",
     "en": "Written pricing request form by door addresses and cargo type—for live status use the shipment lookup page."
   },
   "desing": {
@@ -23,18 +21,15 @@
   "img": "logo.png",
   "desc": {},
   "keyword": {
-    "tr": "UK Turkey freight RFQ, written removal quote form, pallet rate request England Turkey",
     "en": "UK Turkey freight RFQ, written removal quote form, pallet rate request England Turkey"
   },
   "update": "2026-05-08T05:40:46.505Z",
   "date": "2026-05-08T05:18:35.593Z",
   "title": {
-    "tr": "Request a quote | Hanbros UK",
     "en": "Request a quote | Hanbros UK"
   },
   "icon": "home",
   "text": {
-    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Separate UK origin and Turkey destination addresses. For vehicles include VIN and modification notes.</p>",
     "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Separate UK origin and Turkey destination addresses. For vehicles include VIN and modification notes.</p>"
   }
 }

@@ -1,0 +1,34 @@
+{
+  "name": {
+    "en": "Belgium"
+  },
+  "status": "play",
+  "category": "",
+  "id": "belcika",
+  "url": "",
+  "path": "belcika",
+  "index": 3,
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "",
+  "img": "country-card.jpg",
+  "description": {
+    "en": "Short-haul Benelux positioning: Antwerp and Brussels catchments, cross-border legs that sometimes stage UK-exported goods ahead of mainline sailings."
+  },
+  "desc": {},
+  "keyword": {
+    "en": "Belgium Antwerp Brussels relay, UK export staging Hanbros UK"
+  },
+  "text": {
+    "en": "<p>Belgium's compact geography makes it a frequent hand-off point between UK linehaul and continental feeders. Customs narratives must stay consistent across that hand-off—invoice, packing list and transport document names should match the physical seals.</p><p>Urban Brussels deliveries may need low-emission zone passes booked in advance; flag plate and Euro class when you request a slot.</p>"
+  },
+  "update": "2026-05-16T18:00:00.000Z",
+  "date": "2026-05-16T14:00:00.000Z",
+  "title": {
+    "en": "Belgium hand-offs | Hanbros UK"
+  }
+}

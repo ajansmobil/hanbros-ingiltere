@@ -1,6 +1,5 @@
 {
   "name": {
-    "tr": "Corporate",
     "en": "Corporate"
   },
   "status": "play",
@@ -18,19 +17,16 @@
   },
   "pathnext": "about-us",
   "description": {
-    "tr": "Corporate structure, policy tree and legal notices index—operational pricing, shipment lookup and quote forms live on dedicated pages.",
     "en": "Corporate structure, policy tree and legal notices index—operational pricing, shipment lookup and quote forms live on dedicated pages."
   },
   "desc": {},
   "icon": "home",
   "keyword": {
-    "tr": "Hanbros UK corporate hub, company governance UK forwarder, policy index legal notices",
     "en": "Hanbros UK corporate hub, company governance UK forwarder, policy index legal notices"
   },
   "update": "2026-05-08T05:40:46.476Z",
   "date": "2026-05-04T19:01:36.357Z",
   "title": {
-    "tr": "Corporate hub | Hanbros UK",
     "en": "Corporate hub | Hanbros UK"
   },
   "img": "logo.png",

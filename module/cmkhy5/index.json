@@ -11,7 +11,6 @@
   "data": [
     {
       "name": {
-        "tr": "Call us now",
         "en": "Call us now"
       },
       "spot": "+90 850 800 2727",
@@ -23,7 +22,6 @@
     },
     {
       "name": {
-        "tr": "Write to us",
         "en": "Write to us"
       },
       "spot": "info@{{domain}}",
@@ -35,7 +33,6 @@
     },
     {
       "name": {
-        "tr": "London office",
         "en": "London office"
       },
       "spot": "Unit 7 Redburn Business Estate, Woodall Road, Enfield EN3 4LQ, UK",

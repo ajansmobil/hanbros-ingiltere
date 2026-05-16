@@ -1,7 +1,6 @@
 {
   "name": {
-    "tr": "UK to Turkey Vehicle Shipping",
-    "en": "UK to Turkey Vehicle Shipping"
+    "en": "Vehicle Shipping"
   },
   "status": "play",
   "category": "",
@@ -16,24 +15,20 @@
   },
   "pathnext": "",
   "icon": "home",
-  "img": "logo.png",
+  "img": "qdg37.webp",
   "description": {
-    "tr": "Ship cars and motorcycles from England and the United Kingdom to Turkey: RoRo and container options with documentation and insurance planning by Hanbros UK.",
-    "en": "Ship cars and motorcycles from England and the United Kingdom to Turkey: RoRo and container options with documentation and insurance planning by Hanbros UK."
+    "en": "Cars, motorcycles and approved light commercials leaving the UK for Turkey with condition photos, V5C checks and carriage matched to ro-ro or container cut-offs."
   },
   "desc": {},
   "keyword": {
-    "tr": "V5C vehicle export UK, RoRo car Turkey, motorcycle container shipping United Kingdom",
-    "en": "V5C vehicle export UK, RoRo car Turkey, motorcycle container shipping United Kingdom"
+    "en": "export vehicle UK Turkey RoRo, motorcycle shipping container, V5C Hanbros UK"
   },
   "text": {
-    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Model year, modifications and LPG may affect customs classification. Early guidance on registration steps in Turkey is recommended.</p>",
-    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Model year, modifications and LPG may affect customs classification. Early guidance on registration steps in Turkey is recommended.</p>"
+    "en": "<p>Vehicle moves need a clean paper trail: registration, purchase evidence if applicable, and a realistic declared value for transit cover. Modifications, LPG kits and non-standard dimensions can change stowage class—flag them before booking.</p><p>RoRo suits many driveable units; container suits higher-value or non-running stock. Hanbros UK will propose the mode that fits your timeline and pickup postcode.</p>"
   },
-  "update": "2026-05-08T05:40:46.520Z",
+  "update": "2026-05-16T18:00:00.000Z",
   "date": "2026-05-08T05:18:35.624Z",
   "title": {
-    "tr": "Vehicle transport (RoRo) | Hanbros UK",
-    "en": "Vehicle transport (RoRo) | Hanbros UK"
+    "en": "Vehicle export UK to Turkey | Hanbros UK"
   }
 }

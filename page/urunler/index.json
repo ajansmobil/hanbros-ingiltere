@@ -1,11 +1,10 @@
 {
   "name": {
-    "tr": "Our Services",
     "en": "Our Services"
   },
   "status": "play",
   "id": "urunler",
-  "path": "services",
+  "path": "hizmetler",
   "category": "",
   "desing": {
     "header": [],
@@ -18,24 +17,20 @@
   "index": 1,
   "icon": "home",
   "description": {
-    "tr": "Menu overview of household, vehicle, commercial, linehaul cargo, storage and customs lines—each line has its own service page.",
-    "en": "Menu overview of household, vehicle, commercial, linehaul cargo, storage and customs lines—each line has its own service page."
+    "en": "Five dedicated lanes from the United Kingdom toward Turkey: residential volume moves, titled vehicles, furniture retail flows, palletised B2B cargo and scheduled road groupage—each with its own intake checklist on Hanbros UK."
   },
   "keyword": {
-    "tr": "Hanbros UK service catalogue, UK Turkey multimodal menu, shipping lines index one brand",
-    "en": "Hanbros UK service catalogue, UK Turkey multimodal menu, shipping lines index one brand"
+    "en": "Hanbros UK service lines, UK export Turkey household vehicle freight, hub catalogue"
   },
-  "update": "2026-05-08T05:40:46.482Z",
+  "update": "2026-05-16T18:00:00.000Z",
   "date": "2026-05-02T09:00:00.000Z",
   "title": {
-    "tr": "Services | Hanbros UK",
-    "en": "Services | Hanbros UK"
+    "en": "Services from the UK to Turkey | Hanbros UK"
   },
   "img": "logo.png",
   "url": "",
   "pathnext": "",
   "text": {
-    "tr": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><h2>Service portfolio</h2><p>Household, commercial, vehicles, storage and customs under one roof, each page tuned to UK→TR intent.</p>",
-    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><h2>Service portfolio</h2><p>Household, commercial, vehicles, storage and customs under one roof, each page tuned to UK→TR intent.</p>"
+    "en": "<p><strong>Hanbros UK</strong> publishes this catalogue for <strong>United Kingdom → Turkey</strong> planning. Pick a line below for intake rules, packing expectations and documentation cues. Shipments that <strong>start in Turkey</strong> and head toward Europe or the UK are handled on a separate brand site—ask your coordinator for the correct booking path if your origin is not the UK.</p>"
   }
 }

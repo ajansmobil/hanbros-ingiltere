@@ -9,27 +9,21 @@
       "id": "cmkhy5",
       "desing": {
         "web-name": {
-          "tr": "Hanbros UK — England & UK to Turkey",
           "en": "Hanbros UK — England & UK to Turkey"
         },
         "gonder": {
-          "tr": "Shipment Tracking",
           "en": "Shipment Tracking"
         },
         "teklifal": {
-          "tr": "Get a Quote",
           "en": "Get a Quote"
         },
         "elink": {
-          "tr": "e-Link",
           "en": "e-Link"
         },
         "trackPageTitle": {
-          "tr": "Go to shipment tracking page",
           "en": "Go to shipment tracking page"
         },
         "quotePageTitle": {
-          "tr": "Go to quote page",
           "en": "Go to quote page"
         }
       }
@@ -50,87 +44,66 @@
         "border_radius": "15px",
         "card_shadow": "0 4px 20px rgba(0, 0, 0, 0.08)",
         "pageTitle": {
-          "tr": "Volume Calculator",
           "en": "Volume Calculator"
         },
         "mainTitle": {
-          "tr": "📦 Volume Calculator",
           "en": "📦 Volume Calculator"
         },
         "mainSubtitle": {
-          "tr": "Enter your items dimensions",
           "en": "Enter your items dimensions"
         },
         "btnAddItem": {
-          "tr": "➕ New Item",
           "en": "➕ New Item"
         },
         "btnClear": {
-          "tr": "🗑️ Clear",
           "en": "🗑️ Clear"
         },
         "transportTitle": {
-          "tr": "🚚 Select Transport Type",
           "en": "🚚 Select Transport Type"
         },
         "transportSubtitle": {
-          "tr": "Choose the most suitable transport method",
           "en": "Choose the most suitable transport method"
         },
         "transportRoad": {
-          "tr": "Road",
           "en": "Road"
         },
         "transportAir": {
-          "tr": "Air",
           "en": "Air"
         },
         "transportSea": {
-          "tr": "Sea",
           "en": "Sea"
         },
         "resultsTitle": {
-          "tr": "📊 Calculation Results",
           "en": "📊 Calculation Results"
         },
         "resultsSubtitle": {
-          "tr": "Total volume and weight information",
           "en": "Total volume and weight information"
         },
         "labelTotalVolume": {
-          "tr": "TOTAL VOLUME",
           "en": "TOTAL VOLUME"
         },
         "labelTotalWeight": {
-          "tr": "TOTAL WEIGHT",
           "en": "TOTAL WEIGHT"
         },
         "itemTitle": {
-          "tr": "Item",
           "en": "Item"
         },
         "labelLength": {
-          "tr": "📏 Length (cm)",
           "en": "📏 Length (cm)"
         },
         "labelWidth": {
-          "tr": "📐 Width (cm)",
           "en": "📐 Width (cm)"
         },
         "labelHeight": {
-          "tr": "📏 Height (cm)",
           "en": "📏 Height (cm)"
         },
         "labelQuantity": {
-          "tr": "📦 Quantity",
           "en": "📦 Quantity"
         },
         "labelWeight": {
-          "tr": "⚖️ Weight (kg)",
           "en": "⚖️ Weight (kg)"
         },
         "labelItemVolume": {
-          "tr": "📊 Item Volume (m³)",
           "en": "📊 Item Volume (m³)"
         }
       },
@@ -147,7 +120,6 @@
         "color": "#1e3046",
         "height": "250px",
         "name": {
-          "tr": "Contact Us",
           "en": "Contact Us"
         },
         "margin": "30px 0px 30px 0px"
@@ -159,7 +131,6 @@
             {
               "icon": "call",
               "name": {
-                "tr": "Phone",
                 "en": "Phone"
               },
               "text": "+90 850 800 2727",
@@ -168,7 +139,6 @@
             {
               "icon": "mail",
               "name": {
-                "tr": "Email",
                 "en": "Email"
               },
               "text": "info@{{domain}}",
@@ -177,7 +147,6 @@
             {
               "icon": "location_on",
               "name": {
-                "tr": "Gaziantep - Turkey",
                 "en": "Gaziantep - Turkey"
               },
               "text": "52008 Sk. No:15/A, Mucahitler, Sehitkamil, Gaziantep, Turkey",
@@ -191,7 +160,6 @@
             {
               "icon": "call",
               "name": {
-                "tr": "Phone",
                 "en": "Phone"
               },
               "text": "+90 850 800 2727",
@@ -200,7 +168,6 @@
             {
               "icon": "mail",
               "name": {
-                "tr": "Email",
                 "en": "Email"
               },
               "text": "info@{{domain}}",
@@ -209,7 +176,6 @@
             {
               "icon": "location_on",
               "name": {
-                "tr": "Pazarcik - Turkey",
                 "en": "Pazarcik - Turkey"
               },
               "text": "Cumhuriyet St. No:4/C, Sehit Nurettin Ademoglu District, Pazarcik, Kahramanmaras, Turkey",
@@ -223,7 +189,6 @@
             {
               "icon": "call",
               "name": {
-                "tr": "Phone",
                 "en": "Phone"
               },
               "text": "+90 850 800 2727",
@@ -232,7 +197,6 @@
             {
               "icon": "mail",
               "name": {
-                "tr": "Email",
                 "en": "Email"
               },
               "text": "info@{{domain}}",
@@ -241,7 +205,6 @@
             {
               "icon": "location_on",
               "name": {
-                "tr": "Aksaray - Turkey",
                 "en": "Aksaray - Turkey"
               },
               "text": "2502 St. No:13/A, Merkez Sanayi District, Aksaray, Nigde, Turkey",
@@ -255,7 +218,6 @@
             {
               "icon": "call",
               "name": {
-                "tr": "Phone",
                 "en": "Phone"
               },
               "text": "+90 850 800 2727",
@@ -264,7 +226,6 @@
             {
               "icon": "mail",
               "name": {
-                "tr": "Email",
                 "en": "Email"
               },
               "text": "info@{{domain}}",
@@ -273,7 +234,6 @@
             {
               "icon": "location_on",
               "name": {
-                "tr": "Istanbul - Turkey",
                 "en": "Istanbul - Turkey"
               },
               "text": "Hasanaga St. No:2, Floor 3 Apt 3, Abdulrahman District, Sancaktepe 34887, Istanbul, Turkey",
@@ -287,7 +247,6 @@
             {
               "icon": "call",
               "name": {
-                "tr": "Phone",
                 "en": "Phone"
               },
               "text": "+90 850 800 2727",
@@ -296,7 +255,6 @@
             {
               "icon": "mail",
               "name": {
-                "tr": "Email",
                 "en": "Email"
               },
               "text": "info@{{domain}}",
@@ -305,7 +263,6 @@
             {
               "icon": "location_on",
               "name": {
-                "tr": "Hannover - Germany",
                 "en": "Hannover - Germany"
               },
               "text": "Thielenweg 29323 Wietze Hannover / Deutschland",
@@ -319,7 +276,6 @@
             {
               "icon": "call",
               "name": {
-                "tr": "Phone",
                 "en": "Phone"
               },
               "text": "+90 850 800 2727",
@@ -328,7 +284,6 @@
             {
               "icon": "mail",
               "name": {
-                "tr": "Email",
                 "en": "Email"
               },
               "text": "info@{{domain}}",
@@ -337,7 +292,6 @@
             {
               "icon": "location_on",
               "name": {
-                "tr": "London - UK",
                 "en": "London - UK"
               },
               "text": "Unit 7 Redburn Business Estate Woodall Road Enfield EN3 4LQ London, UK",
@@ -400,26 +354,21 @@
         "number": "908508002727",
         "img": "logo.jpg",
         "name": {
-          "tr": "Contact Us",
           "en": "Contact Us"
         },
         "position": "fixed",
         "color": "#25D366",
         "z_index": 10000,
         "status": {
-          "tr": "Currently online",
           "en": "Currently online"
         },
         "message": {
-          "tr": "Hello! How can I help you?",
           "en": "Hello! How can I help you?"
         },
         "time": {
-          "tr": "Now",
           "en": "Now"
         },
         "button_text": {
-          "tr": "Start Chat",
           "en": "Start Chat"
         },
         "avatar": "logo.jpg",
@@ -437,9 +386,8 @@
       "local": "body",
       "category": "page-slider",
       "desing": {
-        "page": "services",
+        "page": "hizmetler",
         "name": {
-          "tr": "Our Services",
           "en": "Our Services"
         },
         "aspect-ratio": "3/2",
@@ -459,7 +407,7 @@
       "local": "body",
       "category": "page-list",
       "desing": {
-        "page": "countries",
+        "page": "ulkeler",
         "color": "#ffffff",
         "bgcolor": "#006B65",
         "height": "200px",
@@ -481,7 +429,6 @@
         "page": "knowledge-base",
         "buttoncolor": "#cedc00",
         "name": {
-          "tr": "Knowledge Base",
           "en": "Knowledge Base"
         },
         "margin-top": "20",
@@ -513,7 +460,6 @@
         "number": "905320000000",
         "color": "#e0e0e0",
         "name": {
-          "tr": "Get Quote Now",
           "en": "Get Quote Now"
         }
       },
@@ -521,12 +467,12 @@
     },
     {
       "index": 10,
-      "name": "Hizmetler Listesi Column",
+      "name": "Services list column",
       "path": "page-column",
       "local": "body",
       "category": "page-list",
       "desing": {
-        "page": "services",
+        "page": "hizmetler",
         "bgcolor": "#006B65",
         "color": "#fff",
         "height": "200px",
@@ -575,7 +521,6 @@
       "category": "social-slider",
       "desing": {
         "name": {
-          "tr": "We on Social Media",
           "en": "We on Social Media"
         },
         "padding": "25px 0px 25px 0px",
@@ -624,71 +569,54 @@
       "desing": {
         "page": "shipment-tracking",
         "heroTitle": {
-          "tr": "Cargo Tracking System",
           "en": "Cargo Tracking System"
         },
         "heroSubtitle": {
-          "tr": "Track your shipment status in real time",
           "en": "Track your shipment status in real time"
         },
         "searchTitle": {
-          "tr": "Track Shipment",
           "en": "Track Shipment"
         },
         "searchSubtitle": {
-          "tr": "Enter your tracking number to see the current status",
           "en": "Enter your tracking number to see the current status"
         },
         "inputPlaceholder": {
-          "tr": "Enter tracking number (e.g. CA-250000-0000)",
           "en": "Enter tracking number (e.g. CA-250000-0000)"
         },
         "btnSearch": {
-          "tr": "Search",
           "en": "Search"
         },
         "statusDefault": {
-          "tr": "Enter tracking number",
           "en": "Enter tracking number"
         },
         "statusDesc": {
-          "tr": "Your shipment status is listed below",
           "en": "Your shipment status is listed below"
         },
         "fabRefresh": {
-          "tr": "Refresh",
           "en": "Refresh"
         },
         "loadingText": {
-          "tr": "Loading...",
           "en": "Loading..."
         },
         "errorNotFound": {
-          "tr": "Shipment not found or an error occurred.",
           "en": "Shipment not found or an error occurred."
         },
         "errorNoHistory": {
-          "tr": "No history found for this tracking number.",
           "en": "No history found for this tracking number."
         },
         "trackingStatusFormat": {
-          "tr": "The status of your shipment with tracking number {0} is as follows.",
           "en": "The status of your shipment with tracking number {0} is as follows."
         },
         "formAriaLabel": {
-          "tr": "Shipment tracking form",
           "en": "Shipment tracking form"
         },
         "inputAriaLabel": {
-          "tr": "Enter tracking number",
           "en": "Enter tracking number"
         },
         "searchBtnAriaLabel": {
-          "tr": "Track shipment",
           "en": "Track shipment"
         },
         "timelineAriaLabel": {
-          "tr": "Shipment tracking history",
           "en": "Shipment tracking history"
         }
       },
