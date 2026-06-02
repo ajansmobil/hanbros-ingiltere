@@ -1,9 +1,8 @@
 
-
 if (typeof json === 'undefined') {
   var json = {};
 }
-var lang = (json.lang === 'tr' || json.lang === 'en') ? json.lang : 'en';
+var lang = 'en';
 var d = json.desing || {};
 
 function getDesing(key) {
@@ -15,9 +14,6 @@ function getDesing(key) {
   }
   if (d[key].en) {
     return d[key].en;
-  }
-  if (d[key].tr) {
-    return d[key].tr;
   }
   return '';
 }

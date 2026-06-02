@@ -11,7 +11,7 @@
       "category": "Service regions",
       "id": "ingiltere",
       "url": "",
-      "path": "ingiltere",
+      "path": "united-kingdom",
       "index": 0,
       "desing": {
         "header": [],
@@ -34,7 +34,7 @@
       "category": "",
       "id": "almanya",
       "url": "",
-      "path": "almanya",
+      "path": "germany",
       "index": 1,
       "icon": "home",
       "desing": {
@@ -57,7 +57,7 @@
       "category": "",
       "id": "hollanda",
       "url": "",
-      "path": "hollanda",
+      "path": "netherlands",
       "index": 2,
       "icon": "home",
       "desing": {
@@ -80,7 +80,7 @@
       "category": "",
       "id": "belcika",
       "url": "",
-      "path": "belcika",
+      "path": "belgium",
       "index": 3,
       "icon": "home",
       "desing": {
@@ -103,7 +103,7 @@
       "category": "",
       "id": "fransa",
       "url": "",
-      "path": "fransa",
+      "path": "france",
       "index": 4,
       "icon": "home",
       "desing": {
@@ -126,7 +126,7 @@
       "category": "Country guides",
       "id": "avusturya",
       "url": "",
-      "path": "avusturya",
+      "path": "austria",
       "index": 5,
       "img": "country-card.jpg",
       "desing": {
@@ -149,7 +149,7 @@
       "category": "European transport",
       "id": "luksemburg",
       "url": "",
-      "path": "luksemburg",
+      "path": "luxembourg",
       "index": 6,
       "icon": "home",
       "desing": {

@@ -743,6 +743,51 @@
                 });
         }
 
+        var EBERBU_STATUS_BY_CODE = {
+            Delivered: 'Delivered',
+            OnTrip: 'In transit',
+            InWareHouse: 'In warehouse',
+            InWarehouse: 'In warehouse',
+            Approved: 'Approved',
+            Reservation: 'Reservation received',
+            Cancelled: 'Cancelled'
+        };
+
+        var EBERBU_STATUS_BY_TEXT = {
+            'Teslim Edildi': 'Delivered',
+            'Yolda': 'In transit',
+            'Depoda': 'In warehouse',
+            'Onaylandi': 'Approved',
+            'Onaylandı': 'Approved',
+            'Rezervasyon': 'Reservation received',
+            'Iptal Edildi': 'Cancelled',
+            'İptal Edildi': 'Cancelled'
+        };
+
+        function eberbuTranslateStatus(transaction) {
+            var code = transaction && transaction.TransactionCode ? String(transaction.TransactionCode) : '';
+            if (code && EBERBU_STATUS_BY_CODE[code]) {
+                return EBERBU_STATUS_BY_CODE[code];
+            }
+            var desc = transaction && transaction.TransactionDescription ? String(transaction.TransactionDescription).trim() : '';
+            if (desc && EBERBU_STATUS_BY_TEXT[desc]) {
+                return EBERBU_STATUS_BY_TEXT[desc];
+            }
+            return desc;
+        }
+
+        function eberbuTranslateOperationCenter(text) {
+            var value = text ? String(text) : '';
+            return value.replace(/Operasyon Merkezi/gi, 'Operations Centre');
+        }
+
+        function eberbuIsDeliveredStatus(transaction, displayDesc) {
+            var code = transaction && transaction.TransactionCode ? String(transaction.TransactionCode) : '';
+            if (code === 'Delivered') return true;
+            var raw = (transaction && transaction.TransactionDescription ? transaction.TransactionDescription : '') + ' ' + (displayDesc || '');
+            return raw.indexOf('Teslim Edildi') !== -1 || raw.indexOf('Delivered') !== -1;
+        }
+
         function displayTrackingData(data) {
             var timeline = document.getElementById('timeline');
             var errorNoHistory = (typeof eberbuErrorNoHistory !== 'undefined') ? eberbuErrorNoHistory : 'No history found for this tracking number.';
@@ -755,23 +800,20 @@
                 return new Date(b.Date) - new Date(a.Date);
             });
             var timelineHTML = '';
-            var deliveredTr = 'Teslim Edildi';
-            var deliveredEn = 'Delivered';
-            var isEn = (typeof eberbuLang !== 'undefined' && eberbuLang === 'en');
-            var deliveredKey = isEn ? deliveredEn : deliveredTr;
             for (var i = 0; i < sortedHistory.length; i++) {
                 var transaction = sortedHistory[i];
-                var desc = transaction.TransactionDescription || '';
+                var desc = eberbuTranslateStatus(transaction);
                 var detail = transaction.TransactionDetail || '';
-                var isDelivered = (desc.indexOf(deliveredTr) !== -1 || desc.indexOf(deliveredEn) !== -1 || detail.indexOf(deliveredTr) !== -1 || detail.indexOf(deliveredEn) !== -1);
+                var isDelivered = eberbuIsDeliveredStatus(transaction, desc);
                 var iconContent = isDelivered ? '✓' : (sortedHistory.length - i);
                 var deliveredClass = isDelivered ? ' delivered' : '';
+                var operationCenter = eberbuTranslateOperationCenter(transaction.OperationCenter || '');
                 timelineHTML += '<div class="eberbu-timeline-item' + deliveredClass + '">' +
                     '<div class="eberbu-timeline-icon">' + iconContent + '</div>' +
                     '<div class="eberbu-timeline-content">' +
                     '<div class="eberbu-timeline-id">' + (desc || detail) + '</div>' +
                     (detail ? '<div class="eberbu-timeline-details" style="margin-bottom: 8px;">' + detail + '</div>' : '') +
-                    '<div class="eberbu-timeline-details">' + transaction.TransactionDate + ' | ' + (transaction.OperationCenter || '') + '</div>' +
+                    '<div class="eberbu-timeline-details">' + transaction.TransactionDate + ' | ' + operationCenter + '</div>' +
                     '</div></div>';
             }
             timeline.innerHTML = '<div class="eberbu-timeline-container">' + timelineHTML + '</div>';

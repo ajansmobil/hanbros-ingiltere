@@ -3,24 +3,23 @@ var GO1ILZ_HASH = ['zati', 'mobilya', 'ticari', 'kargo', 'arac'];
 var menuHtml = '';
 
 var TASIMA_TIPLERI = [
-    { code: 'CA', title: { tr: 'Personal Effects', en: 'Personal Effects' }, icon: 'inventory_2' },
-    { code: 'CO', title: { tr: 'Furniture', en: 'Furniture' }, icon: 'weekend' },
-    { code: 'FU', title: { tr: 'Commercial', en: 'Commercial' }, icon: 'business_center' },
-    { code: 'RE', title: { tr: 'Cargo', en: 'Cargo' }, icon: 'local_shipping' },
-    { code: 'AU', title: { tr: 'Vehicle', en: 'Vehicle' }, icon: 'directions_car' }
+    { code: 'CA', title: { en: 'Personal Effects' }, icon: 'inventory_2' },
+    { code: 'CO', title: { en: 'Furniture' }, icon: 'weekend' },
+    { code: 'FU', title: { en: 'Commercial' }, icon: 'business_center' },
+    { code: 'RE', title: { en: 'Cargo' }, icon: 'local_shipping' },
+    { code: 'AU', title: { en: 'Vehicle' }, icon: 'directions_car' }
 ];
 
-var lang = (typeof json !== 'undefined' && json.lang && json.lang === 'tr') ? 'tr' : 'en';
+var lang = 'en';
 var data = (typeof json !== 'undefined' && json.desing && json.desing.data && Array.isArray(json.desing.data)) ? json.desing.data : null;
 
 var go1ilzBase = '/' + lang + '/smart-calculator/';
 for (var i = 0; i < TASIMA_TIPLERI.length; i++) {
     var tip = TASIMA_TIPLERI[i];
     var it = data && data[i] ? data[i] : tip;
-    var title = (it.title && it.title[lang]) ? it.title[lang]
-              : (it.title && it.title.tr) ? it.title.tr
-              : (it.title && it.title.en) ? it.title.en
-              : tip.title[lang];
+    var title = (it.title && it.title.en) ? it.title.en
+              : (it.title && it.title[lang]) ? it.title[lang]
+              : tip.title.en;
     var iconName = (it && it.icon) ? it.icon : tip.icon;
     var hash = GO1ILZ_HASH[i] || 'zati';
     var href = go1ilzBase + '#' + hash;

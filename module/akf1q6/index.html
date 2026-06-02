@@ -235,55 +235,55 @@
 
 <div class="tkl-menu" id="modulex">{{menu}}</div>
 <div class="tkl-actions">
-  <button type="button" class="tkl-quote-open-btn" onclick="akf1q6OpenQuotePopup()">Teklif al</button>
+  <button type="button" class="tkl-quote-open-btn" onclick="akf1q6OpenQuotePopup()">Get a quote</button>
 </div>
 
 <div class="tkl-quote-popup tkl-hidden" id="akf1q6-quote-popup" style="display:none;">
   <div class="tkl-quote-overlay" onclick="akf1q6CloseQuotePopupAnimated()"></div>
   <div class="tkl-quote-content" id="akf1q6-quote-content">
     <div class="tkl-quote-header">
-      <div class="tkl-quote-title">Teklif al</div>
+      <div class="tkl-quote-title">Get a quote</div>
       <button type="button" class="tkl-quote-close" onclick="akf1q6CloseQuotePopupAnimated()">x</button>
     </div>
     <form class="tkl-quote-form" onsubmit="return akf1q6SendQuote(event);">
       <div class="tkl-quote-grid">
         <div class="tkl-quote-field">
-          <label for="akf1q6-request-type">Kategori</label>
+          <label for="akf1q6-request-type">Category</label>
           <select id="akf1q6-request-type" class="tkl-quote-input">
-            <option value="CA">Zati (CA)</option>
-            <option value="CO">Mobilya (CO)</option>
-            <option value="FU">Ticari (FU)</option>
-            <option value="RE">Kargo (RE)</option>
-            <option value="AU">Arac (AU)</option>
+            <option value="CA">Personal effects (CA)</option>
+            <option value="CO">Furniture (CO)</option>
+            <option value="FU">Commercial (FU)</option>
+            <option value="RE">Cargo (RE)</option>
+            <option value="AU">Vehicle (AU)</option>
           </select>
         </div>
         <div class="tkl-quote-field">
-          <label for="akf1q6-name">Ad Soyad</label>
+          <label for="akf1q6-name">Full name</label>
           <input id="akf1q6-name" class="tkl-quote-input" type="text" required>
         </div>
         <div class="tkl-quote-field">
-          <label for="akf1q6-email">E-posta</label>
+          <label for="akf1q6-email">Email</label>
           <input id="akf1q6-email" class="tkl-quote-input" type="email" required>
         </div>
         <div class="tkl-quote-field">
-          <label for="akf1q6-phone">Telefon</label>
+          <label for="akf1q6-phone">Phone</label>
           <input id="akf1q6-phone" class="tkl-quote-input" type="text" required>
         </div>
         <div class="tkl-quote-field">
-          <label for="akf1q6-from">Nereden</label>
+          <label for="akf1q6-from">From</label>
           <input id="akf1q6-from" class="tkl-quote-input" type="text" required>
         </div>
         <div class="tkl-quote-field">
-          <label for="akf1q6-to">Nereye</label>
+          <label for="akf1q6-to">To</label>
           <input id="akf1q6-to" class="tkl-quote-input" type="text" required>
         </div>
       </div>
       <div class="tkl-quote-field">
-        <label for="akf1q6-message">Mesaj</label>
+        <label for="akf1q6-message">Message</label>
         <textarea id="akf1q6-message" class="tkl-quote-input tkl-quote-textarea"></textarea>
       </div>
       <div id="akf1q6-quote-result" class="tkl-quote-result"></div>
-      <button id="akf1q6-quote-send-btn" class="tkl-quote-send-btn" type="submit">Teklifi gonder</button>
+      <button id="akf1q6-quote-send-btn" class="tkl-quote-send-btn" type="submit">Send quote</button>
     </form>
   </div>
 </div>
@@ -347,11 +347,7 @@
   }
 
   function akf1q6GetLanguageCode() {
-    var raw = (typeof navigator !== 'undefined') ? (navigator.language || navigator.userLanguage || 'en') : 'en';
-    raw = String(raw || 'en').toLowerCase();
-    if (raw.indexOf('-') !== -1) return raw.split('-')[0];
-    if (raw.indexOf('_') !== -1) return raw.split('_')[0];
-    return raw.length > 2 ? raw.slice(0, 2) : raw;
+    return 'en';
   }
 
   function akf1q6BuildDateText() {
@@ -457,7 +453,7 @@
     if (!btn) return;
     btn.disabled = false;
     btn.classList.remove('tkl-sent');
-    btn.innerHTML = 'Teklifi gonder';
+    btn.innerHTML = 'Send quote';
   }
 
   function akf1q6IsAcceptedResponse(respObj) {
@@ -528,7 +524,7 @@
       RequestDetails: [
         {
           ItemCode: 'AKF1Q6',
-          ItemDescription: 'Website talep',
+          ItemDescription: 'Website request',
           ItemGroup: null,
           ItemNotes: message || '',
           WillWeDoSpecialPackaging: false,
@@ -555,7 +551,7 @@
     if (btn) {
       btn.disabled = true;
       btn.classList.remove('tkl-sent');
-      btn.textContent = 'Gonderiliyor...';
+      btn.textContent = 'Sending...';
     }
     if (resultEl) resultEl.innerHTML = '';
     var payload = akf1q6BuildPayload();
@@ -574,17 +570,17 @@
         if (btn) {
           btn.disabled = false;
           btn.classList.add('tkl-sent');
-          btn.innerHTML = '<span class=\"tkl-ok-icon\">OK</span><span>Gonderildi</span>';
+          btn.innerHTML = '<span class=\"tkl-ok-icon\">OK</span><span>Sent</span>';
         }
         if (resultEl) {
           resultEl.className = 'tkl-quote-result success';
-          resultEl.textContent = 'Gonderildi. Talebiniz alindi.';
+          resultEl.textContent = 'Sent. Your request has been received.';
         }
         akf1q6CloseTimer = setTimeout(function () {
           akf1q6CloseQuotePopupAnimated();
         }, 5000);
       } else {
-        var errMsg = 'Gonderim basarisiz.';
+        var errMsg = 'Send failed.';
         try {
           var parsedErr = JSON.parse(respObj.text || '');
           errMsg = parsedErr.message || parsedErr.Message || parsedErr.error || parsedErr.Error || errMsg;
@@ -599,7 +595,7 @@
     .catch(function (err) {
       if (resultEl) {
         resultEl.className = 'tkl-quote-result error';
-        resultEl.textContent = 'Gonderim hatasi: ' + (err && err.message ? err.message : 'Bilinmeyen hata');
+        resultEl.textContent = 'Send error: ' + (err && err.message ? err.message : 'Unknown error');
       }
       akf1q6ResetSendButton();
     });

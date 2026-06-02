@@ -9,10 +9,10 @@
     {
       "TransactionOrder": "7",
       "TransactionCode": "Delivered",
-      "TransactionDescription": "Teslim Edildi",
+      "TransactionDescription": "Delivered",
       "TransactionDetail": " TR-2508150065",
       "TransactionDate": "18.09.2025 12:29",
-      "OperationCenter": "GAZIANTEP Operasyon Merkezi",
+      "OperationCenter": "GAZIANTEP Operations Centre",
       "Date": "2025-09-18T12:29:30.660Z",
       "User": "gizem.germi@hanbroscargo.com",
       "BarcodeTransactions": []
@@ -20,10 +20,10 @@
     {
       "TransactionOrder": "5",
       "TransactionCode": "OnTrip",
-      "TransactionDescription": "Yolda",
+      "TransactionDescription": "In transit",
       "TransactionDetail": " TR-2508150065",
       "TransactionDate": "22.08.2025 08:54",
-      "OperationCenter": "GAZIANTEP Operasyon Merkezi",
+      "OperationCenter": "GAZIANTEP Operations Centre",
       "Date": "2025-08-22T08:54:43.397Z",
       "User": "gizem.germi@hanbroscargo.com",
       "BarcodeTransactions": []
@@ -31,10 +31,10 @@
     {
       "TransactionOrder": "6",
       "TransactionCode": "InWareHouse",
-      "TransactionDescription": "Depoda",
+      "TransactionDescription": "In warehouse",
       "TransactionDetail": " MT-2508150027",
       "TransactionDate": "15.08.2025 08:03",
-      "OperationCenter": "GAZIANTEP Operasyon Merkezi",
+      "OperationCenter": "GAZIANTEP Operations Centre",
       "Date": "2025-08-15T08:03:16.561Z",
       "User": "gizem.germi@hanbroscargo.com",
       "BarcodeTransactions": []
@@ -42,10 +42,10 @@
     {
       "TransactionOrder": "5",
       "TransactionCode": "OnTrip",
-      "TransactionDescription": "Yolda",
+      "TransactionDescription": "In transit",
       "TransactionDetail": " MT-2508150027",
       "TransactionDate": "15.08.2025 08:03",
-      "OperationCenter": "GAZIANTEP Operasyon Merkezi",
+      "OperationCenter": "GAZIANTEP Operations Centre",
       "Date": "2025-08-15T08:03:01.308Z",
       "User": "gizem.germi@hanbroscargo.com",
       "BarcodeTransactions": []
@@ -53,21 +53,21 @@
     {
       "TransactionOrder": "6",
       "TransactionCode": "InWareHouse",
-      "TransactionDescription": "Depoda",
+      "TransactionDescription": "In warehouse",
       "TransactionDetail": "",
       "TransactionDate": "15.08.2025 07:30",
-      "OperationCenter": "GAZIANTEP Operasyon Merkezi",
+      "OperationCenter": "GAZIANTEP Operations Centre",
       "Date": "2025-08-15T07:30:07.581Z",
-      "User": "eyup.atas@hanbros.com",
+      "User": "eyup.atas@hanbroscargo.com",
       "BarcodeTransactions": []
     },
     {
       "TransactionOrder": "2",
       "TransactionCode": "Approved",
-      "TransactionDescription": "Onaylandi",
+      "TransactionDescription": "Approved",
       "TransactionDetail": "",
       "TransactionDate": "14.08.2025 09:42",
-      "OperationCenter": "GAZIANTEP Operasyon Merkezi",
+      "OperationCenter": "GAZIANTEP Operations Centre",
       "Date": "2025-08-14T09:42:07.090Z",
       "User": "gizem.germi@hanbroscargo.com",
       "BarcodeTransactions": []

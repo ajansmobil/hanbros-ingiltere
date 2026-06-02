@@ -16,6 +16,7 @@
   "eticaret": false,
   "langs": {
     "en": true,
+    "tr": false,
     "ar": false,
     "de": false,
     "ru": false,

@@ -1930,7 +1930,7 @@
                     logoHeight = 20;
                 }
                 buildPDFContent(doc, addedProducts, totalAdet, totalHacim, totalAgirlik, lang, now, logoBase64, logoHeight, logoImgHeight);
-                var fileName = 'urun-listesi-' + now.getFullYear() + padZero(now.getMonth() + 1) + padZero(now.getDate()) + '-' + padZero(now.getHours()) + padZero(now.getMinutes()) + '.pdf';
+                var fileName = 'product-list-' + now.getFullYear() + padZero(now.getMonth() + 1) + padZero(now.getDate()) + '-' + padZero(now.getHours()) + padZero(now.getMinutes()) + '.pdf';
                 doc.save(fileName);
             });
         });
@@ -1939,16 +1939,15 @@
 
     function getCurrentLang() {
         var path = window.location.pathname;
-        if (path.indexOf('/tr/') !== -1) return 'tr';
         if (path.indexOf('/en/') !== -1) return 'en';
-        return 'tr';
+        return 'en';
     }
 
     function getTextByLang(text) {
         if (!text || text.indexOf('/') === -1) return text;
         var parts = text.split('/');
         for (var i = 0; i < parts.length; i++) parts[i] = parts[i].trim();
-        return getCurrentLang() === 'tr' ? parts[0] : (parts[1] || parts[0]);
+        return parts[1] || parts[0];
     }
 
 
@@ -2860,7 +2859,7 @@
         var el = document.getElementById('quote-cart-summary');
         if (!el) return;
         el.textContent = getTranslation('total-quantity') + ': ' + (adet || 0) + ' • ' +
-            (getTranslation('total-volume') || 'Hacim') + ': ' + (hacim ? parseFloat(hacim).toFixed(2) : '0') + ' m³ • ' +
+            (getTranslation('total-volume') || 'Volume') + ': ' + (hacim ? parseFloat(hacim).toFixed(2) : '0') + ' m³ • ' +
             (getTranslation('total-weight') || 'Weight') + ': ' + (agirlik ? parseFloat(agirlik).toFixed(1) : '0') + ' kg';
     }
 
@@ -2883,16 +2882,7 @@
     }
 
     function getCurrentLanguageCode() {
-
-        var raw = '';
-        if (typeof navigator !== 'undefined') {
-            raw = navigator.language || navigator.userLanguage || '';
-        }
-        raw = String(raw || '').toLowerCase().trim();
-        if (!raw) return 'tr';
-        if (raw.indexOf('-') !== -1) return raw.split('-')[0];
-        if (raw.indexOf('_') !== -1) return raw.split('_')[0];
-        return raw.length > 2 ? raw.slice(0, 2) : raw;
+        return 'en';
     }
 
     function getRequestTypeFromHash() {
@@ -3082,7 +3072,7 @@
                 if (btn) {
 
                     btn.classList.add('sent');
-                    btn.textContent = 'Talebiniz alindi';
+                    btn.textContent = getTranslation('quote-received') || 'Request received';
                 }
 
                 quoteModalCloseTimer = setTimeout(function () {

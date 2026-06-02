@@ -71,6 +71,9 @@
   "quote-success": {
     "en": "Your quote request has been received. We will get back to you shortly."
   },
+  "quote-received": {
+    "en": "Request received"
+  },
   "quote-error": {
     "en": "Send failed. Please try again."
   },

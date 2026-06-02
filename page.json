@@ -41,7 +41,7 @@
       },
       "status": "play",
       "id": "urunler",
-      "path": "hizmetler",
+      "path": "our-services",
       "category": "",
       "index": 1,
       "desing": {
@@ -72,7 +72,7 @@
       "status": "play",
       "category": "",
       "id": "ulkeler",
-      "path": "ulkeler",
+      "path": "countries",
       "index": 2,
       "description": {
         "en": "Regional notes for UK-originated Turkey traffic: domestic UK catchments plus Germany, Benelux, France, Austria and Luxembourg—postcode, port and inland constraints written for Hanbros UK planners."
