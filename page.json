@@ -20,20 +20,21 @@
       },
       "pathnext": "about-us",
       "description": {
-        "en": "Corporate structure, policy tree and legal notices index—operational pricing, shipment lookup and quote forms live on dedicated pages."
+        "en": ""
       },
       "desc": {},
       "icon": "home",
       "keyword": {
-        "en": "Hanbros UK corporate hub, company governance UK forwarder, policy index legal notices"
+        "tr": ""
       },
-      "update": "2026-05-08T05:40:46.476Z",
+      "update": "2026-06-03T04:54:40.773Z",
       "date": "2026-05-04T19:01:36.357Z",
       "title": {
         "en": "Corporate hub | Hanbros UK"
       },
       "img": "logo.png",
-      "slider": []
+      "slider": [],
+      "textmodul": false
     },
     {
       "name": {
@@ -43,7 +44,6 @@
       "id": "urunler",
       "path": "our-services",
       "category": "",
-      "index": 1,
       "desing": {
         "header": [],
         "body": [
@@ -51,15 +51,10 @@
         ],
         "footer": []
       },
+      "index": 1,
       "icon": "home",
       "description": {
-        "en": "Hanbros UK service hub: household moves, vehicle exports, retail furniture programmes, B2B freight and road/parcel linehaul—each line explained with UK pickup context and Turkish delivery checkpoints."
-      },
-      "keyword": {
-        "en": "Hanbros UK services hub, UK to Turkey logistics lines, household vehicle commercial cargo"
-      },
-      "title": {
-        "en": "Services from the UK to Turkey | Hanbros UK"
+        "tr": ""
       },
       "img": "logo.png",
       "url": "",
@@ -75,13 +70,7 @@
       "path": "countries",
       "index": 2,
       "description": {
-        "en": "Regional notes for UK-originated Turkey traffic: domestic UK catchments plus Germany, Benelux, France, Austria and Luxembourg—postcode, port and inland constraints written for Hanbros UK planners."
-      },
-      "keyword": {
-        "en": "Hanbros UK country guides, UK Turkey corridor Europe, regional logistics notes"
-      },
-      "title": {
-        "en": "Regions & relay countries | Hanbros UK"
+        "tr": ""
       },
       "desing": {
         "header": [],
@@ -103,10 +92,6 @@
       "id": "aut9rh4oya",
       "url": "",
       "path": "smart-calculator",
-      "googleStatus": "pending",
-      "googleDate": null,
-      "googleError": null,
-      "desc": {},
       "index": 3,
       "desing": {
         "header": [],
@@ -117,106 +102,10 @@
       },
       "pathnext": "",
       "description": {
-        "en": "Estimate cubic metres from a room-by-room list before you book capacity—a planning aid, not a booking or quote checkout."
+        "tr": ""
       },
-      "keyword": {
-        "en": "removal volume calculator, cubic metre furniture list UK, DIY loading gauge estimate"
-      },
-      "update": "2026-05-16T12:00:00.000Z",
-      "date": "2026-05-16T12:00:00.000Z",
-      "title": {
-        "en": "Smart volume planner | Hanbros UK"
-      },
-      "slider": [],
       "icon": "home",
       "img": "volume-hero.webp"
-    },
-    {
-      "name": {
-        "en": "Knowledge Base"
-      },
-      "status": "play",
-      "category": "",
-      "id": "bilgi-bankasi",
-      "path": "knowledge-base",
-      "index": 4,
-      "description": {
-        "en": "Route guides for UK→Turkey shipping by UK region and Turkish destination city—export checklists and arrival notes."
-      },
-      "keyword": {
-        "en": "UK to Turkey knowledge base, Hanbros UK shipping guides England to Turkey"
-      },
-      "title": {
-        "en": "Knowledge base | Hanbros UK"
-      },
-      "desing": {
-        "header": [],
-        "body": [
-          "bmvw3u"
-        ],
-        "footer": []
-      },
-      "pathnext": "",
-      "img": "logo.png",
-      "icon": "home"
-    },
-    {
-      "name": {
-        "en": "Shipment Tracking"
-      },
-      "status": "play",
-      "category": "",
-      "id": "gonderi-takip",
-      "path": "shipment-tracking",
-      "index": 5,
-      "description": {
-        "en": "Look up milestones and customs status with your consignment reference—use the quote page for pricing, not this tool."
-      },
-      "keyword": {
-        "en": "consignment reference lookup, shipment milestone trace UK Turkey, cargo status by reference"
-      },
-      "title": {
-        "en": "Shipment lookup | Hanbros UK"
-      },
-      "desing": {
-        "header": [],
-        "body": [
-          "eberbu"
-        ],
-        "footer": []
-      },
-      "pathnext": "",
-      "img": "icon.png",
-      "icon": "home"
-    },
-    {
-      "name": {
-        "en": "Get a Quote"
-      },
-      "status": "play",
-      "category": "",
-      "id": "teklif-al",
-      "path": "get-a-quote",
-      "index": 6,
-      "description": {
-        "en": "Written pricing request form by door addresses and cargo type—for live status use the shipment lookup page."
-      },
-      "keyword": {
-        "en": "UK Turkey freight RFQ, written removal quote form, pallet rate request England Turkey"
-      },
-      "title": {
-        "en": "Request a quote | Hanbros UK"
-      },
-      "desing": {
-        "header": [],
-        "body": [
-          "akf1q6"
-        ],
-        "footer": []
-      },
-      "pathnext": "",
-      "img": "logo.png",
-      "icon": "home"
     },
     {
       "name": {
@@ -227,7 +116,7 @@
       "id": "xnzu5au0ag",
       "url": "",
       "path": "contact",
-      "index": 7,
+      "index": 4,
       "icon": "home",
       "desing": {
         "header": [],
@@ -238,13 +127,7 @@
       },
       "pathnext": "",
       "description": {
-        "en": "Phone, email and office hours—for operational pricing use the quote form; for shipment status use the lookup page."
-      },
-      "keyword": {
-        "en": "Hanbros UK customer care phone, London office email, hanbroscargo.co.uk contact channels"
-      },
-      "title": {
-        "en": "Contact | Hanbros UK"
+        "tr": ""
       },
       "img": "icon.png"
     }

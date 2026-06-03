@@ -19,11 +19,21 @@
       "index": 0,
       "icon": "home",
       "description": {
-        "en": "Who Hanbros UK is on the United Kingdom origin Turkey corridor—corporate policies and legal texts sit under the corporate hub."
+        "en": "Hanbros UK corporate story: England and United Kingdom origin logistics for Turkey-bound freight, removals and customs. Who we are, our values and UK–Turkey expertise."
       },
       "img": "logo.png",
       "url": "",
-      "pathnext": "mission"
+      "pathnext": "",
+      "slider": [],
+      "title": {
+        "en": "About Us | Hanbros UK – England to Turkey Logistics"
+      },
+      "keyword": {
+        "en": "about Hanbros UK, UK to Turkey shipping company, England logistics firm, international removals UK Turkey, hanbroscargo.co.uk about us, trusted freight UK"
+      },
+      "textmodul": false,
+      "update": "2026-06-03T12:00:00.000Z",
+      "date": "2026-05-08T05:40:41.663Z"
     },
     {
       "name": {
@@ -41,11 +51,17 @@
       "index": 1,
       "icon": "home",
       "description": {
-        "en": "Transparent pricing, accurate paperwork and on-time delivery as operational promise—vision and quality policy have their own pages."
+        "en": "Hanbros UK mission: sustainable UK-to-Turkey logistics, customer-first removals and freight with transparent pricing and environmentally conscious operations."
       },
       "img": "logo.png",
       "url": "",
-      "pathnext": "vision"
+      "pathnext": "vision",
+      "title": {
+        "en": "Mission | Hanbros UK – UK to Turkey Logistics"
+      },
+      "keyword": {
+        "en": "Hanbros UK mission, UK Turkey shipping mission, sustainable logistics UK, customer focused freight England, removals mission statement"
+      }
     },
     {
       "name": {
@@ -63,11 +79,17 @@
       "index": 2,
       "icon": "home",
       "description": {
-        "en": "End-to-end transparency and predictability in customer experience—live lookup and pricing requests sit on dedicated pages."
+        "en": "Hanbros UK vision: to be the most trusted and recommended UK-to-Turkey logistics brand in England and across the United Kingdom."
       },
       "img": "logo.png",
       "url": "",
-      "pathnext": "quality-policy"
+      "pathnext": "quality-policy",
+      "title": {
+        "en": "Vision | Hanbros UK – Leading UK–Turkey Logistics"
+      },
+      "keyword": {
+        "en": "Hanbros UK vision, trusted UK Turkey shipping, leading removals company England, logistics industry leader UK, cargo vision UK Turkey"
+      }
     },
     {
       "name": {
@@ -85,11 +107,17 @@
       "index": 3,
       "icon": "home",
       "description": {
-        "en": "Continuous improvement through packing standards, damage-prevention checks and customer feedback loops; measurable service quality on every shipment."
+        "en": "Hanbros UK quality policy: customer satisfaction, continuous improvement, packing standards and supplier requirements for UK-to-Turkey logistics."
       },
       "img": "logo.png",
       "url": "",
-      "pathnext": "privacy-policy"
+      "pathnext": "privacy-policy",
+      "title": {
+        "en": "Quality Policy | Hanbros UK Logistics Standards"
+      },
+      "keyword": {
+        "en": "Hanbros UK quality policy, logistics quality standards UK, customer satisfaction shipping, continuous improvement freight, UK Turkey cargo quality"
+      }
     },
     {
       "name": {
@@ -107,9 +135,16 @@
       "index": 4,
       "icon": "home",
       "description": {
-        "en": "Processing purposes, retention, cookies and sharing principles on-page; personal data categories are summarised on a separate page."
+        "en": "Hanbros UK privacy policy: UK GDPR, personal data protection, cookies and data security standards for UK-to-Turkey logistics services."
       },
-      "pathnext": ""
+      "pathnext": "",
+      "img": "logo.png",
+      "title": {
+        "en": "Privacy Policy & Data Security | Hanbros UK"
+      },
+      "keyword": {
+        "en": "Hanbros UK privacy policy, UK GDPR, data protection logistics, hanbroscargo.co.uk privacy, cookie policy UK, personal data security"
+      }
     },
     {
       "name": {
@@ -127,9 +162,16 @@
       "index": 5,
       "icon": "home",
       "description": {
-        "en": "Categories of personal data, lawful bases and controller identity—the full privacy statement sits on the privacy policy page."
+        "en": "Hanbros UK personal data policy: UK GDPR processing purposes, retention periods and how we handle data for UK-to-Turkey shipments."
       },
-      "pathnext": ""
+      "img": "logo.png",
+      "pathnext": "",
+      "title": {
+        "en": "Personal Data | Hanbros UK – UK GDPR"
+      },
+      "keyword": {
+        "en": "Hanbros UK personal data, UK GDPR processing, data retention logistics, personal information shipping UK, cargo data protection"
+      }
     },
     {
       "name": {
@@ -147,9 +189,16 @@
       "index": 6,
       "icon": "home",
       "description": {
-        "en": "How to submit access, rectification, erasure and objection requests with response timelines—the privacy policy explains processing principles."
+        "en": "Hanbros UK user rights: UK GDPR data subject rights — access, correction, erasure, objection and how to submit requests."
       },
-      "pathnext": ""
+      "img": "logo.png",
+      "pathnext": "",
+      "title": {
+        "en": "Data Subject Rights | Hanbros UK"
+      },
+      "keyword": {
+        "en": "Hanbros UK user rights, UK GDPR rights, data subject access request, personal data rights UK, erase my data shipping company"
+      }
     },
     {
       "name": {
@@ -167,9 +216,16 @@
       "index": 7,
       "icon": "home",
       "description": {
-        "en": "Website content is informational; customs and tax outcomes rest with authorities. Liability limits are summarised here."
+        "en": "Hanbros UK legal notice: copyright, website terms, prohibited use of content and liability for hanbroscargo.co.uk."
       },
-      "pathnext": ""
+      "img": "logo.png",
+      "pathnext": "",
+      "title": {
+        "en": "Legal Notice | Hanbros UK"
+      },
+      "keyword": {
+        "en": "Hanbros UK legal notice, copyright hanbroscargo.co.uk, website terms UK, content protection logistics site, legal disclaimer"
+      }
     }
   ],
   "index": 2,

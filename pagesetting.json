@@ -141,6 +141,21 @@
       "activeicon": "pause",
       "activeclass": "buttonGreen",
       "pageTypeBadge": "<span class=\"mx-badge-grey\" style=\"font-size:11px; padding:2px 8px;\">Static</span>"
+    },
+    {
+      "name": "Kapalı",
+      "path": "kapali",
+      "icon": "article",
+      "active": true,
+      "desc": [],
+      "data": [],
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "modulestatus": {},
+      "index": 6
     }
   ]
 }

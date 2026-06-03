@@ -13,6 +13,7 @@
       "url": "",
       "path": "united-kingdom",
       "index": 0,
+      "img": "country-card.jpg",
       "desing": {
         "header": [],
         "body": [],
@@ -20,11 +21,9 @@
       },
       "pathnext": "",
       "icon": "home",
-      "img": "country-card.jpg",
       "description": {
-        "en": "Nationwide collection windows for UK→Turkey: Greater London density, Midlands manufacturing belts, Scottish central belt and Welsh valleys—each with postcode-led routing notes."
-      },
-      "desc": {}
+        "tr": ""
+      }
     },
     {
       "name": {
@@ -45,9 +44,8 @@
       "pathnext": "",
       "img": "country-card.jpg",
       "description": {
-        "en": "Continental feeder context for UK-originated Turkey traffic: Ruhr industry clusters, northern ports and southern automotive corridors that can pair with Channel or North Sea legs."
-      },
-      "desc": {}
+        "tr": ""
+      }
     },
     {
       "name": {
@@ -68,9 +66,8 @@
       "pathnext": "",
       "img": "country-card.jpg",
       "description": {
-        "en": "Randstad port chemistry and inland barge feeds relevant when UK loads consolidate via Dutch hubs before deep-sea sailings toward Turkey."
-      },
-      "desc": {}
+        "tr": ""
+      }
     },
     {
       "name": {
@@ -91,9 +88,8 @@
       "pathnext": "",
       "img": "country-card.jpg",
       "description": {
-        "en": "Short-haul Benelux positioning: Antwerp and Brussels catchments, customs-light cross-border legs that sometimes stage UK-exported goods ahead of mainline sailings."
-      },
-      "desc": {}
+        "tr": ""
+      }
     },
     {
       "name": {
@@ -114,9 +110,8 @@
       "pathnext": "",
       "img": "country-card.jpg",
       "description": {
-        "en": "Channel-facing logistics: short-sea from northern France, Atlantic coast ro-ro options and inland trunking that can dovetail with UK-export programmes bound for Turkey."
-      },
-      "desc": {}
+        "tr": ""
+      }
     },
     {
       "name": {
@@ -136,10 +131,9 @@
       },
       "pathnext": "",
       "description": {
-        "en": "Alpine and Danube-side corridors: winter weight rules, tunnel restrictions and Vienna–Graz–Linz trunk patterns that affect timing when UK cargo transits Central Europe."
+        "tr": ""
       },
-      "icon": "home",
-      "desc": {}
+      "icon": "home"
     },
     {
       "name": {
@@ -160,9 +154,8 @@
       "pathnext": "",
       "img": "country-card.jpg",
       "description": {
-        "en": "Compact-state moves: lift-limited city centres, cross-border handoffs with Belgium and multimodal tickets that can slot UK-exported consignments into wider EU programmes."
-      },
-      "desc": {}
+        "tr": ""
+      }
     }
   ],
   "index": 3,

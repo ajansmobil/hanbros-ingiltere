@@ -17,12 +17,14 @@
   "index": 1,
   "icon": "home",
   "description": {
-    "en": "Five dedicated lanes from the United Kingdom toward Turkey: residential volume moves, titled vehicles, furniture retail flows, palletised B2B cargo and scheduled road groupage—each with its own intake checklist on Hanbros UK."
+    "tr": "",
+    "en": "Hanbros UK services — household removals, vehicle shipping, furniture, commercial freight and cargo from UK to Turkey."
   },
   "keyword": {
-    "en": "Hanbros UK service lines, UK export Turkey household vehicle freight, hub catalogue"
+    "tr": "",
+    "en": "UK to Turkey services, Hanbros UK services, shipping services England Turkey, removals cargo vehicle UK Turkey"
   },
-  "update": "2026-05-16T18:00:00.000Z",
+  "update": "2026-06-03T05:04:36.395Z",
   "date": "2026-05-02T09:00:00.000Z",
   "title": {
     "en": "Services from the UK to Turkey | Hanbros UK"
@@ -30,7 +32,9 @@
   "img": "logo.png",
   "url": "",
   "pathnext": "",
+  "slider": [],
+  "textmodul": false,
   "text": {
-    "en": "<p><strong>Hanbros UK</strong> publishes this catalogue for <strong>United Kingdom → Turkey</strong> planning. Pick a line below for intake rules, packing expectations and documentation cues. Shipments that <strong>start in Turkey</strong> and head toward Europe or the UK are handled on a separate brand site—ask your coordinator for the correct booking path if your origin is not the UK.</p>"
+    "en": "<h2 style=\"font-size: 28px; color: #1a365d; margin-bottom: 16px;\">Our Services — UK to Turkey Logistics</h2><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\">Hanbros UK offers a <strong>complete range of shipping services</strong> from the United Kingdom to Turkey — each designed for the UK–Turkey corridor and delivered with the professionalism that makes us the <strong>industry leader</strong>.</p><h3 style=\"font-size: 22px; color: #2c5282; margin: 28px 0 12px;\">Service Portfolio</h3><ul style=\"font-size: 16px; line-height: 1.8; margin-bottom: 24px; padding-left: 24px;\"><li><strong>Door-to-door household removals</strong> — emigration and retirement moves.</li><li><strong>Vehicle shipping</strong> — cars, vans and motorcycles.</li><li><strong>New furniture delivery</strong> — from UK retailers to Turkish homes.</li><li><strong>Commercial goods freight</strong> — B2B pallets and regular schedules.</li><li><strong>International cargo &amp; parcels</strong> — groupage and express options.</li></ul><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\">Select a service below for detailed information, or contact us for a tailored quote.</p><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\"><strong>Hanbros UK</strong> — one brand, every UK to Turkey shipping need.</p>"
   }
 }

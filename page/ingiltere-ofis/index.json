@@ -10,15 +10,15 @@
   "index": 0,
   "desc": {},
   "description": {
-    "en": "Hanbros UK England operations: customer contact, loading schedules and paperwork across London and the United Kingdom for the Turkey corridor."
+    "en": "Hanbros UK England office — quotes, collections, export customs and customer support for UK to Turkey cargo, removals and freight."
   },
   "keyword": {
-    "en": "Hanbros UK London office, England shipping operations, United Kingdom customer logistics Turkey"
+    "en": "Hanbros UK office, UK Turkey shipping office England, contact Hanbros UK, UK logistics company Turkey"
   },
   "text": {
-    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Phone: +44 20 7946 0958 · Email: info@hanbroscargo.co.uk · Sample address: 123 Kingsway, London WC2B 6NH (confirm current address before visiting).</p>"
+    "en": "<h2 style=\"font-size: 28px; color: #1a365d; margin-bottom: 16px;\">Hanbros UK Office — England Operations Hub</h2><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\">Our <strong>United Kingdom head office</strong> coordinates every shipment on the UK–Turkey corridor — from quote and collection scheduling to export customs and customer support in English and Turkish.</p><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\">Visit or contact our UK team for surveys, documentation advice, shipment tracking and account management. We serve customers across England, Scotland, Wales and Northern Ireland with the same professional standards that have made Hanbros UK the <strong>leading name in UK to Turkey cargo</strong>.</p><h3 style=\"font-size: 22px; color: #2c5282; margin: 28px 0 12px;\">UK Office Services</h3><ul style=\"font-size: 16px; line-height: 1.8; margin-bottom: 24px; padding-left: 24px;\"><li><strong>Free quotes &amp; surveys</strong> — in-person, video or inventory-based.</li><li><strong>Collection scheduling</strong> — nationwide UK pick-ups.</li><li><strong>Export customs</strong> — HMRC declarations and documentation.</li><li><strong>Customer support</strong> — phone, email and WhatsApp in English and Turkish.</li><li><strong>Tracking &amp; updates</strong> — live shipment status from collection to delivery.</li></ul><div style=\"background: #f7fafc; border-left: 4px solid #3182ce; padding: 16px 20px; margin: 24px 0; border-radius: 4px;\"><p style=\"font-size: 16px; margin: 0; line-height: 1.7;\"><strong>Office hours:</strong> Monday–Friday, UK business hours. Emergency shipment queries handled via WhatsApp.</p></div><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\"><strong>Hanbros UK</strong> — your local England team for Turkey-bound logistics.</p>"
   },
-  "update": "2026-05-08T05:40:46.598Z",
+  "update": "2026-06-03T05:04:36.364Z",
   "date": "2026-05-08T05:18:35.699Z",
   "title": {
     "en": "UK Office | Hanbros UK | London & England"
@@ -28,5 +28,7 @@
     "body": [],
     "footer": []
   },
-  "img": "logo.png"
+  "img": "logo.png",
+  "icon": "home",
+  "slider": []
 }

@@ -50,30 +50,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://hanbroscargo.co.uk/en/knowledge-base/</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanbroscargo.co.uk/en/knowledge-base/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://hanbroscargo.co.uk/en/knowledge-base/" />
-        <lastmod>2026-06-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://hanbroscargo.co.uk/en/shipment-tracking/</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanbroscargo.co.uk/en/shipment-tracking/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://hanbroscargo.co.uk/en/shipment-tracking/" />
-        <lastmod>2026-06-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://hanbroscargo.co.uk/en/get-a-quote/</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanbroscargo.co.uk/en/get-a-quote/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://hanbroscargo.co.uk/en/get-a-quote/" />
-        <lastmod>2026-06-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://hanbroscargo.co.uk/en/contact/</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://hanbroscargo.co.uk/en/contact/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://hanbroscargo.co.uk/en/contact/" />
@@ -122,9 +98,9 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://hanbroscargo.co.uk/en/mission/</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanbroscargo.co.uk/en/mission/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://hanbroscargo.co.uk/en/mission/" />
+        <loc>https://hanbroscargo.co.uk/en/about-us/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanbroscargo.co.uk/en/about-us/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://hanbroscargo.co.uk/en/about-us/" />
         <lastmod>2026-06-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -213,6 +189,14 @@
         <loc>https://hanbroscargo.co.uk/en/customer-service/</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://hanbroscargo.co.uk/en/customer-service/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://hanbroscargo.co.uk/en/customer-service/" />
+        <lastmod>2026-06-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://hanbroscargo.co.uk/en/knowledge-base/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanbroscargo.co.uk/en/knowledge-base/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://hanbroscargo.co.uk/en/knowledge-base/" />
         <lastmod>2026-06-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -1069,6 +1053,22 @@
         <loc>https://hanbroscargo.co.uk/en/uk-tr-from-wales-southwest-to-hatay-shipping-guide/</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://hanbroscargo.co.uk/en/uk-tr-from-wales-southwest-to-hatay-shipping-guide/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://hanbroscargo.co.uk/en/uk-tr-from-wales-southwest-to-hatay-shipping-guide/" />
+        <lastmod>2026-06-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://hanbroscargo.co.uk/en/get-a-quote/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanbroscargo.co.uk/en/get-a-quote/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://hanbroscargo.co.uk/en/get-a-quote/" />
+        <lastmod>2026-06-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://hanbroscargo.co.uk/en/shipment-tracking/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanbroscargo.co.uk/en/shipment-tracking/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://hanbroscargo.co.uk/en/shipment-tracking/" />
         <lastmod>2026-06-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>

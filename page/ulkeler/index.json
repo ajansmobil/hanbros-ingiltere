@@ -8,7 +8,8 @@
   "path": "countries",
   "index": 2,
   "description": {
-    "en": "Geography layer for Hanbros UK: how each listed country touches UK-export programmes bound for Turkey—collection density, relay ports and inland quirks rather than generic travel copy."
+    "tr": "",
+    "en": "Countries served by Hanbros UK — United Kingdom, Germany, France, Netherlands, Belgium, Austria, Luxembourg and Turkey delivery."
   },
   "desing": {
     "header": [],
@@ -21,15 +22,15 @@
   "img": "logo.png",
   "desc": {},
   "keyword": {
-    "en": "Hanbros UK regional pages, UK Turkey corridor geography, Europe relay notes"
+    "en": "UK Europe Turkey shipping countries, Hanbros UK countries served, international shipping regions UK Turkey"
   },
-  "update": "2026-05-16T18:00:00.000Z",
+  "update": "2026-06-03T05:04:36.395Z",
   "date": "2026-05-08T05:18:35.577Z",
   "title": {
     "en": "Regions & relay countries | Hanbros UK"
   },
   "icon": "home",
   "text": {
-    "en": "<p>Use these country cards to understand <strong>where your UK pickup sits</strong> and how mainland legs may stage before deep-sea or ro-ro sailings toward Turkey. Copy here is written for freight and relocation teams; it is not a duplicate of other Han Bros family sites and may omit corridors Hanbros UK does not promote from this domain.</p>"
+    "en": "<h2 style=\"font-size: 28px; color: #1a365d; margin-bottom: 16px;\">Countries We Serve — UK, Europe & Turkey</h2><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\">Hanbros UK operates across the <strong>United Kingdom, key European markets and Turkey</strong> — providing seamless logistics for customers who ship between Britain, the continent and Turkish destinations.</p><h3 style=\"font-size: 22px; color: #2c5282; margin: 28px 0 12px;\">Origin & Destination Coverage</h3><ul style=\"font-size: 16px; line-height: 1.8; margin-bottom: 24px; padding-left: 24px;\"><li><strong>United Kingdom</strong> — England, Scotland, Wales, Northern Ireland.</li><li><strong>Germany, France, Netherlands, Belgium, Austria, Luxembourg</strong> — European collections.</li><li><strong>Turkey</strong> — Istanbul, Ankara, Izmir, Antalya and nationwide delivery.</li></ul><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\">Whether your goods start in London, Berlin or Paris, Hanbros UK delivers to your door in Turkey with full customs support.</p><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\"><strong>Hanbros UK</strong> — connecting Europe and Turkey through trusted logistics.</p>"
   }
 }
