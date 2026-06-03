@@ -11,7 +11,7 @@
       "index": 0,
       "path": "uk-office",
       "category": "",
-      "img": "logo.png",
+      "img": "service-card.webp",
       "status": "play",
       "url": "",
       "icon": "home",
@@ -32,7 +32,7 @@
       "index": 1,
       "path": "turkey-office",
       "category": "",
-      "img": "logo.png",
+      "img": "service-card.webp",
       "status": "play",
       "url": "",
       "icon": "home",
@@ -53,7 +53,7 @@
       "index": 2,
       "path": "online-quote",
       "category": "",
-      "img": "logo.png",
+      "img": "service-card.webp",
       "status": "play",
       "url": "",
       "icon": "home",
@@ -74,7 +74,7 @@
       "index": 3,
       "path": "customer-service",
       "category": "",
-      "img": "logo.png",
+      "img": "service-card.webp",
       "status": "play",
       "url": "",
       "icon": "home",
@@ -95,7 +95,7 @@
       "index": 4,
       "path": "knowledge-base",
       "category": "",
-      "img": "logo.png",
+      "img": "service-card.webp",
       "status": "play",
       "icon": "home",
       "desing": {
@@ -122,6 +122,7 @@
   "modulestatus": {
     "img": true,
     "bgimg": true,
-    "detail": true
+    "detail": true,
+    "body": true
   }
 }

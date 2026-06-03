@@ -183,5 +183,10 @@
       "my2y3e"
     ],
     "footer": []
+  },
+  "modulestatus": {
+    "img": false,
+    "bgimg": false,
+    "detail": true
   }
 }
