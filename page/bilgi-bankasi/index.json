@@ -8,7 +8,7 @@
   "path": "knowledge-base",
   "index": 4,
   "description": {
-    "en": "Route guides for shipping from the United Kingdom to Turkey: UK region to Turkish city checklists, export paperwork and arrival notes—quotes and tracking use their own pages."
+    "en": "Shipping guides from UK regions to Turkish cities — practical advice for cargo, removals and customs on every major route."
   },
   "desing": {
     "header": [],
@@ -21,15 +21,17 @@
   "img": "logo.png",
   "desc": {},
   "keyword": {
-    "en": "UK to Turkey shipping guides, England to Turkey export knowledge base, Hanbros UK region to city logistics"
+    "en": "knowledge base, Hanbros UK, UK to Turkey shipping, cargo removals Turkey"
   },
-  "update": "2026-05-08T05:40:46.494Z",
+  "update": "2026-06-03T05:24:45.593Z",
   "date": "2026-05-08T05:18:35.583Z",
   "title": {
     "en": "Knowledge base | Hanbros UK"
   },
   "icon": "home",
+  "slider": [],
+  "textmodul": false,
   "text": {
-    "en": "<p>These articles explain how we move <strong>goods from England and the United Kingdom to Turkey (UK→TR)</strong>: UK pickup regions, export paperwork, main carriage and delivery into Turkish cities. They are practical summaries for shippers and households, not legal advice.</p>"
+    "en": "<h2 style=\"font-size: 28px; color: #1a365d; margin-bottom: 16px;\">Knowledge Base — UK to Turkey Shipping Guides</h2><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\">Browse Hanbros UK's <strong>regional shipping guides</strong> covering collections from across England, Scotland, Wales and Northern Ireland to major Turkish cities. Each guide explains services, transit times, customs documents and FAQs for your route.</p><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\">Whether you are sending a parcel from London, moving household goods from Manchester or shipping commercial freight from Birmingham to Istanbul, Ankara or Izmir, our knowledge base helps you plan with confidence.</p><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\"><strong>Hanbros UK</strong> — practical advice from the market leader in UK–Turkey logistics.</p>"
   }
 }

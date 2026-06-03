@@ -6,9 +6,9 @@
   "category": "",
   "id": "teklif-al",
   "path": "get-a-quote",
-  "index": 6,
+  "index": 0,
   "description": {
-    "en": "Written pricing request form by door addresses and cargo type—for live status use the shipment lookup page."
+    "en": "Get a quote for UK to Turkey shipping — cargo, parcels, household removals and vehicles with Hanbros UK, the corridor market leader."
   },
   "desing": {
     "header": [],
@@ -21,15 +21,17 @@
   "img": "logo.png",
   "desc": {},
   "keyword": {
-    "en": "UK Turkey freight RFQ, written removal quote form, pallet rate request England Turkey"
+    "en": "request a quote, Hanbros UK, UK to Turkey shipping, cargo removals Turkey"
   },
-  "update": "2026-05-08T05:40:46.505Z",
+  "update": "2026-06-03T05:24:45.999Z",
   "date": "2026-05-08T05:18:35.593Z",
   "title": {
     "en": "Request a quote | Hanbros UK"
   },
   "icon": "home",
+  "slider": [],
+  "textmodul": false,
   "text": {
-    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Separate UK origin and Turkey destination addresses. For vehicles include VIN and modification notes.</p>"
+    "en": "<h2 style=\"font-size: 28px; color: #1a365d; margin-bottom: 16px;\">Get a Quote — Hanbros UK</h2><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\">Use this page to <strong>get a quote</strong> with Hanbros UK, the <strong>leading United Kingdom to Turkey shipping specialist</strong>. Our bilingual team supports cargo, parcels, household removals and vehicle consignments with transparent pricing and full customs handling.</p><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\">Complete the form or follow the on-page instructions — we respond within <strong>one working day</strong> with next steps, collection options and a clear quote.</p><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\"><strong>Hanbros UK</strong> — trusted UK–Turkey logistics from enquiry to delivery.</p>"
   }
 }

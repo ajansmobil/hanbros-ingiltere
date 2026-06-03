@@ -7,12 +7,14 @@
       "name": {
         "en": "Corporate"
       },
-      "status": "play",
-      "category": "",
       "id": "yvi9dlb59o",
-      "url": "",
-      "path": "corporate",
       "index": 0,
+      "path": "corporate",
+      "category": "",
+      "img": "logo.png",
+      "status": "play",
+      "url": "",
+      "icon": "home",
       "desing": {
         "header": [],
         "body": [],
@@ -20,30 +22,21 @@
       },
       "pathnext": "about-us",
       "description": {
-        "en": ""
-      },
-      "desc": {},
-      "icon": "home",
-      "keyword": {
-        "tr": ""
-      },
-      "update": "2026-06-03T04:54:40.773Z",
-      "date": "2026-05-04T19:01:36.357Z",
-      "title": {
-        "en": "Corporate hub | Hanbros UK"
-      },
-      "img": "logo.png",
-      "slider": [],
-      "textmodul": false
+        "en": "Hanbros UK corporate hub — about us, mission, vision and quality policy for UK to Turkey shipping and logistics."
+      }
     },
     {
       "name": {
         "en": "Our Services"
       },
-      "status": "play",
       "id": "urunler",
+      "index": 1,
       "path": "our-services",
       "category": "",
+      "img": "logo.png",
+      "status": "play",
+      "url": "",
+      "icon": "home",
       "desing": {
         "header": [],
         "body": [
@@ -51,27 +44,22 @@
         ],
         "footer": []
       },
-      "index": 1,
-      "icon": "home",
+      "pathnext": "",
       "description": {
-        "tr": ""
-      },
-      "img": "logo.png",
-      "url": "",
-      "pathnext": ""
+        "en": "Explore Hanbros UK's full range of United Kingdom to Turkey shipping services — cargo, parcels, household removals, vehicles and commercial freight."
+      }
     },
     {
       "name": {
         "en": "Countries"
       },
-      "status": "play",
-      "category": "",
       "id": "ulkeler",
-      "path": "countries",
       "index": 2,
-      "description": {
-        "tr": ""
-      },
+      "path": "countries",
+      "category": "",
+      "img": "logo.png",
+      "status": "play",
+      "icon": "home",
       "desing": {
         "header": [],
         "body": [
@@ -80,19 +68,22 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "logo.png",
-      "icon": "home"
+      "description": {
+        "en": "Country and region guides for UK and European origin shipments to Turkey — collections, routes and logistics explained by destination."
+      }
     },
     {
       "name": {
         "en": "Smart Calculation"
       },
-      "status": "play",
-      "category": "",
       "id": "aut9rh4oya",
-      "url": "",
-      "path": "smart-calculator",
       "index": 3,
+      "path": "smart-calculator",
+      "category": "",
+      "img": "volume-hero.webp",
+      "status": "play",
+      "url": "",
+      "icon": "home",
       "desing": {
         "header": [],
         "body": [
@@ -102,21 +93,20 @@
       },
       "pathnext": "",
       "description": {
-        "tr": ""
-      },
-      "icon": "home",
-      "img": "volume-hero.webp"
+        "en": "Estimate shipment volume in cubic metres before requesting your UK to Turkey quote — Hanbros UK's smart calculator for removals and cargo."
+      }
     },
     {
       "name": {
         "en": "Contact"
       },
-      "status": "play",
-      "category": "",
       "id": "xnzu5au0ag",
-      "url": "",
-      "path": "contact",
       "index": 4,
+      "path": "contact",
+      "category": "",
+      "img": "icon.png",
+      "status": "play",
+      "url": "",
       "icon": "home",
       "desing": {
         "header": [],
@@ -127,9 +117,8 @@
       },
       "pathnext": "",
       "description": {
-        "tr": ""
-      },
-      "img": "icon.png"
+        "en": "Contact Hanbros UK — England and Turkey offices, online quotes, customer service and knowledge base for UK–Turkey shipping."
+      }
     }
   ],
   "index": 0,

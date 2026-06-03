@@ -7,108 +7,97 @@
       "name": {
         "en": "UK Office"
       },
-      "status": "play",
-      "category": "",
       "id": "ingiltere-ofis",
-      "url": "",
-      "path": "uk-office",
       "index": 0,
-      "desc": {},
-      "description": {
-        "en": "Hanbros UK England office — quotes, collections, export customs and customer support for UK to Turkey cargo, removals and freight."
-      },
-      "keyword": {
-        "en": "Hanbros UK office, UK Turkey shipping office England, contact Hanbros UK, UK logistics company Turkey"
-      },
-      "update": "2026-06-03T05:04:36.364Z",
-      "date": "2026-05-08T05:18:35.699Z",
-      "title": {
-        "en": "UK Office | Hanbros UK | London & England"
-      },
+      "path": "uk-office",
+      "category": "",
+      "img": "logo.png",
+      "status": "play",
+      "url": "",
+      "icon": "home",
       "desing": {
         "header": [],
         "body": [],
         "footer": []
       },
-      "img": "logo.png",
-      "icon": "home",
-      "slider": []
+      "description": {
+        "en": "Hanbros UK England office — quotes, collections, export customs and customer support for UK to Turkey cargo, removals and freight."
+      }
     },
     {
       "name": {
         "en": "Turkey Office"
       },
-      "status": "play",
-      "category": "",
       "id": "turkiye-ofis",
-      "url": "",
-      "path": "turkey-office",
       "index": 1,
+      "path": "turkey-office",
+      "category": "",
+      "img": "logo.png",
+      "status": "play",
+      "url": "",
       "icon": "home",
-      "description": {
-        "tr": ""
-      },
       "desing": {
         "header": [],
         "body": [],
         "footer": []
       },
-      "img": "logo.png"
+      "description": {
+        "en": "Hanbros Turkey office — import clearance, nationwide delivery and Turkish customer support for UK-origin cargo and removals."
+      }
     },
     {
       "name": {
         "en": "Online Quote Form"
       },
-      "status": "play",
-      "category": "",
       "id": "online-teklif",
-      "url": "",
-      "path": "online-quote",
       "index": 2,
+      "path": "online-quote",
+      "category": "",
+      "img": "logo.png",
+      "status": "play",
+      "url": "",
       "icon": "home",
-      "description": {
-        "tr": ""
-      },
       "desing": {
         "header": [],
         "body": [],
         "footer": []
       },
-      "img": "logo.png"
+      "description": {
+        "en": "Request a fast indicative quote online for UK to Turkey cargo, household removals and vehicle shipping with Hanbros UK."
+      }
     },
     {
       "name": {
         "en": "Customer Service"
       },
-      "status": "play",
-      "category": "",
       "id": "musteri-hizmetleri",
-      "url": "",
-      "path": "customer-service",
       "index": 3,
+      "path": "customer-service",
+      "category": "",
+      "img": "logo.png",
+      "status": "play",
+      "url": "",
       "icon": "home",
-      "description": {
-        "tr": ""
-      },
       "desing": {
         "header": [],
         "body": [],
         "footer": []
       },
-      "img": "logo.png"
+      "description": {
+        "en": "Hanbros UK customer service — pre-shipment advice, live tracking updates and bilingual English–Turkish support for UK–Turkey logistics."
+      }
     },
     {
       "name": {
         "en": "Knowledge Base"
       },
-      "status": "play",
-      "category": "",
       "id": "bilgi-bankasi",
-      "path": "knowledge-base",
       "index": 4,
-      "description": {
-        "en": ""
-      },
+      "path": "knowledge-base",
+      "category": "",
+      "img": "logo.png",
+      "status": "play",
+      "icon": "home",
       "desing": {
         "header": [],
         "body": [
@@ -117,19 +106,9 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "logo.png",
-      "desc": {},
-      "keyword": {
-        "en": ""
-      },
-      "update": "2026-06-03T04:52:51.506Z",
-      "date": "2026-05-08T05:18:35.583Z",
-      "title": {
-        "en": "Knowledge base | Hanbros UK"
-      },
-      "icon": "home",
-      "slider": [],
-      "textmodul": false
+      "description": {
+        "en": "Shipping guides from UK regions to Turkish cities — practical advice for cargo, removals and customs on every major route."
+      }
     }
   ],
   "index": 6,

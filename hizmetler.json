@@ -7,12 +7,14 @@
       "name": {
         "en": "Door-to-door moving"
       },
-      "status": "play",
-      "category": "",
       "id": "ingiltereden-turkiyeye-ev-esyasi",
-      "url": "",
-      "path": "uk-to-turkey-household-shipping",
       "index": 0,
+      "path": "uk-to-turkey-household-shipping",
+      "category": "",
+      "img": "j7uyj.webp",
+      "status": "play",
+      "url": "",
+      "icon": "home",
       "desing": {
         "header": [],
         "body": [],
@@ -20,43 +22,42 @@
       },
       "pathnext": "",
       "description": {
-        "tr": ""
-      },
-      "img": "j7uyj.webp",
-      "icon": "home"
+        "en": "Household moves UK to Turkey — Hanbros UK leading UK to Turkey logistics."
+      }
     },
     {
       "name": {
         "en": "Vehicle Shipping"
       },
-      "status": "play",
-      "category": "",
       "id": "ingiltereden-turkiyeye-arac-gonderimi",
-      "url": "",
-      "path": "uk-to-turkey-vehicle-shipping",
       "index": 1,
+      "path": "uk-to-turkey-vehicle-shipping",
+      "category": "",
+      "img": "qdg37.webp",
+      "status": "play",
+      "url": "",
+      "icon": "home",
       "desing": {
         "header": [],
         "body": [],
         "footer": []
       },
       "pathnext": "",
-      "icon": "home",
-      "img": "qdg37.webp",
       "description": {
-        "tr": ""
+        "en": "Vehicle export UK to Turkey — Hanbros UK leading UK to Turkey logistics."
       }
     },
     {
       "name": {
         "en": "New Furniture Shipping"
       },
-      "status": "play",
-      "category": "",
       "id": "ingiltereden-turkiyeye-yeni-mobilya",
-      "url": "",
-      "path": "uk-to-turkey-new-furniture",
       "index": 2,
+      "path": "uk-to-turkey-new-furniture",
+      "category": "",
+      "img": "swxi9.webp",
+      "status": "play",
+      "url": "",
       "icon": "home",
       "desing": {
         "header": [],
@@ -64,21 +65,21 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "swxi9.webp",
       "description": {
-        "tr": ""
+        "en": "New furniture UK to Turkey — Hanbros UK leading UK to Turkey logistics."
       }
     },
     {
       "name": {
         "en": "Commercial Goods Shipping"
       },
-      "status": "play",
-      "category": "",
       "id": "ingiltereden-turkiyeye-ticari-esya",
-      "url": "",
-      "path": "uk-to-turkey-commercial-shipping",
       "index": 3,
+      "path": "uk-to-turkey-commercial-shipping",
+      "category": "",
+      "img": "kpxm0.webp",
+      "status": "play",
+      "url": "",
       "icon": "home",
       "desing": {
         "header": [],
@@ -86,21 +87,21 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "kpxm0.webp",
       "description": {
-        "tr": ""
+        "en": "B2B freight UK to Turkey — Hanbros UK leading UK to Turkey logistics."
       }
     },
     {
       "name": {
         "en": "International Cargo Transportation and Parcel Delivery Service"
       },
-      "status": "play",
-      "category": "",
       "id": "ingiltereden-turkiyeye-kargo",
-      "url": "",
-      "path": "uk-to-turkey-road-cargo",
       "index": 4,
+      "path": "uk-to-turkey-road-cargo",
+      "category": "",
+      "img": "b572p.webp",
+      "status": "play",
+      "url": "",
       "icon": "home",
       "desing": {
         "header": [],
@@ -108,9 +109,8 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "b572p.webp",
       "description": {
-        "tr": ""
+        "en": "Road cargo & parcels UK–Turkey — Hanbros UK leading UK to Turkey logistics."
       }
     }
   ],

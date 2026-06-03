@@ -7,34 +7,35 @@
       "name": {
         "en": "United Kingdom"
       },
-      "status": "play",
-      "category": "Service regions",
       "id": "ingiltere",
-      "url": "",
-      "path": "united-kingdom",
       "index": 0,
+      "path": "united-kingdom",
+      "category": "Service regions",
       "img": "country-card.jpg",
+      "status": "play",
+      "url": "",
+      "icon": "home",
       "desing": {
         "header": [],
         "body": [],
         "footer": []
       },
       "pathnext": "",
-      "icon": "home",
       "description": {
-        "tr": ""
+        "en": "Hanbros UK is the leading United Kingdom origin specialist for cargo, parcels, household removals and commercial freight to Turkey."
       }
     },
     {
       "name": {
         "en": "Germany"
       },
-      "status": "play",
-      "category": "",
       "id": "almanya",
-      "url": "",
-      "path": "germany",
       "index": 1,
+      "path": "germany",
+      "category": "",
+      "img": "country-card.jpg",
+      "status": "play",
+      "url": "",
       "icon": "home",
       "desing": {
         "header": [],
@@ -42,21 +43,21 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "country-card.jpg",
       "description": {
-        "tr": ""
+        "en": "Hanbros UK extends Germany-to-Turkey logistics via our European hub, connecting German collections with UK export expertise and Turkish delivery."
       }
     },
     {
       "name": {
         "en": "Netherlands"
       },
-      "status": "play",
-      "category": "",
       "id": "hollanda",
-      "url": "",
-      "path": "netherlands",
       "index": 2,
+      "path": "netherlands",
+      "category": "",
+      "img": "country-card.jpg",
+      "status": "play",
+      "url": "",
       "icon": "home",
       "desing": {
         "header": [],
@@ -64,21 +65,21 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "country-card.jpg",
       "description": {
-        "tr": ""
+        "en": "Hanbros UK coordinates Netherlands-to-Turkey shipping through our European network — cargo, parcels and removals with full customs support."
       }
     },
     {
       "name": {
         "en": "Belgium"
       },
-      "status": "play",
-      "category": "",
       "id": "belcika",
-      "url": "",
-      "path": "belgium",
       "index": 3,
+      "path": "belgium",
+      "category": "",
+      "img": "country-card.jpg",
+      "status": "play",
+      "url": "",
       "icon": "home",
       "desing": {
         "header": [],
@@ -86,21 +87,21 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "country-card.jpg",
       "description": {
-        "tr": ""
+        "en": "Hanbros UK handles Belgium-to-Turkey freight via our European hub — reliable collections and door-to-door delivery across Turkey."
       }
     },
     {
       "name": {
         "en": "France"
       },
-      "status": "play",
-      "category": "",
       "id": "fransa",
-      "url": "",
-      "path": "france",
       "index": 4,
+      "path": "france",
+      "category": "",
+      "img": "country-card.jpg",
+      "status": "play",
+      "url": "",
       "icon": "home",
       "desing": {
         "header": [],
@@ -108,43 +109,21 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "country-card.jpg",
       "description": {
-        "tr": ""
+        "en": "Hanbros UK links France-to-Turkey logistics with our UK corridor expertise — parcels, removals and commercial freight to Turkish cities."
       }
     },
     {
       "name": {
         "en": "Austria"
       },
-      "status": "play",
-      "category": "Country guides",
       "id": "avusturya",
-      "url": "",
-      "path": "austria",
       "index": 5,
+      "path": "austria",
+      "category": "Country guides",
       "img": "country-card.jpg",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "pathnext": "",
-      "description": {
-        "tr": ""
-      },
-      "icon": "home"
-    },
-    {
-      "name": {
-        "en": "Luxembourg"
-      },
       "status": "play",
-      "category": "European transport",
-      "id": "luksemburg",
       "url": "",
-      "path": "luxembourg",
-      "index": 6,
       "icon": "home",
       "desing": {
         "header": [],
@@ -152,9 +131,30 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "country-card.jpg",
       "description": {
-        "tr": ""
+        "en": "Hanbros UK arranges Austria-to-Turkey shipping through consolidated European routes — transparent pricing and customs brokerage."
+      }
+    },
+    {
+      "name": {
+        "en": "Luxembourg"
+      },
+      "id": "luksemburg",
+      "index": 6,
+      "path": "luxembourg",
+      "category": "European transport",
+      "img": "country-card.jpg",
+      "status": "play",
+      "url": "",
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "en": "Hanbros UK supports Luxembourg-to-Turkey cargo and removals via our European operations — one coordinator from collection to delivery."
       }
     }
   ],

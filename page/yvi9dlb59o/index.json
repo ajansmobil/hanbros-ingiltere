@@ -15,24 +15,19 @@
   },
   "pathnext": "about-us",
   "description": {
-    "tr": "",
     "en": "Hanbros UK corporate hub — about us, mission, vision and quality policy for UK to Turkey shipping and logistics."
   },
   "desc": {},
   "icon": "home",
   "keyword": {
-    "tr": "",
     "en": "Hanbros UK corporate, about Hanbros UK, UK Turkey logistics company, Han Bros group UK"
   },
-  "update": "2026-06-03T05:04:36.397Z",
+  "update": "2026-06-03T05:24:45.516Z",
   "date": "2026-05-04T19:01:36.357Z",
   "title": {
     "en": "Corporate hub | Hanbros UK"
   },
   "img": "logo.png",
   "slider": [],
-  "textmodul": false,
-  "text": {
-    "en": "<h2 style=\"font-size: 28px; color: #1a365d; margin-bottom: 16px;\">Corporate — Hanbros UK</h2><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\">Welcome to the <strong>Hanbros UK corporate hub</strong> — your gateway to understanding who we are, what we stand for and why we are the <strong>leading United Kingdom to Turkey logistics provider</strong>.</p><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\">Explore our About Us, Mission, Vision and Quality Policy pages to learn how Hanbros UK combines European operational strength with a customer-first approach rooted in England.</p><h3 style=\"font-size: 22px; color: #2c5282; margin: 28px 0 12px;\">Corporate Pages</h3><ul style=\"font-size: 16px; line-height: 1.8; margin-bottom: 24px; padding-left: 24px;\"><li><strong>About Us</strong> — our story, values and UK–Turkey expertise.</li><li><strong>Mission</strong> — sustainable, customer-focused logistics.</li><li><strong>Vision</strong> — shaping the future of UK–Turkey freight.</li><li><strong>Quality Policy</strong> — standards that protect every shipment.</li></ul><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\"><strong>Hanbros UK</strong> — corporate excellence behind every delivery to Turkey.</p>"
-  }
+  "textmodul": false
 }

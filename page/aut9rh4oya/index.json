@@ -21,21 +21,17 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "",
-    "en": "Hanbros UK Smart Volume Calculator — estimate cubic metres for UK to Turkey cargo and removals before requesting a quote."
+    "en": "Estimate shipment volume in cubic metres before requesting your UK to Turkey quote — Hanbros UK's smart calculator for removals and cargo."
   },
   "keyword": {
     "en": "shipping volume calculator UK Turkey, cubic metre calculator removals, Hanbros smart calculator, cargo volume estimate UK"
   },
-  "update": "2026-06-03T05:04:36.361Z",
+  "update": "2026-06-03T05:24:45.527Z",
   "date": "2026-05-16T12:00:00.000Z",
   "title": {
     "en": "Smart volume planner | Hanbros UK"
   },
   "slider": [],
   "icon": "home",
-  "img": "volume-hero.webp",
-  "text": {
-    "en": "<h2 style=\"font-size: 28px; color: #1a365d; margin-bottom: 16px;\">Smart Volume Calculator — Plan Your UK to Turkey Shipment</h2><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\">Use Hanbros UK's <strong>Smart Calculation tool</strong> to estimate the cubic volume of your shipment before requesting a quote. Accurate volume measurement means accurate pricing — essential for cost-effective <strong>UK to Turkey cargo and removals</strong>.</p><h3 style=\"font-size: 22px; color: #2c5282; margin: 28px 0 12px;\">Why Volume Matters</h3><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\">International freight is priced by <strong>volume (m³) or weight (kg)</strong>, whichever is greater. Underestimating leads to surcharges; overestimating means paying too much. Our calculator helps you list furniture, boxes and items room by room.</p><ul style=\"font-size: 16px; line-height: 1.8; margin-bottom: 24px; padding-left: 24px;\"><li><strong>Room-by-room input</strong> — living room, bedroom, kitchen and more.</li><li><strong>Instant m³ estimate</strong> — see total volume before contacting us.</li><li><strong>Share with our team</strong> — attach your calculation to a quote request.</li><li><strong>Plan packing</strong> — know how many export cartons you may need.</li></ul><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\"><strong>Hanbros UK</strong> — smart tools for smarter shipping to Turkey.</p>"
-  }
+  "img": "volume-hero.webp"
 }

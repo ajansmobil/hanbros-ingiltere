@@ -8,8 +8,7 @@
   "path": "countries",
   "index": 2,
   "description": {
-    "tr": "",
-    "en": "Countries served by Hanbros UK — United Kingdom, Germany, France, Netherlands, Belgium, Austria, Luxembourg and Turkey delivery."
+    "en": "Country and region guides for UK and European origin shipments to Turkey — collections, routes and logistics explained by destination."
   },
   "desing": {
     "header": [],
@@ -24,13 +23,11 @@
   "keyword": {
     "en": "UK Europe Turkey shipping countries, Hanbros UK countries served, international shipping regions UK Turkey"
   },
-  "update": "2026-06-03T05:04:36.395Z",
+  "update": "2026-06-03T05:24:45.524Z",
   "date": "2026-05-08T05:18:35.577Z",
   "title": {
     "en": "Regions & relay countries | Hanbros UK"
   },
   "icon": "home",
-  "text": {
-    "en": "<h2 style=\"font-size: 28px; color: #1a365d; margin-bottom: 16px;\">Countries We Serve — UK, Europe & Turkey</h2><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\">Hanbros UK operates across the <strong>United Kingdom, key European markets and Turkey</strong> — providing seamless logistics for customers who ship between Britain, the continent and Turkish destinations.</p><h3 style=\"font-size: 22px; color: #2c5282; margin: 28px 0 12px;\">Origin & Destination Coverage</h3><ul style=\"font-size: 16px; line-height: 1.8; margin-bottom: 24px; padding-left: 24px;\"><li><strong>United Kingdom</strong> — England, Scotland, Wales, Northern Ireland.</li><li><strong>Germany, France, Netherlands, Belgium, Austria, Luxembourg</strong> — European collections.</li><li><strong>Turkey</strong> — Istanbul, Ankara, Izmir, Antalya and nationwide delivery.</li></ul><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\">Whether your goods start in London, Berlin or Paris, Hanbros UK delivers to your door in Turkey with full customs support.</p><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\"><strong>Hanbros UK</strong> — connecting Europe and Turkey through trusted logistics.</p>"
-  }
+  "slider": []
 }

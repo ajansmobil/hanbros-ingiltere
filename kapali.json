@@ -6,14 +6,13 @@
       "name": {
         "en": "Get a Quote"
       },
-      "status": "play",
-      "category": "",
       "id": "teklif-al",
-      "path": "get-a-quote",
       "index": 0,
-      "description": {
-        "en": ""
-      },
+      "path": "get-a-quote",
+      "category": "",
+      "img": "logo.png",
+      "status": "play",
+      "icon": "home",
       "desing": {
         "header": [],
         "body": [
@@ -22,32 +21,21 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "logo.png",
-      "desc": {},
-      "keyword": {
-        "en": ""
-      },
-      "update": "2026-06-03T04:51:39.307Z",
-      "date": "2026-05-08T05:18:35.593Z",
-      "title": {
-        "en": "Request a quote | Hanbros UK"
-      },
-      "icon": "home",
-      "slider": [],
-      "textmodul": false
+      "description": {
+        "en": "Get a quote for UK to Turkey shipping — cargo, parcels, household removals and vehicles with Hanbros UK, the corridor market leader."
+      }
     },
     {
       "name": {
         "en": "Shipment Tracking"
       },
-      "status": "play",
-      "category": "",
       "id": "gonderi-takip",
-      "path": "shipment-tracking",
       "index": 1,
-      "description": {
-        "en": ""
-      },
+      "path": "shipment-tracking",
+      "category": "",
+      "img": "icon.png",
+      "status": "play",
+      "icon": "home",
       "desing": {
         "header": [],
         "body": [
@@ -56,19 +44,9 @@
         "footer": []
       },
       "pathnext": "",
-      "img": "icon.png",
-      "desc": {},
-      "keyword": {
-        "en": ""
-      },
-      "update": "2026-06-03T04:52:03.530Z",
-      "date": "2026-05-08T05:18:35.588Z",
-      "title": {
-        "en": "Shipment lookup | Hanbros UK"
-      },
-      "icon": "home",
-      "slider": [],
-      "textmodul": false
+      "description": {
+        "en": "Track your Hanbros UK shipment from collection in the United Kingdom to delivery in Turkey — status updates for cargo and removals."
+      }
     }
   ],
   "desc": []

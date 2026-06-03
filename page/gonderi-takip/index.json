@@ -6,9 +6,9 @@
   "category": "",
   "id": "gonderi-takip",
   "path": "shipment-tracking",
-  "index": 5,
+  "index": 1,
   "description": {
-    "en": "Look up milestones and customs status with your consignment reference—use the quote page for pricing, not this tool."
+    "en": "Track your Hanbros UK shipment from collection in the United Kingdom to delivery in Turkey — status updates for cargo and removals."
   },
   "desing": {
     "header": [],
@@ -21,15 +21,17 @@
   "img": "icon.png",
   "desc": {},
   "keyword": {
-    "en": "consignment reference lookup, shipment milestone trace UK Turkey, cargo status by reference"
+    "en": "shipment lookup, Hanbros UK, UK to Turkey shipping, cargo removals Turkey"
   },
-  "update": "2026-05-08T05:40:46.499Z",
+  "update": "2026-06-03T05:24:46.005Z",
   "date": "2026-05-08T05:18:35.588Z",
   "title": {
     "en": "Shipment lookup | Hanbros UK"
   },
   "icon": "home",
+  "slider": [],
+  "textmodul": false,
   "text": {
-    "en": "<p><strong>Brand and SEO separation:</strong> This page targets the <strong>United Kingdom to Turkey (UK→TR)</strong> lane. For <strong>Turkey-origin</strong> shipping to Europe/UK, use Han Bros Cargo on <strong>hanbroscargo.com</strong>; each domain uses distinct keywords and corridor messaging.</p><p>Use your reference to view sea/road milestones. Customs status depends on formal declarations.</p>"
+    "en": "<h2 style=\"font-size: 28px; color: #1a365d; margin-bottom: 16px;\">Shipment Tracking — Hanbros UK</h2><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\">Track your <strong>UK to Turkey shipment</strong> with Hanbros UK. Enter your reference number to see the latest status — from UK collection and export customs to transit and delivery in Turkey.</p><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\">For live updates you can also contact our customer service team by phone, email or WhatsApp. We proactively notify you at key milestones on the <strong>United Kingdom–Turkey corridor</strong>.</p><p style=\"font-size: 16px; line-height: 1.75; margin-bottom: 16px;\"><strong>Hanbros UK</strong> — visibility and support at every stage of your consignment.</p>"
   }
 }
