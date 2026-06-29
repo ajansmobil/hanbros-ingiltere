@@ -312,20 +312,32 @@
         "delay": 3000,
         "margin": "0px 0 0 0"
       },
+      "id": "mvh4ob",
+      "version": "1.0.0",
+      "icon": "view_carousel",
       "data": [
         {
-          "img": "h2.webp"
+          "img": "1.webp"
+        },
+        {
+          "img": "2.webp"
+        },
+        {
+          "img": "3.webp"
+        },
+        {
+          "img": "4.webp"
         },
         {
           "img": "h1.webp"
         },
         {
+          "img": "h2.webp"
+        },
+        {
           "img": "h3.webp"
         }
-      ],
-      "id": "mvh4ob",
-      "version": "1.0.0",
-      "icon": "view_carousel"
+      ]
     },
     {
       "index": 4,

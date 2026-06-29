@@ -23,6 +23,9 @@
       "pathnext": "about-us",
       "description": {
         "en": "Hanbros UK corporate hub — about us, mission, vision and quality policy for UK to Turkey shipping and logistics."
+      },
+      "text": {
+        "en": ""
       }
     },
     {
@@ -47,6 +50,9 @@
       "pathnext": "",
       "description": {
         "en": "Explore Hanbros UK's full range of United Kingdom to Turkey shipping services — cargo, parcels, household removals, vehicles and commercial freight."
+      },
+      "text": {
+        "en": ""
       }
     },
     {
@@ -70,6 +76,9 @@
       "pathnext": "",
       "description": {
         "en": "Country and region guides for UK and European origin shipments to Turkey — collections, routes and logistics explained by destination."
+      },
+      "text": {
+        "en": ""
       }
     },
     {
@@ -94,6 +103,9 @@
       "pathnext": "",
       "description": {
         "en": "Estimate shipment volume in cubic metres before requesting your UK to Turkey quote — Hanbros UK's smart calculator for removals and cargo."
+      },
+      "text": {
+        "en": ""
       }
     },
     {
@@ -118,6 +130,9 @@
       "pathnext": "",
       "description": {
         "en": "Contact Hanbros UK — England and Turkey offices, online quotes, customer service and knowledge base for UK–Turkey shipping."
+      },
+      "text": {
+        "en": ""
       }
     }
   ],

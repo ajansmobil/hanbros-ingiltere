@@ -8,12 +8,12 @@
             <header class="metrekup-list-header">
                 <div class="metrekup-header-wrapper">
                     <div>
-                        <h1 id="metrekup-title" class="metrekup-list-title">{{mainTitle}}</h1>
-                        <p class="metrekup-list-subtitle">{{mainSubtitle}}</p>
+                        <h1 id="metrekup-title" class="metrekup-list-title">📦 Volume Calculator</h1>
+                        <p class="metrekup-list-subtitle">Enter your items dimensions</p>
                     </div>
                     <div class="metrekup-buttons">
-                        <button type="button" onclick="addItem()" class="metrekup-btn-add" aria-label="Add item">{{btnAddItem}}</button>
-                        <button type="button" onclick="clearAll()" class="metrekup-btn-clear" aria-label="Clear all data">{{btnClear}}</button>
+                        <button type="button" onclick="addItem()" class="metrekup-btn-add" aria-label="Add item">➕ New Item</button>
+                        <button type="button" onclick="clearAll()" class="metrekup-btn-clear" aria-label="Clear all data">🗑️ Clear</button>
                     </div>
                 </div>
             </header>
@@ -25,20 +25,20 @@
             <section class="metrekup-bottom-section" aria-labelledby="results-title">
                 <div class="metrekup-results-section">
                     <header class="metrekup-results-header">
-                        <h2 id="results-title" class="metrekup-results-title">{{resultsTitle}}</h2> 
-                        <p class="metrekup-results-subtitle">{{resultsSubtitle}}</p>
+                        <h2 id="results-title" class="metrekup-results-title">📊 Calculation Results</h2> 
+                        <p class="metrekup-results-subtitle">Total volume and weight information</p>
                     </header>
                     <div class="metrekup-results-grid">
                         <div class="metrekup-result-card">
                             <div class="metrekup-result-icon">📦</div>
-                            <div class="metrekup-result-label">{{labelTotalVolume}}</div>
+                            <div class="metrekup-result-label">TOTAL VOLUME</div>
                             <div class="metrekup-result-value">
                                 <span id="total-volume">0</span> <span class="metrekup-result-unit">m³</span>
                             </div>
                         </div>
                         <div class="metrekup-result-card">
                             <div class="metrekup-result-icon">⚖️</div>
-                            <div class="metrekup-result-label">{{labelTotalWeight}}</div>
+                            <div class="metrekup-result-label">TOTAL WEIGHT</div>
                             <div class="metrekup-result-value">
                                 <span id="total-weight">0</span> <span class="metrekup-result-unit">kg</span>
                             </div>
@@ -84,33 +84,33 @@ function addItem() {
         '<div class="metrekup-item-header">' +
             '<div class="metrekup-item-title-wrapper">' +
                 '<div class="metrekup-item-number">' + itemId + '</div>' +
-                '<h3 class="metrekup-item-title">{{itemTitle}} ' + itemId + '</h3>' +
+                '<h3 class="metrekup-item-title">Item ' + itemId + '</h3>' +
             '</div>' +
             removeButton +
         '</div>' +
         '<div class="metrekup-inputs-grid">' +
             '<div class="metrekup-input-group">' +
-                '<label class="metrekup-input-label" for="length-' + itemId + '">{{labelLength}}</label>' +
-                '<input type="number" id="length-' + itemId + '" name="length-' + itemId + '" placeholder="0" step="0.1" oninput="calculateItem(' + itemId + ')" class="metrekup-input" aria-label="{{labelLength}}">' +
+                '<label class="metrekup-input-label" for="length-' + itemId + '">📏 Length (cm)</label>' +
+                '<input type="number" id="length-' + itemId + '" name="length-' + itemId + '" placeholder="0" step="0.1" oninput="calculateItem(' + itemId + ')" class="metrekup-input" aria-label="📏 Length (cm)">' +
             '</div>' +
             '<div class="metrekup-input-group">' +
-                '<label class="metrekup-input-label" for="width-' + itemId + '">{{labelWidth}}</label>' +
-                '<input type="number" id="width-' + itemId + '" name="width-' + itemId + '" placeholder="0" step="0.1" oninput="calculateItem(' + itemId + ')" class="metrekup-input" aria-label="{{labelWidth}}">' +
+                '<label class="metrekup-input-label" for="width-' + itemId + '">📐 Width (cm)</label>' +
+                '<input type="number" id="width-' + itemId + '" name="width-' + itemId + '" placeholder="0" step="0.1" oninput="calculateItem(' + itemId + ')" class="metrekup-input" aria-label="📐 Width (cm)">' +
             '</div>' +
             '<div class="metrekup-input-group">' +
-                '<label class="metrekup-input-label" for="height-' + itemId + '">{{labelHeight}}</label>' +
-                '<input type="number" id="height-' + itemId + '" name="height-' + itemId + '" placeholder="0" step="0.1" oninput="calculateItem(' + itemId + ')" class="metrekup-input" aria-label="{{labelHeight}}">' +
+                '<label class="metrekup-input-label" for="height-' + itemId + '">📏 Height (cm)</label>' +
+                '<input type="number" id="height-' + itemId + '" name="height-' + itemId + '" placeholder="0" step="0.1" oninput="calculateItem(' + itemId + ')" class="metrekup-input" aria-label="📏 Height (cm)">' +
             '</div>' +
             '<div class="metrekup-input-group">' +
-                '<label class="metrekup-input-label" for="quantity-' + itemId + '">{{labelQuantity}}</label>' +
-                '<input type="number" id="quantity-' + itemId + '" name="quantity-' + itemId + '" placeholder="1" step="1" min="1" value="1" oninput="calculateItem(' + itemId + ')" class="metrekup-input" aria-label="{{labelQuantity}}">' +
+                '<label class="metrekup-input-label" for="quantity-' + itemId + '">📦 Quantity</label>' +
+                '<input type="number" id="quantity-' + itemId + '" name="quantity-' + itemId + '" placeholder="1" step="1" min="1" value="1" oninput="calculateItem(' + itemId + ')" class="metrekup-input" aria-label="📦 Quantity">' +
             '</div>' +
             '<div class="metrekup-input-group metrekup-weight-group">' +
-                '<label class="metrekup-input-label" for="weight-' + itemId + '">{{labelWeight}}</label>' +
-                '<input type="number" id="weight-' + itemId + '" name="weight-' + itemId + '" placeholder="0" step="0.1" oninput="calculateItem(' + itemId + ')" class="metrekup-input" aria-label="{{labelWeight}}">' +
+                '<label class="metrekup-input-label" for="weight-' + itemId + '">⚖️ Weight (kg)</label>' +
+                '<input type="number" id="weight-' + itemId + '" name="weight-' + itemId + '" placeholder="0" step="0.1" oninput="calculateItem(' + itemId + ')" class="metrekup-input" aria-label="⚖️ Weight (kg)">' +
             '</div>' +
             '<div class="metrekup-input-group metrekup-volume-group">' +
-                '<label class="metrekup-input-label" for="item-volume-' + itemId + '">{{labelItemVolume}}</label>' +
+                '<label class="metrekup-input-label" for="item-volume-' + itemId + '">📊 Item Volume (m³)</label>' +
                 '<div class="metrekup-volume-display">' +
                     '<span id="item-volume-' + itemId + '">0.00</span>' +
                     '<span class="metrekup-volume-unit">m³</span>' +
@@ -168,7 +168,7 @@ function renumberItems() {
 
             var titleElement = itemElement.querySelector('.metrekup-item-title');
             if (titleElement) {
-                titleElement.textContent = '{{itemTitle}} ' + newId;
+                titleElement.textContent = 'Item ' + newId;
             }
 
             var lengthInput = itemElement.querySelector('#length-' + oldId);

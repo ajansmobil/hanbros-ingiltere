@@ -121,7 +121,7 @@
   },
   "modulestatus": {
     "img": true,
-    "bgimg": true,
+    "bgimg": false,
     "detail": true,
     "body": true
   }

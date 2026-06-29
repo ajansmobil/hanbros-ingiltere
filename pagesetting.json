@@ -132,7 +132,7 @@
         "footer": []
       },
       "modulestatus": {
-        "img": false,
+        "img": true,
         "bgimg": false,
         "detail": true,
         "spot": true
